@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HF Propagation · WK0E</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg: #0e1117;
+  --surface: #161b24;
+  --surface2: #1e2533;
+  --border: #2a3347;
+  --text: #c9d1e0;
+  --muted: #5c6b82;
+  --accent: #4a9eff;
+  --good: #22c55e;
+  --good-bg: #0f2e1a;
+  --fair: #f59e0b;
+  --fair-bg: #2a1f08;
+  --poor: #ef4444;
+  --poor-bg: #2a0f0f;
+  --font-sans: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.container { max-width: 900px; margin: 0 auto; padding: 24px 20px 48px; }
+
+/* Header */
+.header { margin-bottom: 24px; }
+.header-top { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.callsign { font-family: var(--font-mono); font-size: 22px; font-weight: 600; color: #fff; letter-spacing: 0.05em; }
+.header-date { font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.header-meta { margin-top: 4px; font-family: var(--font-mono); font-size: 11px; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.meta-val { color: var(--text); }
+.stale-warning { color: var(--fair); }
+
+/* Alert banner */
+.alert-banner {
+  background: #2a1a0a; border: 1px solid #7c4a12; border-left: 3px solid var(--fair);
+  border-radius: 4px; padding: 10px 14px; margin-bottom: 20px;
+  font-family: var(--font-mono); font-size: 12px; color: var(--fair); display: none;
+}
+.alert-banner.visible { display: block; }
+
+/* Section labels */
+.section-label {
+  font-family: var(--font-mono); font-size: 10px; font-weight: 500;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
+  margin-bottom: 10px; margin-top: 28px;
+}
+
+/* Band grid */
+.band-grid { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.band-grid-header { display: grid; grid-template-columns: 48px 1fr 1fr 1fr; background: var(--surface2); border-bottom: 1px solid var(--border); }
+.band-grid-header div { padding: 7px 10px; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); text-align: center; }
+.band-grid-header div:first-child { text-align: left; }
+.band-row { display: grid; grid-template-columns: 48px 1fr 1fr 1fr; border-bottom: 1px solid var(--border); }
+.band-row:last-child { border-bottom: none; }
+.band-label { padding: 0 10px; display: flex; align-items: center; font-family: var(--font-mono); font-size: 12px; font-weight: 500; color: var(--muted); background: var(--surface2); border-right: 1px solid var(--border); }
+.band-cell { padding: 8px 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 44px; border-right: 1px solid var(--border); }
+.band-cell:last-child { border-right: none; }
+.band-cell.good { background: var(--good-bg); }
+.band-cell.fair { background: var(--fair-bg); }
+.band-cell.poor { background: var(--poor-bg); }
+.band-cell.closed { background: var(--surface); }
+.cell-status { font-family: var(--font-mono); font-size: 11px; font-weight: 600; }
+.good .cell-status { color: var(--good); }
+.fair .cell-status { color: var(--fair); }
+.poor .cell-status { color: var(--poor); }
+.closed .cell-status { color: var(--muted); }
+.cell-pct { font-family: var(--font-mono); font-size: 10px; color: var(--muted); margin-top: 1px; }
+
+/* Legend */
+.legend { display: flex; gap: 16px; margin-top: 8px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+.legend-items { display: flex; gap: 16px; flex-wrap: wrap; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+.legend-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+.legend-dot.good { background: var(--good); }
+.legend-dot.fair { background: var(--fair); }
+.legend-dot.poor { background: var(--poor); }
+.legend-best { font-family: var(--font-mono); font-size: 11px; color: var(--accent); }
+
+/* Rest of day */
+.rod-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.rod-card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.rod-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; }
+.rod-bands { font-family: var(--font-mono); font-size: 12px; color: var(--text); line-height: 1.7; }
+.rod-good { color: var(--good); }
+.rod-fair { color: var(--fair); }
+
+/* Space weather */
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+@media (max-width: 600px) { .stats-grid { grid-template-columns: repeat(2, 1fr); } }
+.stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.stat-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; margin-bottom: 4px; }
+.stat-value { font-family: var(--font-mono); font-size: 24px; font-weight: 600; color: #fff; line-height: 1.1; }
+.stat-sub { font-family: var(--font-mono); font-size: 10px; color: var(--muted); margin-top: 4px; }
+.stat-value.warn { color: var(--fair); }
+.stat-value.alert { color: var(--poor); }
+
+/* POTA */
+.pota-grid { display: flex; flex-direction: column; gap: 6px; }
+.pota-row { display: grid; grid-template-columns: 36px 1fr 140px; align-items: center; gap: 10px; }
+.pota-band { font-family: var(--font-mono); font-size: 12px; color: var(--muted); text-align: right; }
+.pota-bar-track { height: 8px; background: var(--surface2); border-radius: 4px; overflow: hidden; }
+.pota-bar-fill { height: 100%; background: var(--accent); border-radius: 4px; min-width: 0; }
+.pota-count { font-family: var(--font-mono); font-size: 11px; color: var(--muted); white-space: nowrap; }
+
+/* Forecast */
+.forecast-box { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; font-family: var(--font-mono); font-size: 11px; color: var(--muted); line-height: 1.7; white-space: pre-wrap; max-height: 200px; overflow-y: auto; }
+
+/* Field summary */
+.field-summary { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: var(--font-mono); font-size: 12px; color: var(--text); line-height: 1.8; white-space: pre-wrap; word-break: break-word; }
+
+/* Loading/error */
+.loading { text-align: center; padding: 60px 20px; font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.loading-dot { display: inline-block; animation: blink 1.2s infinite; }
+.loading-dot:nth-child(2) { animation-delay: 0.2s; }
+.loading-dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes blink { 0%,80%,100%{opacity:0} 40%{opacity:1} }
+.error-box { background: var(--poor-bg); border: 1px solid var(--poor); border-radius: 6px; padding: 16px; font-family: var(--font-mono); font-size: 12px; color: var(--poor); margin-top: 20px; }
+
+/* Footer */
+.footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+.footer-left { font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+.footer-right { font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="app">
+    <div class="loading">loading<span class="loading-dot">.</span><span class="loading-dot">.</span><span class="loading-dot">.</span></div>
+  </div>
+</div>
+<script>
+const BANDS = ['40m','30m','20m','17m','15m','12m','10m'];
+
+function relToStatus(r) {
+  if (r == null) return 'closed';
+  if (r >= 55) return 'good';
+  if (r >= 25) return 'fair';
+  return 'poor';
+}
+
+function currentHourBlock() {
+  const h = new Date().getUTCHours();
+  return h - (h % 2);
+}
+
+function utcHourLabel(h) {
+  return String(h).padStart(2,'0') + '–' + String((h+2)%24).padStart(2,'0');
+}
+
+function fmtLocal(isoStr) {
+  if (!isoStr) return '—';
+  try { return new Date(isoStr).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}); }
+  catch { return '—'; }
+}
+
+function dataAgeMinutes(generatedStr) {
+  try {
+    const gen = new Date(generatedStr);
+    return Math.round((Date.now() - gen.getTime()) / 60000);
+  } catch { return null; }
+}
+
+function build6hGrid(avgGrid) {
+  const startH = currentHourBlock();
+  const cols = [];
+  for (let i = 0; i < 3; i++) {
+    const h = (startH + i*2) % 24;
+    const key = String(h);
+    const bandData = {};
+    BANDS.forEach(b => {
+      const rel = avgGrid[b]?.[key] ?? null;
+      bandData[b] = { rel, status: relToStatus(rel) };
+    });
+    cols.push({ hour: h, label: utcHourLabel(h), bands: bandData });
+  }
+  return cols;
+}
+
+function buildRestOfDay(avgGrid) {
+  const startH = (currentHourBlock() + 6) % 24;
+  const sections = [
+    { label: 'next 6h', startH: startH },
+    { label: 'then 6h', startH: (startH+6)%24 },
+    { label: 'overnight', startH: (startH+12)%24 },
+  ];
+  return sections.map(sec => {
+    const goodBands = [], fairBands = [];
+    for (let i = 0; i < 6; i++) {
+      const h = String((sec.startH + i) % 24);
+      BANDS.forEach(b => {
+        const rel = avgGrid[b]?.[h] ?? 0;
+        const st = relToStatus(rel);
+        if (st === 'good' && !goodBands.includes(b)) goodBands.push(b);
+        else if (st === 'fair' && !fairBands.includes(b) && !goodBands.includes(b)) fairBands.push(b);
+      });
+    }
+    return { label: sec.label, good: goodBands, fair: fairBands };
+  });
+}
+
+function bestBand(currentByBand) {
+  let best = null, bestRel = -1;
+  BANDS.forEach(b => {
+    const r = currentByBand?.[b] ?? 0;
+    if (r > bestRel) { bestRel = r; best = b; }
+  });
+  return best ? `${best} (${bestRel}%)` : '—';
+}
+
+function parseForecast(text) {
+  if (!text) return '—';
+  // Extract just the Kp table section — lines with date headers and values
+  const lines = text.split('\n');
+  const start = lines.findIndex(l => /NOAA Kp index breakdown/i.test(l));
+  if (start === -1) return text.slice(0, 400);
+  return lines.slice(start, start + 12).join('\n');
+}
+
+function buildFieldSummary(grid, rod, p, generatedStr) {
+  const now = new Date();
+  const utc = now.toISOString().slice(11,16)+'Z';
+  const local = now.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})+' L';
+  let s = `${p.grid || 'EN11xe'} · ${now.toDateString()} · ${utc} · ${local}\n`;
+  s += `data generated ${generatedStr}\n\n`;
+
+  s += `NEXT 6 HOURS (2-HR BLOCKS)\n`;
+  const colW = 14;
+  s += 'band  ' + grid.map(c => c.label.padEnd(colW)).join('') + '\n';
+  s += '─'.repeat(6 + colW*3) + '\n';
+  BANDS.forEach(b => {
+    s += (b + ' ').padEnd(6);
+    grid.forEach(col => {
+      const { status, rel } = col.bands[b];
+      s += (status + (rel != null ? ` ${rel}%` : '')).padEnd(colW);
+    });
+    s += '\n';
+  });
+  s += '\n';
+
+  s += 'REST OF DAY\n';
+  rod.forEach(r => {
+    s += r.label.toUpperCase().padEnd(12);
+    if (r.good.length) s += `good: ${r.good.join(', ')}`;
+    if (r.fair.length) s += (r.good.length ? '  ' : '') + `fair: ${r.fair.join(', ')}`;
+    if (!r.good.length && !r.fair.length) s += 'poor on all bands';
+    s += '\n';
+  });
+  s += '\n';
+
+  const cur = p.current || {};
+  const n = p.n0nbh || {};
+  s += `SPACE WEATHER\n`;
+  s += `SFI ${cur.sfi ?? '—'}  Kp ${cur.kp ?? '—'}  X-ray ${n.xray ?? '—'}  SSN ${cur.ssn ?? '—'}\n`;
+  return s;
+}
+
+function escH(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderCell(status, rel) {
+  const label = (status === 'poor' && rel === 0) ? 'closed' : status;
+  return `<div class="band-cell ${label}">
+    <span class="cell-status">${label}</span>
+    ${rel > 0 ? `<span class="cell-pct">${rel}%</span>` : ''}
+  </div>`;
+}
+
+function render(data) {
+  const { generated, grid: gridName, payload: p } = data;
+  const avgGrid = p.avgGrid || {};
+  const currentByBand = p.currentByBand || {};
+  const potaCounts = p.potaCounts || {};
+  const potaModes = p.potaModes || {};
+  const cur = p.current || {};
+  const n = p.n0nbh || {};
+  const sun = p.sun || {};
+
+  const ageMin = dataAgeMinutes(generated);
+  const isStale = ageMin != null && ageMin > 240; // >4h old
+
+  const grid = build6hGrid(avgGrid);
+  const rod = buildRestOfDay(avgGrid);
+  const best = bestBand(currentByBand);
+
+  // Date/time display
+  const now = new Date();
+  const dateStr = now.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});
+  const genTime = generated ? generated.slice(11,16)+'Z' : '—';
+  const sunriseLocal = fmtLocal(sun.sunrise);
+  const sunsetLocal = fmtLocal(sun.sunset);
+
+  // Alert
+  const flare = p.flareAlert;
+  const kpNum = parseFloat(cur.kp);
+  const alertText = flare ? `⚡ ${flare}` : (kpNum >= 5 ? `Kp ${cur.kp} — geomagnetic storm in progress` : null);
+
+  // Band grid HTML
+  const bandRows = BANDS.map(b => `
+    <div class="band-row">
+      <div class="band-label">${b}</div>
+      ${grid.map(col => renderCell(col.bands[b].status, col.bands[b].rel ?? 0)).join('')}
+    </div>`).join('');
+
+  // Rest of day
+  const rodHTML = rod.map(r => `
+    <div class="rod-card">
+      <div class="rod-label">${r.label}</div>
+      <div class="rod-bands">
+        ${r.good.length ? `<span class="rod-good">good: ${r.good.join(', ')}</span><br>` : ''}
+        ${r.fair.length ? `<span class="rod-fair">fair: ${r.fair.join(', ')}</span>` : ''}
+        ${!r.good.length && !r.fair.length ? '<span style="color:var(--muted)">poor on all bands</span>' : ''}
+      </div>
+    </div>`).join('');
+
+  // Solar stats
+  const kpClass = kpNum >= 5 ? 'alert' : kpNum >= 3 ? 'warn' : '';
+  const xray = n.xray || '—';
+  const xrayClass = /^[MX]/.test(xray) ? 'alert' : '';
+
+  // POTA bars
+  const maxPota = Math.max(1, ...BANDS.map(b => potaCounts[b] || 0));
+  const potaHTML = BANDS.map(b => {
+    const count = potaCounts[b] || 0;
+    const modes = potaModes[b] || {};
+    const pct = Math.round((count/maxPota)*100);
+    const modeStr = count > 0
+      ? [modes.CW&&`${modes.CW} CW`, modes.SSB&&`${modes.SSB} SSB`, modes.FT8&&`${modes.FT8} FT8`].filter(Boolean).join(' · ')
+      : '—';
+    return `<div class="pota-row">
+      <div class="pota-band">${b}</div>
+      <div class="pota-bar-track"><div class="pota-bar-fill" style="width:${pct}%"></div></div>
+      <div class="pota-count">${count} spot${count!==1?'s':''} · ${modeStr}</div>
+    </div>`;
+  }).join('');
+
+  // Forecast — extract Kp table
+  const forecastText = parseForecast(p.forecast3day || '');
+
+  // Field summary
+  const fieldText = buildFieldSummary(grid, rod, { ...p, grid: gridName }, genTime);
+
+  document.getElementById('app').innerHTML = `
+    <div class="header">
+      <div class="header-top">
+        <span class="callsign">${escH(gridName || 'EN11xe')}</span>
+        <span class="header-date">${dateStr}</span>
+      </div>
+      <div class="header-meta">
+        <span>data generated <span class="meta-val">${genTime}</span>${isStale ? ' <span class="stale-warning">· data may be stale</span>' : ''}</span>
+        <span>sunrise <span class="meta-val">${sunriseLocal}</span> · sunset <span class="meta-val">${sunsetLocal}</span></span>
+      </div>
+    </div>
+
+    ${alertText ? `<div class="alert-banner visible">${escH(alertText)}</div>` : ''}
+
+    <div class="section-label">Next 6 hours · 2-hour blocks · NA average</div>
+    <div class="band-grid">
+      <div class="band-grid-header">
+        <div>band</div>
+        ${grid.map(c=>`<div>${c.label}</div>`).join('')}
+      </div>
+      ${bandRows}
+    </div>
+    <div class="legend">
+      <div class="legend-items">
+        <div class="legend-item"><div class="legend-dot good"></div>good ≥55%</div>
+        <div class="legend-item"><div class="legend-dot fair"></div>fair 25–54%</div>
+        <div class="legend-item"><div class="legend-dot poor"></div>poor &lt;25%</div>
+      </div>
+      <div class="legend-best">best band right now: ${best}</div>
+    </div>
+
+    <div class="section-label">Rest of day · coarse outlook</div>
+    <div class="rod-grid">${rodHTML}</div>
+
+    <div class="section-label">Current space weather</div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">SFI</div>
+        <div class="stat-value">${cur.sfi ?? '—'}</div>
+        <div class="stat-sub">solar flux 10.7cm</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Kp</div>
+        <div class="stat-value ${kpClass}">${cur.kp ?? '—'}</div>
+        <div class="stat-sub">A-index ${n.aIndex ?? '—'} · ${kpNum >= 5 ? 'aurora active' : kpNum >= 3 ? 'aurora possible' : 'aurora quiet'}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">X-ray</div>
+        <div class="stat-value ${xrayClass}">${xray}</div>
+        <div class="stat-sub">geomag ${n.geomag ?? '—'}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">SSN</div>
+        <div class="stat-value">${cur.ssn ?? '—'}</div>
+        <div class="stat-sub">solar wind ${n.solarWind ?? '—'} km/s · Bz ${cur.bz ?? '—'}</div>
+      </div>
+    </div>
+
+    <div class="section-label">Live POTA activity · last 30 min · NA only</div>
+    <div class="pota-grid">${potaHTML}</div>
+
+    <div class="section-label">3-day Kp forecast</div>
+    <div class="forecast-box">${escH(forecastText)}</div>
+
+    <div class="section-label">Field-ready summary</div>
+    <div class="field-summary">${escH(fieldText)}</div>
+
+    <div class="footer">
+      <div class="footer-left">wk0e.net · data: OpenHamClock · NOAA SWPC · POTA · updated every 3h</div>
+      <div class="footer-right">EN11xe · central Nebraska</div>
+    </div>
+  `;
+}
+
+async function loadData() {
+  try {
+    const r = await fetch('data.json?t=' + Date.now());
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
+    render(data);
+  } catch(e) {
+    document.getElementById('app').innerHTML = `
+      <div class="error-box">Failed to load data.json<br><br>${escH(e.message)}</div>`;
+  }
+}
+
+function escH(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+loadData();
+// Reload page every 3 hours to pick up fresh data.json
+setTimeout(() => location.reload(), 3*60*60*1000);
+</script>
+</body>
+</html>
