@@ -1,0 +1,503 @@
+{
+  "generated": "2026-04-28T17:26:27Z",
+  "grid": "EN11xe",
+  "payload": {
+    "fetched": "2026-04-28T17:26:26.868064+00:00",
+    "currentHourUTC": 17,
+    "current": {
+      "sfi": 142,
+      "ssn": 144,
+      "kp": 1.33,
+      "bz": 3.6
+    },
+    "n0nbh": {
+      "xray": "C1.8",
+      "aIndex": "7",
+      "aurora": "1",
+      "solarWind": "362.7",
+      "magneticField": "3.4",
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "28 Apr 2026 1717 GMT"
+    },
+    "paths": [
+      {
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 21.9,
+        "luf": 4.2
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 21,
+        "luf": 4.1
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 21.3,
+        "luf": 4.2
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 18.7,
+        "luf": 4.1
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 18.9,
+        "luf": 4
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 20.6,
+        "luf": 4
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 19.9,
+        "luf": 3.9
+      }
+    ],
+    "currentByBand": {
+      "40m": 54,
+      "30m": 62,
+      "20m": 72,
+      "17m": 57,
+      "15m": 27,
+      "12m": 8,
+      "10m": 0
+    },
+    "avgGrid": {
+      "40m": {
+        "0": 60,
+        "1": 63,
+        "2": 66,
+        "3": 70,
+        "4": 74,
+        "5": 79,
+        "6": 82,
+        "7": 77,
+        "8": 72,
+        "9": 72,
+        "10": 77,
+        "11": 79,
+        "12": 73,
+        "13": 67,
+        "14": 63,
+        "15": 59,
+        "16": 56,
+        "17": 54,
+        "18": 53,
+        "19": 53,
+        "20": 54,
+        "21": 54,
+        "22": 56,
+        "23": 57
+      },
+      "30m": {
+        "0": 64,
+        "1": 67,
+        "2": 70,
+        "3": 74,
+        "4": 68,
+        "5": 51,
+        "6": 29,
+        "7": 19,
+        "8": 15,
+        "9": 15,
+        "10": 18,
+        "11": 33,
+        "12": 55,
+        "13": 70,
+        "14": 71,
+        "15": 67,
+        "16": 64,
+        "17": 62,
+        "18": 61,
+        "19": 60,
+        "20": 60,
+        "21": 60,
+        "22": 61,
+        "23": 62
+      },
+      "20m": {
+        "0": 74,
+        "1": 73,
+        "2": 62,
+        "3": 41,
+        "4": 22,
+        "5": 12,
+        "6": 8,
+        "7": 6,
+        "8": 5,
+        "9": 5,
+        "10": 6,
+        "11": 8,
+        "12": 12,
+        "13": 24,
+        "14": 45,
+        "15": 66,
+        "16": 74,
+        "17": 72,
+        "18": 70,
+        "19": 69,
+        "20": 68,
+        "21": 69,
+        "22": 70,
+        "23": 72
+      },
+      "17m": {
+        "0": 54,
+        "1": 38,
+        "2": 21,
+        "3": 11,
+        "4": 6,
+        "5": 2,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 3,
+        "13": 6,
+        "14": 11,
+        "15": 23,
+        "16": 41,
+        "17": 57,
+        "18": 69,
+        "19": 75,
+        "20": 76,
+        "21": 76,
+        "22": 73,
+        "23": 66
+      },
+      "15m": {
+        "0": 24,
+        "1": 15,
+        "2": 7,
+        "3": 3,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 1,
+        "14": 3,
+        "15": 7,
+        "16": 16,
+        "17": 27,
+        "18": 39,
+        "19": 48,
+        "20": 53,
+        "21": 52,
+        "22": 47,
+        "23": 38
+      },
+      "12m": {
+        "0": 9,
+        "1": 4,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 1,
+        "16": 4,
+        "17": 8,
+        "18": 15,
+        "19": 22,
+        "20": 26,
+        "21": 26,
+        "22": 20,
+        "23": 14
+      },
+      "10m": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 2,
+        "19": 4,
+        "20": 5,
+        "21": 5,
+        "22": 3,
+        "23": 2
+      }
+    },
+    "kpForecast": [
+      {
+        "time": "2026-04-28T18:00:00",
+        "value": 1.67
+      },
+      {
+        "time": "2026-04-28T21:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-04-29T00:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-04-29T03:00:00",
+        "value": 2.33
+      },
+      {
+        "time": "2026-04-29T06:00:00",
+        "value": 1.67
+      },
+      {
+        "time": "2026-04-29T09:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-04-29T12:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-04-29T15:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-04-29T18:00:00",
+        "value": 3.33
+      },
+      {
+        "time": "2026-04-29T21:00:00",
+        "value": 4
+      },
+      {
+        "time": "2026-04-30T00:00:00",
+        "value": 4
+      },
+      {
+        "time": "2026-04-30T03:00:00",
+        "value": 3.33
+      },
+      {
+        "time": "2026-04-30T06:00:00",
+        "value": 2.67
+      },
+      {
+        "time": "2026-04-30T09:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-04-30T12:00:00",
+        "value": 2.33
+      },
+      {
+        "time": "2026-04-30T15:00:00",
+        "value": 2.33
+      },
+      {
+        "time": "2026-04-30T18:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-04-30T21:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-05-01T00:00:00",
+        "value": 2.67
+      }
+    ],
+    "potaCounts": {
+      "40m": 1,
+      "30m": 0,
+      "20m": 55,
+      "17m": 1,
+      "15m": 3,
+      "12m": 0,
+      "10m": 1
+    },
+    "potaModes": {
+      "40m": {
+        "CW": 1,
+        "SSB": 0,
+        "FT8": 0,
+        "FT4": 0,
+        "Other": 0
+      },
+      "30m": {
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
+        "FT4": 0,
+        "Other": 0
+      },
+      "20m": {
+        "CW": 12,
+        "SSB": 25,
+        "FT8": 17,
+        "FT4": 0,
+        "Other": 1
+      },
+      "17m": {
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 1,
+        "FT4": 0,
+        "Other": 0
+      },
+      "15m": {
+        "CW": 1,
+        "SSB": 0,
+        "FT8": 1,
+        "FT4": 1,
+        "Other": 0
+      },
+      "12m": {
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
+        "FT4": 0,
+        "Other": 0
+      },
+      "10m": {
+        "CW": 0,
+        "SSB": 1,
+        "FT8": 0,
+        "FT4": 0,
+        "Other": 0
+      }
+    },
+    "en11Spots": [
+      {
+        "activator": "N0JT",
+        "frequency": "14265",
+        "mode": "SSB",
+        "ref": "US-5676",
+        "name": "Two Rivers State Recreation Area",
+        "comments": "53 MS",
+        "spotTime": "2026-04-28T17:24:31",
+        "grid": "EN11tf"
+      }
+    ],
+    "scales": {
+      "today": {
+        "DateStamp": "2026-04-28",
+        "TimeStamp": "17:24:00",
+        "R": {
+          "Scale": "0",
+          "Text": "none",
+          "MinorProb": null,
+          "MajorProb": null
+        },
+        "S": {
+          "Scale": "0",
+          "Text": "none",
+          "Prob": null
+        },
+        "G": {
+          "Scale": "0",
+          "Text": "none"
+        }
+      },
+      "tomorrow": {
+        "DateStamp": "2026-04-28",
+        "TimeStamp": "17:24:00",
+        "R": {
+          "Scale": null,
+          "Text": null,
+          "MinorProb": "70",
+          "MajorProb": "20"
+        },
+        "S": {
+          "Scale": null,
+          "Text": null,
+          "Prob": "15"
+        },
+        "G": {
+          "Scale": "0",
+          "Text": "none"
+        }
+      },
+      "dayAfter": {
+        "DateStamp": "2026-04-29",
+        "TimeStamp": "00:00:00",
+        "R": {
+          "Scale": null,
+          "Text": null,
+          "MinorProb": "70",
+          "MajorProb": "20"
+        },
+        "S": {
+          "Scale": null,
+          "Text": null,
+          "Prob": "15"
+        },
+        "G": {
+          "Scale": "0",
+          "Text": "none"
+        }
+      },
+      "yesterday": {
+        "DateStamp": "2026-04-27",
+        "TimeStamp": "17:24:00",
+        "R": {
+          "Scale": "1",
+          "Text": "minor",
+          "MinorProb": null,
+          "MajorProb": null
+        },
+        "S": {
+          "Scale": "0",
+          "Text": "none",
+          "Prob": null
+        },
+        "G": {
+          "Scale": "0",
+          "Text": "none"
+        }
+      }
+    },
+    "flareAlert": null,
+    "sun": {
+      "sunrise": "2026-04-28T11:23:45+00:00",
+      "sunset": "2026-04-29T01:19:29+00:00",
+      "solar_noon": "2026-04-28T18:21:37+00:00",
+      "day_length": 50144,
+      "civil_twilight_begin": "2026-04-28T10:55:31+00:00",
+      "civil_twilight_end": "2026-04-29T01:47:43+00:00",
+      "nautical_twilight_begin": "2026-04-28T10:19:19+00:00",
+      "nautical_twilight_end": "2026-04-29T02:23:55+00:00",
+      "astronomical_twilight_begin": "2026-04-28T09:40:15+00:00",
+      "astronomical_twilight_end": "2026-04-29T03:02:59+00:00"
+    },
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Apr 28 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Apr 28-Apr 30 2026 is 4.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Apr 28-Apr 30 2026\n\n             Apr 28       Apr 29       Apr 30\n00-03UT       0.67         2.00         4.00     \n03-06UT       0.67         2.33         3.33     \n06-09UT       0.67         1.67         2.67     \n09-12UT       1.00         1.33         3.00     \n12-15UT       1.67         2.00         2.33     \n15-18UT       1.67         3.00         2.33     \n18-21UT       1.67         3.33         2.00     \n21-00UT       2.00         4.00         3.00     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Apr 28-Apr 30 2026\n\n              Apr 28  Apr 29  Apr 30\nS1 or greater   15%     15%     15%\n\nRationale: There is a slight chance the greater than 10 MeV proton flux\ncould reach S1 (Minor) levels, but is mainly expected to remain at\nbackground levels 28-30 Apr.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Apr 28-Apr 30 2026\n\n              Apr 28        Apr 29        Apr 30\nR1-R2           70%           70%           70%\nR3 or greater   25%           25%           25%\n\nRationale: There is a high likelihood for R1/R2 (Minor/Moderate) radio\nblackouts, and a slight chance for R3 (Strong or greater) events through\n30 Apr, due primarily to the complexity of regions 4420 and 4425.\n"
+  }
+}
