@@ -3,167 +3,410 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>POTA Antenna Field Reference — WK0E</title>
+<title>POTA Antenna Field Reference — EN11xe</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400;500&display=swap');
 
-:root {
-  --bg: #0d1117;
-  --panel: #161b22;
-  --panel2: #1c2330;
-  --border: #30363d;
-  --green: #39d353;
-  --green-dim: #1a6b2a;
-  --amber: #e3a008;
-  --amber-dim: #6b4a00;
-  --red: #f85149;
-  --blue: #58a6ff;
-  --blue-dim: #1a3a6b;
-  --text: #c9d1d9;
-  --text-dim: #8b949e;
-  --text-bright: #f0f6fc;
-  --mono: 'Share Tech Mono', monospace;
-  --cond: 'Barlow Condensed', sans-serif;
-  --body: 'Barlow', sans-serif;
-}
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --panel2: #1c2330;
+    --border: #30363d;
+    --green: #39d353;
+    --green-dim: #1a6b2a;
+    --amber: #e3a008;
+    --amber-dim: #6b4a00;
+    --red: #f85149;
+    --blue: #58a6ff;
+    --blue-dim: #1a3a6b;
+    --text: #c9d1d9;
+    --text-dim: #8b949e;
+    --text-bright: #f0f6fc;
+    --mono: 'Share Tech Mono', monospace;
+    --cond: 'Barlow Condensed', sans-serif;
+    --body: 'Barlow', sans-serif;
+  }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { background: var(--bg); color: var(--text); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
 
-/* Header */
-header {
-  background: var(--panel);
-  border-bottom: 2px solid var(--green);
-  padding: 18px 24px 14px;
-  display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; flex-wrap: wrap;
-}
-header h1 { font-family: var(--cond); font-weight: 900; font-size: 2rem; letter-spacing: 0.04em; color: var(--text-bright); text-transform: uppercase; }
-header h1 span { color: var(--green); }
-.header-meta { font-family: var(--mono); font-size: 11px; color: var(--text-dim); text-align: right; line-height: 1.8; }
-.header-meta strong { color: var(--amber); }
-.header-nav { font-family: var(--mono); font-size: 11px; }
-.header-nav a { color: var(--blue); text-decoration: none; }
-.header-nav a:hover { text-decoration: underline; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
-main { padding: 20px 20px 40px; max-width: 1300px; margin: 0 auto; }
+  /* ── HEADER ── */
+  header {
+    background: var(--panel);
+    border-bottom: 2px solid var(--green);
+    padding: 18px 24px 14px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    font-family: var(--cond);
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: 0.04em;
+    color: var(--text-bright);
+    text-transform: uppercase;
+  }
+  header h1 span { color: var(--green); }
+  .header-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    text-align: right;
+    line-height: 1.8;
+  }
+  .header-meta strong { color: var(--amber); }
 
-/* Section labels */
-.section-label {
-  font-family: var(--cond); font-weight: 700; font-size: 0.65rem; letter-spacing: 0.2em;
-  text-transform: uppercase; color: var(--green); margin: 28px 0 10px;
-  display: flex; align-items: center; gap: 10px;
-}
-.section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+  /* ── LAYOUT ── */
+  main { padding: 20px 20px 40px; max-width: 1400px; margin: 0 auto; }
 
-/* Band key */
-.band-key { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
-.bk { font-family: var(--mono); font-size: 11px; padding: 3px 10px; border-radius: 3px; font-weight: 600; }
-.bk-40 { background:#1a2a1a; color:#6fcf6f; border:1px solid #2a4a2a; }
-.bk-30 { background:#1a2a2a; color:#6fcfcf; border:1px solid #2a4a4a; }
-.bk-20 { background:#1a1a2a; color:#6f6fcf; border:1px solid #2a2a4a; }
-.bk-17 { background:#2a2a1a; color:#cfcf6f; border:1px solid #4a4a2a; }
-.bk-15 { background:#2a1a1a; color:#cf6f6f; border:1px solid #4a2a2a; }
-.bk-12 { background:#2a1a2a; color:#cf6fcf; border:1px solid #4a2a4a; }
-.bk-10 { background:#1a2a2a; color:#6fcfaf; border:1px solid #2a4a3a; }
+  /* ── SECTION HEADERS ── */
+  .section-label {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin: 28px 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
 
-/* Antenna cards */
-.ant-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; }
-.ant-card { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-.ant-card-header { background: var(--panel2); padding: 10px 14px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); }
-.ant-name { font-family: var(--cond); font-weight: 700; font-size: 1rem; letter-spacing: 0.05em; color: var(--text-bright); text-transform: uppercase; }
-.ant-tag { font-family: var(--mono); font-size: 10px; color: var(--amber); border: 1px solid var(--amber-dim); padding: 2px 7px; border-radius: 3px; }
-.ant-card-body { padding: 12px 14px; }
+  /* ── BAND KEY ── */
+  .band-key {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .bk { 
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  .bk-40 { background:#1a3a6b; color:#58a6ff; border:1px solid #2d5a9e; }
+  .bk-30 { background:#1a5a1a; color:#39d353; border:1px solid #2d8c2d; }
+  .bk-20 { background:#5a3a00; color:#e3a008; border:1px solid #8c6000; }
+  .bk-17 { background:#4a1a4a; color:#d87de8; border:1px solid #7a2a8c; }
+  .bk-15 { background:#5a1a1a; color:#f85149; border:1px solid #8c2d2d; }
+  .bk-12 { background:#1a4a4a; color:#56d4d4; border:1px solid #2a8080; }
+  .bk-10 { background:#3a3a00; color:#d4d439; border:1px solid #7a7a00; }
 
-/* Band tables */
-.band-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 8px; }
-.band-table th { font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; color: var(--text-dim); text-transform: uppercase; padding: 4px 6px; border-bottom: 1px solid var(--border); text-align: left; }
-.band-table td { padding: 5px 6px; border-bottom: 1px solid #1e2533; vertical-align: top; }
-.band-table tr:last-child td { border-bottom: none; }
-.band-cell { font-family: var(--mono); font-size: 11px; font-weight: 600; padding: 3px 7px !important; border-radius: 3px; white-space: nowrap; }
-.bk-40.band-cell { background:#1a2a1a; color:#6fcf6f; }
-.bk-30.band-cell { background:#1a2a2a; color:#6fcfcf; }
-.bk-20.band-cell { background:#1a1a2a; color:#6f6fcf; }
-.bk-17.band-cell { background:#2a2a1a; color:#cfcf6f; }
-.bk-15.band-cell { background:#2a1a1a; color:#cf6f6f; }
-.bk-12.band-cell { background:#2a1a2a; color:#cf6fcf; }
-.bk-10.band-cell { background:#1a2a2a; color:#6fcfaf; }
+  /* ── ANTENNA CARD ── */
+  .ant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  .ant-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .ant-card-header {
+    background: var(--panel2);
+    padding: 10px 14px 8px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .ant-name {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--text-bright);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .ant-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 2px;
+    border: 1px solid var(--green-dim);
+    color: var(--green);
+    white-space: nowrap;
+  }
+  .ant-tag.tag-fair { border-color: var(--amber-dim); color: var(--amber); }
+  .ant-tag.tag-situational { border-color: #4a1a1a; color: var(--red); }
 
-/* Rating dots */
-.rating { color: var(--green); letter-spacing: -1px; font-size: 13px; }
-.rating .dim { color: var(--border); }
+  .ant-card-body { padding: 12px 14px; }
 
-/* Notes text */
-.td { font-size: 12px; color: var(--text-dim); line-height: 1.4; }
+  /* ── BAND TABLE ── */
+  .band-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    margin-bottom: 10px;
+  }
+  .band-table th {
+    font-family: var(--cond);
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    padding: 4px 6px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  .band-table td {
+    padding: 4px 6px;
+    border-bottom: 1px solid #21272e;
+    vertical-align: top;
+  }
+  .band-table tr:last-child td { border-bottom: none; }
+  .band-table .band-cell {
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .ta { color: var(--amber); }
+  .tg { color: var(--green); }
+  .tr { color: var(--red); }
+  .tb { color: var(--blue); }
+  .td { color: var(--text-dim); }
 
-/* Callout */
-.callout {
-  background: #0d1f0d; border-left: 3px solid var(--green); border-radius: 0 4px 4px 0;
-  padding: 10px 14px; font-size: 12.5px; color: var(--text); line-height: 1.6; margin: 10px 0;
-}
-.callout.warn { background: #2a1a00; border-left-color: var(--amber); }
-.callout strong { color: var(--text-bright); }
+  /* rating dots */
+  .rating { display: flex; gap: 3px; align-items: center; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--border); }
+  .dot.on-g { background: var(--green); }
+  .dot.on-a { background: var(--amber); }
+  .dot.on-r { background: var(--red); }
 
-/* Counterpoise / ground system tables */
-.cp-wrap { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 14px; margin-bottom: 14px; }
-.cp-title { font-family: var(--cond); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.08em; color: var(--text-bright); text-transform: uppercase; margin-bottom: 10px; }
-.cp-table { width: 100%; border-collapse: collapse; font-size: 12px; }
-.cp-table th { font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; color: var(--text-dim); text-transform: uppercase; padding: 5px 8px; border-bottom: 1px solid var(--border); text-align: left; }
-.cp-table td { padding: 6px 8px; border-bottom: 1px solid #1e2533; vertical-align: top; }
-.cp-table tr:last-child td { border-bottom: none; }
-.verdict { font-family: var(--mono); font-size: 11px; padding: 2px 7px; border-radius: 3px; white-space: nowrap; }
-.v-best { background: var(--green-dim); color: var(--green); }
-.v-good { background: #2a2200; color: var(--amber); }
-.v-fair { background: #2a1a00; color: #cf8f3f; }
-.v-poor { background: #2a1010; color: var(--red); }
+  /* ── NOTES BOX ── */
+  .notes {
+    background: #0d1117;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--blue);
+    border-radius: 0 4px 4px 0;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-top: 6px;
+  }
+  .notes strong { color: var(--text); }
+  .notes .note-row { margin-bottom: 3px; }
+  .notes .note-row:last-child { margin-bottom: 0; }
 
-/* EFHW deep dive */
-.efhw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
-.deploy-card { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 14px; }
-.deploy-name { font-family: var(--cond); font-weight: 700; font-size: 0.9rem; letter-spacing: 0.06em; color: var(--text-bright); text-transform: uppercase; margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
-.deploy-row { display: flex; justify-content: space-between; align-items: baseline; padding: 3px 0; border-bottom: 1px solid #1e2533; font-size: 12px; }
-.deploy-row:last-child { border-bottom: none; }
-.deploy-band { font-family: var(--mono); font-size: 11px; }
-.deploy-data { font-family: var(--mono); font-size: 11px; color: var(--text-dim); text-align: right; }
+  /* ── EFHW DEEP DIVE ── */
+  .efhw-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .deploy-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 14px;
+  }
+  .deploy-title {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--text-bright);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .deploy-title .icon {
+    font-size: 1.1rem;
+  }
+  .deploy-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3px 0;
+    border-bottom: 1px solid #21272e;
+    font-size: 12px;
+    gap: 8px;
+  }
+  .deploy-row:last-child { border-bottom: none; }
+  .deploy-label { color: var(--text-dim); font-family: var(--body); flex: 1; }
+  .deploy-val { font-family: var(--mono); font-size: 11px; text-align: right; }
 
-footer {
-  margin-top: 40px; border-top: 1px solid var(--border); padding: 16px 20px;
-  font-family: var(--mono); font-size: 11px; color: var(--text-dim);
-  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
-  max-width: 1300px; margin-left: auto; margin-right: auto;
-}
-footer a { color: var(--blue); text-decoration: none; }
+  /* ── COUNTERPOISE TABLE ── */
+  .cp-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .cp-table th {
+    font-family: var(--cond);
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    padding: 5px 8px;
+    text-align: left;
+    border-bottom: 2px solid var(--border);
+    background: var(--panel2);
+  }
+  .cp-table td {
+    padding: 5px 8px;
+    border-bottom: 1px solid #21272e;
+    vertical-align: top;
+  }
+  .cp-table tr:last-child td { border-bottom: none; }
+  .cp-wrap {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  .cp-title {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--text-bright);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 8px 12px;
+    background: var(--panel2);
+    border-bottom: 1px solid var(--border);
+  }
 
-@media (max-width: 600px) {
-  .ant-grid { grid-template-columns: 1fr; }
-  .efhw-grid { grid-template-columns: 1fr; }
-  header { flex-direction: column; }
-  .header-meta { text-align: left; }
-}
+  /* ── VERDICT BADGE ── */
+  .verdict {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  .v-best { background: #0d3a1a; color: var(--green); border: 1px solid var(--green-dim); }
+  .v-good { background: #3a2800; color: var(--amber); border: 1px solid var(--amber-dim); }
+  .v-ok   { background: #2a1a00; color: #c07030; border: 1px solid #5a3000; }
+  .v-poor { background: #2a0d0d; color: var(--red); border: 1px solid #5a1a1a; }
+
+  /* ── SUMMARY ROW ── */
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .sum-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .sum-ant {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-bright);
+    margin-bottom: 6px;
+  }
+  .sum-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    padding: 2px 0;
+    gap: 6px;
+  }
+  .sum-label { color: var(--text-dim); }
+  .sum-val { font-family: var(--mono); }
+
+  /* ── FOOTER ── */
+  footer {
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text-dim);
+    padding: 20px;
+    border-top: 1px solid var(--border);
+    margin-top: 20px;
+  }
+  footer span { color: var(--green); }
+
+  /* ── CALLOUT ── */
+  .callout {
+    background: #1a2a1a;
+    border: 1px solid var(--green-dim);
+    border-left: 3px solid var(--green);
+    border-radius: 0 4px 4px 0;
+    padding: 10px 14px;
+    font-size: 12.5px;
+    color: var(--text);
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  .callout.warn {
+    background: #2a1a00;
+    border-color: var(--amber-dim);
+    border-left-color: var(--amber);
+  }
+  .callout strong { color: var(--text-bright); }
+
+  @media print {
+    body { background: white; color: black; font-size: 11px; }
+    :root { --bg:#fff; --panel:#f5f5f5; --panel2:#e8e8e8; --border:#ccc;
+            --green:#1a7a2a; --amber:#b07000; --red:#cc2200; --blue:#1a50aa;
+            --text:#222; --text-dim:#666; --text-bright:#000; }
+    main { padding: 10px; }
+  }
 </style>
 </head>
 <body>
 
 <header>
   <div>
-    <h1>POTA Antenna Reference <span>// WK0E</span></h1>
+    <h1>POTA Field Antenna Reference <span>// EN11xe</span></h1>
     <div style="font-family:var(--mono);font-size:11px;color:var(--text-dim);margin-top:4px;">
-      EN11xe · Central Nebraska · QRP CW 5W · Bands: 40 / 30 / 20 / 17 / 15 / 12 / 10m
+      Central Nebraska · QRP CW 5W · Bands: 40 / 30 / 20 / 17 / 15 / 12 / 10m
     </div>
   </div>
-  <div>
-    <div class="header-meta">
-      <strong>Takeoff angle:</strong> &lt;20° = DX/skip · 20–45° = regional · &gt;45° = NVIS/close<br>
-      <strong>Rating:</strong> ●●●● Best · ●●●○ Good · ●●○○ Fair · ●○○○ Marginal<br>
-      NEC2 consensus models, EN11 real ground (silty loam ε≈13, σ≈0.005)
-    </div>
-    <div class="header-nav" style="margin-top:8px;text-align:right;">
-      <a href="/">← wk0e.net</a>
-    </div>
+  <div class="header-meta">
+    <strong>Takeoff angle key:</strong> &lt;20° = DX/skip · 20–45° = regional · &gt;45° = NVIS/close<br>
+    <strong>Rating:</strong> ●●●● Best · ●●●○ Good · ●●○○ Fair · ●○○○ Marginal<br>
+    All data based on NEC2 consensus models, real-ground (EN11 silty loam ε≈13, σ≈0.005)
   </div>
 </header>
 
 <main>
 
+<!-- ══════════════════════════════════════════
+     BAND KEY
+══════════════════════════════════════════ -->
 <div class="section-label">Band color key</div>
 <div class="band-key">
   <span class="bk bk-40">40m 7 MHz</span>
@@ -175,94 +418,303 @@ footer a { color: var(--blue); text-decoration: none; }
   <span class="bk bk-10">10m 28 MHz</span>
 </div>
 
-<!-- ── ANTENNA CARDS ── -->
-<div class="section-label">Antenna quick reference</div>
+<!-- ══════════════════════════════════════════
+     ANTENNA OVERVIEW CARDS
+══════════════════════════════════════════ -->
+<div class="section-label">Antenna quick reference — all types</div>
 <div class="ant-grid">
 
   <!-- EFHW -->
   <div class="ant-card">
     <div class="ant-card-header">
-      <span class="ant-name">EFHW 66′</span>
+      <span class="ant-name">EFHW 66' (20.1m)</span>
       <span class="ant-tag">Most versatile</span>
     </div>
     <div class="ant-card-body">
       <table class="band-table">
-        <tr><th>Band</th><th>Inv-V angle</th><th>Sloper angle</th><th>Rating</th></tr>
-        <tr><td class="band-cell bk-40">40m</td><td class="td">45–55° NVIS dominant</td><td class="td">30–40° regional</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-30">30m</td><td class="td">35–45°</td><td class="td">25–35°</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-20">20m</td><td class="td">25–35°</td><td class="td">15–25°</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-17">17m</td><td class="td">20–30°</td><td class="td">12–20°</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-15">15m</td><td class="td">18–28°</td><td class="td">10–18°</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-12">12m</td><td class="td">15–25° + high lobes</td><td class="td">8–15°</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-10">10m</td><td class="td">12–20° + high lobes</td><td class="td">6–12°</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
+        <tr><th>Band</th><th>Works?</th><th>Takeoff (inv-V)</th><th>Takeoff (sloper)</th><th>Notes</th></tr>
+        <tr>
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">45–55°</td><td class="ta">30–40°</td>
+          <td class="td">Primary NVIS/regional on inv-V; sloper adds DX</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-30" style="background:#1a5a1a;border-radius:2px;padding:3px 6px;">30m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">35–45°</td><td class="ta">25–35°</td>
+          <td class="td">Resonant 3/2λ; excellent all configs</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="ta">25–35°</td><td class="tg">15–25°</td>
+          <td class="td">2λ config; sloper really shines for DX</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-17" style="background:#4a1a4a;border-radius:2px;padding:3px 6px;">17m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="ta">20–30°</td><td class="tg">15–20°</td>
+          <td class="td">Non-resonant; tuner needed; still effective</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-15" style="background:#5a1a1a;border-radius:2px;padding:3px 6px;">15m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">18–28°</td><td class="tg">12–18°</td>
+          <td class="td">Resonant 5/2λ; low angle, great for runs</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-12" style="background:#1a4a4a;border-radius:2px;padding:3px 6px;">12m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="ta">15–22°</td><td class="tg">10–15°</td>
+          <td class="td">Non-resonant; some tuners finicky</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-10" style="background:#3a3a00;border-radius:2px;padding:3px 6px;">10m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">12–18°</td><td class="tg">8–14°</td>
+          <td class="td">Resonant 4λ; multiple low-angle lobes</td>
+        </tr>
       </table>
-      <div class="callout">Best all-around portable antenna for EN11xe. Inv-V favors regional 40m POTA hunters; sloper oriented NE/SW opens up both coasts and Gulf simultaneously.</div>
+      <div class="notes">
+        <div class="note-row"><strong>Key constraint:</strong> Transformer quality dominates performance. 0.5–1 dB loss baked in.</div>
+        <div class="note-row"><strong>KXAT2 note:</strong> Will tune all bands with good transformer. Verify match each band change.</div>
+      </div>
     </div>
   </div>
 
-  <!-- 17' Vertical / Rybakov -->
+  <!-- RANDOM WIRE -->
   <div class="ant-card">
     <div class="ant-card-header">
-      <span class="ant-name">17′ Vertical / Rybakov</span>
-      <span class="ant-tag">Quick deploy</span>
+      <span class="ant-name">Random Wire (various lengths)</span>
+      <span class="ant-tag tag-fair">Tuner required</span>
     </div>
     <div class="ant-card-body">
       <table class="band-table">
-        <tr><th>Band</th><th>Takeoff angle</th><th>FSR/screen</th><th>Rating</th></tr>
-        <tr><td class="band-cell bk-40">40m</td><td class="td">20–30° + NVIS</td><td class="td">●●●<span class="dim">●</span></td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-30">30m</td><td class="td">18–25°</td><td class="td">●●●●</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-20">20m</td><td class="td">15–22°</td><td class="td">●●●●</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-17">17m</td><td class="td">12–20°</td><td class="td">●●●●</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-15">15m</td><td class="td">10–18°</td><td class="td">●●●<span class="dim">●</span></td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-12">12m</td><td class="td">8–15°</td><td class="td">●●●<span class="dim">●</span></td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-10">10m</td><td class="td">6–12°</td><td class="td">●●<span class="dim">●●</span></td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
+        <tr><th>Length</th><th>40m</th><th>30m</th><th>20m</th><th>15m</th><th>10m</th><th>Avoid?</th></tr>
+        <tr>
+          <td class="tb">29' (8.8m)</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="td">—</td>
+        </tr>
+        <tr>
+          <td class="tb">35' (10.7m)</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="td">—</td>
+        </tr>
+        <tr>
+          <td class="tr">33' (10m)</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="tr">Avoid — ½λ on 20m, high Z</td>
+        </tr>
+        <tr>
+          <td class="tr">66' (20m)</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td><span class="verdict v-poor">●○○○</span></td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="tr">Avoid — ½λ on 40m too</td>
+        </tr>
       </table>
-      <div class="callout">Good low-angle performer on 20–17m. On 40m it's electrically short (≈0.13λ) — needs a good ground plane. With CHA FSR or door screen, ground loss is modest. Without any ground plane, expect 3–6 dB loss on 40m.</div>
-    </div>
-  </div>
-
-  <!-- Random Wire -->
-  <div class="ant-card">
-    <div class="ant-card-header">
-      <span class="ant-name">Random Wire</span>
-      <span class="ant-tag">Backup / emergency</span>
-    </div>
-    <div class="ant-card-body">
-      <table class="band-table">
-        <tr><th>Band</th><th>Behavior</th><th>Rating</th></tr>
-        <tr><td class="band-cell bk-40">40m</td><td class="td">Depends heavily on length vs resonance. 53′ works well; avoid 33′/66′.</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-30">30m</td><td class="td">53′ wire near resonant — good performer</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-20">20m</td><td class="td">Most lengths workable with tuner</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-17">17m</td><td class="td">Variable — check SWR before TX</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-15">15m</td><td class="td">Variable</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-12">12m</td><td class="td">Often high SWR</td><td><span class="rating">●<span class="dim">●●●</span></span></td></tr>
-        <tr><td class="band-cell bk-10">10m</td><td class="td">Often high SWR</td><td><span class="rating">●<span class="dim">●●●</span></span></td></tr>
-      </table>
-      <div class="callout warn"><strong>Non-resonant lengths cause high common-mode current on coax.</strong> Use a 9:1 unun or choke at feedpoint. Best lengths for multiple bands: 29′, 35.5′, 41′, 53′.</div>
+      <div class="notes">
+        <div class="note-row"><strong>Best lengths:</strong> 29' and 35' avoid resonance on all POTA bands.</div>
+        <div class="note-row"><strong>Counterpoise:</strong> 17–20' on ground works well. Elevated 8–12' is 2–4 dB better.</div>
+        <div class="note-row"><strong>Takeoff:</strong> 40–60° typical (NVIS-ish) — regional contacts to ~1000 miles.</div>
+      </div>
     </div>
   </div>
 
   <!-- OCFD -->
   <div class="ant-card">
     <div class="ant-card-header">
-      <span class="ant-name">OCFD / Off-center Fed Dipole</span>
-      <span class="ant-tag">Multi-band wire</span>
+      <span class="ant-name">Off-Center Fed Dipole</span>
+      <span class="ant-tag">Multi-band workhorse</span>
     </div>
     <div class="ant-card-body">
       <table class="band-table">
-        <tr><th>Band</th><th>Takeoff angle</th><th>Notes</th><th>Rating</th></tr>
-        <tr><td class="band-cell bk-40">40m</td><td class="td">45–55°</td><td class="td">NVIS dominant at typical heights</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-20">20m</td><td class="td">25–35°</td><td class="td">Good skip angle</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-15">15m</td><td class="td">18–28°</td><td class="td">Works well</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-10">10m</td><td class="td">12–22°</td><td class="td">Multiple lobes at 10m</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-30">30m</td><td class="td">—</td><td class="td">Not a design band — tuner may or may not match</td><td><span class="rating">●<span class="dim">●●●</span></span></td></tr>
-        <tr><td class="band-cell bk-17">17m</td><td class="td">—</td><td class="td">Not a design band</td><td><span class="rating">●<span class="dim">●●●</span></span></td></tr>
+        <tr><th>Band</th><th>Rating</th><th>Takeoff (flat)</th><th>Takeoff (inv-V)</th><th>Notes</th></tr>
+        <tr>
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">30–45°</td><td class="tg">45–55°</td>
+          <td class="td">Near full-size dipole pattern</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-30" style="background:#1a5a1a;border-radius:2px;padding:3px 6px;">30m</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="ta">—</td><td class="ta">—</td>
+          <td class="tr">Not resonant; tuner required, variable</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">20–30°</td><td class="ta">25–35°</td>
+          <td class="td">2x half-wave; good DX angle</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-17" style="background:#4a1a4a;border-radius:2px;padding:3px 6px;">17m</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="ta">—</td><td class="ta">—</td>
+          <td class="td">Non-harmonic; needs tuner</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-15" style="background:#5a1a1a;border-radius:2px;padding:3px 6px;">15m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">15–22°</td><td class="ta">18–28°</td>
+          <td class="td">Harmonic of 40; strong performance</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-10" style="background:#3a3a00;border-radius:2px;padding:3px 6px;">10m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">10–18°</td><td class="ta">12–20°</td>
+          <td class="td">Harmonic of 40; excellent when open</td>
+        </tr>
       </table>
-      <div class="callout">Needs a 4:1 balun at the feedpoint. Common-mode issues if balun is omitted. Good for 40/20/15/10 if you have two supports and ~67′ clear span.</div>
+      <div class="notes">
+        <div class="note-row"><strong>Feed ratio:</strong> Classic is 1/3 · 2/3 split (133' total on 80m base; 66' total for 40m base).</div>
+        <div class="note-row"><strong>Balun:</strong> 4:1 current balun at feedpoint — critical, don't skip it.</div>
+        <div class="note-row"><strong>EN11 sweet spot:</strong> Flat at 30–40' with E–W orientation for N–S regional coverage on 40m.</div>
+      </div>
     </div>
   </div>
 
-  <!-- Inverted-L -->
+  <!-- 17' VERTICAL -->
+  <div class="ant-card">
+    <div class="ant-card-header">
+      <span class="ant-name">17' Vertical Whip + Ground Screen</span>
+      <span class="ant-tag tag-fair">Ground-dependent</span>
+    </div>
+    <div class="ant-card-body">
+      <table class="band-table">
+        <tr><th>Band</th><th>Rating</th><th>Takeoff</th><th>Door screen</th><th>CHA FSR</th></tr>
+        <tr>
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="tg">20–30°</td>
+          <td class="tg">+2–3 dB vs bare gnd</td>
+          <td class="tg">+2–3 dB vs bare gnd</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-30" style="background:#1a5a1a;border-radius:2px;padding:3px 6px;">30m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="tg">18–25°</td>
+          <td class="tg">+2–3 dB</td>
+          <td class="tg">+2–3 dB</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">15–22°</td>
+          <td class="tg">+2–4 dB</td>
+          <td class="tg">+2–4 dB</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-17" style="background:#4a1a4a;border-radius:2px;padding:3px 6px;">17m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">12–20°</td>
+          <td class="tg">Best band</td>
+          <td class="tg">Best band</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-15" style="background:#5a1a1a;border-radius:2px;padding:3px 6px;">15m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">10–18°</td>
+          <td class="tg">+2–3 dB</td>
+          <td class="tg">+2–3 dB</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-12" style="background:#1a4a4a;border-radius:2px;padding:3px 6px;">12m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">8–15°</td>
+          <td class="tg">+2–3 dB</td>
+          <td class="tg">+2–3 dB</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-10" style="background:#3a3a00;border-radius:2px;padding:3px 6px;">10m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">7–12°</td>
+          <td class="tg">+2–3 dB</td>
+          <td class="tg">+2–3 dB</td>
+        </tr>
+      </table>
+      <div class="notes">
+        <div class="note-row"><strong>Door screen:</strong> Solid aluminum mesh, ~6×2.8 ft ≈ 17 sq ft — large continuous ground plane. Excellent performance, especially on higher bands where Fresnel zone is smaller.</div>
+        <div class="note-row"><strong>CHA FSR:</strong> Two 20' conductive strips in X-pattern. &lt;0.05Ω surface resistance. Comparable RF performance to door screen; see ground system comparison section below.</div>
+        <div class="note-row"><strong>17' = ~¼λ on 20m:</strong> Natural resonance. On other bands, tuner handles it well.</div>
+        <div class="note-row"><strong>EN11 note:</strong> Flat prairie ground is actually quite good for verticals — silty loam better than sand.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RYBAKOV -->
+  <div class="ant-card">
+    <div class="ant-card-header">
+      <span class="ant-name">Rybakov 25' + 4:1 + CHA FSR Radials</span>
+      <span class="ant-tag">Best portable vertical for DX</span>
+    </div>
+    <div class="ant-card-body">
+      <table class="band-table">
+        <tr><th>Band</th><th>Rating</th><th>Takeoff</th><th>Notes</th></tr>
+        <tr>
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="ta">25–35°</td>
+          <td class="td">~5/8λ at 40m; strong performer</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-30" style="background:#1a5a1a;border-radius:2px;padding:3px 6px;">30m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">18–25°</td>
+          <td class="tg">Close to ideal electrical length</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">15–22°</td>
+          <td class="tg">Excellent low-angle radiation</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-17" style="background:#4a1a4a;border-radius:2px;padding:3px 6px;">17m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">12–18°</td>
+          <td class="tg">Strong — good DX potential</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-15" style="background:#5a1a1a;border-radius:2px;padding:3px 6px;">15m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">10–15°</td>
+          <td class="tg">Best band on this antenna</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-10" style="background:#3a3a00;border-radius:2px;padding:3px 6px;">10m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="tg">8–14°</td>
+          <td class="td">Very low angle; can be too sharp on closer contacts</td>
+        </tr>
+      </table>
+      <div class="notes">
+        <div class="note-row"><strong>25' ≈ 7.6m:</strong> Classic Rybakov length — intentionally non-resonant on all HF bands for broadband tuning.</div>
+        <div class="note-row"><strong>CHA FSR radials:</strong> Surface resistance &lt;0.05Ω copper-nickel fabric. Chameleon field tests show 23–28% field strength improvement over 4× 12.5' wire radials. Treat as equivalent to a solid 4-wire ground plane — not a compromise.</div>
+        <div class="note-row"><strong>4:1 transformer:</strong> Must be a current balun (not voltage) for impedance transformation at the non-resonant feedpoint.</div>
+        <div class="note-row"><strong>Bottom line:</strong> Best portable vertical option for 20–15m DX. 40m is strong. Deploy this when you want distance.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INVERTED L -->
   <div class="ant-card">
     <div class="ant-card-header">
       <span class="ant-name">Inverted-L</span>
@@ -270,183 +722,576 @@ footer a { color: var(--blue); text-decoration: none; }
     </div>
     <div class="ant-card-body">
       <table class="band-table">
-        <tr><th>Band</th><th>Takeoff angle</th><th>Notes</th><th>Rating</th></tr>
-        <tr><td class="band-cell bk-40">40m</td><td class="td">15–25°</td><td class="td">Best low-angle 40m option in this list</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-30">30m</td><td class="td">18–28°</td><td class="td">Good if wire length is ~33′ vertical + horizontal</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-20">20m</td><td class="td">Multiple lobes</td><td class="td">Harmonic — works but pattern irregular</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-17">17m</td><td class="td">Variable</td><td class="td">Tuner needed</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-15">15m</td><td class="td">Variable</td><td class="td">Harmonic of 40m — may work</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
+        <tr><th>Band</th><th>Rating</th><th>Takeoff</th><th>Notes</th></tr>
+        <tr>
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">20–35°</td>
+          <td class="tg">Best portable 40m antenna you can build</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-30" style="background:#1a5a1a;border-radius:2px;padding:3px 6px;">30m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="tg">25–35°</td>
+          <td class="td">Works well with tuner</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="ta">20–30°</td>
+          <td class="td">Non-resonant; mixed pattern, still useful</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-15" style="background:#5a1a1a;border-radius:2px;padding:3px 6px;">15m+</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="ta">variable</td>
+          <td class="td">Pattern gets complex; use with tuner, YMMV</td>
+        </tr>
       </table>
-      <div class="callout">If your goal is to work skip on 40m CW, this is your best bet from EN11xe. The low angle beats the EFHW inverted-V by 10–15° on 40m. Needs a ground system — minimum 2 quarter-wave radials.</div>
+      <div class="notes">
+        <div class="note-row"><strong>Classic config:</strong> 33' vertical + 33' horizontal, fed at base. Single radial or ground stake enough for POTA.</div>
+        <div class="note-row"><strong>Why it works:</strong> Vertical section provides low-angle radiation; horizontal section adds top-loading effect, slightly NVIS-ish.</div>
+        <div class="note-row"><strong>EN11 sweet spot:</strong> This is your go-to if you have one tree and want 40m reach into the upper Midwest, Great Lakes, and East Coast pile-up callers.</div>
+        <div class="note-row"><strong>Ground:</strong> Even a single 16' wire radial on ground is sufficient for 5W POTA work.</div>
+      </div>
     </div>
   </div>
 
   <!-- CHA TDL -->
   <div class="ant-card">
     <div class="ant-card-header">
-      <span class="ant-name">CHA TDL</span>
-      <span class="ant-tag">Loop / delta</span>
+      <span class="ant-name">CHA Tactical Delta Loop</span>
+      <span class="ant-tag tag-fair">No-tree option · 30m+ specialist</span>
     </div>
     <div class="ant-card-body">
       <table class="band-table">
-        <tr><th>Band</th><th>Config</th><th>Notes</th><th>Rating</th></tr>
-        <tr><td class="band-cell bk-40">40m</td><td class="td">Inv-delta loop</td><td class="td">SWR 3.1–3.5:1 — KXAT2 will work hard. Low apex limits gain.</td><td><span class="rating">●●<span class="dim">●●</span></span></td></tr>
-        <tr><td class="band-cell bk-30">30m</td><td class="td">Inv-delta loop</td><td class="td">Better — closer to full-wave. SWR improves.</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-20">20m</td><td class="td">Inv-delta loop</td><td class="td">SWR 1.3–2.1:1, good low-angle lobe per Chameleon plot</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-17">17m</td><td class="td">Inv-delta loop</td><td class="td">Good performer above 10 MHz</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-15">15m</td><td class="td">Inv-delta loop</td><td class="td">Low SWR, efficient</td><td><span class="rating">●●●●</span></td></tr>
-        <tr><td class="band-cell bk-12">12m</td><td class="td">Inv-delta loop</td><td class="td">Good</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
-        <tr><td class="band-cell bk-10">10m</td><td class="td">Inv-delta loop</td><td class="td">Good, multiple lobes</td><td><span class="rating">●●●<span class="dim">●</span></span></td></tr>
+        <tr><th>Band</th><th>Config</th><th>Rating</th><th>Takeoff</th><th>Notes</th></tr>
+        <tr>
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td class="td">Inv. delta</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="ta">50–70°</td>
+          <td class="tr">SWR 3.1–3.5:1 — tuner required; NVIS only</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-30" style="background:#1a5a1a;border-radius:2px;padding:3px 6px;">30m</td>
+          <td class="td">Inv. delta</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="tg">25–40°</td>
+          <td class="tg">SWR 2.4:1; tuner handles it; improving</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td class="td">Inv. delta</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">18–30°</td>
+          <td class="tg">SWR 2.1:1; full λ loop; best config for 20m</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-17" style="background:#4a1a4a;border-radius:2px;padding:3px 6px;">17m</td>
+          <td class="td">Inv. delta</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">15–22°</td>
+          <td class="tg">SWR 1.3:1; excellent — no tuner needed</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-15" style="background:#5a1a1a;border-radius:2px;padding:3px 6px;">15m</td>
+          <td class="td">Inv. delta</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">12–20°</td>
+          <td class="tg">SWR 1.8:1; strong low-angle performance</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-12" style="background:#1a4a4a;border-radius:2px;padding:3px 6px;">12m</td>
+          <td class="td">Inv. delta</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">10–18°</td>
+          <td class="tg">SWR 2.1:1; good DX angles</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-10" style="background:#3a3a00;border-radius:2px;padding:3px 6px;">10m</td>
+          <td class="td">Inv. delta</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">8–15°</td>
+          <td class="tg">SWR 1.8:1; excellent when open</td>
+        </tr>
+        <tr style="border-top:2px solid var(--border);">
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td class="td">Vertical</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="tg">20–30°</td>
+          <td class="td">Single whip + loop wire CP; SWR 3.0:1; tuner req.</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td class="td">Vertical</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">15–22°</td>
+          <td class="tg">SWR 1.4:1; omni, low angle — solid performer</td>
+        </tr>
       </table>
-      <div class="callout warn"><strong>Key limitation:</strong> With base at ground and apex at ~8–10′ (whip tip height), it's a very low loop. Chameleon notes "elevating the base greatly improves performance" — requires their optional mast. At ground level, the loop is noise-quiet but gain is limited. Best use: 15–20m when you want a quiet, no-radial antenna.</div>
+      <div class="notes">
+        <div class="note-row"><strong>What it is:</strong> Two 17' telescoping whips spread in a V, loop wire (25'4") clipped tip-to-tip forming a ground-level delta triangle. Hybrid Micro/Mini transformer at feedpoint.</div>
+        <div class="note-row"><strong>Loop advantage:</strong> Full-wavelength loop on resonant bands gives ~2 dB over a dipole in theory, lower noise pickup than a vertical, bidirectional broadside pattern above 10 MHz.</div>
+        <div class="note-row"><strong>Key limitation:</strong> Base sits at ground level — apex of the triangle is only ~8–10' up (where wire clips to whip tips). Chameleon notes elevation dramatically improves performance; requires their optional fiberglass mast.</div>
+        <div class="note-row"><strong>40m reality:</strong> At this height the 40m loop is essentially NVIS only. Useful for short-skip contacts, not DX. The vertical config with loop-wire counterpoise is better for 40m low-angle.</div>
+        <div class="note-row"><strong>No-tree park winner:</strong> Self-supporting, ~26' footprint, 5 min setup. When you have no trees and no mast this is your best option for 20–17m.</div>
+        <div class="note-row"><strong>SWR data:</strong> From Chameleon's own measured table. KXAT2 handles 40/30m fine; 20m and up needs little or no tuning.</div>
+        <div class="note-row"><strong>Vertical config:</strong> One whip + 25' loop wire as counterpoise — becomes your 17' vertical with a dedicated counterpoise. Good 20m+ performer, better 40m angle than the delta loop config.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JPC-12 -->
+  <div class="ant-card">
+    <div class="ant-card-header">
+      <span class="ant-name">JPC-12 Loaded Vertical (~13.5')</span>
+      <span class="ant-tag tag-situational">Packability trade · 20m+ sweet spot</span>
+    </div>
+    <div class="ant-card-body">
+      <table class="band-table">
+        <tr><th>Band</th><th>Rating</th><th>Takeoff</th><th>Efficiency note</th><th>vs 17' whip</th></tr>
+        <tr>
+          <td class="band-cell bk-40" style="background:#1a3a6b;border-radius:2px;padding:3px 6px;">40m</td>
+          <td><span class="verdict v-ok">●●○○</span></td>
+          <td class="tg">20–30°</td>
+          <td class="tr">Significant coil loss — ~3–6 dB penalty vs full ¼λ</td>
+          <td class="tr">Worse — 17' is closer to full size</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-30" style="background:#1a5a1a;border-radius:2px;padding:3px 6px;">30m</td>
+          <td><span class="verdict v-good">●●●○</span></td>
+          <td class="tg">18–25°</td>
+          <td class="ta">Moderate coil loss — ~1–3 dB penalty</td>
+          <td class="ta">Comparable to 17' whip</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-20" style="background:#5a3a00;border-radius:2px;padding:3px 6px;">20m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">15–22°</td>
+          <td class="tg">Near-resonant length — small coil penalty</td>
+          <td class="tg">Roughly equal to 17' whip</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-17" style="background:#4a1a4a;border-radius:2px;padding:3px 6px;">17m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">12–20°</td>
+          <td class="tg">Electrically long — good efficiency</td>
+          <td class="tg">Similar or slightly better</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-15" style="background:#5a1a1a;border-radius:2px;padding:3px 6px;">15m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">10–18°</td>
+          <td class="tg">Electrically long — minimal loss</td>
+          <td class="tg">Similar or slightly better</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-12" style="background:#1a4a4a;border-radius:2px;padding:3px 6px;">12m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">8–15°</td>
+          <td class="tg">Good efficiency at this length</td>
+          <td class="tg">Comparable</td>
+        </tr>
+        <tr>
+          <td class="band-cell bk-10" style="background:#3a3a00;border-radius:2px;padding:3px 6px;">10m</td>
+          <td><span class="verdict v-best">●●●●</span></td>
+          <td class="tg">7–12°</td>
+          <td class="tg">Electrically long — use rod antenna only per manual</td>
+          <td class="tg">Comparable</td>
+        </tr>
+      </table>
+      <div class="notes">
+        <div class="note-row"><strong>What it is:</strong> Loaded vertical — 4× black aluminum tubes (~51") + 2.5m stainless whip + sliding-contact induction coil. Total ~13.5' deployed. 1.4 kg, packs to 34.5 cm (~13.5"). Ground system: 10-strand wire mesh, use 3–4 strands.</div>
+        <div class="note-row"><strong>Coil loading trade-off:</strong> Low SWR ≠ high efficiency on 40m. A well-matched short loaded antenna still has real coil ohmic loss. On 40m expect 3–6 dB below a full ¼λ vertical with good radials. On 20m and up the penalty is small and largely irrelevant at QRP levels.</div>
+        <div class="note-row"><strong>Radial system matters:</strong> The included 10-strand mesh is the ground plane. 3–4 strands used per manual. Quality is unknown — treat as roughly equivalent to 3–4 short wire radials. Supplement with door screen or FSR if available.</div>
+        <div class="note-row"><strong>Band change procedure:</strong> Adjust sliding shrapnel contact position on coil + retract/extend whip per reference table. Marked positions for 20m and 40m. SWR meter or KX2 built-in bridge needed to fine-tune. More fiddly than the 17' whip + KXAT2.</div>
+        <div class="note-row"><strong>vs 17' whip:</strong> On 20m and up, performance is comparable. On 40m the 17' whip wins — it's ~½λ at 40m vs the JPC-12's heavily loaded ~⅛λ. The JPC-12's real advantage is pack size: 13.5" vs the 17' whip's 24" collapsed, and lighter overall.</div>
+        <div class="note-row"><strong>EN11 POTA niche:</strong> Best justified as a weight/size-critical hike-in antenna when 20–17m are your target bands. For drive-up or weight-tolerant activations, the 17' whip + ground screen outperforms it on 40m and equals it everywhere else.</div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end ant-grid -->
+
+<!-- ══════════════════════════════════════════
+     GROUND SYSTEM COMPARISON
+══════════════════════════════════════════ -->
+<div class="section-label">Ground system comparison — door screen vs CHA FSR vs wire radials</div>
+
+<div class="callout">
+  <strong>Context:</strong> For your 17' vertical and Rybakov, the ground system is at least as important as the antenna itself. These three options represent what you actually carry. The right choice depends on the park, not just RF performance.
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;margin-bottom:14px;">
+
+  <div class="deploy-card">
+    <div class="deploy-title">🪟 Aluminum door screen (hardware store)</div>
+    <div class="deploy-row"><span class="deploy-label">Size</span><span class="deploy-val tg">~17 sq ft (80"×36") — large ground plane</span></div>
+    <div class="deploy-row"><span class="deploy-label">Conductivity</span><span class="deploy-val tg">Aluminum mesh — excellent, very low loss</span></div>
+    <div class="deploy-row"><span class="deploy-label">RF performance</span><span class="deploy-val tg">Best of the three options</span></div>
+    <div class="deploy-row"><span class="deploy-label">40m benefit</span><span class="deploy-val tg">Strong — large area helps at lower freq</span></div>
+    <div class="deploy-row"><span class="deploy-label">20m+ benefit</span><span class="deploy-val tg">Excellent — Fresnel zone well covered</span></div>
+    <div class="deploy-row"><span class="deploy-label">Packed size</span><span class="deploy-val tr">Bulky — rolls up but awkward, ~36" tube</span></div>
+    <div class="deploy-row"><span class="deploy-label">Weight</span><span class="deploy-val ta">~1–1.5 lbs — light but cumbersome</span></div>
+    <div class="deploy-row"><span class="deploy-label">Setup time</span><span class="deploy-val tg">Fast — unroll, stake center, done</span></div>
+    <div class="deploy-row"><span class="deploy-label">Tripping hazard</span><span class="deploy-val ta">Moderate — low-profile but hard edge</span></div>
+    <div class="deploy-row"><span class="deploy-label">Durability</span><span class="deploy-val ta">Kinks and creases with repeated rolling</span></div>
+    <div class="deploy-row"><span class="deploy-label">Cost</span><span class="deploy-val tg">~$15–20</span></div>
+    <div class="notes" style="margin-top:8px;">
+      <strong>Best for:</strong> Drive-up parks, car camping style activations, anywhere you're not hiking in. The RF performance is hard to beat for the price. The limitation is purely physical — it's awkward to pack and eventually the mesh fatigues and tears at the folds. For your 17' vertical specifically, the large continuous surface area is ideal.
+    </div>
+  </div>
+
+  <div class="deploy-card">
+    <div class="deploy-title">⚡ CHA FSR (Chameleon Faraday Strip Radial)</div>
+    <div class="deploy-row"><span class="deploy-label">Size</span><span class="deploy-label">Two 20' strips in X = ~40 linear ft, ~6 sq ft effective area</span></div>
+    <div class="deploy-row"><span class="deploy-label">Conductivity</span><span class="deploy-val tg">Cu-Ni fabric, &lt;0.05Ω — very low loss</span></div>
+    <div class="deploy-row"><span class="deploy-label">RF performance</span><span class="deploy-val tg">23–28% better than 4×12.5' wire radials (Chameleon field data)</span></div>
+    <div class="deploy-row"><span class="deploy-label">vs door screen</span><span class="deploy-val ta">Slightly less total area — comparable in practice</span></div>
+    <div class="deploy-row"><span class="deploy-label">40m benefit</span><span class="deploy-val tg">Strong — strip length extends electrical reach</span></div>
+    <div class="deploy-row"><span class="deploy-label">20m+ benefit</span><span class="deploy-val tg">Excellent — strip width adds area near feedpoint</span></div>
+    <div class="deploy-row"><span class="deploy-label">Packed size</span><span class="deploy-val tg">Two 6×4" bundles — genuinely packable</span></div>
+    <div class="deploy-row"><span class="deploy-label">Weight</span><span class="deploy-val tg">5 lbs total with hardware</span></div>
+    <div class="deploy-row"><span class="deploy-label">Setup time</span><span class="deploy-val tg">Under 2 min — X pattern, stake ends</span></div>
+    <div class="deploy-row"><span class="deploy-label">Tripping hazard</span><span class="deploy-val tg">Low — visible TAN color, soft edges</span></div>
+    <div class="deploy-row"><span class="deploy-label">Durability</span><span class="deploy-val tg">Can be stepped on without damage</span></div>
+    <div class="deploy-row"><span class="deploy-label">MPAS compatible</span><span class="deploy-val tg">Yes — 3/8-24 adapter included</span></div>
+    <div class="deploy-row"><span class="deploy-label">Cost</span><span class="deploy-val ta">~$80–100</span></div>
+    <div class="notes" style="margin-top:8px;">
+      <strong>Best for:</strong> Hiking/backpacking activations, public parks where safety and visibility matter, and any deployment with the Rybakov/MPAS system where you want the integrated 3/8-24 mounting. The packability advantage over the door screen is real and significant.
+    </div>
+  </div>
+
+  <div class="deploy-card">
+    <div class="deploy-title">🔌 Wire radials (reference baseline)</div>
+    <div class="deploy-row"><span class="deploy-label">Typical config</span><span class="deploy-label">4× 12.5' or 2–4× 17–33' on ground</span></div>
+    <div class="deploy-row"><span class="deploy-label">Conductivity</span><span class="deploy-val tg">Wire — excellent conductor</span></div>
+    <div class="deploy-row"><span class="deploy-label">RF performance</span><span class="deploy-val ta">Good with 4+ radials; degrades fast with fewer</span></div>
+    <div class="deploy-row"><span class="deploy-label">vs FSR</span><span class="deploy-val ta">4× 12.5' wires = 23–28% worse than FSR (field data)</span></div>
+    <div class="deploy-row"><span class="deploy-label">vs door screen</span><span class="deploy-val ta">Usually worse unless many long radials</span></div>
+    <div class="deploy-row"><span class="deploy-label">Packed size</span><span class="deploy-val tg">Very small — wind on a card or spool</span></div>
+    <div class="deploy-row"><span class="deploy-label">Weight</span><span class="deploy-val tg">Lightest option</span></div>
+    <div class="deploy-row"><span class="deploy-label">Setup time</span><span class="deploy-val ta">Longer — untangle, stake, repeat per radial</span></div>
+    <div class="deploy-row"><span class="deploy-label">Tripping hazard</span><span class="deploy-val tr">High — nearly invisible, breakable</span></div>
+    <div class="deploy-row"><span class="deploy-label">Cost</span><span class="deploy-val tg">Near zero</span></div>
+    <div class="notes" style="margin-top:8px;">
+      <strong>Best for:</strong> Weight-critical deployments where every gram counts, or as a supplement to the FSR when you want to add radial count. On their own, four short wire radials are the weakest of the three options — the FSR and door screen both beat them on RF performance.
     </div>
   </div>
 
 </div>
 
-<!-- ── EFHW DEPLOYMENT DEEP DIVE ── -->
-<div class="section-label">EFHW deployment guide for EN11xe</div>
-<div class="callout" style="margin-bottom:14px;">
-  <strong>Context:</strong> From central Nebraska, you want to reach the eastern and western US simultaneously for POTA hunters. The key variable is which direction the apex points and whether you want NVIS (close contacts &lt;500mi) or skip (500–2000mi). Sunset greyline runs roughly NE–SW through EN11xe — orienting your sloper along that axis maximizes contacts during the window.
+<div class="cp-wrap" style="margin-bottom:14px;">
+  <div class="cp-title">Head-to-head: door screen vs CHA FSR — which to grab?</div>
+  <table class="cp-table">
+    <tr>
+      <th>Situation</th>
+      <th>Best choice</th>
+      <th>Reason</th>
+    </tr>
+    <tr>
+      <td>Drive-up park, operating from tailgate/table</td>
+      <td><span class="verdict v-best">Door screen</span></td>
+      <td class="td">No pack size penalty, maximum RF area, ~$15</td>
+    </tr>
+    <tr>
+      <td>Hike-in activation, pack on back</td>
+      <td><span class="verdict v-best">CHA FSR</span></td>
+      <td class="td">Two 6×4" bundles vs awkward 36" tube — no contest</td>
+    </tr>
+    <tr>
+      <td>Public park with pedestrian traffic</td>
+      <td><span class="verdict v-best">CHA FSR</span></td>
+      <td class="td">Visible TAN strips, soft edges, survives being stepped on</td>
+    </tr>
+    <tr>
+      <td>Using Rybakov/MPAS system</td>
+      <td><span class="verdict v-best">CHA FSR</span></td>
+      <td class="td">Integrated 3/8-24 adapter — direct mount, no adapter needed</td>
+    </tr>
+    <tr>
+      <td>Using 17' whip with separate base</td>
+      <td><span class="verdict v-good">Either</span></td>
+      <td class="td">RF performance roughly equal; door screen wins slightly on area</td>
+    </tr>
+    <tr>
+      <td>Wet grass / muddy ground</td>
+      <td><span class="verdict v-best">CHA FSR</span></td>
+      <td class="td">Oxford outer layer resists moisture absorption; screen corrodes over time</td>
+    </tr>
+    <tr>
+      <td>Long-term durability</td>
+      <td><span class="verdict v-best">CHA FSR</span></td>
+      <td class="td">Door screen fatigues and tears at fold lines after repeated use</td>
+    </tr>
+    <tr>
+      <td>Budget-constrained</td>
+      <td><span class="verdict v-good">Door screen</span></td>
+      <td class="td">~$15 vs ~$90 — hard to argue with for occasional use</td>
+    </tr>
+  </table>
+</div>
+
+<div class="callout">
+  <strong>Bottom line for EN11xe POTA use:</strong> Your door screen is a legitimately good ground plane and the RF performance difference vs the CHA FSR is small — probably indistinguishable at QRP levels on any given contact. The real question is deployment context. If you're carrying everything on your back into a state park, the FSR wins decisively on packability. If you're pulling up to a picnic table at a roadside park, the door screen is perfectly fine and costs nothing extra. Carrying both for different activation types is a reasonable strategy.
+</div>
+
+<!-- ══════════════════════════════════════════
+     EFHW DEEP DIVE
+══════════════════════════════════════════ -->
+<div class="section-label">EFHW deployment deep-dive — central US coverage strategy</div>
+
+<div class="callout">
+  <strong>Central Nebraska coverage context:</strong> For POTA, your typical hunter is 500–1500 miles away. On 40m that means you want moderate takeoff angles (30–50°) for regional contacts and some low-angle lobe for skip. On 20m and up, lower angles (15–25°) reach hunters across the continent. The deployment you choose shifts which of these you favor.
 </div>
 
 <div class="efhw-grid">
+
   <div class="deploy-card">
-    <div class="deploy-name">Inverted-V (apex up, ends down)</div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcf6f">40m</span><span class="deploy-data">45–55° NVIS · best for 200–600mi hunters</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcfcf">30m</span><span class="deploy-data">35–45° · solid regional coverage</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6f6fcf">20m</span><span class="deploy-data">25–35° · good skip · omnidirectional-ish</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#cfcf6f">17m</span><span class="deploy-data">20–30° · good skip</span></div>
-    <div style="margin-top:8px;font-size:12px;color:var(--text-dim)">Best for: parks where you need to work everyone, don't know the propagation direction. Apex at 25–30′ is the sweet spot — below 20′ and 40m goes almost pure NVIS.</div>
+    <div class="deploy-title"><span class="icon">🔺</span> Inverted-V (apex up)</div>
+    <div class="deploy-row"><span class="deploy-label">Best for</span><span class="deploy-val tg">40m regional, 30m</span></div>
+    <div class="deploy-row"><span class="deploy-label">40m takeoff</span><span class="deploy-val ta">45–55° (NVIS-ish)</span></div>
+    <div class="deploy-row"><span class="deploy-label">20m takeoff</span><span class="deploy-val tg">25–35°</span></div>
+    <div class="deploy-row"><span class="deploy-label">15m takeoff</span><span class="deploy-val tg">18–25°</span></div>
+    <div class="deploy-row"><span class="deploy-label">Pattern</span><span class="deploy-val">Figure-8, broadside to wire</span></div>
+    <div class="deploy-row"><span class="deploy-label">EN11 coverage on 40m</span><span class="deploy-val tg">~500–1200 mi all directions</span></div>
+    <div class="deploy-row"><span class="deploy-label">Setup difficulty</span><span class="deploy-val ta">Need 30'+ apex support</span></div>
+    <div class="deploy-row"><span class="deploy-label">Verdict</span><span class="deploy-val"><span class="verdict v-best">Best all-rounder</span></span></div>
+    <div class="notes" style="margin-top:8px;">
+      Apex at 30–35' gives excellent regional 40m coverage. Orient the wire N–S and you cover E and W hunters with the broadside lobes. On 20m the apex height provides low enough angle for good DX. <strong>Recommended default deployment from EN11.</strong>
+    </div>
   </div>
 
   <div class="deploy-card">
-    <div class="deploy-name">NE–SW Sloper (apex NE, feed end SW)</div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcf6f">40m</span><span class="deploy-data">30–40° toward NE · reaches Northeast + Gulf</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcfcf">30m</span><span class="deploy-data">22–32° · strong toward New England</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6f6fcf">20m</span><span class="deploy-data">15–22° · good DX lobe NE direction</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#cfcf6f">17m</span><span class="deploy-data">12–18° · DX-capable toward EU via NE path</span></div>
-    <div style="margin-top:8px;font-size:12px;color:var(--text-dim)">Best for: morning activations targeting eastern hunters. Greyline alignment. Apex at tree, feed end at ground level or low support.</div>
+    <div class="deploy-title"><span class="icon">↗</span> Sloper (high end ~30', low end ~6')</div>
+    <div class="deploy-row"><span class="deploy-label">Best for</span><span class="deploy-val tg">20m DX, 15m, 10m</span></div>
+    <div class="deploy-row"><span class="deploy-label">40m takeoff</span><span class="deploy-val tg">30–40°</span></div>
+    <div class="deploy-row"><span class="deploy-label">20m takeoff</span><span class="deploy-val tg">15–25°</span></div>
+    <div class="deploy-row"><span class="deploy-label">15m takeoff</span><span class="deploy-val tg">12–18°</span></div>
+    <div class="deploy-row"><span class="deploy-label">Pattern</span><span class="deploy-label">Directional toward low end</span></div>
+    <div class="deploy-row"><span class="deploy-label">EN11 coverage on 40m</span><span class="deploy-val tg">700–1800 mi, directional</span></div>
+    <div class="deploy-row"><span class="deploy-label">Direction gain</span><span class="deploy-val ta">2–4 dB toward low end vs inv-V</span></div>
+    <div class="deploy-row"><span class="deploy-label">Verdict</span><span class="deploy-val"><span class="verdict v-good">Best for DX hunters</span></span></div>
+    <div class="notes" style="margin-top:8px;">
+      Point the low end toward your target (NE for Europe from EN11, SE for Caribbean). On 20/15/10m the low-angle radiation is noticeably better than inv-V. <strong>Use this when a pile-up is forming on a DX band.</strong>
+    </div>
   </div>
 
   <div class="deploy-card">
-    <div class="deploy-name">E–W Sloper (apex E, feed end W)</div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcf6f">40m</span><span class="deploy-data">30–40° toward E · reaches East Coast well</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcfcf">30m</span><span class="deploy-data">22–30° · good East Coast</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6f6fcf">20m</span><span class="deploy-data">15–20° · good East + West in upper lobes</span></div>
-    <div style="margin-top:8px;font-size:12px;color:var(--text-dim)">Good compromise when you want both coasts. Less NVIS than inv-V, more directional than you might expect — EN11xe is centered enough that E–W covers a lot of population.</div>
+    <div class="deploy-title"><span class="icon">→</span> Near-Flat (both ends ~20–25')</div>
+    <div class="deploy-row"><span class="deploy-label">Best for</span><span class="deploy-val tg">20m, 15m, 10m skip</span></div>
+    <div class="deploy-row"><span class="deploy-label">40m takeoff</span><span class="deploy-val ta">30–45°</span></div>
+    <div class="deploy-row"><span class="deploy-label">20m takeoff</span><span class="deploy-val tg">18–28°</span></div>
+    <div class="deploy-row"><span class="deploy-label">15m takeoff</span><span class="deploy-val tg">12–20°</span></div>
+    <div class="deploy-row"><span class="deploy-label">Pattern</span><span class="deploy-val">Figure-8, broadside</span></div>
+    <div class="deploy-row"><span class="deploy-label">Height requirement</span><span class="deploy-val ta">Two supports at 20–25'</span></div>
+    <div class="deploy-row"><span class="deploy-label">Deployment</span><span class="deploy-val td">Two trees needed</span></div>
+    <div class="deploy-row"><span class="deploy-label">Verdict</span><span class="deploy-val"><span class="verdict v-good">Good when two trees available</span></span></div>
+    <div class="notes" style="margin-top:8px;">
+      Flattest radiation on 20–10m. Requires two good supports — less common in central NE parks. When you have them, it's the cleanest pattern for consistent performance across bands.
+    </div>
   </div>
 
   <div class="deploy-card">
-    <div class="deploy-name">Flat-top (both ends level)</div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcf6f">40m</span><span class="deploy-data">55–70° pure NVIS · &lt;300mi radius</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcfcf">30m</span><span class="deploy-data">40–55° regional NVIS</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6f6fcf">20m</span><span class="deploy-data">30–40° · marginal skip on 20m</span></div>
-    <div style="margin-top:8px;font-size:12px;color:var(--text-dim)">Only use this if your park has two trees at the same height and you're targeting local/regional contacts. Poor for skip on 40m from EN11xe.</div>
+    <div class="deploy-title"><span class="icon">📍</span> Low Sloper (high end ~15', low end on ground)</div>
+    <div class="deploy-row"><span class="deploy-label">Best for</span><span class="deploy-val ta">30m, 40m NVIS only</span></div>
+    <div class="deploy-row"><span class="deploy-label">40m takeoff</span><span class="deploy-val ta">50–70° (NVIS)</span></div>
+    <div class="deploy-row"><span class="deploy-label">20m takeoff</span><span class="deploy-val ta">40–55°</span></div>
+    <div class="deploy-row"><span class="deploy-label">40m EN11 range</span><span class="deploy-val ta">~300–700 mi close-in</span></div>
+    <div class="deploy-row"><span class="deploy-label">Deployment</span><span class="deploy-val tg">Very easy — 1 support</span></div>
+    <div class="deploy-row"><span class="deploy-label">Ground interaction</span><span class="deploy-val tr">High — lossy in wet grass</span></div>
+    <div class="deploy-row"><span class="deploy-label">Verdict</span><span class="deploy-val"><span class="verdict v-ok">Emergency/no-tree fallback</span></span></div>
+    <div class="notes" style="margin-top:8px;">
+      Ground proximity hurts efficiency. Use only when you have nothing better. <strong>In EN11 with 5W, you will make contacts but the window is narrow.</strong>
+    </div>
   </div>
 
-  <div class="deploy-card">
-    <div class="deploy-name">Low sloper (apex 15′, end 3′)</div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcf6f">40m</span><span class="deploy-data">50–65° · mostly NVIS even as sloper</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcfcf">30m</span><span class="deploy-data">40–50° · regional</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6f6fcf">20m</span><span class="deploy-data">25–35° · still decent skip</span></div>
-    <div style="margin-top:8px;font-size:12px;color:var(--text-dim)">When you only have a single low support (picnic table post, short tree). 20m works reasonably well. 40m will be regional/NVIS. Better than nothing by a large margin.</div>
-  </div>
+</div><!-- efhw-grid -->
 
-  <div class="deploy-card">
-    <div class="deploy-name">Inverted-L (vertical + horizontal)</div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcf6f">40m</span><span class="deploy-data">15–25° · best low-angle 40m of any config</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6fcfcf">30m</span><span class="deploy-data">18–28° · good skip</span></div>
-    <div class="deploy-row"><span class="deploy-band" style="color:#6f6fcf">20m</span><span class="deploy-data">Multiple lobes — variable</span></div>
-    <div style="margin-top:8px;font-size:12px;color:var(--text-dim)">Run ~20′ vertical from feedpoint then fold horizontal. Low-angle 40m champ. Needs at least 2 short radials (17′ each) or a ground screen.</div>
-  </div>
+<!-- ══════════════════════════════════════════
+     COUNTERPOISE DEEP DIVE
+══════════════════════════════════════════ -->
+<div class="section-label">EFHW counterpoise & coax shield — what actually matters</div>
+
+<div class="callout warn">
+  <strong>The fundamental issue:</strong> An EFHW transformer needs <em>something</em> to push against — RF current must go somewhere from the shield side. A counterpoise (or coax braid) provides this return path. Without it, RF flows back down your coax and into the KX2. This causes RFI, key clicks, hot chassis, and erratic SWR. The question isn't just efficiency — it's also station cleanliness.
 </div>
 
-<!-- ── COUNTERPOISE / COAX ── -->
-<div class="section-label">Counterpoise and coax analysis — 17′ vertical / Rybakov</div>
-
 <div class="cp-wrap">
-  <div class="cp-title">Ground system comparison</div>
+  <div class="cp-title">Counterpoise length comparison — 40m / 20m primary analysis</div>
   <table class="cp-table">
-    <tr><th>Ground system</th><th>40m loss vs ideal</th><th>20m loss</th><th>Notes</th></tr>
     <tr>
-      <td class="td"><strong style="color:var(--text-bright)">CHA FSR</strong></td>
-      <td><span class="verdict v-best">~1 dB</span></td>
-      <td><span class="verdict v-best">&lt;0.5 dB</span></td>
-      <td class="td">&lt;0.05Ω Cu-Ni fabric. 23–28% better field strength than 4×12.5′ wire radials per Chameleon field data. Integrated 3/8-24 mount for Rybakov/MPAS.</td>
+      <th>Configuration</th>
+      <th>40m effect</th>
+      <th>20m effect</th>
+      <th>RFI risk</th>
+      <th>Practical verdict</th>
     </tr>
     <tr>
-      <td class="td"><strong style="color:var(--text-bright)">Door screen (aluminum, ~36×80″)</strong></td>
-      <td><span class="verdict v-best">~1–1.5 dB</span></td>
-      <td><span class="verdict v-best">&lt;0.5 dB</span></td>
-      <td class="td">Larger continuous area than FSR strips. Comparable RF performance. ~$15. Corrodes at fold lines over time. Awkward to pack.</td>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">17' wire, on ground</td>
+      <td><span class="tg">Good (~½λ on 40m)</span></td>
+      <td><span class="ta">Fair (resonant length issue)</span></td>
+      <td><span class="tg">Low</span></td>
+      <td><span class="verdict v-good">Solid general choice</span></td>
     </tr>
     <tr>
-      <td class="td"><strong style="color:var(--text-bright)">4× quarter-wave wire radials (17′ each)</strong></td>
-      <td><span class="verdict v-good">~2–3 dB</span></td>
-      <td><span class="verdict v-good">~1–2 dB</span></td>
-      <td class="td">Better than nothing, worse than screen or FSR. Tripping hazard. 8+ radials closes the gap.</td>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">17' wire, elevated 3–4'</td>
+      <td><span class="tg">+1–2 dB vs on-ground</span></td>
+      <td><span class="tg">+1–2 dB vs on-ground</span></td>
+      <td><span class="tg">Very low</span></td>
+      <td><span class="verdict v-best">Best wire option</span></td>
     </tr>
     <tr>
-      <td class="td"><strong style="color:var(--text-bright)">No ground plane</strong></td>
-      <td><span class="verdict v-poor">3–6 dB</span></td>
-      <td><span class="verdict v-fair">2–4 dB</span></td>
-      <td class="td">Coax braid becomes the counterpoise — erratic, depends heavily on coax length. Common-mode current on feedline. Not recommended on 40m.</td>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">33' wire, on ground</td>
+      <td><span class="tg">Very good (full ½λ)</span></td>
+      <td><span class="tg">Good (full λ)</span></td>
+      <td><span class="tg">Low</span></td>
+      <td><span class="verdict v-best">Best wire length overall</span></td>
+    </tr>
+    <tr>
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">33' wire, elevated 3–4'</td>
+      <td><span class="tg">+1–3 dB vs on-ground</span></td>
+      <td><span class="tg">+1–3 dB vs on-ground</span></td>
+      <td><span class="tg">Very low</span></td>
+      <td><span class="verdict v-best">Optimal — use this if possible</span></td>
+    </tr>
+    <tr style="background:#1a1a0a;">
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">No wire — 25' coax only</td>
+      <td><span class="ta">Fair — coax braid acts as CP</span></td>
+      <td><span class="ta">Fair — length-dependent</span></td>
+      <td><span class="tr">Moderate–High</span></td>
+      <td><span class="verdict v-ok">Workable, not ideal</span></td>
+    </tr>
+    <tr style="background:#1a1a0a;">
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">No wire — 15' coax only</td>
+      <td><span class="ta">Fair on 20m (≈¼λ)</span></td>
+      <td><span class="tg">Good (≈¼λ at 20m)</span></td>
+      <td><span class="ta">Moderate</span></td>
+      <td><span class="verdict v-ok">Better on 20m than 40m</span></td>
+    </tr>
+    <tr style="background:#1a1a0a;">
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">No wire — 10' coax only</td>
+      <td><span class="tr">Poor on 40m</span></td>
+      <td><span class="ta">Marginal on 20m</span></td>
+      <td><span class="tr">High</span></td>
+      <td><span class="verdict v-poor">Avoid if possible</span></td>
+    </tr>
+    <tr style="background:#0d1a1a;">
+      <td style="font-family:var(--mono);font-size:12px;color:var(--text-bright);">No wire, no coax (direct)</td>
+      <td><span class="tr">Poor</span></td>
+      <td><span class="tr">Poor</span></td>
+      <td><span class="tr">Very High</span></td>
+      <td><span class="verdict v-poor">Don't do this</span></td>
     </tr>
   </table>
 </div>
 
-<div class="cp-wrap">
-  <div class="cp-title">Coax length without counterpoise — 17′ vertical</div>
-  <table class="cp-table">
-    <tr><th>Coax length</th><th>Effective as CP?</th><th>40m behavior</th><th>Recommendation</th></tr>
-    <tr>
-      <td class="td">25′ (7.6m)</td>
-      <td><span class="verdict v-fair">Marginal</span></td>
-      <td class="td">~0.18λ at 7 MHz — too short and too long for predictable resonance. High CM current, variable loss.</td>
-      <td><span class="verdict v-poor">Don't rely on it</span></td>
-    </tr>
-    <tr>
-      <td class="td">15′ (4.6m)</td>
-      <td><span class="verdict v-poor">Poor</span></td>
-      <td class="td">~0.11λ — very reactive, unpredictable. SWR swing, tuner may struggle.</td>
-      <td><span class="verdict v-poor">Add real ground plane</span></td>
-    </tr>
-    <tr>
-      <td class="td">10′ (3m)</td>
-      <td><span class="verdict v-poor">Poor</span></td>
-      <td class="td">Essentially no counterpoise. Antenna won't load efficiently on 40m.</td>
-      <td><span class="verdict v-poor">Always use ground plane</span></td>
-    </tr>
-    <tr>
-      <td class="td">33′ (10m) — ~λ/4 at 7 MHz</td>
-      <td><span class="verdict v-good">Acceptable</span></td>
-      <td class="td">Quarter-wave coax resonates as CP on 40m — intentional coax counterpoise technique. Still noisy vs screen.</td>
-      <td><span class="verdict v-good">Usable emergency fallback</span></td>
-    </tr>
-  </table>
-  <div class="callout warn" style="margin-top:10px"><strong>Bottom line:</strong> Random coax lengths without a deliberate ground plane give unpredictable results on 40m. Your door screen or CHA FSR solves this completely. The 33′ coax trick is a known POTA emergency technique but not a substitute for a real ground plane.</div>
+<div class="efhw-grid" style="grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));">
+
+  <div class="deploy-card">
+    <div class="deploy-title">📐 Why coax length matters without a wire CP</div>
+    <p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-bottom:8px;">
+      When you have no dedicated counterpoise wire, the coax braid <em>becomes</em> your counterpoise. Its electrical length (not physical — velocity factor ~0.66 for RG-174/RG-58) determines how well it works on each band.
+    </p>
+    <div class="deploy-row"><span class="deploy-label">10' coax physical → ~6.6' electrical</span><span class="deploy-val tr">Poor CP on any POTA band</span></div>
+    <div class="deploy-row"><span class="deploy-label">15' coax physical → ~9.9' electrical</span><span class="deploy-val ta">≈¼λ at 28 MHz only (10m)</span></div>
+    <div class="deploy-row"><span class="deploy-label">25' coax physical → ~16.5' electrical</span><span class="deploy-val ta">≈¼λ at 17–18 MHz (17m)</span></div>
+    <div class="deploy-row"><span class="deploy-label">33' coax physical → ~21.8' electrical</span><span class="deploy-val tg">≈¼λ at 14 MHz (20m)</span></div>
+    <div class="deploy-row"><span class="deploy-label">66' coax physical → ~43.6' electrical</span><span class="deploy-val tg">≈¼λ at 7 MHz (40m)</span></div>
+    <div class="notes" style="margin-top:8px;">
+      <strong>Practical takeaway:</strong> With 25' of coax and no wire, you'll get decent performance on 17m but marginal on 40m. Add even a short wire (17') to fix this. With a wire CP in place, coax length matters much less.
+    </div>
+  </div>
+
+  <div class="deploy-card">
+    <div class="deploy-title">⬆️ On-ground vs. elevated counterpoise</div>
+    <p style="font-size:12px;color:var(--text-dim);line-height:1.7;margin-bottom:8px;">
+      The gain from elevating a counterpoise is real but not dramatic for POTA work. At QRP levels the question is: does it make the difference between getting through or not?
+    </p>
+    <div class="deploy-row"><span class="deploy-label">On ground (dry grass/dirt)</span><span class="deploy-val ta">Baseline — some ground loss</span></div>
+    <div class="deploy-row"><span class="deploy-label">On ground (wet grass)</span><span class="deploy-val tr">Worse — higher loss, variable SWR</span></div>
+    <div class="deploy-row"><span class="deploy-label">Elevated 1–2' (on a pack)</span><span class="deploy-val tg">+0.5–1 dB — easy, do this</span></div>
+    <div class="deploy-row"><span class="deploy-label">Elevated 3–4' (on a branch)</span><span class="deploy-val tg">+1–2 dB — noticeably better</span></div>
+    <div class="deploy-row"><span class="deploy-label">Elevated 8–12' (on a pole)</span><span class="deploy-val tg">+2–3 dB — best practical option</span></div>
+    <div class="notes" style="margin-top:8px;">
+      <strong>Easiest field trick:</strong> Drape the counterpoise wire over your pack or a low branch. Even 18" off the ground measurably reduces ground loss. Takes 10 seconds.
+    </div>
+  </div>
+
+  <div class="deploy-card">
+    <div class="deploy-title">🎯 EN11 field recommendation — EFHW setup priority</div>
+    <div class="deploy-row"><span class="deploy-label">1st choice</span><span class="deploy-val tg">33' wire CP, elevated 3'+, inv-V</span></div>
+    <div class="deploy-row"><span class="deploy-label">2nd choice</span><span class="deploy-label">17' wire CP, on pack, inv-V</span></div>
+    <div class="deploy-row"><span class="deploy-label">3rd choice</span><span class="deploy-label">25' coax + 17' wire on ground</span></div>
+    <div class="deploy-row"><span class="deploy-label">DX push</span><span class="deploy-val tg">Sloper + 33' wire elevated</span></div>
+    <div class="deploy-row"><span class="deploy-label">Minimum viable</span><span class="deploy-val ta">25' coax, no wire (17m/20m only)</span></div>
+    <div class="deploy-row"><span class="deploy-label">Avoid</span><span class="deploy-val tr">10' coax, no wire, wet ground</span></div>
+    <div class="notes" style="margin-top:8px;">
+      <strong>QRP reality check:</strong> At 5W CW, a 1–2 dB improvement from a better counterpoise is the difference between a weak signal and a comfortable copy. Don't skimp on the CP setup.
+    </div>
+  </div>
+
 </div>
 
-<div class="cp-wrap">
-  <div class="cp-title">Head-to-head: door screen vs CHA FSR</div>
-  <table class="cp-table">
-    <tr><th>Situation</th><th>Best choice</th><th>Reason</th></tr>
-    <tr><td class="td">Drive-up park, operating from table</td><td><span class="verdict v-good">Door screen</span></td><td class="td">No pack penalty, more area, costs nothing extra</td></tr>
-    <tr><td class="td">Hike-in activation</td><td><span class="verdict v-best">CHA FSR</span></td><td class="td">Two small bundles vs awkward 36″ tube — no contest</td></tr>
-    <tr><td class="td">Public park with foot traffic</td><td><span class="verdict v-best">CHA FSR</span></td><td class="td">Visible strips, soft edges, survives being stepped on</td></tr>
-    <tr><td class="td">Using Rybakov / MPAS system</td><td><span class="verdict v-best">CHA FSR</span></td><td class="td">Integrated 3/8-24 adapter — direct mount</td></tr>
-    <tr><td class="td">Wet / muddy ground</td><td><span class="verdict v-best">CHA FSR</span></td><td class="td">Oxford outer layer resists moisture; screen corrodes at fold lines</td></tr>
-    <tr><td class="td">Budget-constrained</td><td><span class="verdict v-good">Door screen</span></td><td class="td">~$15 vs ~$90</td></tr>
-  </table>
-  <div class="callout" style="margin-top:10px">The RF difference between the two is small — probably indistinguishable at QRP levels on any given contact. Carrying both for different activation types is a rational strategy: door screen in the car bag, FSR in the hiking pack.</div>
+<!-- ══════════════════════════════════════════
+     QUICK DECISION MATRIX
+══════════════════════════════════════════ -->
+<div class="section-label">Quick deployment decision guide — EN11xe central US POTA</div>
+
+<div class="summary-grid">
+  <div class="sum-card">
+    <div class="sum-ant">40m — regional pile-up</div>
+    <div class="sum-row"><span class="sum-label">Best antenna</span><span class="sum-val tg">Inv-L or EFHW inv-V</span></div>
+    <div class="sum-row"><span class="sum-label">Target range</span><span class="sum-val">500–1500 mi</span></div>
+    <div class="sum-row"><span class="sum-label">Takeoff needed</span><span class="sum-val ta">35–55°</span></div>
+    <div class="sum-row"><span class="sum-label">Time of day</span><span class="sum-val td">All day + evening</span></div>
+  </div>
+  <div class="sum-card">
+    <div class="sum-ant">30m — steady contacts</div>
+    <div class="sum-row"><span class="sum-label">Best antenna</span><span class="sum-val tg">EFHW, Rybakov, Inv-L</span></div>
+    <div class="sum-row"><span class="sum-label">Target range</span><span class="sum-val">600–2000 mi</span></div>
+    <div class="sum-row"><span class="sum-label">Takeoff needed</span><span class="sum-val ta">25–40°</span></div>
+    <div class="sum-row"><span class="sum-label">Time of day</span><span class="sum-val td">Afternoon–evening best</span></div>
+  </div>
+  <div class="sum-card">
+    <div class="sum-ant">20m — maximum contacts</div>
+    <div class="sum-row"><span class="sum-label">Best antenna</span><span class="sum-val tg">EFHW sloper, Rybakov</span></div>
+    <div class="sum-row"><span class="sum-label">Target range</span><span class="sum-val">800–3000 mi</span></div>
+    <div class="sum-row"><span class="sum-label">Takeoff needed</span><span class="sum-val tg">15–25°</span></div>
+    <div class="sum-row"><span class="sum-label">Time of day</span><span class="sum-val td">Mid-morning–afternoon</span></div>
+  </div>
+  <div class="sum-card">
+    <div class="sum-ant">17/15m — high-band run</div>
+    <div class="sum-row"><span class="sum-label">Best antenna</span><span class="sum-val tg">17' vert, Rybakov, EFHW</span></div>
+    <div class="sum-row"><span class="sum-label">Target range</span><span class="sum-val">1000–4000 mi</span></div>
+    <div class="sum-row"><span class="sum-label">Takeoff needed</span><span class="sum-val tg">10–20°</span></div>
+    <div class="sum-row"><span class="sum-label">Time of day</span><span class="sum-val td">Midday when SFI &gt;120</span></div>
+  </div>
+  <div class="sum-card">
+    <div class="sum-ant">10m — cycle 25 bonus</div>
+    <div class="sum-row"><span class="sum-label">Best antenna</span><span class="sum-val tg">Any — propagation wins</span></div>
+    <div class="sum-row"><span class="sum-label">Target range</span><span class="sum-val">1500–7000 mi</span></div>
+    <div class="sum-row"><span class="sum-label">Takeoff needed</span><span class="sum-val tg">7–15°</span></div>
+    <div class="sum-row"><span class="sum-label">Time of day</span><span class="sum-val td">Midday; watch for openings</span></div>
+  </div>
+  <div class="sum-card">
+    <div class="sum-ant">Limited space / no trees</div>
+    <div class="sum-row"><span class="sum-label">Best antenna</span><span class="sum-val tg">17' vert on screen</span></div>
+    <div class="sum-row"><span class="sum-label">Next choice</span><span class="sum-val ta">Rybakov on fabric radials</span></div>
+    <div class="sum-row"><span class="sum-label">Loop option</span><span class="sum-val ta">CHA TDL (20m+ only)</span></div>
+    <div class="sum-row"><span class="sum-label">Avoid</span><span class="sum-val tr">Low sloper, no CP</span></div>
+    <div class="sum-row"><span class="sum-label">Notes</span><span class="sum-val td">Prairie parks: verticals win</span></div>
+  </div>
 </div>
 
 </main>
 
 <footer>
-  <span>WK0E · EN11xe · Central Nebraska</span>
-  <span>NEC2 models · data current as of Apr 2026 · <a href="/">wk0e.net</a></span>
+  Generated for <span>EN11xe</span> · Central Nebraska · QRP CW POTA ·
+  Data based on NEC2/4NEC2 consensus models, W7EL EZNEC community results, ON4UN Low-Band DXing, and ARRL Antenna Book ·
+  All takeoff angles assume real ground (ε=13, σ=0.005) ·
+  Ratings are relative — all antennas work at 5W with good propagation
 </footer>
 
 </body>
