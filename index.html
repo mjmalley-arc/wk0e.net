@@ -2,14 +2,347 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>WK0E</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WK&#x2F;0E · Marty Malley</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg: #0d1117;
+  --panel: #161b22;
+  --panel2: #1c2330;
+  --border: #30363d;
+  --green: #39d353;
+  --green-dim: #0f2e1a;
+  --amber: #e3a008;
+  --amber-dim: #2a1f08;
+  --blue: #58a6ff;
+  --blue-dim: #1a3a6b;
+  --red: #f85149;
+  --text: #c9d1d9;
+  --text-dim: #8b949e;
+  --text-bright: #f0f6fc;
+  --mono: 'Share Tech Mono', monospace;
+  --cond: 'Barlow Condensed', sans-serif;
+  --body: 'Barlow', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: var(--body); font-size: 15px; line-height: 1.6; }
+
+/* ── HERO ── */
+.hero {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 40px 36px;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 50%, rgba(57,211,83,0.04) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 60% at 20% 80%, rgba(88,166,255,0.03) 0%, transparent 70%),
+    var(--bg);
+}
+
+/* Subtle grid texture */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(57,211,83,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(57,211,83,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.hero-inner { max-width: 860px; position: relative; z-index: 1; }
+
+.hero-eyebrow {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--green);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.hero-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 1px;
+  background: var(--green);
+}
+
+.hero-call {
+  font-family: var(--cond);
+  font-weight: 900;
+  font-size: clamp(4rem, 12vw, 9rem);
+  line-height: 0.9;
+  color: var(--text-bright);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.slashed-zero {
+  font-family: 'Fira Code', monospace;
+  font-weight: 700;
+  font-feature-settings: "zero" 1;
+}
+
+.hero-name {
+  font-family: var(--cond);
+  font-weight: 300;
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  color: var(--text-dim);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.hero-bio {
+  font-family: var(--body);
+  font-size: 1.05rem;
+  color: var(--text);
+  max-width: 560px;
+  line-height: 1.7;
+  margin-bottom: 36px;
+  border-left: 2px solid var(--green);
+  padding-left: 18px;
+}
+
+/* Contact row */
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 48px;
+}
+.contact-chip {
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.contact-chip:hover { border-color: var(--green); color: var(--green); }
+.contact-chip .chip-icon { font-size: 14px; }
+
+/* ── TOOLS SECTION ── */
+.tools-section {
+  padding: 0 40px 40px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+.tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-bottom: 48px; }
+
+.tool-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 20px 22px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color 0.15s, background 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+.tool-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--green);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s;
+}
+.tool-card:hover { border-color: var(--green); background: #161f17; }
+.tool-card:hover::before { transform: scaleX(1); }
+
+.tool-card.blue::before { background: var(--blue); }
+.tool-card.blue:hover { border-color: var(--blue); background: #111a24; }
+
+.tool-name {
+  font-family: var(--cond);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-bright);
+}
+.tool-desc { font-size: 13px; color: var(--text-dim); line-height: 1.5; }
+.tool-arrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--green);
+  margin-top: auto;
+  padding-top: 8px;
+}
+.tool-card.blue .tool-arrow { color: var(--blue); }
+
+/* External link cards */
+.tool-card.external .tool-name::after {
+  content: ' ↗';
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+
+/* ── POTA STATS ── */
+.pota-section {
+  padding: 0 40px 60px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.pota-embed {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.pota-embed-header {
+  background: var(--panel2);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pota-embed-header span { color: var(--green); }
+.pota-embed iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  background: transparent;
+}
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 40px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+footer a { color: var(--blue); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .hero { padding: 48px 24px; min-height: auto; padding-top: 80px; }
+  .tools-section, .pota-section { padding-left: 24px; padding-right: 24px; }
+  footer { padding: 20px 24px; flex-direction: column; }
+  .call-zero::after { height: 1.5px; }
+}
+</style>
 </head>
 <body>
-<h1>WK0E</h1>
-<p>Ham radio tools and projects.</p>
-<ul>
-<li><a href="/prop/">Propagation Dashboard</a></li>
-<li><a href="/ebclock/">EB Clock</a></li>
-</ul>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Amateur Radio · EN11xe · Central Nebraska</div>
+
+    <div class="hero-call">WK<span class="slashed-zero">0</span>E</div>
+
+    <div class="hero-name">Marty Malley</div>
+
+    <div class="contact-row">
+      <a class="contact-chip" href="mailto:wk0e@arrl.net">
+        <span class="chip-icon">✉</span> wk0e@arrl.net
+      </a>
+      <a class="contact-chip" href="https://www.qrz.com/db/WK0E" target="_blank" rel="noopener">
+        <span class="chip-icon">⬡</span> QRZ · WK0E
+      </a>
+      <a class="contact-chip" href="https://pota.app/#/profile/WK0E" target="_blank" rel="noopener">
+        <span class="chip-icon">▲</span> POTA profile
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── TOOLS ── -->
+<section class="tools-section">
+  <div class="section-label">Tools &amp; references</div>
+  <div class="tool-grid">
+
+    <a class="tool-card" href="/prop/">
+      <div class="tool-name">Propagation Dashboard</div>
+      <div class="tool-desc">Live HF band conditions for EN11xe. Per-band go/no-go grid, POTA activity, space weather, and 3-day forecast. Updated every 3 hours.</div>
+      <div class="tool-arrow">→ open dashboard</div>
+    </a>
+
+    <a class="tool-card blue" href="/antennas/">
+      <div class="tool-name">Antenna Field Reference</div>
+      <div class="tool-desc">Takeoff angles, deployment configs, and ground system analysis for EFHW, verticals, and other portable antennas from central Nebraska.</div>
+      <div class="tool-arrow">→ open reference</div>
+    </a>
+
+    <a class="tool-card external blue" href="https://www.qrz.com/db/WK0E" target="_blank" rel="noopener">
+      <div class="tool-name">QRZ Page</div>
+      <div class="tool-desc">Callsign lookup, log search, and station info on QRZ.com.</div>
+      <div class="tool-arrow">→ qrz.com/db/WK0E</div>
+    </a>
+
+  </div>
+</section>
+
+<!-- ── POTA STATS ── -->
+<section class="pota-section">
+  <div class="section-label">POTA activator stats</div>
+  <div class="pota-embed">
+    <div class="pota-embed-header">
+      <span>WK0E</span>
+      <span style="color:var(--text-dim)">via pota-stats.wd4dan.net</span>
+    </div>
+    <iframe
+      src="https://pota-stats.wd4dan.net/?call=WK0E&options=condensed"
+      height="350"
+      scrolling="no"
+      title="POTA stats for WK0E">
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  <span>WK0E · Marty Malley · EN11xe</span>
+  <span><a href="mailto:wk0e@arrl.net">wk0e@arrl.net</a></span>
+</footer>
+
 </body>
 </html>
