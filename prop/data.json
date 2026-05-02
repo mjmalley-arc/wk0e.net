@@ -1,82 +1,82 @@
 {
-  "generated": "2026-05-02T14:41:12Z",
+  "generated": "2026-05-02T17:33:14Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-02T14:41:12.031946+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-05-02T17:33:14.081031+00:00",
+    "currentHourUTC": 17,
     "current": {
       "sfi": 145,
-      "ssn": 140,
-      "kp": 2,
-      "bz": 0
+      "ssn": 133,
+      "kp": 1.67,
+      "bz": 4.2
     },
     "n0nbh": {
-      "xray": "C1.4",
+      "xray": "C1.3",
       "aIndex": "14",
-      "aurora": "1",
-      "solarWind": "436.9",
-      "magneticField": "3.8",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "02 May 2026 1419 GMT"
+      "aurora": "2",
+      "solarWind": "433.6",
+      "magneticField": "-0.2",
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "02 May 2026 1720 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 16.8,
-        "luf": 3.8
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 15.7,
-        "luf": 3.6
+        "muf": 21.9,
+        "luf": 4.4
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 16.1,
-        "luf": 3.7
+        "muf": 21.3,
+        "luf": 4.4
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 21,
+        "luf": 4.3
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 15,
-        "luf": 3.3
+        "muf": 20.6,
+        "luf": 4.2
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13.4,
-        "luf": 3.3
+        "muf": 18.7,
+        "luf": 4.2
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 13.9,
-        "luf": 3
+        "muf": 19.9,
+        "luf": 4.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 13.2,
-        "luf": 3
+        "muf": 18.9,
+        "luf": 4.1
       }
     ],
     "currentByBand": {
-      "40m": 62,
-      "30m": 71,
-      "20m": 46,
-      "17m": 11,
-      "15m": 3,
-      "12m": 0,
+      "40m": 54,
+      "30m": 62,
+      "20m": 72,
+      "17m": 57,
+      "15m": 27,
+      "12m": 8,
       "10m": 0
     },
     "avgGrid": {
       "40m": {
-        "0": 59,
-        "1": 62,
+        "0": 60,
+        "1": 63,
         "2": 66,
         "3": 70,
         "4": 74,
@@ -85,16 +85,16 @@
         "7": 77,
         "8": 72,
         "9": 73,
-        "10": 78,
+        "10": 77,
         "11": 79,
-        "12": 72,
+        "12": 73,
         "13": 67,
         "14": 62,
         "15": 58,
         "16": 56,
         "17": 54,
         "18": 53,
-        "19": 52,
+        "19": 53,
         "20": 53,
         "21": 54,
         "22": 55,
@@ -118,10 +118,10 @@
         "14": 71,
         "15": 67,
         "16": 64,
-        "17": 61,
+        "17": 62,
         "18": 60,
         "19": 59,
-        "20": 59,
+        "20": 60,
         "21": 60,
         "22": 61,
         "23": 62
@@ -149,7 +149,7 @@
         "19": 69,
         "20": 68,
         "21": 69,
-        "22": 69,
+        "22": 70,
         "23": 71
       },
       "17m": {
@@ -171,8 +171,8 @@
         "15": 23,
         "16": 41,
         "17": 57,
-        "18": 70,
-        "19": 75,
+        "18": 69,
+        "19": 74,
         "20": 76,
         "21": 76,
         "22": 73,
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-02T15:00:00",
-        "value": 2.67
-      },
-      {
         "time": "2026-05-02T18:00:00",
         "value": 3
       },
@@ -340,49 +336,49 @@
       }
     ],
     "potaCounts": {
-      "40m": 17,
-      "30m": 1,
-      "20m": 51,
-      "17m": 9,
-      "15m": 1,
+      "40m": 16,
+      "30m": 5,
+      "20m": 90,
+      "17m": 6,
+      "15m": 8,
       "12m": 0,
-      "10m": 1
+      "10m": 2
     },
     "potaModes": {
       "40m": {
         "CW": 4,
-        "SSB": 8,
-        "FT8": 3,
+        "SSB": 11,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 2
+        "Other": 1
       },
       "30m": {
-        "CW": 0,
+        "CW": 3,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 6,
-        "SSB": 35,
-        "FT8": 6,
-        "FT4": 2,
+        "CW": 20,
+        "SSB": 44,
+        "FT8": 24,
+        "FT4": 0,
         "Other": 2
       },
       "17m": {
-        "CW": 2,
-        "SSB": 4,
+        "CW": 1,
+        "SSB": 2,
         "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 2,
+        "SSB": 4,
+        "FT8": 1,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "12m": {
         "CW": 0,
@@ -393,17 +389,28 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 1,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "KR4CLX",
+        "frequency": "14335",
+        "mode": "SSB",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "56 OH",
+        "spotTime": "2026-05-02T17:25:25",
+        "grid": "EN11we"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-05-02",
-        "TimeStamp": "14:39:00",
+        "TimeStamp": "17:31:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,17 +429,17 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-02",
-        "TimeStamp": "14:39:00",
+        "TimeStamp": "17:31:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "40",
+          "MinorProb": "45",
           "MajorProb": "5"
         },
         "S": {
           "Scale": null,
           "Text": null,
-          "Prob": "1"
+          "Prob": "5"
         },
         "G": {
           "Scale": "0",
@@ -445,13 +452,13 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "40",
+          "MinorProb": "45",
           "MajorProb": "5"
         },
         "S": {
           "Scale": null,
           "Text": null,
-          "Prob": "1"
+          "Prob": "5"
         },
         "G": {
           "Scale": "0",
@@ -460,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-01",
-        "TimeStamp": "14:39:00",
+        "TimeStamp": "17:31:00",
         "R": {
           "Scale": "0",
           "Text": "none",
