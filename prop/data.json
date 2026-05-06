@@ -1,76 +1,76 @@
 {
-  "generated": "2026-05-06T11:44:11Z",
+  "generated": "2026-05-06T16:12:16Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-06T11:44:10.709171+00:00",
-    "currentHourUTC": 11,
+    "fetched": "2026-05-06T16:12:16.134535+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 128,
-      "ssn": 107,
+      "ssn": 111,
       "kp": 0.67,
-      "bz": 5.3
+      "bz": 5.8
     },
     "n0nbh": {
-      "xray": "B5.4",
+      "xray": "B8.1",
       "aIndex": "12",
       "aurora": "1",
-      "solarWind": "371.2",
-      "magneticField": "5.5",
-      "geomag": "INACTIVE",
+      "solarWind": "379.9",
+      "magneticField": "6.0",
+      "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "06 May 2026 1121 GMT"
+      "updated": "06 May 2026 1521 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 10.4,
-        "luf": 1.8
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 9.7,
-        "luf": 1.6
+        "muf": 18.8,
+        "luf": 3.4
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 10,
-        "luf": 1.7
+        "muf": 18.3,
+        "luf": 3.4
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 17.9,
+        "luf": 3.3
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 9.3,
-        "luf": 1.4
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 8.3,
-        "luf": 1.4
+        "muf": 17.4,
+        "luf": 3.2
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 8.3,
-        "luf": 1.2
+        "muf": 15.7,
+        "luf": 3.1
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 8.8,
-        "luf": 1.2
+        "muf": 16.6,
+        "luf": 3
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 15.7,
+        "luf": 3.2
       }
     ],
     "currentByBand": {
-      "40m": 77,
-      "30m": 24,
-      "20m": 7,
-      "17m": 0,
-      "15m": 0,
-      "12m": 0,
+      "40m": 59,
+      "30m": 67,
+      "20m": 69,
+      "17m": 25,
+      "15m": 8,
+      "12m": 2,
       "10m": 0
     },
     "avgGrid": {
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-06T12:00:00",
-        "value": 1.67
-      },
-      {
-        "time": "2026-05-06T15:00:00",
-        "value": 2.33
-      },
-      {
         "time": "2026-05-06T18:00:00",
         "value": 2
       },
@@ -276,11 +268,11 @@
       },
       {
         "time": "2026-05-07T00:00:00",
-        "value": 3.33
+        "value": 2
       },
       {
         "time": "2026-05-07T03:00:00",
-        "value": 3
+        "value": 2
       },
       {
         "time": "2026-05-07T06:00:00",
@@ -288,11 +280,11 @@
       },
       {
         "time": "2026-05-07T09:00:00",
-        "value": 1.33
+        "value": 2.33
       },
       {
         "time": "2026-05-07T12:00:00",
-        "value": 2.33
+        "value": 2.67
       },
       {
         "time": "2026-05-07T15:00:00",
@@ -308,11 +300,11 @@
       },
       {
         "time": "2026-05-08T00:00:00",
-        "value": 4
+        "value": 3.67
       },
       {
         "time": "2026-05-08T03:00:00",
-        "value": 3.67
+        "value": 4
       },
       {
         "time": "2026-05-08T06:00:00",
@@ -328,7 +320,7 @@
       },
       {
         "time": "2026-05-08T15:00:00",
-        "value": 2.33
+        "value": 2.67
       },
       {
         "time": "2026-05-08T18:00:00",
@@ -344,19 +336,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 9,
-      "30m": 1,
-      "20m": 4,
+      "40m": 5,
+      "30m": 0,
+      "20m": 45,
       "17m": 0,
-      "15m": 0,
+      "15m": 2,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 4,
-        "SSB": 2,
-        "FT8": 3,
+        "CW": 0,
+        "SSB": 5,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -365,14 +357,14 @@
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "20m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 1,
-        "FT4": 0,
-        "Other": 1
+        "CW": 16,
+        "SSB": 14,
+        "FT8": 13,
+        "FT4": 2,
+        "Other": 0
       },
       "17m": {
         "CW": 0,
@@ -383,8 +375,8 @@
       },
       "15m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "SSB": 1,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -407,7 +399,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-06",
-        "TimeStamp": "11:42:00",
+        "TimeStamp": "16:10:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,11 +418,11 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-06",
-        "TimeStamp": "11:42:00",
+        "TimeStamp": "16:10:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "25",
+          "MinorProb": "15",
           "MajorProb": "1"
         },
         "S": {
@@ -449,8 +441,8 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "25",
-          "MajorProb": "1"
+          "MinorProb": "20",
+          "MajorProb": "5"
         },
         "S": {
           "Scale": null,
@@ -464,7 +456,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-05",
-        "TimeStamp": "11:42:00",
+        "TimeStamp": "16:10:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +487,6 @@
       "astronomical_twilight_begin": "2026-05-06T09:25:53+00:00",
       "astronomical_twilight_end": "2026-05-07T03:15:39+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 May 06 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale\nG1).\nThe greatest expected 3 hr Kp for May 06-May 08 2026 is 4.33 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown May 06-May 08 2026\n\n             May 06       May 07       May 08\n00-03UT       2.67         3.33         4.00     \n03-06UT       2.33         3.00         3.67     \n06-09UT       2.00         2.33         3.33     \n09-12UT       1.33         1.33         3.00     \n12-15UT       1.67         2.33         2.33     \n15-18UT       2.33         3.00         2.33     \n18-21UT       2.00         3.67         3.33     \n21-00UT       2.67         4.33         3.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-19 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for May 06-May 08 2026\n\n              May 06  May 07  May 08\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for May 06-May 08 2026\n\n              May 06        May 07        May 08\nR1-R2           25%           25%           35%\nR3 or greater    1%            1%            5%\n\nRationale: There is an increasing chance for isolated R1-R2\n(Minor-Moderate) radio blackouts on 06-08 May, primarily due to Region\n4429 and an active region (likely old Region 4419) near L=330 (seen in\nSolar Orbiter imagery and expected to rotate into view on 08 May).\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 May 06 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for May 06-May 08 2026 is 4.33 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown May 06-May 08 2026\n\n             May 06       May 07       May 08\n00-03UT       0.67         3.33         4.00     \n03-06UT       0.67         3.00         3.67     \n06-09UT       0.67         2.33         3.33     \n09-12UT       1.00         1.33         3.00     \n12-15UT       1.67         2.33         2.33     \n15-18UT       2.33         3.00         2.33     \n18-21UT       2.00         3.67         3.33     \n21-00UT       2.67         4.33         3.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-19 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for May 06-May 08 2026\n\n              May 06  May 07  May 08\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for May 06-May 08 2026\n\n              May 06        May 07        May 08\nR1-R2           25%           25%           35%\nR3 or greater    1%            1%            5%\n\nRationale: There is an increasing chance for isolated R1-R2\n(Minor-Moderate) radio blackouts on 06-08 May, primarily due to Region\n4429 and an active region (likely old Region 4419) near L=330 (seen in\nSolar Orbiter imagery and expected to rotate into view on 08 May).\n"
   }
 }
