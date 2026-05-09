@@ -1,75 +1,75 @@
 {
-  "generated": "2026-05-09T11:38:30Z",
+  "generated": "2026-05-09T15:15:56Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-09T11:38:29.657208+00:00",
-    "currentHourUTC": 11,
+    "fetched": "2026-05-09T15:15:55.938871+00:00",
+    "currentHourUTC": 15,
     "current": {
       "sfi": 120,
       "ssn": 68,
-      "kp": 1,
-      "bz": -0.4
+      "kp": 1.33,
+      "bz": -2.3
     },
     "n0nbh": {
-      "xray": "B7.4",
+      "xray": "B8.4",
       "aIndex": "12",
-      "aurora": "1",
-      "solarWind": "490.1",
-      "magneticField": "2.1",
+      "aurora": "2",
+      "solarWind": "483.8",
+      "magneticField": "-1.8",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "09 May 2026 1105 GMT"
+      "updated": "09 May 2026 1505 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 10.3,
-        "luf": 1.9
+        "muf": 16.9,
+        "luf": 3.4
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 9.6,
-        "luf": 1.7
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 9.1,
-        "luf": 1.5
+        "muf": 16,
+        "luf": 3.3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 9.9,
-        "luf": 1.8
+        "muf": 16.4,
+        "luf": 3.4
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 15.4,
+        "luf": 3.1
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 8.2,
-        "luf": 1.4
+        "muf": 13.8,
+        "luf": 3.1
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 8.7,
-        "luf": 1.2
+        "muf": 14.5,
+        "luf": 2.9
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 8.2,
-        "luf": 1.2
+        "muf": 13.7,
+        "luf": 2.9
       }
     ],
     "currentByBand": {
-      "40m": 59,
-      "30m": 30,
-      "20m": 6,
-      "17m": 1,
-      "15m": 1,
+      "40m": 38,
+      "30m": 49,
+      "20m": 50,
+      "17m": 16,
+      "15m": 4,
       "12m": 1,
       "10m": 1
     },
@@ -259,20 +259,12 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-09T12:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-05-09T15:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-05-09T18:00:00",
-        "value": 2
+        "value": 2.33
       },
       {
         "time": "2026-05-09T21:00:00",
-        "value": 2.67
+        "value": 3
       },
       {
         "time": "2026-05-10T00:00:00",
@@ -344,21 +336,21 @@
       }
     ],
     "potaCounts": {
-      "40m": 12,
+      "40m": 21,
       "30m": 1,
-      "20m": 6,
-      "17m": 0,
-      "15m": 0,
-      "12m": 0,
-      "10m": 0
+      "20m": 60,
+      "17m": 2,
+      "15m": 3,
+      "12m": 1,
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 7,
-        "SSB": 2,
-        "FT8": 3,
+        "CW": 5,
+        "SSB": 11,
+        "FT8": 4,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
         "CW": 1,
@@ -368,37 +360,37 @@
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 5,
+        "CW": 17,
+        "SSB": 31,
+        "FT8": 8,
+        "FT4": 2,
+        "Other": 2
+      },
+      "17m": {
+        "CW": 1,
+        "SSB": 0,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
-      "17m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
-      },
       "15m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       }
@@ -407,7 +399,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-09",
-        "TimeStamp": "11:37:00",
+        "TimeStamp": "15:13:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +418,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-09",
-        "TimeStamp": "11:37:00",
+        "TimeStamp": "15:13:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +456,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-08",
-        "TimeStamp": "11:37:00",
+        "TimeStamp": "15:13:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +487,6 @@
       "astronomical_twilight_begin": "2026-05-09T09:20:46+00:00",
       "astronomical_twilight_end": "2026-05-10T03:20:26+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 May 09 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for May 09-May 11 2026 is 3.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown May 09-May 11 2026\n\n             May 09       May 10       May 11\n00-03UT       2.67         2.67         1.67     \n03-06UT       3.00         2.00         2.67     \n06-09UT       2.67         2.00         2.67     \n09-12UT       2.00         1.67         1.67     \n12-15UT       2.00         1.00         1.33     \n15-18UT       1.67         0.67         1.33     \n18-21UT       2.00         1.00         2.00     \n21-00UT       2.67         1.67         2.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. \n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-19 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for May 09-May 11 2026\n\n              May 09  May 10  May 11\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for May 09-May 11 2026\n\n              May 09        May 10        May 11\nR1-R2           45%           45%           45%\nR3 or greater   10%           10%           10%\n\nRationale: There exists a chance for R1-R2 (Minor-Moderate) radio\nblackouts, with a slight chance for R3 (Strong), over 09-11 May.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 May 09 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for May 09-May 11 2026 is 2.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown May 09-May 11 2026\n\n             May 09       May 10       May 11\n00-03UT       2.33         2.67         1.67     \n03-06UT       1.33         2.00         2.67     \n06-09UT       1.00         2.00         2.67     \n09-12UT       1.67         1.67         1.67     \n12-15UT       2.00         1.00         1.33     \n15-18UT       1.67         0.67         1.33     \n18-21UT       2.00         1.00         2.00     \n21-00UT       2.67         1.67         2.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-19 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for May 09-May 11 2026\n\n              May 09  May 10  May 11\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for May 09-May 11 2026\n\n              May 09        May 10        May 11\nR1-R2           45%           45%           45%\nR3 or greater   10%           10%           10%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts\nand a slight chance for an R3 (Strong or greater) event.\n"
   }
 }
