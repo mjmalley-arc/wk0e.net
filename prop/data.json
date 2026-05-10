@@ -1,76 +1,76 @@
 {
-  "generated": "2026-05-10T20:32:37Z",
+  "generated": "2026-05-10T23:37:20Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-10T20:32:36.969877+00:00",
-    "currentHourUTC": 20,
+    "fetched": "2026-05-10T23:37:20.283280+00:00",
+    "currentHourUTC": 23,
     "current": {
-      "sfi": 122,
+      "sfi": 126,
       "ssn": 89,
-      "kp": 1.33,
-      "bz": 1.7
+      "kp": 1.67,
+      "bz": -3.2
     },
     "n0nbh": {
-      "xray": "B8.3",
+      "xray": "B8.0",
       "aIndex": "5",
       "aurora": "2",
-      "solarWind": "378.4",
-      "magneticField": "0.2",
+      "solarWind": "394.4",
+      "magneticField": "0.1",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "10 May 2026 2025 GMT"
+      "updated": "10 May 2026 2326 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 21.7,
-        "luf": 3.6
+        "muf": 19.2,
+        "luf": 2.6
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 21.6,
-        "luf": 3.6
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 20,
-        "luf": 3.8
+        "muf": 19.6,
+        "luf": 2.8
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 21.5,
-        "luf": 3.6
+        "muf": 19.2,
+        "luf": 2.7
       },
       {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 21.7,
-        "luf": 3.7
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 19,
+        "luf": 3.1
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 22.2,
-        "luf": 3.8
+        "muf": 21.9,
+        "luf": 3.3
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 20.3,
+        "luf": 2.9
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 21,
-        "luf": 3.9
+        "muf": 20.7,
+        "luf": 3.3
       }
     ],
     "currentByBand": {
-      "40m": 31,
-      "30m": 45,
-      "20m": 53,
-      "17m": 55,
-      "15m": 53,
-      "12m": 21,
+      "40m": 42,
+      "30m": 51,
+      "20m": 55,
+      "17m": 57,
+      "15m": 35,
+      "12m": 10,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-10T21:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-05-11T00:00:00",
         "value": 1.67
       },
@@ -332,19 +328,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
+      "40m": 13,
       "30m": 0,
-      "20m": 61,
-      "17m": 6,
-      "15m": 5,
+      "20m": 49,
+      "17m": 2,
+      "15m": 1,
       "12m": 0,
       "10m": 2
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 5,
-        "FT8": 0,
+        "CW": 3,
+        "SSB": 8,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
@@ -356,23 +352,23 @@
         "Other": 0
       },
       "20m": {
-        "CW": 16,
-        "SSB": 21,
-        "FT8": 17,
-        "FT4": 6,
+        "CW": 10,
+        "SSB": 27,
+        "FT8": 10,
+        "FT4": 1,
         "Other": 1
       },
       "17m": {
-        "CW": 2,
-        "SSB": 4,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 4,
+        "SSB": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -391,22 +387,11 @@
         "Other": 1
       }
     },
-    "en11Spots": [
-      {
-        "activator": "WB0RLJ",
-        "frequency": "14033.5",
-        "mode": "CW",
-        "ref": "US-2614",
-        "name": "Eugene T. Mahoney State Park",
-        "comments": "RBN 8 dB 23 WPM via W8WTS-#",
-        "spotTime": "2026-05-10T20:32:13",
-        "grid": "EN11ua"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-05-10",
-        "TimeStamp": "20:31:00",
+        "TimeStamp": "23:36:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -425,7 +410,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-10",
-        "TimeStamp": "20:31:00",
+        "TimeStamp": "23:36:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -463,7 +448,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-09",
-        "TimeStamp": "20:31:00",
+        "TimeStamp": "23:36:00",
         "R": {
           "Scale": "2",
           "Text": "moderate",
