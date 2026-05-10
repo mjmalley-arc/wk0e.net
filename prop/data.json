@@ -1,73 +1,73 @@
 {
-  "generated": "2026-05-10T07:49:43Z",
+  "generated": "2026-05-10T11:38:35Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-10T07:49:43.220295+00:00",
-    "currentHourUTC": 7,
+    "fetched": "2026-05-10T11:38:34.506512+00:00",
+    "currentHourUTC": 11,
     "current": {
       "sfi": 122,
-      "ssn": 81,
-      "kp": 1.33,
-      "bz": null
+      "ssn": 98,
+      "kp": 1.67,
+      "bz": 0.5
     },
     "n0nbh": {
-      "xray": "B7.6",
+      "xray": "B7.3",
       "aIndex": "5",
       "aurora": "2",
-      "solarWind": "446.8",
-      "magneticField": "1.9",
+      "solarWind": "411.0",
+      "magneticField": "-0.1",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "10 May 2026 0707 GMT"
+      "updated": "10 May 2026 1107 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 7.8,
-        "luf": 0.7
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 7.9,
-        "luf": 0.6
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 7.8,
-        "luf": 0.7
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 7.8,
-        "luf": 0.6
+        "muf": 9.6,
+        "luf": 1.8
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 8.2,
-        "luf": 0.6
+        "muf": 9.2,
+        "luf": 1.6
       },
       {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 9.3,
-        "luf": 0.6
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 10.3,
+        "luf": 2
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 9.9,
+        "luf": 1.9
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
+        "muf": 8.3,
+        "luf": 1.4
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 8.3,
+        "luf": 1.6
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
         "muf": 8.8,
-        "luf": 0.6
+        "luf": 1.3
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 17,
-      "20m": 3,
+      "40m": 59,
+      "30m": 31,
+      "20m": 6,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-10T09:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-05-10T12:00:00",
         "value": 1.67
       },
@@ -348,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
+      "40m": 13,
       "30m": 0,
-      "20m": 0,
+      "20m": 5,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -358,11 +354,11 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 8,
+        "SSB": 3,
+        "FT8": 1,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
         "CW": 0,
@@ -372,9 +368,9 @@
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 2,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
@@ -411,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-10",
-        "TimeStamp": "07:47:00",
+        "TimeStamp": "11:37:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -430,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-10",
-        "TimeStamp": "07:47:00",
+        "TimeStamp": "11:37:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -440,7 +436,7 @@
         "S": {
           "Scale": null,
           "Text": null,
-          "Prob": "1"
+          "Prob": "5"
         },
         "G": {
           "Scale": "0",
@@ -468,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-09",
-        "TimeStamp": "07:47:00",
+        "TimeStamp": "11:37:00",
         "R": {
           "Scale": "0",
           "Text": "none",
