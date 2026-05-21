@@ -1,74 +1,74 @@
 {
-  "generated": "2026-05-21T04:18:42Z",
+  "generated": "2026-05-21T09:55:07Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-21T04:18:41.509291+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-05-21T09:55:07.261443+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 114,
       "ssn": 67,
-      "kp": 3,
-      "bz": 0.7
+      "kp": 1,
+      "bz": 0.3
     },
     "n0nbh": {
-      "xray": "B5.4",
+      "xray": "B6.4",
       "aIndex": "8",
-      "aurora": "2",
-      "solarWind": "456.2",
-      "magneticField": "-0.9",
-      "geomag": "UNSETTLD",
-      "signalNoise": "S2-S3",
-      "updated": "21 May 2026 0353 GMT"
+      "aurora": "1",
+      "solarWind": "428.6",
+      "magneticField": "0.3",
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "21 May 2026 0953 GMT"
     },
     "paths": [
       {
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 8,
+        "luf": 1.1
+      },
+      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 10.7,
+        "muf": 7.7,
         "luf": 0.9
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 10.4,
-        "luf": 0.9
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 11,
-        "luf": 1.1
+        "muf": 7.8,
+        "luf": 1
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 11.5,
-        "luf": 1
-      },
-      {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 10.2,
+        "muf": 7.6,
         "luf": 0.8
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 13.4,
-        "luf": 1.3
+        "muf": 7.9,
+        "luf": 0.7
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 7,
+        "luf": 0.8
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 12.6,
-        "luf": 1.3
+        "muf": 7.4,
+        "luf": 0.7
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 16,
-      "17m": 2,
+      "30m": 13,
+      "20m": 1,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-21T06:00:00",
-        "value": 2.33
-      },
-      {
-        "time": "2026-05-21T09:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-05-21T12:00:00",
         "value": 1.67
       },
@@ -354,17 +346,17 @@
     "potaCounts": {
       "40m": 1,
       "30m": 0,
-      "20m": 2,
+      "20m": 1,
       "17m": 0,
       "15m": 0,
       "12m": 0,
-      "10m": 1
+      "10m": 0
     },
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "SSB": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -377,8 +369,8 @@
       },
       "20m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 2,
+        "SSB": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -406,7 +398,7 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-21",
-        "TimeStamp": "04:17:00",
+        "TimeStamp": "09:53:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-21",
-        "TimeStamp": "04:17:00",
+        "TimeStamp": "09:53:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-20",
-        "TimeStamp": "04:17:00",
+        "TimeStamp": "09:53:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -491,7 +483,18 @@
       }
     },
     "flareAlert": null,
-    "sun": {},
+    "sun": {
+      "sunrise": "2026-05-21T10:58:39+00:00",
+      "sunset": "2026-05-22T01:42:56+00:00",
+      "solar_noon": "2026-05-21T18:20:48+00:00",
+      "day_length": 53057,
+      "civil_twilight_begin": "2026-05-21T10:28:12+00:00",
+      "civil_twilight_end": "2026-05-22T02:13:23+00:00",
+      "nautical_twilight_begin": "2026-05-21T09:48:03+00:00",
+      "nautical_twilight_end": "2026-05-22T02:53:33+00:00",
+      "astronomical_twilight_begin": "2026-05-21T09:02:25+00:00",
+      "astronomical_twilight_end": "2026-05-22T03:39:10+00:00"
+    },
     "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 May 21 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for May 21-May 23 2026 is 3.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown May 21-May 23 2026\n\n             May 21       May 22       May 23\n00-03UT       2.67         2.67         2.33     \n03-06UT       3.67         3.00         2.67     \n06-09UT       2.33         2.00         2.33     \n09-12UT       2.00         1.67         1.67     \n12-15UT       1.67         0.67         1.67     \n15-18UT       2.33         1.67         2.00     \n18-21UT       2.33         2.33         2.33     \n21-00UT       3.00         2.67         2.33     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. \n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-19 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for May 21-May 23 2026\n\n              May 21  May 22  May 23\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\n\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for May 21-May 23 2026\n\n              May 21        May 22        May 23\nR1-R2           20%           25%           25%\nR3 or greater    5%            5%            5%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts on 21 May, increasing to a chance on 22-23 May due to regions\nanticipated to rotate onto the visible disk in that interval.\n"
   }
 }
