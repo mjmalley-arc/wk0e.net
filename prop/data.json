@@ -1,74 +1,74 @@
 {
-  "generated": "2026-05-22T04:14:11Z",
+  "generated": "2026-05-22T09:40:01Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-22T04:14:10.904228+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-05-22T09:40:01.034599+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 118,
       "ssn": 76,
-      "kp": 1.33,
-      "bz": -2.9
+      "kp": 1.67,
+      "bz": 0.2
     },
     "n0nbh": {
-      "xray": "B6.8",
+      "xray": "B7.8",
       "aIndex": "7",
-      "aurora": "1",
-      "solarWind": "394.2",
-      "magneticField": "-1.7",
+      "aurora": "3",
+      "solarWind": "369.8",
+      "magneticField": "-0.3",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "22 May 2026 0354 GMT"
+      "updated": "22 May 2026 0854 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 10.5,
-        "luf": 0.7
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 10.6,
-        "luf": 0.7
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 11.8,
-        "luf": 0.9
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 11.3,
-        "luf": 1
+        "muf": 8.2,
+        "luf": 1.2
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11,
+        "muf": 7.9,
+        "luf": 1.1
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 8,
+        "luf": 1.2
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 7.8,
+        "luf": 0.9
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 7.6,
         "luf": 0.8
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 13.8,
-        "luf": 1.1
+        "muf": 8.1,
+        "luf": 0.8
       },
       {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13,
-        "luf": 1.1
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 7.2,
+        "luf": 0.9
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 18,
-      "17m": 3,
+      "30m": 13,
+      "20m": 2,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-22T06:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-05-22T09:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-05-22T12:00:00",
         "value": 0.67
       },
@@ -352,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 3,
-      "30m": 0,
-      "20m": 2,
+      "40m": 0,
+      "30m": 1,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -363,7 +355,7 @@
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 3,
+        "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -371,15 +363,15 @@
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
-        "FT4": 1,
+        "FT8": 0,
+        "FT4": 0,
         "Other": 0
       },
       "17m": {
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-22",
-        "TimeStamp": "04:11:00",
+        "TimeStamp": "09:38:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-22",
-        "TimeStamp": "04:11:00",
+        "TimeStamp": "09:38:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-21",
-        "TimeStamp": "04:11:00",
+        "TimeStamp": "09:38:00",
         "R": {
           "Scale": "0",
           "Text": "none",
