@@ -1,73 +1,73 @@
 {
-  "generated": "2026-05-24T08:38:30Z",
+  "generated": "2026-05-24T10:45:20Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-24T08:38:30.145102+00:00",
-    "currentHourUTC": 8,
+    "fetched": "2026-05-24T10:45:20.223876+00:00",
+    "currentHourUTC": 10,
     "current": {
       "sfi": 137,
       "ssn": 86,
-      "kp": 1,
-      "bz": -1.4
+      "kp": 1.33,
+      "bz": -1.7
     },
     "n0nbh": {
-      "xray": "B7.5",
+      "xray": "B8.0",
       "aIndex": "3",
       "aurora": "2",
-      "solarWind": "311.7",
-      "magneticField": "1.0",
+      "solarWind": "300.6",
+      "magneticField": "-3.4",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "24 May 2026 0756 GMT"
+      "updated": "24 May 2026 0957 GMT"
     },
     "paths": [
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 7.9,
-        "luf": 0.8
+        "muf": 8.9,
+        "luf": 1.4
       },
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.1,
-        "luf": 0.9
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 7.9,
-        "luf": 0.8
+        "muf": 9.4,
+        "luf": 1.6
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 8.1,
-        "luf": 0.7
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 8.3,
-        "luf": 0.6
+        "muf": 8.6,
+        "luf": 1.3
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 8.7,
-        "luf": 0.6
+        "muf": 8.5,
+        "luf": 1
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 7.5,
-        "luf": 0.7
+        "muf": 7.8,
+        "luf": 1.2
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 9.1,
+        "luf": 1.5
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 8,
+        "luf": 1
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 14,
-      "20m": 2,
+      "30m": 19,
+      "20m": 4,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-24T09:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-05-24T12:00:00",
         "value": 1.33
       },
@@ -348,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
+      "40m": 1,
       "30m": 0,
-      "20m": 1,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -360,7 +356,7 @@
       "40m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -374,7 +370,7 @@
       "20m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -411,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-24",
-        "TimeStamp": "08:36:00",
+        "TimeStamp": "10:44:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -430,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-24",
-        "TimeStamp": "08:36:00",
+        "TimeStamp": "10:44:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -468,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-23",
-        "TimeStamp": "08:36:00",
+        "TimeStamp": "10:44:00",
         "R": {
           "Scale": "0",
           "Text": "none",
