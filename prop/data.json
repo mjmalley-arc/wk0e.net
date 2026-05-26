@@ -1,77 +1,77 @@
 {
-  "generated": "2026-05-26T20:21:06Z",
+  "generated": "2026-05-26T22:24:39Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-26T20:21:05.689587+00:00",
-    "currentHourUTC": 20,
+    "fetched": "2026-05-26T22:24:38.615238+00:00",
+    "currentHourUTC": 22,
     "current": {
-      "sfi": 139,
+      "sfi": 141,
       "ssn": 148,
-      "kp": 1,
-      "bz": -5.7
+      "kp": 2.33,
+      "bz": 6.6
     },
     "n0nbh": {
-      "xray": "B9.4",
-      "aIndex": "8",
-      "aurora": "2",
-      "solarWind": "450.0",
-      "magneticField": "-6.7",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "26 May 2026 1958 GMT"
+      "xray": "C1.8",
+      "aIndex": "6",
+      "aurora": "3",
+      "solarWind": "415.1",
+      "magneticField": "-7.3",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "26 May 2026 2159 GMT"
     },
     "paths": [
       {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 23.2,
-        "luf": 3.8
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 22,
+        "luf": 3.7
       },
       {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 22.9,
-        "luf": 3.7
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 22.6,
+        "luf": 3.8
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 23.7,
-        "luf": 4
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 21.3,
-        "luf": 3.9
+        "muf": 24,
+        "luf": 4.2
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 22.4,
+        "muf": 22.7,
+        "luf": 4.3
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 21,
         "luf": 4
       },
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 23,
-        "luf": 3.7
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 21.7,
+        "luf": 3.6
       },
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 23.2,
-        "luf": 3.7
+        "muf": 21.8,
+        "luf": 3.5
       }
     ],
     "currentByBand": {
-      "40m": 28,
-      "30m": 44,
-      "20m": 52,
-      "17m": 55,
-      "15m": 56,
-      "12m": 34,
-      "10m": 5
+      "40m": 34,
+      "30m": 47,
+      "20m": 53,
+      "17m": 56,
+      "15m": 57,
+      "12m": 29,
+      "10m": 3
     },
     "avgGrid": {
       "40m": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-26T21:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-05-27T00:00:00",
         "value": 2.67
       },
@@ -332,24 +328,24 @@
       }
     ],
     "potaCounts": {
-      "40m": 4,
-      "30m": 0,
-      "20m": 46,
-      "17m": 1,
-      "15m": 1,
+      "40m": 8,
+      "30m": 3,
+      "20m": 36,
+      "17m": 2,
+      "15m": 0,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
+        "CW": 2,
         "SSB": 3,
-        "FT8": 0,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 3,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -357,13 +353,13 @@
       },
       "20m": {
         "CW": 14,
-        "SSB": 16,
-        "FT8": 10,
-        "FT4": 5,
-        "Other": 1
+        "SSB": 17,
+        "FT8": 3,
+        "FT4": 2,
+        "Other": 0
       },
       "17m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
@@ -372,7 +368,7 @@
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -391,11 +387,22 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "7032.5",
+        "mode": "CW",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "RBN 12 dB 23 WPM via KO4BHX-#",
+        "spotTime": "2026-05-26T22:24:23",
+        "grid": "EN11we"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-05-26",
-        "TimeStamp": "20:19:00",
+        "TimeStamp": "22:23:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -414,7 +421,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-26",
-        "TimeStamp": "20:19:00",
+        "TimeStamp": "22:23:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -452,7 +459,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-25",
-        "TimeStamp": "20:19:00",
+        "TimeStamp": "22:23:00",
         "R": {
           "Scale": "0",
           "Text": "none",
