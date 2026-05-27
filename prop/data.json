@@ -1,74 +1,74 @@
 {
-  "generated": "2026-05-27T04:22:34Z",
+  "generated": "2026-05-27T10:07:10Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-27T04:22:34.538315+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-05-27T10:07:10.040695+00:00",
+    "currentHourUTC": 10,
     "current": {
       "sfi": 141,
-      "ssn": 148,
-      "kp": 2.33,
-      "bz": 0.7
+      "ssn": 150,
+      "kp": 3,
+      "bz": 3.6
     },
     "n0nbh": {
-      "xray": "B8.5",
+      "xray": "B7.7",
       "aIndex": "8",
-      "aurora": "4",
-      "solarWind": "408.2",
-      "magneticField": "-6.0",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "27 May 2026 0359 GMT"
+      "aurora": "1",
+      "solarWind": "396.7",
+      "magneticField": "1.2",
+      "geomag": "UNSETTLD",
+      "signalNoise": "S2-S3",
+      "updated": "27 May 2026 0958 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 11.3,
-        "luf": 0.9
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 11.9,
-        "luf": 1
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 12.8,
-        "luf": 1.1
+        "muf": 9.7,
+        "luf": 2.1
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 11.5,
-        "luf": 0.9
+        "muf": 9.4,
+        "luf": 1.9
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 8.8,
+        "luf": 1.6
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 9.1,
+        "luf": 1.8
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 12.2,
-        "luf": 1.2
+        "muf": 8,
+        "luf": 1.5
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14.9,
-        "luf": 1.4
+        "muf": 8.7,
+        "luf": 1.3
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 14.1,
-        "luf": 1.4
+        "muf": 8.2,
+        "luf": 1.3
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 29,
-      "17m": 4,
+      "30m": 23,
+      "20m": 5,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-27T06:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-05-27T09:00:00",
-        "value": 2.33
-      },
-      {
         "time": "2026-05-27T12:00:00",
         "value": 2.33
       },
@@ -352,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
-      "30m": 1,
-      "20m": 2,
+      "40m": 1,
+      "30m": 0,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -363,7 +355,7 @@
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -371,14 +363,14 @@
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 1,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-27",
-        "TimeStamp": "04:20:00",
+        "TimeStamp": "10:05:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-27",
-        "TimeStamp": "04:20:00",
+        "TimeStamp": "10:05:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-26",
-        "TimeStamp": "04:20:00",
+        "TimeStamp": "10:05:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -480,8 +472,8 @@
           "MajorProb": null
         },
         "S": {
-          "Scale": "1",
-          "Text": "minor",
+          "Scale": "0",
+          "Text": "none",
           "Prob": null
         },
         "G": {
