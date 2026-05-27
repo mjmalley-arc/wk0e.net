@@ -1,77 +1,77 @@
 {
-  "generated": "2026-05-27T20:25:17Z",
+  "generated": "2026-05-27T22:45:12Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-27T20:25:17.075585+00:00",
-    "currentHourUTC": 20,
+    "fetched": "2026-05-27T22:45:11.898129+00:00",
+    "currentHourUTC": 22,
     "current": {
-      "sfi": 141,
+      "sfi": 142,
       "ssn": 165,
-      "kp": 3,
-      "bz": -2.9
+      "kp": 2.67,
+      "bz": 1.7
     },
     "n0nbh": {
-      "xray": "B7.8",
-      "aIndex": "8",
-      "aurora": "2",
-      "solarWind": "380.5",
-      "magneticField": "2.1",
-      "geomag": "UNSETTLD",
-      "signalNoise": "S2-S3",
-      "updated": "27 May 2026 1959 GMT"
+      "xray": "B9.3",
+      "aIndex": "11",
+      "aurora": "3",
+      "solarWind": "397.6",
+      "magneticField": "0.8",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "27 May 2026 2159 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 23.3,
-        "luf": 4.7
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 23,
-        "luf": 4.7
+        "muf": 21.8,
+        "luf": 3.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 23.1,
-        "luf": 4.7
+        "muf": 22.1,
+        "luf": 3.8
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 21.8,
+        "luf": 3.7
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 23.3,
-        "luf": 4.8
+        "muf": 22.7,
+        "luf": 4
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 21.4,
-        "luf": 4.9
+        "muf": 21.1,
+        "luf": 4.2
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 23.8,
-        "luf": 5
+        "muf": 24.1,
+        "luf": 4.4
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 22.5,
-        "luf": 5.1
+        "muf": 22.8,
+        "luf": 4.5
       }
     ],
     "currentByBand": {
-      "40m": 27,
-      "30m": 44,
-      "20m": 52,
-      "17m": 55,
-      "15m": 56,
-      "12m": 35,
-      "10m": 5
+      "40m": 34,
+      "30m": 47,
+      "20m": 53,
+      "17m": 56,
+      "15m": 57,
+      "12m": 31,
+      "10m": 3
     },
     "avgGrid": {
       "40m": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-27T21:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-05-28T00:00:00",
         "value": 3
       },
@@ -332,45 +328,45 @@
       }
     ],
     "potaCounts": {
-      "40m": 3,
-      "30m": 1,
-      "20m": 50,
-      "17m": 2,
-      "15m": 3,
-      "12m": 1,
-      "10m": 1
+      "40m": 13,
+      "30m": 2,
+      "20m": 47,
+      "17m": 7,
+      "15m": 2,
+      "12m": 0,
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 1,
-        "FT8": 0,
+        "CW": 4,
+        "SSB": 7,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 17,
-        "SSB": 22,
-        "FT8": 8,
-        "FT4": 2,
+        "CW": 14,
+        "SSB": 20,
+        "FT8": 9,
+        "FT4": 3,
         "Other": 1
       },
       "17m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 1,
+        "SSB": 5,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 2,
         "FT4": 0,
@@ -379,7 +375,7 @@
       "12m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -388,14 +384,25 @@
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "14033.5",
+        "mode": "CW",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "BIG  599 SIG INTO THE COUNTY OF BUCK$  PA",
+        "spotTime": "2026-05-27T22:44:56",
+        "grid": "EN11we"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-05-27",
-        "TimeStamp": "20:23:00",
+        "TimeStamp": "22:44:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -403,8 +410,8 @@
           "MajorProb": null
         },
         "S": {
-          "Scale": "1",
-          "Text": "minor",
+          "Scale": "0",
+          "Text": "none",
           "Prob": null
         },
         "G": {
@@ -414,7 +421,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-27",
-        "TimeStamp": "20:23:00",
+        "TimeStamp": "22:44:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -452,7 +459,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-26",
-        "TimeStamp": "20:23:00",
+        "TimeStamp": "22:44:00",
         "R": {
           "Scale": "0",
           "Text": "none",
