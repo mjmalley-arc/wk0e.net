@@ -1,74 +1,74 @@
 {
-  "generated": "2026-05-30T10:49:22Z",
+  "generated": "2026-05-30T13:54:02Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-30T10:49:21.678550+00:00",
-    "currentHourUTC": 10,
+    "fetched": "2026-05-30T13:54:02.334076+00:00",
+    "currentHourUTC": 13,
     "current": {
       "sfi": 148,
       "ssn": 114,
-      "kp": 1.33,
-      "bz": 1.3
+      "kp": 1.67,
+      "bz": 1
     },
     "n0nbh": {
-      "xray": "B8.5",
+      "xray": "B8.3",
       "aIndex": "15",
-      "aurora": "1",
-      "solarWind": "388.2",
+      "aurora": "2",
+      "solarWind": "414.3",
       "magneticField": "3.8",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "30 May 2026 1000 GMT"
+      "updated": "30 May 2026 1301 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 9.7,
-        "luf": 1.7
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 9.1,
-        "luf": 1.5
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 8.7,
-        "luf": 1.1
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 9.3,
-        "luf": 1.6
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 8,
-        "luf": 1.2
+        "muf": 14.6,
+        "luf": 3.2
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 8.8,
-        "luf": 1.3
+        "muf": 12.9,
+        "luf": 2.7
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 14,
+        "luf": 3.1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 11.9,
+        "luf": 2.4
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 8.2,
-        "luf": 1.1
+        "muf": 11.3,
+        "luf": 2.4
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 13.6,
+        "luf": 2.9
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 11.5,
+        "luf": 2.6
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 23,
-      "20m": 4,
-      "17m": 1,
+      "40m": 46,
+      "30m": 53,
+      "20m": 31,
+      "17m": 5,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-30T12:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-05-30T15:00:00",
         "value": 3
       },
@@ -344,47 +340,47 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
-      "30m": 0,
-      "20m": 1,
-      "17m": 0,
-      "15m": 0,
+      "40m": 30,
+      "30m": 3,
+      "20m": 38,
+      "17m": 2,
+      "15m": 3,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
-        "SSB": 2,
-        "FT8": 0,
+        "CW": 6,
+        "SSB": 18,
+        "FT8": 6,
         "FT4": 0,
-        "Other": 2
+        "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 1
+        "CW": 6,
+        "SSB": 19,
+        "FT8": 11,
+        "FT4": 2,
+        "Other": 0
       },
       "17m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -407,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-30",
-        "TimeStamp": "10:47:00",
+        "TimeStamp": "13:53:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-30",
-        "TimeStamp": "10:47:00",
+        "TimeStamp": "13:53:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-29",
-        "TimeStamp": "10:47:00",
+        "TimeStamp": "13:53:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +491,6 @@
       "astronomical_twilight_begin": "2026-05-30T08:51:47+00:00",
       "astronomical_twilight_end": "2026-05-31T03:51:45+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 May 30 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for May 30-Jun 01 2026 is 4.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown May 30-Jun 01 2026\n\n             May 30       May 31       Jun 01\n00-03UT       2.00         3.00         3.00     \n03-06UT       2.00         2.33         3.00     \n06-09UT       4.00         2.33         2.67     \n09-12UT       2.00         1.67         2.00     \n12-15UT       2.00         3.33         2.67     \n15-18UT       3.00         2.67         2.00     \n18-21UT       1.00         4.00         2.67     \n21-00UT       2.00         3.67         2.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for May 30-Jun 01 2026\n\n              May 30  May 31  Jun 01\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nRadio blackouts reaching the R1 levels were observed over the past 24\nhours. The largest was at May 29 2026 0704 UTC.\n\nRadio Blackout Forecast for May 30-Jun 01 2026\n\n              May 30        May 31        Jun 01\nR1-R2           40%           40%           40%\nR3 or greater    5%            5%            5%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts\nover 30 May-01 Jun.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 May 30 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for May 30-Jun 01 2026 is 4.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown May 30-Jun 01 2026\n\n             May 30       May 31       Jun 01\n00-03UT       3.33         3.00         3.00     \n03-06UT       3.00         2.33         3.00     \n06-09UT       1.33         2.33         2.67     \n09-12UT       1.67         1.67         2.00     \n12-15UT       2.00         3.33         2.67     \n15-18UT       3.00         2.67         2.00     \n18-21UT       1.00         4.00         2.67     \n21-00UT       2.00         3.67         2.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for May 30-Jun 01 2026\n\n              May 30  May 31  Jun 01\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for May 30-Jun 01 2026\n\n              May 30        May 31        Jun 01\nR1-R2           40%           40%           40%\nR3 or greater    5%            5%            5%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts\nover 30 May-01 Jun.\n"
   }
 }
