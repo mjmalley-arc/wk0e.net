@@ -1,75 +1,75 @@
 {
-  "generated": "2026-05-30T03:59:50Z",
+  "generated": "2026-05-30T08:34:51Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-05-30T03:59:49.735428+00:00",
-    "currentHourUTC": 3,
+    "fetched": "2026-05-30T08:34:50.759174+00:00",
+    "currentHourUTC": 8,
     "current": {
       "sfi": 148,
-      "ssn": 135,
-      "kp": 3.33,
-      "bz": 1.3
+      "ssn": 114,
+      "kp": 3,
+      "bz": 5.9
     },
     "n0nbh": {
-      "xray": "B8.4",
+      "xray": "C2.5",
       "aIndex": "15",
-      "aurora": "3",
-      "solarWind": "380.6",
-      "magneticField": "-2.3",
+      "aurora": "1",
+      "solarWind": "370.1",
+      "magneticField": "5.5",
       "geomag": "UNSETTLD",
       "signalNoise": "S2-S3",
-      "updated": "30 May 2026 0300 GMT"
+      "updated": "30 May 2026 0800 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 13,
-        "luf": 1.3
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 13.2,
-        "luf": 1.3
+        "muf": 8.3,
+        "luf": 1.2
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 13.7,
-        "luf": 1.4
+        "muf": 8.1,
+        "luf": 1
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 14,
-        "luf": 1.7
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 8.1,
+        "luf": 1.1
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 14.7,
-        "luf": 1.6
+        "muf": 8.3,
+        "luf": 0.9
       },
       {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 16,
-        "luf": 2.1
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 7.7,
+        "luf": 0.9
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 16.9,
-        "luf": 2
+        "muf": 9,
+        "luf": 0.8
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 8.5,
+        "luf": 0.8
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 47,
-      "17m": 13,
-      "15m": 3,
+      "30m": 15,
+      "20m": 3,
+      "17m": 1,
+      "15m": 1,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-05-30T06:00:00",
-        "value": 4
-      },
-      {
         "time": "2026-05-30T09:00:00",
         "value": 2
       },
@@ -352,10 +348,10 @@
       }
     ],
     "potaCounts": {
-      "40m": 4,
-      "30m": 1,
-      "20m": 5,
-      "17m": 1,
+      "40m": 1,
+      "30m": 0,
+      "20m": 1,
+      "17m": 0,
       "15m": 0,
       "12m": 0,
       "10m": 0
@@ -363,13 +359,13 @@
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 3,
+        "SSB": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -377,15 +373,15 @@
       },
       "20m": {
         "CW": 0,
-        "SSB": 2,
-        "FT8": 3,
+        "SSB": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +411,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-05-30",
-        "TimeStamp": "03:58:00",
+        "TimeStamp": "08:33:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +430,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-05-30",
-        "TimeStamp": "03:58:00",
+        "TimeStamp": "08:33:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,10 +468,10 @@
       },
       "yesterday": {
         "DateStamp": "2026-05-29",
-        "TimeStamp": "03:58:00",
+        "TimeStamp": "08:33:00",
         "R": {
-          "Scale": "1",
-          "Text": "minor",
+          "Scale": "0",
+          "Text": "none",
           "MinorProb": null,
           "MajorProb": null
         },
