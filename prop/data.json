@@ -1,74 +1,74 @@
 {
-  "generated": "2026-06-02T04:43:30Z",
+  "generated": "2026-06-02T10:47:00Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-02T04:43:30.204618+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-06-02T10:46:59.649186+00:00",
+    "currentHourUTC": 10,
     "current": {
       "sfi": 132,
-      "ssn": 146,
-      "kp": 2.33,
-      "bz": 0.1
+      "ssn": 98,
+      "kp": 1.67,
+      "bz": -1.3
     },
     "n0nbh": {
-      "xray": "B9.3",
+      "xray": "C1.3",
       "aIndex": "9",
-      "aurora": "3",
-      "solarWind": "393.4",
-      "magneticField": "-1.1",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "02 Jun 2026 0402 GMT"
+      "aurora": "2",
+      "solarWind": "389.6",
+      "magneticField": "-1.8",
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "02 Jun 2026 1002 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 11,
-        "luf": 0.8
+        "muf": 9.4,
+        "luf": 1.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.5,
-        "luf": 0.9
+        "muf": 8.9,
+        "luf": 1.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 11.1,
-        "luf": 0.9
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 12.4,
-        "luf": 1
+        "muf": 9.1,
+        "luf": 1.6
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 11.8,
-        "luf": 1.1
+        "muf": 7.8,
+        "luf": 1.3
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 8.6,
+        "luf": 1.3
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14.4,
-        "luf": 1.3
+        "muf": 8.5,
+        "luf": 1.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 13.6,
-        "luf": 1.4
+        "muf": 8,
+        "luf": 1.1
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 24,
-      "17m": 3,
+      "30m": 19,
+      "20m": 4,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-02T06:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-06-02T09:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-06-02T12:00:00",
         "value": 1.33
       },
@@ -352,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
-      "30m": 1,
-      "20m": 1,
+      "40m": 7,
+      "30m": 0,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -362,23 +354,23 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 3,
+        "SSB": 1,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-02",
-        "TimeStamp": "04:41:00",
+        "TimeStamp": "10:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-02",
-        "TimeStamp": "04:41:00",
+        "TimeStamp": "10:46:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,10 +464,10 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-01",
-        "TimeStamp": "04:41:00",
+        "TimeStamp": "10:46:00",
         "R": {
-          "Scale": "0",
-          "Text": "none",
+          "Scale": "1",
+          "Text": "minor",
           "MinorProb": null,
           "MajorProb": null
         },
