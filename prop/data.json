@@ -1,74 +1,74 @@
 {
-  "generated": "2026-06-07T04:40:16Z",
+  "generated": "2026-06-07T09:25:51Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-07T04:40:15.856025+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-06-07T09:25:50.614923+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 138,
       "ssn": 139,
-      "kp": 2.67,
-      "bz": -0.6
+      "kp": 2,
+      "bz": -1.5
     },
     "n0nbh": {
-      "xray": "C1.3",
+      "xray": "C1.0",
       "aIndex": "17",
-      "aurora": "2",
-      "solarWind": "569.2",
-      "magneticField": "1.1",
+      "aurora": "3",
+      "solarWind": "534.9",
+      "magneticField": "-2.7",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "07 Jun 2026 0359 GMT"
+      "updated": "07 Jun 2026 0858 GMT"
     },
     "paths": [
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.7,
-        "luf": 1
+        "muf": 8.3,
+        "luf": 1.2
       },
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 11,
-        "luf": 0.9
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 11.2,
-        "luf": 0.9
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 12.6,
-        "luf": 1.1
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 12,
-        "luf": 1.2
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 14.6,
+        "muf": 8.6,
         "luf": 1.4
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 13.7,
-        "luf": 1.4
+        "muf": 7.9,
+        "luf": 0.9
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 8.2,
+        "luf": 1
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 8.4,
+        "luf": 1.3
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 7.5,
+        "luf": 1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 8.4,
+        "luf": 0.8
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 25,
-      "17m": 4,
+      "30m": 15,
+      "20m": 3,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-07T06:00:00",
-        "value": 2.67
-      },
-      {
-        "time": "2026-06-07T09:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-06-07T12:00:00",
         "value": 2
       },
@@ -352,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
-      "30m": 1,
-      "20m": 3,
+      "40m": 1,
+      "30m": 0,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -362,23 +354,23 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 4,
-        "FT4": 0,
+        "FT8": 0,
+        "FT4": 1,
         "Other": 0
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 1,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-07",
-        "TimeStamp": "04:39:00",
+        "TimeStamp": "09:24:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-07",
-        "TimeStamp": "04:39:00",
+        "TimeStamp": "09:24:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-06",
-        "TimeStamp": "04:39:00",
+        "TimeStamp": "09:24:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
