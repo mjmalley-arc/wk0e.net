@@ -1,76 +1,76 @@
 {
-  "generated": "2026-06-08T11:09:06Z",
+  "generated": "2026-06-08T16:06:03Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-08T11:09:06.197062+00:00",
-    "currentHourUTC": 11,
+    "fetched": "2026-06-08T16:06:03.000625+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 134,
       "ssn": 138,
-      "kp": 2.67,
-      "bz": -2
+      "kp": 2.33,
+      "bz": 1.8
     },
     "n0nbh": {
-      "xray": "B9.4",
+      "xray": "B7.8",
       "aIndex": "8",
-      "aurora": "4",
-      "solarWind": "481.0",
-      "magneticField": "-2.7",
+      "aurora": "1",
+      "solarWind": "451.4",
+      "magneticField": "1.8",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "08 Jun 2026 1100 GMT"
+      "updated": "08 Jun 2026 1600 GMT"
     },
     "paths": [
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 10.1,
-        "luf": 2.2
-      },
-      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 10.7,
-        "luf": 2.4
+        "muf": 19.5,
+        "luf": 4.4
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 8.6,
-        "luf": 1.8
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 9,
-        "luf": 1.6
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 8.6,
-        "luf": 1.6
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 9.6,
-        "luf": 1.9
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 18.7,
+        "luf": 4.2
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 10.3,
-        "luf": 2.3
+        "muf": 19,
+        "luf": 4.3
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 16.3,
+        "luf": 4.1
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 18.1,
+        "luf": 4.1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 17.1,
+        "luf": 3.9
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 16.3,
+        "luf": 4
       }
     ],
     "currentByBand": {
-      "40m": 57,
-      "30m": 37,
-      "20m": 7,
-      "17m": 1,
-      "15m": 1,
-      "12m": 1,
+      "40m": 30,
+      "30m": 45,
+      "20m": 52,
+      "17m": 43,
+      "15m": 15,
+      "12m": 3,
       "10m": 1
     },
     "avgGrid": {
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-08T12:00:00",
-        "value": 5.67
-      },
-      {
-        "time": "2026-06-08T15:00:00",
-        "value": 6.67
-      },
-      {
         "time": "2026-06-08T18:00:00",
         "value": 5.33
       },
@@ -344,19 +336,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 9,
+      "40m": 6,
       "30m": 0,
-      "20m": 0,
+      "20m": 45,
       "17m": 0,
-      "15m": 1,
+      "15m": 2,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
         "CW": 2,
-        "SSB": 3,
-        "FT8": 4,
+        "SSB": 4,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -368,9 +360,9 @@
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 11,
+        "SSB": 22,
+        "FT8": 12,
         "FT4": 0,
         "Other": 0
       },
@@ -382,7 +374,7 @@
         "Other": 0
       },
       "15m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
@@ -407,7 +399,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-08",
-        "TimeStamp": "11:08:00",
+        "TimeStamp": "16:04:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +418,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-08",
-        "TimeStamp": "11:08:00",
+        "TimeStamp": "16:04:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +456,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-07",
-        "TimeStamp": "11:08:00",
+        "TimeStamp": "16:04:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +487,6 @@
       "astronomical_twilight_begin": "2026-06-08T08:44:51+00:00",
       "astronomical_twilight_end": "2026-06-09T04:01:45+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 08 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 08-Jun 10 2026 is 6.67 (NOAA Scale\nG3).\n\nNOAA Kp index breakdown Jun 08-Jun 10 2026\n\n             Jun 08       Jun 09       Jun 10\n00-03UT       2.33         5.67 (G2)    3.67     \n03-06UT       2.00         5.33 (G1)    3.33     \n06-09UT       4.33         4.33         2.33     \n09-12UT       5.00 (G1)    3.33         2.00     \n12-15UT       5.67 (G2)    3.00         2.00     \n15-18UT       6.67 (G3)    3.33         2.00     \n18-21UT       5.33 (G1)    3.67         2.67     \n21-00UT       5.67 (G2)    4.00         2.67     \n\nRationale: Periods of G1-G3 (Minor-Strong) geomagnetic storming are\nlikely on 08 Jun, with G1-G2 (Minor-Moderate) levels likely on 09 Jun,\ndue to the anticipated passage of a CME that left the Sun on 06 Jun.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 08-Jun 10 2026\n\n              Jun 08  Jun 09  Jun 10\nS1 or greater   25%      5%      5%\n\nRationale: There is a chance for the greater than 10 MeV proton flux to\nreach S1 (Minor) levels on 08 June with the shock arrival of the 06 June\nCME.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 08-Jun 10 2026\n\n              Jun 08        Jun 09        Jun 10\nR1-R2           55%           55%           55%\nR3 or greater   10%           10%           10%\n\nRationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a\nslight chance for an R3 (Strong) or greater event, over 08-10 Jun.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 08 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 08-Jun 10 2026 is 6.67 (NOAA Scale\nG3).\n\nNOAA Kp index breakdown Jun 08-Jun 10 2026\n\n             Jun 08       Jun 09       Jun 10\n00-03UT       2.33         5.67 (G2)    3.67     \n03-06UT       2.33         5.33 (G1)    3.33     \n06-09UT       2.67         4.33         2.33     \n09-12UT       3.00         3.33         2.00     \n12-15UT       5.67 (G2)    3.00         2.00     \n15-18UT       6.67 (G3)    3.33         2.00     \n18-21UT       5.33 (G1)    3.67         2.67     \n21-00UT       5.67 (G2)    4.00         2.67     \n\nRationale: Periods of G1-G3 (Minor-Strong) geomagnetic storming are\nlikely on 08 Jun, with G1-G2 (Minor-Moderate) levels likely on 09 Jun,\ndue to the anticipated passage of a CME that left the Sun on 06 Jun.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 08-Jun 10 2026\n\n              Jun 08  Jun 09  Jun 10\nS1 or greater   25%      5%      5%\n\nRationale: There is a chance for the greater than 10 MeV proton flux to\nreach S1 (Minor) levels on 08 June with the shock arrival of the 06 June\nCME.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 08-Jun 10 2026\n\n              Jun 08        Jun 09        Jun 10\nR1-R2           55%           55%           55%\nR3 or greater   10%           10%           10%\n\nRationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a\nslight chance for an R3 (Strong) or greater event, over 08-10 Jun.\n"
   }
 }
