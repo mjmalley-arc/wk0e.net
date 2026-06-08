@@ -1,77 +1,77 @@
 {
-  "generated": "2026-06-08T20:26:07Z",
+  "generated": "2026-06-08T22:43:03Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-08T20:26:07.273141+00:00",
-    "currentHourUTC": 20,
+    "fetched": "2026-06-08T22:43:03.097493+00:00",
+    "currentHourUTC": 22,
     "current": {
-      "sfi": 134,
+      "sfi": 131,
       "ssn": 119,
       "kp": 1.33,
-      "bz": -1.4
+      "bz": -1.9
     },
     "n0nbh": {
-      "xray": "B8.9",
-      "aIndex": "8",
-      "aurora": "3",
-      "solarWind": "459.1",
-      "magneticField": "-0.9",
+      "xray": "B8.1",
+      "aIndex": "16",
+      "aurora": "2",
+      "solarWind": "443.6",
+      "magneticField": "-1.8",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "08 Jun 2026 2000 GMT"
+      "updated": "08 Jun 2026 2200 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 22.1,
-        "luf": 3.7
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 22.2,
-        "luf": 3.8
+        "muf": 20.7,
+        "luf": 3
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 22,
-        "luf": 3.7
+        "muf": 21,
+        "luf": 3.1
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 21.9,
-        "luf": 3.7
+        "muf": 20.7,
+        "luf": 3
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 20.4,
-        "luf": 3.9
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 21.7,
+        "luf": 3.2
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 21.3,
-        "luf": 4
+        "muf": 21.6,
+        "luf": 3.6
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 22.5,
-        "luf": 4
+        "muf": 22.8,
+        "luf": 3.6
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 20.2,
+        "luf": 3.4
       }
     ],
     "currentByBand": {
-      "40m": 29,
-      "30m": 44,
-      "20m": 52,
-      "17m": 55,
-      "15m": 54,
-      "12m": 24,
-      "10m": 2
+      "40m": 35,
+      "30m": 47,
+      "20m": 53,
+      "17m": 56,
+      "15m": 49,
+      "12m": 18,
+      "10m": 1
     },
     "avgGrid": {
       "40m": {
@@ -259,20 +259,16 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-08T21:00:00",
-        "value": 5.67
-      },
-      {
         "time": "2026-06-09T00:00:00",
-        "value": 5.67
+        "value": 4.33
       },
       {
         "time": "2026-06-09T03:00:00",
-        "value": 5.33
+        "value": 4
       },
       {
         "time": "2026-06-09T06:00:00",
-        "value": 4.33
+        "value": 3
       },
       {
         "time": "2026-06-09T09:00:00",
@@ -280,23 +276,23 @@
       },
       {
         "time": "2026-06-09T12:00:00",
-        "value": 3
+        "value": 2.33
       },
       {
         "time": "2026-06-09T15:00:00",
-        "value": 3.33
+        "value": 1.67
       },
       {
         "time": "2026-06-09T18:00:00",
-        "value": 3.67
+        "value": 3
       },
       {
         "time": "2026-06-09T21:00:00",
-        "value": 4
+        "value": 2.67
       },
       {
         "time": "2026-06-10T00:00:00",
-        "value": 3.67
+        "value": 3
       },
       {
         "time": "2026-06-10T03:00:00",
@@ -320,11 +316,11 @@
       },
       {
         "time": "2026-06-10T18:00:00",
-        "value": 2.67
+        "value": 2.33
       },
       {
         "time": "2026-06-10T21:00:00",
-        "value": 2.67
+        "value": 2.33
       },
       {
         "time": "2026-06-11T00:00:00",
@@ -332,17 +328,17 @@
       }
     ],
     "potaCounts": {
-      "40m": 7,
+      "40m": 6,
       "30m": 0,
-      "20m": 44,
+      "20m": 28,
       "17m": 3,
-      "15m": 3,
+      "15m": 0,
       "12m": 0,
-      "10m": 2
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 3,
+        "CW": 2,
         "SSB": 4,
         "FT8": 0,
         "FT4": 0,
@@ -356,23 +352,23 @@
         "Other": 0
       },
       "20m": {
-        "CW": 11,
-        "SSB": 20,
-        "FT8": 12,
-        "FT4": 0,
-        "Other": 1
+        "CW": 6,
+        "SSB": 17,
+        "FT8": 2,
+        "FT4": 3,
+        "Other": 0
       },
       "17m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 1,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 1,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -385,17 +381,28 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 1,
+        "SSB": 0,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "14032.5",
+        "mode": "CW",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "RBN 37 dB 23 WPM via KD7EFG-#",
+        "spotTime": "2026-06-08T22:37:10",
+        "grid": "EN11we"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-06-08",
-        "TimeStamp": "20:25:00",
+        "TimeStamp": "22:41:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -414,7 +421,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-08",
-        "TimeStamp": "20:25:00",
+        "TimeStamp": "22:41:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -427,8 +434,8 @@
           "Prob": "10"
         },
         "G": {
-          "Scale": "2",
-          "Text": "moderate"
+          "Scale": "0",
+          "Text": "none"
         }
       },
       "dayAfter": {
@@ -446,13 +453,13 @@
           "Prob": "10"
         },
         "G": {
-          "Scale": "2",
-          "Text": "moderate"
+          "Scale": "0",
+          "Text": "none"
         }
       },
       "yesterday": {
         "DateStamp": "2026-06-07",
-        "TimeStamp": "20:25:00",
+        "TimeStamp": "22:41:00",
         "R": {
           "Scale": "0",
           "Text": "none",
