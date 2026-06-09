@@ -1,74 +1,74 @@
 {
-  "generated": "2026-06-09T04:07:07Z",
+  "generated": "2026-06-09T09:56:20Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-09T04:07:07.080701+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-06-09T09:56:19.672746+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 131,
       "ssn": 119,
-      "kp": 2,
-      "bz": -0.6
+      "kp": 1.67,
+      "bz": 1.2
     },
     "n0nbh": {
-      "xray": "B9.1",
+      "xray": "B8.9",
       "aIndex": "8",
-      "aurora": "3",
-      "solarWind": "444.7",
-      "magneticField": "-1.9",
+      "aurora": "2",
+      "solarWind": "412.6",
+      "magneticField": "-0.7",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "09 Jun 2026 0401 GMT"
+      "updated": "09 Jun 2026 0901 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 10.8,
-        "luf": 0.8
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 12.3,
-        "luf": 1
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.4,
-        "luf": 0.9
+        "muf": 8.1,
+        "luf": 1.1
       },
       {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 10.9,
-        "luf": 0.8
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13.3,
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 8.4,
         "luf": 1.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 11.7,
-        "luf": 1.1
+        "muf": 7.4,
+        "luf": 0.9
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14.2,
-        "luf": 1.3
+        "muf": 8.2,
+        "luf": 0.8
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 8.2,
+        "luf": 1.2
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 8,
+        "luf": 1
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 7.8,
+        "luf": 0.8
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 23,
-      "17m": 3,
+      "30m": 14,
+      "20m": 2,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,28 +259,20 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-09T06:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-06-09T09:00:00",
-        "value": 3.33
-      },
-      {
         "time": "2026-06-09T12:00:00",
         "value": 2.33
       },
       {
         "time": "2026-06-09T15:00:00",
-        "value": 1.67
+        "value": 2
       },
       {
         "time": "2026-06-09T18:00:00",
-        "value": 3
+        "value": 2.33
       },
       {
         "time": "2026-06-09T21:00:00",
-        "value": 2.67
+        "value": 2.33
       },
       {
         "time": "2026-06-10T00:00:00",
@@ -352,7 +344,7 @@
       }
     ],
     "potaCounts": {
-      "40m": 7,
+      "40m": 0,
       "30m": 0,
       "20m": 0,
       "17m": 0,
@@ -362,9 +354,9 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 6,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-09",
-        "TimeStamp": "04:05:00",
+        "TimeStamp": "09:54:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-09",
-        "TimeStamp": "04:05:00",
+        "TimeStamp": "09:54:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-08",
-        "TimeStamp": "04:05:00",
+        "TimeStamp": "09:54:00",
         "R": {
           "Scale": "0",
           "Text": "none",
