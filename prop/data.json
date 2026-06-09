@@ -1,82 +1,82 @@
 {
-  "generated": "2026-06-08T22:43:03Z",
+  "generated": "2026-06-09T04:07:07Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-08T22:43:03.097493+00:00",
-    "currentHourUTC": 22,
+    "fetched": "2026-06-09T04:07:07.080701+00:00",
+    "currentHourUTC": 4,
     "current": {
       "sfi": 131,
       "ssn": 119,
-      "kp": 1.33,
-      "bz": -1.9
+      "kp": 2,
+      "bz": -0.6
     },
     "n0nbh": {
-      "xray": "B8.1",
-      "aIndex": "16",
-      "aurora": "2",
-      "solarWind": "443.6",
-      "magneticField": "-1.8",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "08 Jun 2026 2200 GMT"
+      "xray": "B9.1",
+      "aIndex": "8",
+      "aurora": "3",
+      "solarWind": "444.7",
+      "magneticField": "-1.9",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "09 Jun 2026 0401 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 20.7,
-        "luf": 3
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 21,
-        "luf": 3.1
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 20.7,
-        "luf": 3
+        "muf": 10.8,
+        "luf": 0.8
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 21.7,
-        "luf": 3.2
+        "muf": 12.3,
+        "luf": 1
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 11.4,
+        "luf": 0.9
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 10.9,
+        "luf": 0.8
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 21.6,
-        "luf": 3.6
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 22.8,
-        "luf": 3.6
+        "muf": 13.3,
+        "luf": 1.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 20.2,
-        "luf": 3.4
+        "muf": 11.7,
+        "luf": 1.1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 14.2,
+        "luf": 1.3
       }
     ],
     "currentByBand": {
-      "40m": 35,
-      "30m": 47,
-      "20m": 53,
-      "17m": 56,
-      "15m": 49,
-      "12m": 18,
+      "40m": 60,
+      "30m": 60,
+      "20m": 23,
+      "17m": 3,
+      "15m": 1,
+      "12m": 1,
       "10m": 1
     },
     "avgGrid": {
       "40m": {
         "0": 45,
-        "1": 52,
+        "1": 53,
         "2": 57,
         "3": 60,
         "4": 60,
@@ -92,9 +92,9 @@
         "14": 39,
         "15": 34,
         "16": 31,
-        "17": 28,
-        "18": 27,
-        "19": 27,
+        "17": 29,
+        "18": 28,
+        "19": 28,
         "20": 29,
         "21": 31,
         "22": 35,
@@ -106,21 +106,21 @@
         "2": 59,
         "3": 60,
         "4": 60,
-        "5": 51,
+        "5": 50,
         "6": 32,
         "7": 18,
         "8": 14,
         "9": 14,
-        "10": 19,
-        "11": 35,
-        "12": 48,
+        "10": 18,
+        "11": 34,
+        "12": 47,
         "13": 52,
         "14": 49,
         "15": 47,
         "16": 45,
         "17": 44,
-        "18": 43,
-        "19": 43,
+        "18": 44,
+        "19": 44,
         "20": 44,
         "21": 45,
         "22": 47,
@@ -130,7 +130,7 @@
         "0": 56,
         "1": 58,
         "2": 59,
-        "3": 42,
+        "3": 41,
         "4": 23,
         "5": 10,
         "6": 6,
@@ -138,24 +138,24 @@
         "8": 2,
         "9": 2,
         "10": 4,
-        "11": 7,
+        "11": 6,
         "12": 10,
-        "13": 24,
-        "14": 42,
+        "13": 23,
+        "14": 41,
         "15": 53,
         "16": 52,
         "17": 52,
         "18": 52,
-        "19": 51,
+        "19": 52,
         "20": 52,
         "21": 52,
         "22": 53,
-        "23": 54
+        "23": 55
       },
       "17m": {
         "0": 53,
         "1": 37,
-        "2": 22,
+        "2": 19,
         "3": 8,
         "4": 3,
         "5": 1,
@@ -168,13 +168,13 @@
         "12": 1,
         "13": 4,
         "14": 9,
-        "15": 22,
-        "16": 41,
+        "15": 21,
+        "16": 40,
         "17": 51,
         "18": 55,
         "19": 55,
         "20": 55,
-        "21": 55,
+        "21": 56,
         "22": 56,
         "23": 57
       },
@@ -196,13 +196,13 @@
         "14": 2,
         "15": 5,
         "16": 13,
-        "17": 26,
-        "18": 43,
-        "19": 51,
-        "20": 54,
+        "17": 25,
+        "18": 41,
+        "19": 50,
+        "20": 53,
         "21": 54,
-        "22": 49,
-        "23": 38
+        "22": 47,
+        "23": 37
       },
       "12m": {
         "0": 6,
@@ -221,14 +221,14 @@
         "13": 1,
         "14": 1,
         "15": 1,
-        "16": 3,
-        "17": 6,
+        "16": 2,
+        "17": 5,
         "18": 12,
-        "19": 20,
-        "20": 24,
-        "21": 24,
-        "22": 18,
-        "23": 12
+        "19": 19,
+        "20": 23,
+        "21": 23,
+        "22": 17,
+        "23": 11
       },
       "10m": {
         "0": 1,
@@ -258,14 +258,6 @@
       }
     },
     "kpForecast": [
-      {
-        "time": "2026-06-09T00:00:00",
-        "value": 4.33
-      },
-      {
-        "time": "2026-06-09T03:00:00",
-        "value": 4
-      },
       {
         "time": "2026-06-09T06:00:00",
         "value": 3
@@ -325,22 +317,54 @@
       {
         "time": "2026-06-11T00:00:00",
         "value": 2
+      },
+      {
+        "time": "2026-06-11T03:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-06-11T06:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-06-11T09:00:00",
+        "value": 2.67
+      },
+      {
+        "time": "2026-06-11T12:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-06-11T15:00:00",
+        "value": 3.33
+      },
+      {
+        "time": "2026-06-11T18:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-06-11T21:00:00",
+        "value": 4
+      },
+      {
+        "time": "2026-06-12T00:00:00",
+        "value": 3
       }
     ],
     "potaCounts": {
-      "40m": 6,
+      "40m": 7,
       "30m": 0,
-      "20m": 28,
-      "17m": 3,
+      "20m": 0,
+      "17m": 0,
       "15m": 0,
       "12m": 0,
-      "10m": 1
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 4,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 0,
+        "FT8": 6,
         "FT4": 0,
         "Other": 0
       },
@@ -352,16 +376,16 @@
         "Other": 0
       },
       "20m": {
-        "CW": 6,
-        "SSB": 17,
-        "FT8": 2,
-        "FT4": 3,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
+        "FT4": 0,
         "Other": 0
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 3,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -382,27 +406,16 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "WB0RLJ",
-        "frequency": "14032.5",
-        "mode": "CW",
-        "ref": "US-4011",
-        "name": "Chalco Hills State Recreation Area",
-        "comments": "RBN 37 dB 23 WPM via KD7EFG-#",
-        "spotTime": "2026-06-08T22:37:10",
-        "grid": "EN11we"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
-        "DateStamp": "2026-06-08",
-        "TimeStamp": "22:41:00",
+        "DateStamp": "2026-06-09",
+        "TimeStamp": "04:05:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -420,8 +433,8 @@
         }
       },
       "tomorrow": {
-        "DateStamp": "2026-06-08",
-        "TimeStamp": "22:41:00",
+        "DateStamp": "2026-06-09",
+        "TimeStamp": "04:05:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -439,7 +452,7 @@
         }
       },
       "dayAfter": {
-        "DateStamp": "2026-06-09",
+        "DateStamp": "2026-06-10",
         "TimeStamp": "00:00:00",
         "R": {
           "Scale": null,
@@ -458,8 +471,8 @@
         }
       },
       "yesterday": {
-        "DateStamp": "2026-06-07",
-        "TimeStamp": "22:41:00",
+        "DateStamp": "2026-06-08",
+        "TimeStamp": "04:05:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -479,17 +492,17 @@
     },
     "flareAlert": null,
     "sun": {
-      "sunrise": "2026-06-08T10:49:43+00:00",
-      "sunset": "2026-06-09T01:56:53+00:00",
-      "solar_noon": "2026-06-08T18:23:18+00:00",
-      "day_length": 54430,
-      "civil_twilight_begin": "2026-06-08T10:17:54+00:00",
-      "civil_twilight_end": "2026-06-09T02:28:42+00:00",
-      "nautical_twilight_begin": "2026-06-08T09:35:13+00:00",
-      "nautical_twilight_end": "2026-06-09T03:11:23+00:00",
-      "astronomical_twilight_begin": "2026-06-08T08:44:51+00:00",
-      "astronomical_twilight_end": "2026-06-09T04:01:45+00:00"
+      "sunrise": "2026-06-09T10:49:32+00:00",
+      "sunset": "2026-06-10T01:57:28+00:00",
+      "solar_noon": "2026-06-09T18:23:30+00:00",
+      "day_length": 54476,
+      "civil_twilight_begin": "2026-06-09T10:17:40+00:00",
+      "civil_twilight_end": "2026-06-10T02:29:19+00:00",
+      "nautical_twilight_begin": "2026-06-09T09:34:54+00:00",
+      "nautical_twilight_end": "2026-06-10T03:12:06+00:00",
+      "astronomical_twilight_begin": "2026-06-09T08:44:21+00:00",
+      "astronomical_twilight_end": "2026-06-10T04:02:38+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 08 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 08-Jun 10 2026 is 6.67 (NOAA Scale\nG3).\n\nNOAA Kp index breakdown Jun 08-Jun 10 2026\n\n             Jun 08       Jun 09       Jun 10\n00-03UT       2.33         5.67 (G2)    3.67     \n03-06UT       2.33         5.33 (G1)    3.33     \n06-09UT       2.67         4.33         2.33     \n09-12UT       3.00         3.33         2.00     \n12-15UT       5.67 (G2)    3.00         2.00     \n15-18UT       6.67 (G3)    3.33         2.00     \n18-21UT       5.33 (G1)    3.67         2.67     \n21-00UT       5.67 (G2)    4.00         2.67     \n\nRationale: Periods of G1-G3 (Minor-Strong) geomagnetic storming are\nlikely on 08 Jun, with G1-G2 (Minor-Moderate) levels likely on 09 Jun,\ndue to the anticipated passage of a CME that left the Sun on 06 Jun.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 08-Jun 10 2026\n\n              Jun 08  Jun 09  Jun 10\nS1 or greater   25%      5%      5%\n\nRationale: There is a chance for the greater than 10 MeV proton flux to\nreach S1 (Minor) levels on 08 June with the shock arrival of the 06 June\nCME.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 08-Jun 10 2026\n\n              Jun 08        Jun 09        Jun 10\nR1-R2           55%           55%           55%\nR3 or greater   10%           10%           10%\n\nRationale: R1-R2 (Minor-Moderate) radio blackouts are likely, with a\nslight chance for an R3 (Strong) or greater event, over 08-10 Jun.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 09 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 09-Jun 11 2026 is 4.33 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Jun 09-Jun 11 2026\n\n             Jun 09       Jun 10       Jun 11\n00-03UT       4.33         3.00         2.00     \n03-06UT       4.00         3.33         2.00     \n06-09UT       3.00         2.33         3.00     \n09-12UT       3.33         2.00         2.67     \n12-15UT       2.33         2.00         3.00     \n15-18UT       1.67         2.00         3.33     \n18-21UT       3.00         2.33         3.00     \n21-00UT       2.67         2.33         4.00     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 09-Jun 11 2026\n\n              Jun 09  Jun 10  Jun 11\nS1 or greater   10%     10%     10%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 09-Jun 11 2026\n\n              Jun 09        Jun 10        Jun 11\nR1-R2           55%           55%           55%\nR3 or greater   10%           10%           10%\n\nRationale: Isolated R1/R2 (Minor/Moderate) radio blackouts are likely,\nwith a slight chance for isolated R3 (Strong) events through 11 June,\nprimarily due to the flare potential exhibited by Regions 4456 (N17W61,\nDai/beta), 4462 (N15W07, Dsi/beta), 4464 and 4465.\n"
   }
 }
