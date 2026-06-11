@@ -1,74 +1,74 @@
 {
-  "generated": "2026-06-11T04:41:04Z",
+  "generated": "2026-06-11T10:48:38Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-11T04:41:03.408236+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-06-11T10:48:37.935362+00:00",
+    "currentHourUTC": 10,
     "current": {
       "sfi": 124,
-      "ssn": 114,
-      "kp": 1.33,
-      "bz": -5.8
+      "ssn": 78,
+      "kp": 3,
+      "bz": 3.1
     },
     "n0nbh": {
-      "xray": "B9.6",
+      "xray": "B7.1",
       "aIndex": "7",
-      "aurora": "1",
-      "solarWind": "398.3",
-      "magneticField": "1.3",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "11 Jun 2026 0418 GMT"
+      "aurora": "4",
+      "solarWind": "375.0",
+      "magneticField": "-5.2",
+      "geomag": "UNSETTLD",
+      "signalNoise": "S2-S3",
+      "updated": "11 Jun 2026 1019 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 10.5,
-        "luf": 0.7
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 13.9,
-        "luf": 1.2
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 11.4,
-        "luf": 1
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 11.1,
-        "luf": 0.8
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13,
-        "luf": 1.1
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 12,
-        "luf": 0.9
+        "muf": 9.1,
+        "luf": 1.9
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 10.7,
-        "luf": 0.7
+        "muf": 8.8,
+        "luf": 1.8
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 8.6,
+        "luf": 1.7
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 7.6,
+        "luf": 1.4
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 8.4,
+        "luf": 1.5
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 8.2,
+        "luf": 1.2
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 7.7,
+        "luf": 1.2
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 18,
-      "17m": 3,
+      "30m": 16,
+      "20m": 3,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-11T06:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-06-11T09:00:00",
-        "value": 2.67
-      },
-      {
         "time": "2026-06-11T12:00:00",
         "value": 3
       },
@@ -340,21 +332,21 @@
       },
       {
         "time": "2026-06-13T18:00:00",
-        "value": 2.67
+        "value": 4.33
       },
       {
         "time": "2026-06-13T21:00:00",
-        "value": 3
+        "value": 5
       },
       {
         "time": "2026-06-14T00:00:00",
-        "value": 3.67
+        "value": 4.67
       }
     ],
     "potaCounts": {
-      "40m": 2,
-      "30m": 1,
-      "20m": 5,
+      "40m": 1,
+      "30m": 0,
+      "20m": 1,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -362,14 +354,14 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -378,7 +370,7 @@
       "20m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 5,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-11",
-        "TimeStamp": "04:40:00",
+        "TimeStamp": "10:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-11",
-        "TimeStamp": "04:40:00",
+        "TimeStamp": "10:46:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-10",
-        "TimeStamp": "04:40:00",
+        "TimeStamp": "10:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
