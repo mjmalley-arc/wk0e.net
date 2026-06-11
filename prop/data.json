@@ -1,76 +1,76 @@
 {
-  "generated": "2026-06-11T10:48:38Z",
+  "generated": "2026-06-11T16:13:42Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-11T10:48:37.935362+00:00",
-    "currentHourUTC": 10,
+    "fetched": "2026-06-11T16:13:41.822736+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 124,
       "ssn": 78,
-      "kp": 3,
-      "bz": 3.1
+      "kp": 2.33,
+      "bz": 10.5
     },
     "n0nbh": {
-      "xray": "B7.1",
+      "xray": "B7.5",
       "aIndex": "7",
-      "aurora": "4",
-      "solarWind": "375.0",
-      "magneticField": "-5.2",
+      "aurora": "1",
+      "solarWind": "385.6",
+      "magneticField": "5.6",
       "geomag": "UNSETTLD",
       "signalNoise": "S2-S3",
-      "updated": "11 Jun 2026 1019 GMT"
+      "updated": "11 Jun 2026 1519 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 9.1,
-        "luf": 1.9
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 8.8,
-        "luf": 1.8
+        "muf": 18.6,
+        "luf": 4.2
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 8.6,
-        "luf": 1.7
+        "muf": 17.9,
+        "luf": 4
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 7.6,
-        "luf": 1.4
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 18.2,
+        "luf": 4.1
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 8.4,
-        "luf": 1.5
+        "muf": 17.4,
+        "luf": 3.9
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 8.2,
-        "luf": 1.2
+        "muf": 16.4,
+        "luf": 3.7
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 15.7,
+        "luf": 3.9
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.7,
-        "luf": 1.2
+        "muf": 15.7,
+        "luf": 3.8
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 16,
-      "20m": 3,
-      "17m": 1,
-      "15m": 1,
-      "12m": 1,
+      "40m": 32,
+      "30m": 46,
+      "20m": 53,
+      "17m": 35,
+      "15m": 9,
+      "12m": 2,
       "10m": 1
     },
     "avgGrid": {
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-11T12:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-06-11T15:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-06-11T18:00:00",
         "value": 3
       },
@@ -276,15 +268,15 @@
       },
       {
         "time": "2026-06-12T00:00:00",
-        "value": 3.67
+        "value": 1.67
       },
       {
         "time": "2026-06-12T03:00:00",
-        "value": 4
+        "value": 2
       },
       {
         "time": "2026-06-12T06:00:00",
-        "value": 4
+        "value": 2.33
       },
       {
         "time": "2026-06-12T09:00:00",
@@ -292,43 +284,43 @@
       },
       {
         "time": "2026-06-12T12:00:00",
-        "value": 2
+        "value": 3.67
       },
       {
         "time": "2026-06-12T15:00:00",
-        "value": 2.67
+        "value": 3.33
       },
       {
         "time": "2026-06-12T18:00:00",
-        "value": 2
+        "value": 3.33
       },
       {
         "time": "2026-06-12T21:00:00",
-        "value": 2.33
+        "value": 4
       },
       {
         "time": "2026-06-13T00:00:00",
-        "value": 3
+        "value": 4
       },
       {
         "time": "2026-06-13T03:00:00",
-        "value": 2
+        "value": 3.33
       },
       {
         "time": "2026-06-13T06:00:00",
-        "value": 2
+        "value": 3
       },
       {
         "time": "2026-06-13T09:00:00",
-        "value": 2.67
+        "value": 3
       },
       {
         "time": "2026-06-13T12:00:00",
-        "value": 2.67
+        "value": 4.67
       },
       {
         "time": "2026-06-13T15:00:00",
-        "value": 2.67
+        "value": 5
       },
       {
         "time": "2026-06-13T18:00:00",
@@ -336,7 +328,7 @@
       },
       {
         "time": "2026-06-13T21:00:00",
-        "value": 5
+        "value": 4.33
       },
       {
         "time": "2026-06-14T00:00:00",
@@ -344,19 +336,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 1,
+      "40m": 5,
       "30m": 0,
-      "20m": 1,
-      "17m": 0,
-      "15m": 0,
+      "20m": 43,
+      "17m": 3,
+      "15m": 2,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
+        "CW": 4,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -368,22 +360,22 @@
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
-        "FT4": 0,
+        "CW": 9,
+        "SSB": 17,
+        "FT8": 15,
+        "FT4": 2,
         "Other": 0
       },
       "17m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 3,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 0,
-        "SSB": 0,
+        "CW": 1,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -407,7 +399,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-11",
-        "TimeStamp": "10:46:00",
+        "TimeStamp": "16:12:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,11 +418,11 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-11",
-        "TimeStamp": "10:46:00",
+        "TimeStamp": "16:12:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "40",
+          "MinorProb": "45",
           "MajorProb": "10"
         },
         "S": {
@@ -449,7 +441,7 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "40",
+          "MinorProb": "45",
           "MajorProb": "10"
         },
         "S": {
@@ -464,7 +456,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-10",
-        "TimeStamp": "10:46:00",
+        "TimeStamp": "16:12:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +487,6 @@
       "astronomical_twilight_begin": "2026-06-11T08:43:31+00:00",
       "astronomical_twilight_end": "2026-06-12T04:04:17+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 11 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 11-Jun 13 2026 is 4.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Jun 11-Jun 13 2026\n\n             Jun 11       Jun 12       Jun 13\n00-03UT       2.00         3.67         3.00     \n03-06UT       2.00         4.00         2.00     \n06-09UT       3.00         4.00         2.00     \n09-12UT       2.67         2.33         2.67     \n12-15UT       3.00         2.00         2.67     \n15-18UT       3.00         2.67         2.67     \n18-21UT       3.00         2.00         2.67     \n21-00UT       2.67         2.33         3.00     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected\nthrough 13 Jun.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 11-Jun 13 2026\n\n              Jun 11  Jun 12  Jun 13\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected\nthrough 13 Jun.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 11-Jun 13 2026\n\n              Jun 11        Jun 12        Jun 13\nR1-R2           40%           40%           40%\nR3 or greater   10%           10%           10%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts,\nwith a slight chance for R3 (Strong) or greater events, through 13 Jun.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 11 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 11-Jun 13 2026 is 5.00 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Jun 11-Jun 13 2026\n\n             Jun 11       Jun 12       Jun 13\n00-03UT       1.33         3.67         3.00     \n03-06UT       2.33         4.00         2.00     \n06-09UT       3.00         4.00         2.00     \n09-12UT       3.33         2.33         2.67     \n12-15UT       3.00         2.00         2.67     \n15-18UT       3.00         2.67         2.67     \n18-21UT       3.00         2.00         4.33     \n21-00UT       2.67         2.33         5.00 (G1)\n\nRationale: Unsettled to active conditions are anticipated on 12 June\nwith -CH HSS onset. Active to G1 (Minor) storming levels are anticipated\non 13 June due to the persistence of the high-speed stream and the\narrival of glancing CME influences.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 11-Jun 13 2026\n\n              Jun 11  Jun 12  Jun 13\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 11-Jun 13 2026\n\n              Jun 11        Jun 12        Jun 13\nR1-R2           35%           35%           35%\nR3 or greater    5%            5%            5%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts,\nwith a slight chance for R3 (Strong) or greater events through 13 Jun\nprimarily due to regions 4465 and 4464.\n"
   }
 }
