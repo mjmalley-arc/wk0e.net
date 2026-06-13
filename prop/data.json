@@ -1,75 +1,75 @@
 {
-  "generated": "2026-06-13T09:25:40Z",
+  "generated": "2026-06-13T14:13:34Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-13T09:25:40.350619+00:00",
-    "currentHourUTC": 9,
+    "fetched": "2026-06-13T14:13:34.098527+00:00",
+    "currentHourUTC": 14,
     "current": {
       "sfi": 128,
-      "ssn": 113,
+      "ssn": 40,
       "kp": 2.67,
-      "bz": 0.2
+      "bz": -1.3
     },
     "n0nbh": {
-      "xray": "B6.4",
+      "xray": "C1.8",
       "aIndex": "16",
       "aurora": "1",
-      "solarWind": "621.1",
-      "magneticField": "-0.7",
-      "geomag": "UNSETTLD",
-      "signalNoise": "S2-S3",
-      "updated": "13 Jun 2026 0921 GMT"
+      "solarWind": "625.8",
+      "magneticField": "2.6",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "13 Jun 2026 1321 GMT"
     },
     "paths": [
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 8,
-        "luf": 1.2
-      },
-      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.3,
-        "luf": 1.4
+        "muf": 15.5,
+        "luf": 3.8
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 14.7,
+        "luf": 3.6
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 7.9,
-        "luf": 1.1
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 8.1,
-        "luf": 0.9
+        "muf": 14,
+        "luf": 3.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 7.3,
-        "luf": 1
+        "muf": 12.5,
+        "luf": 3.3
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 12.9,
+        "luf": 3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 8.1,
-        "luf": 1.3
+        "muf": 15.1,
+        "luf": 3.7
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.7,
-        "luf": 0.9
+        "muf": 12.3,
+        "luf": 3.1
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 14,
-      "20m": 2,
-      "17m": 1,
-      "15m": 1,
+      "40m": 39,
+      "30m": 50,
+      "20m": 40,
+      "17m": 8,
+      "15m": 2,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-13T12:00:00",
-        "value": 2.67
-      },
-      {
         "time": "2026-06-13T15:00:00",
         "value": 3.67
       },
@@ -340,51 +336,51 @@
       },
       {
         "time": "2026-06-16T00:00:00",
-        "value": 1.67
+        "value": 2.67
       }
     ],
     "potaCounts": {
-      "40m": 0,
-      "30m": 0,
-      "20m": 0,
-      "17m": 0,
-      "15m": 0,
+      "40m": 29,
+      "30m": 3,
+      "20m": 53,
+      "17m": 1,
+      "15m": 3,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 8,
+        "SSB": 12,
+        "FT8": 7,
         "FT4": 0,
-        "Other": 0
+        "Other": 2
       },
       "30m": {
-        "CW": 0,
+        "CW": 3,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 13,
+        "SSB": 29,
+        "FT8": 7,
         "FT4": 0,
-        "Other": 0
+        "Other": 4
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
@@ -407,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-13",
-        "TimeStamp": "09:24:00",
+        "TimeStamp": "14:12:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-13",
-        "TimeStamp": "09:24:00",
+        "TimeStamp": "14:12:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-12",
-        "TimeStamp": "09:24:00",
+        "TimeStamp": "14:12:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +491,6 @@
       "astronomical_twilight_begin": "2026-06-13T08:42:56+00:00",
       "astronomical_twilight_end": "2026-06-14T04:05:42+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 13 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 13-Jun 15 2026 is 5.67 (NOAA Scale\nG2).\n\nNOAA Kp index breakdown Jun 13-Jun 15 2026\n\n             Jun 13       Jun 14       Jun 15\n00-03UT       3.33         4.67 (G1)    3.00     \n03-06UT       4.67 (G1)    4.00         2.33     \n06-09UT       5.67 (G2)    3.33         3.67     \n09-12UT       3.00         3.33         2.67     \n12-15UT       4.67 (G1)    2.67         2.67     \n15-18UT       5.00 (G1)    2.67         2.00     \n18-21UT       4.33         3.67         2.33     \n21-00UT       4.33         4.00         2.33     \n\nRationale: Geomagnetic field conditions are likely to reach G2\n(Moderate) geomagnetic storm levels on 13 Jun due to the persistence of\nthe high-speed stream combined with the anticipated arrival of CMEs that\nleft the Sun over 09 Jun and 11 Jun. Conditions are expected to decrease\non 14 Jun, with isolated G1 (Minor) storming periods still likely, as\nCME influences wane.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 13-Jun 15 2026\n\n              Jun 13  Jun 14  Jun 15\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 13-Jun 15 2026\n\n              Jun 13        Jun 14        Jun 15\nR1-R2           35%           35%           35%\nR3 or greater    5%            5%            5%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts\non 13-15 Jun, primarily due to the potential of Regions 4464 and 4465.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jun 13 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jun 13-Jun 15 2026 is 5.67 (NOAA Scale\nG2).\n\nNOAA Kp index breakdown Jun 13-Jun 15 2026\n\n             Jun 13       Jun 14       Jun 15\n00-03UT       3.00         4.67 (G1)    2.67     \n03-06UT       3.00         3.67         3.00     \n06-09UT       2.67         2.67         3.67     \n09-12UT       2.67         2.67         3.00     \n12-15UT       2.67         1.67         2.67     \n15-18UT       3.67         1.67         1.67     \n18-21UT       4.67 (G1)    2.67         1.67     \n21-00UT       5.67 (G2)    2.67         2.00     \n\nRationale: Periods of G1-G2 (Minor-Moderate) geomagnetic storms are\nlikely on 13 Jun, with periods of G1 storming likely on 14 Jun, due to\nnegative polarity CH HSS and CME influences.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jun 13-Jun 15 2026\n\n              Jun 13  Jun 14  Jun 15\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jun 13-Jun 15 2026\n\n              Jun 13        Jun 14        Jun 15\nR1-R2           20%           20%           20%\nR3 or greater    5%            5%            5%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts over 13-15 Jun.\n"
   }
 }
