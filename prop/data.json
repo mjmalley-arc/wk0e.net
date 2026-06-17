@@ -1,76 +1,76 @@
 {
-  "generated": "2026-06-17T20:22:09Z",
+  "generated": "2026-06-17T22:47:56Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-17T20:22:08.903581+00:00",
-    "currentHourUTC": 20,
+    "fetched": "2026-06-17T22:47:56.434505+00:00",
+    "currentHourUTC": 22,
     "current": {
-      "sfi": 113,
+      "sfi": 111,
       "ssn": 50,
-      "kp": 1.33,
-      "bz": 1.3
+      "kp": 0.33,
+      "bz": 0.1
     },
     "n0nbh": {
-      "xray": "B4.9",
+      "xray": "B5.3",
       "aIndex": "6",
-      "aurora": "2",
-      "solarWind": "450.4",
-      "magneticField": "1.4",
-      "geomag": "VR QUIET",
+      "aurora": "1",
+      "solarWind": "448.8",
+      "magneticField": "-1.7",
+      "geomag": "INACTIVE",
       "signalNoise": "S0-S1",
-      "updated": "17 Jun 2026 1924 GMT"
+      "updated": "17 Jun 2026 2224 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 20.2,
-        "luf": 3.3
+        "muf": 19,
+        "luf": 2.4
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 20.1,
-        "luf": 3.4
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 20.3,
-        "luf": 3.4
+        "muf": 19.2,
+        "luf": 2.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 20,
-        "luf": 3.3
+        "muf": 18.9,
+        "luf": 2.4
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 18.7,
-        "luf": 3.5
+        "muf": 18.4,
+        "luf": 2.7
       },
       {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 19.5,
-        "luf": 3.6
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 19.8,
+        "luf": 2.6
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 20.6,
-        "luf": 3.6
+        "muf": 20.9,
+        "luf": 2.8
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 19.7,
+        "luf": 2.9
       }
     ],
     "currentByBand": {
-      "40m": 33,
-      "30m": 47,
-      "20m": 53,
-      "17m": 56,
-      "15m": 34,
-      "12m": 8,
+      "40m": 38,
+      "30m": 49,
+      "20m": 54,
+      "17m": 57,
+      "15m": 28,
+      "12m": 6,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-17T21:00:00",
-        "value": 3.67
-      },
-      {
         "time": "2026-06-18T00:00:00",
         "value": 3.33
       },
@@ -332,47 +328,47 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
-      "30m": 1,
-      "20m": 62,
-      "17m": 1,
-      "15m": 2,
+      "40m": 4,
+      "30m": 0,
+      "20m": 38,
+      "17m": 2,
+      "15m": 1,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 3,
-        "SSB": 1,
-        "FT8": 1,
+        "CW": 1,
+        "SSB": 3,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 17,
-        "SSB": 27,
-        "FT8": 16,
-        "FT4": 1,
-        "Other": 1
+        "CW": 10,
+        "SSB": 17,
+        "FT8": 7,
+        "FT4": 2,
+        "Other": 2
       },
       "17m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 0,
+        "SSB": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -391,11 +387,22 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "14032.5",
+        "mode": "CW",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "579 from Virginia Beach 73",
+        "spotTime": "2026-06-17T22:47:47",
+        "grid": "EN11we"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-06-17",
-        "TimeStamp": "20:21:00",
+        "TimeStamp": "22:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -414,7 +421,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-17",
-        "TimeStamp": "20:21:00",
+        "TimeStamp": "22:46:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -452,7 +459,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-16",
-        "TimeStamp": "20:21:00",
+        "TimeStamp": "22:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
