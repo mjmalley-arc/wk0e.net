@@ -1,76 +1,76 @@
 {
-  "generated": "2026-06-18T15:39:45Z",
+  "generated": "2026-06-18T20:33:22Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-18T15:39:45.059055+00:00",
-    "currentHourUTC": 15,
+    "fetched": "2026-06-18T20:33:22.118793+00:00",
+    "currentHourUTC": 20,
     "current": {
       "sfi": 111,
       "ssn": 46,
-      "kp": 1,
-      "bz": -3.3
+      "kp": 1.33,
+      "bz": -3.4
     },
     "n0nbh": {
-      "xray": "B7.7",
+      "xray": "B5.3",
       "aIndex": "6",
-      "aurora": "2",
-      "solarWind": "386.0",
-      "magneticField": "-2.5",
+      "aurora": "3",
+      "solarWind": "364.7",
+      "magneticField": "-5.3",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "18 Jun 2026 1524 GMT"
+      "updated": "18 Jun 2026 2025 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 16.1,
-        "luf": 3.2
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 15.4,
-        "luf": 3
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 15.7,
-        "luf": 3.1
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 13.8,
-        "luf": 2.6
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13.2,
-        "luf": 2.7
+        "muf": 20.1,
+        "luf": 3.4
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13.3,
-        "luf": 2.8
+        "muf": 18.7,
+        "luf": 3.5
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 14.8,
-        "luf": 2.8
+        "muf": 20.3,
+        "luf": 3.4
+      },
+      {
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 20.2,
+        "luf": 3.3
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 20,
+        "luf": 3.3
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 19.5,
+        "luf": 3.6
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 20.6,
+        "luf": 3.6
       }
     ],
     "currentByBand": {
-      "40m": 38,
-      "30m": 49,
-      "20m": 46,
-      "17m": 11,
-      "15m": 2,
-      "12m": 1,
+      "40m": 33,
+      "30m": 47,
+      "20m": 53,
+      "17m": 56,
+      "15m": 34,
+      "12m": 8,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-18T18:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-06-18T21:00:00",
         "value": 2.67
       },
@@ -336,52 +332,52 @@
       }
     ],
     "potaCounts": {
-      "40m": 8,
+      "40m": 2,
       "30m": 1,
-      "20m": 43,
-      "17m": 4,
-      "15m": 2,
-      "12m": 0,
+      "20m": 35,
+      "17m": 3,
+      "15m": 3,
+      "12m": 1,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 3,
-        "FT8": 2,
-        "FT4": 0,
-        "Other": 1
-      },
-      "30m": {
         "CW": 0,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
+        "Other": 1
+      },
+      "30m": {
+        "CW": 1,
+        "SSB": 0,
+        "FT8": 0,
+        "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 10,
-        "SSB": 20,
-        "FT8": 11,
-        "FT4": 1,
-        "Other": 1
+        "CW": 9,
+        "SSB": 16,
+        "FT8": 10,
+        "FT4": 0,
+        "Other": 0
       },
       "17m": {
-        "CW": 1,
-        "SSB": 2,
-        "FT8": 1,
+        "CW": 0,
+        "SSB": 1,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
         "SSB": 1,
-        "FT8": 1,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -395,22 +391,11 @@
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "AE0YM",
-        "frequency": "14056.5",
-        "mode": "CW",
-        "ref": "US-5657",
-        "name": "Standing Bear Lake State Recreation Area",
-        "comments": "",
-        "spotTime": "2026-06-18T15:33:55",
-        "grid": "EN11wh"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-06-18",
-        "TimeStamp": "15:37:00",
+        "TimeStamp": "20:30:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -429,7 +414,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-18",
-        "TimeStamp": "15:37:00",
+        "TimeStamp": "20:30:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -467,7 +452,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-17",
-        "TimeStamp": "15:37:00",
+        "TimeStamp": "20:30:00",
         "R": {
           "Scale": "0",
           "Text": "none",
