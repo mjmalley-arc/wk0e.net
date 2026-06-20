@@ -1,75 +1,75 @@
 {
-  "generated": "2026-06-20T14:18:15Z",
+  "generated": "2026-06-20T16:24:14Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-20T14:18:15.337188+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-06-20T16:24:14.214874+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 111,
       "ssn": 51,
-      "kp": 1.67,
-      "bz": -1.7
+      "kp": 2,
+      "bz": 0.1
     },
     "n0nbh": {
-      "xray": "B6.9",
+      "xray": "B8.7",
       "aIndex": "7",
       "aurora": "2",
-      "solarWind": "384.5",
-      "magneticField": "0.0",
+      "solarWind": "381.6",
+      "magneticField": "-0.4",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "20 Jun 2026 1325 GMT"
+      "updated": "20 Jun 2026 1526 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 14.3,
-        "luf": 3.1
+        "muf": 17.4,
+        "luf": 3.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 13.6,
-        "luf": 2.9
+        "muf": 16.7,
+        "luf": 3.6
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 13.9,
-        "luf": 3
+        "muf": 16.9,
+        "luf": 3.7
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 13,
-        "luf": 2.7
+        "muf": 16.2,
+        "luf": 3.5
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 11.6,
-        "luf": 2.7
+        "muf": 14.6,
+        "luf": 3.5
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 12,
-        "luf": 2.4
+        "muf": 15.3,
+        "luf": 3.3
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 11.4,
-        "luf": 2.5
+        "muf": 14.6,
+        "luf": 3.4
       }
     ],
     "currentByBand": {
-      "40m": 43,
-      "30m": 51,
-      "20m": 29,
-      "17m": 5,
-      "15m": 1,
+      "40m": 36,
+      "30m": 48,
+      "20m": 54,
+      "17m": 22,
+      "15m": 5,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-20T15:00:00",
-        "value": 1
-      },
-      {
         "time": "2026-06-20T18:00:00",
         "value": 1.67
       },
@@ -340,47 +336,47 @@
       }
     ],
     "potaCounts": {
-      "40m": 32,
-      "30m": 3,
-      "20m": 70,
-      "17m": 2,
-      "15m": 2,
+      "40m": 10,
+      "30m": 4,
+      "20m": 88,
+      "17m": 7,
+      "15m": 4,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 7,
-        "SSB": 17,
-        "FT8": 7,
+        "CW": 3,
+        "SSB": 6,
+        "FT8": 0,
         "FT4": 0,
         "Other": 1
       },
       "30m": {
-        "CW": 1,
+        "CW": 3,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 20,
-        "SSB": 33,
-        "FT8": 14,
-        "FT4": 2,
-        "Other": 1
+        "SSB": 41,
+        "FT8": 19,
+        "FT4": 4,
+        "Other": 4
       },
       "17m": {
-        "CW": 0,
+        "CW": 3,
         "SSB": 1,
-        "FT8": 1,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 2,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -399,11 +395,32 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "10118.5",
+        "mode": "CW",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "RBN 19 dB 27 WPM via KO4BHX-#",
+        "spotTime": "2026-06-20T16:23:05",
+        "grid": "EN11we"
+      },
+      {
+        "activator": "AE0YM",
+        "frequency": "14057.5",
+        "mode": "CW",
+        "ref": "US-4010",
+        "name": "Heron Haven State Park",
+        "comments": "RBN 8 dB 18 WPM via N6TV-#",
+        "spotTime": "2026-06-20T16:23:10",
+        "grid": "EN11wh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-06-20",
-        "TimeStamp": "14:16:00",
+        "TimeStamp": "16:22:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,7 +439,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-20",
-        "TimeStamp": "14:16:00",
+        "TimeStamp": "16:22:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -460,7 +477,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-19",
-        "TimeStamp": "14:16:00",
+        "TimeStamp": "16:22:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
