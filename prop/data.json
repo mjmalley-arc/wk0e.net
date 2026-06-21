@@ -1,75 +1,75 @@
 {
-  "generated": "2026-06-21T14:24:11Z",
+  "generated": "2026-06-21T16:49:01Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-21T14:24:10.623693+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-06-21T16:49:01.277452+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 113,
       "ssn": 53,
-      "kp": 1,
-      "bz": null
+      "kp": 1.33,
+      "bz": -0.3
     },
     "n0nbh": {
-      "xray": "B5.3",
+      "xray": "B6.3",
       "aIndex": "7",
       "aurora": "1",
-      "solarWind": "367.3",
-      "magneticField": "2.9",
+      "solarWind": "350.5",
+      "magneticField": "2.3",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "21 Jun 2026 1325 GMT"
+      "updated": "21 Jun 2026 1626 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 14.7,
-        "luf": 2.9
+        "muf": 17.8,
+        "luf": 3.6
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 13.9,
-        "luf": 2.7
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 14.3,
-        "luf": 2.8
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 11.7,
-        "luf": 2.4
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 13.3,
-        "luf": 2.6
+        "muf": 17.2,
+        "luf": 3.4
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 11.9,
-        "luf": 2.5
+        "muf": 15,
+        "luf": 3.3
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 16.6,
+        "luf": 3.3
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 12.3,
-        "luf": 2.3
+        "muf": 15.7,
+        "luf": 3.1
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 15,
+        "luf": 3.2
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 17.4,
+        "luf": 3.5
       }
     ],
     "currentByBand": {
-      "40m": 42,
-      "30m": 51,
-      "20m": 33,
-      "17m": 6,
-      "15m": 1,
+      "40m": 35,
+      "30m": 47,
+      "20m": 53,
+      "17m": 26,
+      "15m": 6,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-21T15:00:00",
-        "value": 0.67
-      },
-      {
         "time": "2026-06-21T18:00:00",
         "value": 1
       },
@@ -340,70 +336,81 @@
       }
     ],
     "potaCounts": {
-      "40m": 23,
-      "30m": 2,
-      "20m": 53,
+      "40m": 8,
+      "30m": 0,
+      "20m": 72,
       "17m": 1,
-      "15m": 1,
-      "12m": 0,
-      "10m": 0
+      "15m": 4,
+      "12m": 1,
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 8,
+        "CW": 2,
         "SSB": 6,
-        "FT8": 7,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 2
+        "Other": 0
       },
       "30m": {
-        "CW": 2,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 14,
-        "SSB": 30,
-        "FT8": 8,
-        "FT4": 0,
+        "CW": 21,
+        "SSB": 34,
+        "FT8": 11,
+        "FT4": 5,
         "Other": 1
       },
       "17m": {
-        "CW": 0,
-        "SSB": 1,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
-      },
-      "15m": {
         "CW": 0,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
+      "15m": {
+        "CW": 0,
+        "SSB": 1,
+        "FT8": 3,
+        "FT4": 0,
+        "Other": 0
+      },
       "12m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "14036.5",
+        "mode": "CW",
+        "ref": "US-2614",
+        "name": "Eugene T. Mahoney State Park",
+        "comments": "RBN 10 dB 25 WPM via W1NT-6-#",
+        "spotTime": "2026-06-21T16:47:32",
+        "grid": "EN11ua"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-06-21",
-        "TimeStamp": "14:22:00",
+        "TimeStamp": "16:47:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-21",
-        "TimeStamp": "14:22:00",
+        "TimeStamp": "16:47:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -460,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-20",
-        "TimeStamp": "14:22:00",
+        "TimeStamp": "16:47:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
