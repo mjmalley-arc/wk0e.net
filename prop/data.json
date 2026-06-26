@@ -1,77 +1,77 @@
 {
-  "generated": "2026-06-26T17:03:55Z",
+  "generated": "2026-06-26T19:58:58Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-26T17:03:54.627322+00:00",
-    "currentHourUTC": 17,
+    "fetched": "2026-06-26T19:58:57.873519+00:00",
+    "currentHourUTC": 19,
     "current": {
       "sfi": 156,
       "ssn": 104,
-      "kp": 2.33,
-      "bz": 0.8
+      "kp": 3,
+      "bz": 0.2
     },
     "n0nbh": {
-      "xray": "B9.3",
+      "xray": "C1.1",
       "aIndex": "25",
       "aurora": "3",
-      "solarWind": "655.0",
-      "magneticField": "0.9",
+      "solarWind": "663.0",
+      "magneticField": "-3.1",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "26 Jun 2026 1630 GMT"
+      "updated": "26 Jun 2026 1930 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 22.8,
-        "luf": 5
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 22.1,
-        "luf": 4.9
+        "muf": 24.5,
+        "luf": 5.3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 22.4,
-        "luf": 5
+        "muf": 24.2,
+        "luf": 5.3
       },
       {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 21.7,
-        "luf": 4.8
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 20.8,
-        "luf": 4.6
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 19.8,
-        "luf": 4.8
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 24.2,
+        "luf": 5.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 19.6,
-        "luf": 4.8
+        "muf": 22.1,
+        "luf": 5.4
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 24.2,
+        "luf": 5.3
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 24.1,
+        "luf": 5.4
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 22.8,
+        "luf": 5.5
       }
     ],
     "currentByBand": {
-      "40m": 23,
-      "30m": 41,
+      "40m": 21,
+      "30m": 40,
       "20m": 50,
       "17m": 54,
-      "15m": 47,
-      "12m": 20,
-      "10m": 2
+      "15m": 55,
+      "12m": 49,
+      "10m": 8
     },
     "avgGrid": {
       "40m": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-26T18:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-06-26T21:00:00",
         "value": 3
       },
@@ -336,101 +332,70 @@
       }
     ],
     "potaCounts": {
-      "40m": 6,
-      "30m": 1,
-      "20m": 59,
-      "17m": 4,
-      "15m": 1,
-      "12m": 0,
-      "10m": 3
+      "40m": 9,
+      "30m": 0,
+      "20m": 44,
+      "17m": 2,
+      "15m": 7,
+      "12m": 1,
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 4,
+        "CW": 1,
+        "SSB": 5,
         "FT8": 2,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 18,
-        "SSB": 26,
-        "FT8": 9,
-        "FT4": 1,
-        "Other": 5
+        "CW": 9,
+        "SSB": 18,
+        "FT8": 12,
+        "FT4": 2,
+        "Other": 3
       },
       "17m": {
-        "CW": 2,
+        "CW": 0,
         "SSB": 2,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "CW": 1,
+        "SSB": 4,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 2
+        "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "W0ARR",
-        "frequency": "18072.0",
-        "mode": "CW",
-        "ref": "US-5658",
-        "name": "Lake Zorinsky State Park",
-        "comments": "RBN 6 dB 25 WPM via K1RA-4-#",
-        "spotTime": "2026-06-26T16:48:19",
-        "grid": "EN11wf"
-      },
-      {
-        "activator": "AE0YM",
-        "frequency": "14055.0",
-        "mode": "CW",
-        "ref": "US-4010",
-        "name": "Heron Haven State Park",
-        "comments": "Tnx from Indy",
-        "spotTime": "2026-06-26T17:01:37",
-        "grid": "EN11wh"
-      },
-      {
-        "activator": "WK0E",
-        "frequency": "14061.4",
-        "mode": "CW",
-        "ref": "US-4011",
-        "name": "Chalco Hills State Recreation Area",
-        "comments": "qrt",
-        "spotTime": "2026-06-26T16:41:58",
-        "grid": "EN11we"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-06-26",
-        "TimeStamp": "17:01:00",
+        "TimeStamp": "19:57:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -449,7 +414,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-26",
-        "TimeStamp": "17:01:00",
+        "TimeStamp": "19:57:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -487,7 +452,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-25",
-        "TimeStamp": "17:01:00",
+        "TimeStamp": "19:57:00",
         "R": {
           "Scale": "0",
           "Text": "none",
