@@ -1,74 +1,74 @@
 {
-  "generated": "2026-06-26T04:15:01Z",
+  "generated": "2026-06-26T09:39:16Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-26T04:15:01.233479+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-06-26T09:39:16.016026+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 156,
       "ssn": 136,
-      "kp": 3,
-      "bz": -1.4
+      "kp": 2.33,
+      "bz": 0.6
     },
     "n0nbh": {
       "xray": "C1.1",
       "aIndex": "25",
-      "aurora": "4",
-      "solarWind": "648.4",
-      "magneticField": "-2.1",
-      "geomag": "UNSETTLD",
-      "signalNoise": "S2-S3",
-      "updated": "26 Jun 2026 0330 GMT"
+      "aurora": "2",
+      "solarWind": "661.4",
+      "magneticField": "1.5",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "26 Jun 2026 0931 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 11.8,
-        "luf": 1
+        "muf": 9.1,
+        "luf": 1.6
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 12.5,
-        "luf": 1.1
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 12,
-        "luf": 1.1
+        "muf": 8.8,
+        "luf": 1.4
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 13.5,
+        "muf": 8.7,
         "luf": 1.2
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 12.9,
-        "luf": 1.4
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 15.7,
-        "luf": 1.6
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 8.9,
+        "luf": 1.5
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 14.7,
-        "luf": 1.6
+        "muf": 8.4,
+        "luf": 1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 8.9,
+        "luf": 1
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 8,
+        "luf": 1.1
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 33,
-      "17m": 6,
+      "30m": 18,
+      "20m": 4,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-26T06:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-06-26T09:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-06-26T12:00:00",
         "value": 2
       },
@@ -352,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 2,
-      "30m": 2,
-      "20m": 2,
+      "40m": 0,
+      "30m": 0,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -364,21 +356,21 @@
       "40m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 1,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-06-26",
-        "TimeStamp": "04:13:00",
+        "TimeStamp": "09:37:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-26",
-        "TimeStamp": "04:13:00",
+        "TimeStamp": "09:37:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-25",
-        "TimeStamp": "04:13:00",
+        "TimeStamp": "09:37:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -485,8 +477,8 @@
           "Prob": null
         },
         "G": {
-          "Scale": "1",
-          "Text": "minor"
+          "Scale": "0",
+          "Text": "none"
         }
       }
     },
