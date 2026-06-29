@@ -1,77 +1,77 @@
 {
-  "generated": "2026-06-29T15:57:49Z",
+  "generated": "2026-06-29T20:07:28Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-06-29T15:57:49.324747+00:00",
-    "currentHourUTC": 15,
+    "fetched": "2026-06-29T20:07:27.589075+00:00",
+    "currentHourUTC": 20,
     "current": {
       "sfi": 186,
-      "ssn": 156,
-      "kp": 1,
-      "bz": 0.9
+      "ssn": 129,
+      "kp": 0.33,
+      "bz": -0.6
     },
     "n0nbh": {
-      "xray": "C2.9",
+      "xray": "C2.3",
       "aIndex": "5",
       "aurora": "1",
-      "solarWind": "351.4",
-      "magneticField": "1.3",
-      "geomag": "VR QUIET",
+      "solarWind": "337.6",
+      "magneticField": "-0.8",
+      "geomag": "INACTIVE",
       "signalNoise": "S0-S1",
-      "updated": "29 Jun 2026 1532 GMT"
+      "updated": "29 Jun 2026 1932 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 21.9,
-        "luf": 4.5
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 20.8,
-        "luf": 4.2
+        "muf": 27.7,
+        "luf": 4.1
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 21.3,
-        "luf": 4.4
+        "muf": 27.5,
+        "luf": 4.1
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 27.6,
+        "luf": 4.2
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 20,
-        "luf": 4
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 17.9,
-        "luf": 4
+        "muf": 27.9,
+        "luf": 4.2
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 18.5,
-        "luf": 3.7
+        "muf": 28.3,
+        "luf": 4.4
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 25.6,
+        "luf": 4.4
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 17.7,
-        "luf": 3.8
+        "muf": 26.8,
+        "luf": 4.5
       }
     ],
     "currentByBand": {
-      "40m": 23,
-      "30m": 41,
-      "20m": 50,
-      "17m": 50,
-      "15m": 32,
-      "12m": 10,
-      "10m": 1
+      "40m": 16,
+      "30m": 37,
+      "20m": 48,
+      "17m": 53,
+      "15m": 55,
+      "12m": 56,
+      "10m": 41
     },
     "avgGrid": {
       "40m": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-06-29T18:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-06-29T21:00:00",
         "value": 4.67
       },
@@ -336,17 +332,17 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
+      "40m": 2,
       "30m": 0,
-      "20m": 48,
-      "17m": 1,
-      "15m": 2,
-      "12m": 1,
+      "20m": 47,
+      "17m": 2,
+      "15m": 3,
+      "12m": 0,
       "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -360,30 +356,30 @@
         "Other": 0
       },
       "20m": {
-        "CW": 12,
-        "SSB": 19,
-        "FT8": 14,
+        "CW": 17,
+        "SSB": 21,
+        "FT8": 8,
         "FT4": 1,
-        "Other": 2
+        "Other": 0
       },
       "17m": {
-        "CW": 1,
-        "SSB": 0,
+        "CW": 0,
+        "SSB": 2,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -395,22 +391,11 @@
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "AE0YM",
-        "frequency": "14069.5",
-        "mode": "CW",
-        "ref": "US-4010",
-        "name": "Heron Haven State Park",
-        "comments": "RBN 12 dB 18 WPM via W1NT-2-#",
-        "spotTime": "2026-06-29T15:57:34",
-        "grid": "EN11wh"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-06-29",
-        "TimeStamp": "15:56:00",
+        "TimeStamp": "20:05:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -429,11 +414,11 @@
       },
       "tomorrow": {
         "DateStamp": "2026-06-29",
-        "TimeStamp": "15:56:00",
+        "TimeStamp": "20:05:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "50",
+          "MinorProb": "60",
           "MajorProb": "10"
         },
         "S": {
@@ -452,7 +437,7 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "50",
+          "MinorProb": "60",
           "MajorProb": "10"
         },
         "S": {
@@ -467,7 +452,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-06-28",
-        "TimeStamp": "15:56:00",
+        "TimeStamp": "20:05:00",
         "R": {
           "Scale": "0",
           "Text": "none",
