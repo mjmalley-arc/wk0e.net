@@ -1,77 +1,77 @@
 {
-  "generated": "2026-07-02T14:17:53Z",
+  "generated": "2026-07-02T16:54:20Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-02T14:17:53.442837+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-07-02T16:54:20.370829+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 201,
       "ssn": 126,
-      "kp": 1,
+      "kp": 1.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C3.0",
+      "xray": "C2.9",
       "aIndex": "14",
       "aurora": "2",
-      "solarWind": "333.7",
-      "magneticField": "1.4",
+      "solarWind": "351.2",
+      "magneticField": "1.2",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "02 Jul 2026 1408 GMT"
+      "updated": "02 Jul 2026 1608 GMT"
     },
     "paths": [
       {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 20.5,
-        "luf": 4.3
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 25.1,
+        "luf": 5.2
       },
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 21.2,
-        "luf": 4.5
+        "muf": 26.1,
+        "luf": 5.4
       },
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 20,
-        "luf": 4.2
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 16.9,
-        "luf": 3.8
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 25.5,
+        "luf": 5.3
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 19,
-        "luf": 3.9
+        "muf": 24.2,
+        "luf": 5
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 17.3,
-        "luf": 3.5
+        "muf": 22.8,
+        "luf": 4.7
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 21.8,
+        "luf": 5
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 16.6,
-        "luf": 3.6
+        "muf": 21.7,
+        "luf": 4.9
       }
     ],
     "currentByBand": {
-      "40m": 24,
-      "30m": 42,
-      "20m": 50,
-      "17m": 44,
-      "15m": 25,
-      "12m": 6,
-      "10m": 1
+      "40m": 14,
+      "30m": 35,
+      "20m": 47,
+      "17m": 52,
+      "15m": 54,
+      "12m": 43,
+      "10m": 13
     },
     "avgGrid": {
       "40m": {
@@ -259,16 +259,12 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-02T15:00:00",
-        "value": 2.33
-      },
-      {
         "time": "2026-07-02T18:00:00",
-        "value": 2.33
+        "value": 1.67
       },
       {
         "time": "2026-07-02T21:00:00",
-        "value": 2.67
+        "value": 1.67
       },
       {
         "time": "2026-07-03T00:00:00",
@@ -340,49 +336,49 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
-      "30m": 2,
-      "20m": 39,
-      "17m": 1,
-      "15m": 2,
+      "40m": 3,
+      "30m": 0,
+      "20m": 40,
+      "17m": 2,
+      "15m": 4,
       "12m": 0,
-      "10m": 0
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
+        "CW": 1,
         "SSB": 2,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 2,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 13,
-        "SSB": 15,
+        "CW": 11,
+        "SSB": 18,
         "FT8": 8,
-        "FT4": 3,
-        "Other": 0
+        "FT4": 2,
+        "Other": 1
       },
       "17m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "CW": 1,
+        "SSB": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
-        "FT4": 2,
-        "Other": 0
+        "FT8": 3,
+        "FT4": 0,
+        "Other": 1
       },
       "12m": {
         "CW": 0,
@@ -392,18 +388,29 @@
         "Other": 0
       },
       "10m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WK0E",
+        "frequency": "14062.5",
+        "mode": "CW",
+        "ref": "US-5648",
+        "name": "Memphis Lake State Recreation Area",
+        "comments": "qrt",
+        "spotTime": "2026-07-02T16:52:07",
+        "grid": "EN11sc"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-07-02",
-        "TimeStamp": "14:16:00",
+        "TimeStamp": "16:52:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-02",
-        "TimeStamp": "14:16:00",
+        "TimeStamp": "16:52:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -460,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-01",
-        "TimeStamp": "14:16:00",
+        "TimeStamp": "16:52:00",
         "R": {
           "Scale": "2",
           "Text": "moderate",
