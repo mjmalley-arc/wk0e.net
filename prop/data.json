@@ -1,76 +1,76 @@
 {
-  "generated": "2026-07-02T09:23:55Z",
+  "generated": "2026-07-02T14:17:53Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-02T09:23:55.363158+00:00",
-    "currentHourUTC": 9,
+    "fetched": "2026-07-02T14:17:53.442837+00:00",
+    "currentHourUTC": 14,
     "current": {
       "sfi": 201,
-      "ssn": 146,
+      "ssn": 126,
       "kp": 1,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C3.8",
+      "xray": "C3.0",
       "aIndex": "14",
-      "aurora": "1",
-      "solarWind": "403.4",
-      "magneticField": "5.0",
+      "aurora": "2",
+      "solarWind": "333.7",
+      "magneticField": "1.4",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "02 Jul 2026 0908 GMT"
+      "updated": "02 Jul 2026 1408 GMT"
     },
     "paths": [
       {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 20.5,
+        "luf": 4.3
+      },
+      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 10.6,
-        "luf": 1.7
+        "muf": 21.2,
+        "luf": 4.5
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 10.3,
-        "luf": 1.5
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 10.1,
-        "luf": 1.3
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 10.4,
-        "luf": 1.6
+        "muf": 20,
+        "luf": 4.2
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 9.3,
-        "luf": 1.2
+        "muf": 16.9,
+        "luf": 3.8
       },
       {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 9.8,
-        "luf": 1.1
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 19,
+        "luf": 3.9
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 10.4,
-        "luf": 1
+        "muf": 17.3,
+        "luf": 3.5
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 16.6,
+        "luf": 3.6
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 53,
-      "20m": 8,
-      "17m": 1,
-      "15m": 1,
-      "12m": 1,
+      "40m": 24,
+      "30m": 42,
+      "20m": 50,
+      "17m": 44,
+      "15m": 25,
+      "12m": 6,
       "10m": 1
     },
     "avgGrid": {
@@ -259,28 +259,24 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-02T12:00:00",
+        "time": "2026-07-02T15:00:00",
         "value": 2.33
       },
       {
-        "time": "2026-07-02T15:00:00",
-        "value": 3.67
-      },
-      {
         "time": "2026-07-02T18:00:00",
-        "value": 3
+        "value": 2.33
       },
       {
         "time": "2026-07-02T21:00:00",
-        "value": 4.33
+        "value": 2.67
       },
       {
         "time": "2026-07-03T00:00:00",
-        "value": 6
+        "value": 2.33
       },
       {
         "time": "2026-07-03T03:00:00",
-        "value": 4.67
+        "value": 2.33
       },
       {
         "time": "2026-07-03T06:00:00",
@@ -288,15 +284,15 @@
       },
       {
         "time": "2026-07-03T09:00:00",
-        "value": 4
+        "value": 5.67
       },
       {
         "time": "2026-07-03T12:00:00",
-        "value": 4
+        "value": 5.67
       },
       {
         "time": "2026-07-03T15:00:00",
-        "value": 4.33
+        "value": 4.67
       },
       {
         "time": "2026-07-03T18:00:00",
@@ -304,15 +300,15 @@
       },
       {
         "time": "2026-07-03T21:00:00",
-        "value": 4.67
+        "value": 5
       },
       {
         "time": "2026-07-04T00:00:00",
-        "value": 4.67
+        "value": 5.67
       },
       {
         "time": "2026-07-04T03:00:00",
-        "value": 4.33
+        "value": 4.67
       },
       {
         "time": "2026-07-04T06:00:00",
@@ -320,64 +316,64 @@
       },
       {
         "time": "2026-07-04T09:00:00",
-        "value": 3.33
-      },
-      {
-        "time": "2026-07-04T12:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-07-04T15:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-07-04T18:00:00",
-        "value": 4
-      },
-      {
-        "time": "2026-07-04T21:00:00",
         "value": 4.33
       },
       {
+        "time": "2026-07-04T12:00:00",
+        "value": 3.67
+      },
+      {
+        "time": "2026-07-04T15:00:00",
+        "value": 3.67
+      },
+      {
+        "time": "2026-07-04T18:00:00",
+        "value": 3.33
+      },
+      {
+        "time": "2026-07-04T21:00:00",
+        "value": 2.33
+      },
+      {
         "time": "2026-07-05T00:00:00",
-        "value": 2
+        "value": 2.67
       }
     ],
     "potaCounts": {
-      "40m": 0,
-      "30m": 0,
-      "20m": 0,
-      "17m": 0,
-      "15m": 0,
+      "40m": 5,
+      "30m": 2,
+      "20m": 39,
+      "17m": 1,
+      "15m": 2,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 2,
+        "SSB": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
+        "CW": 13,
+        "SSB": 15,
+        "FT8": 8,
+        "FT4": 3,
         "Other": 0
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -385,7 +381,7 @@
         "CW": 0,
         "SSB": 0,
         "FT8": 0,
-        "FT4": 0,
+        "FT4": 2,
         "Other": 0
       },
       "12m": {
@@ -407,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-07-02",
-        "TimeStamp": "09:22:00",
+        "TimeStamp": "14:16:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-02",
-        "TimeStamp": "09:22:00",
+        "TimeStamp": "14:16:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-01",
-        "TimeStamp": "09:22:00",
+        "TimeStamp": "14:16:00",
         "R": {
           "Scale": "2",
           "Text": "moderate",
@@ -498,6 +494,6 @@
       "astronomical_twilight_begin": "2026-07-02T08:49:03+00:00",
       "astronomical_twilight_end": "2026-07-03T04:07:34+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jul 02 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale\nG1).\nThe greatest expected 3 hr Kp for Jul 02-Jul 04 2026 is 6.00 (NOAA Scale\nG2).\n\nNOAA Kp index breakdown Jul 02-Jul 04 2026\n\n             Jul 02       Jul 03       Jul 04\n00-03UT       2.00         6.00 (G2)    4.67 (G1)\n03-06UT       2.33         4.67 (G1)    4.33     \n06-09UT       2.00         4.67 (G1)    4.33     \n09-12UT       2.33         4.00         3.33     \n12-15UT       3.33         4.00         3.00     \n15-18UT       3.67         4.33         2.00     \n18-21UT       3.00         4.67 (G1)    4.00     \n21-00UT       4.33         4.67 (G1)    4.33     \n\nRationale: Unsettled to active conditions are possible on 02 Jul with\nthe arrival of a CME that left the Sun on 27 Jun, but confidence is\nlower for this event. G1-G2 conditions are likely by 03 Jul due to the\nanticipated arrival of the 30 Jun CME associated with the X1.1 flare.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jul 02-Jul 04 2026\n\n              Jul 02  Jul 03  Jul 04\nS1 or greater   20%     20%     20%\n\nRationale: There is a slight chance for S1 (Minor) or greater solar\nradiation as Regions 4478 and 4479 continue to develop and move westward\ninto a more favorable position to connect with Earth.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nRadio blackouts reaching the R2 levels were observed over the past 24\nhours. The largest was at Jul 01 2026 2309 UTC.\n\nRadio Blackout Forecast for Jul 02-Jul 04 2026\n\n              Jul 02        Jul 03        Jul 04\nR1-R2           70%           70%           70%\nR3 or greater   20%           20%           20%\n\nRationale: Isolated R1-R2 (Minor-Moderate) radio blackouts are likely\nwith a slight chance for R3 (Strong) or greater events primarily due to\nthe potential of Regions 4478 and 4479.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jul 02 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jul 02-Jul 04 2026 is 5.67 (NOAA Scale\nG2).\n\nNOAA Kp index breakdown Jul 02-Jul 04 2026\n\n             Jul 02       Jul 03       Jul 04\n00-03UT       2.00         2.33         5.67 (G2)\n03-06UT       1.33         2.33         4.67 (G1)\n06-09UT       1.00         4.67 (G1)    4.33     \n09-12UT       1.00         5.67 (G2)    4.33     \n12-15UT       1.33         5.67 (G2)    3.67     \n15-18UT       2.33         4.67 (G1)    3.67     \n18-21UT       2.33         4.67 (G1)    3.33     \n21-00UT       2.67         5.00 (G1)    2.33     \n\nRationale: Quiet to unsettled conditions are expected on 02 Jul. G1-G2\nconditions are likely by 03-04 Jul due to the anticipated arrival of the\n30 Jun CME associated with the X1.1 flare.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jul 02-Jul 04 2026\n\n              Jul 02  Jul 03  Jul 04\nS1 or greater   20%     20%     20%\n\nRationale: There is a slight chance for S1 (Minor) or greater solar\nradiation as Regions 4478 and 4479 continue to develop and move westward\ninto a more favorable position to connect with Earth.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nRadio blackouts reaching the R2 levels were observed over the past 24\nhours. The largest was at Jul 01 2026 2309 UTC.\n\nRadio Blackout Forecast for Jul 02-Jul 04 2026\n\n              Jul 02        Jul 03        Jul 04\nR1-R2           70%           70%           70%\nR3 or greater   20%           20%           20%\n\nRationale: Isolated R1-R2 (Minor-Moderate) radio blackouts are likely\nwith a slight chance for R3 (Strong) or greater events primarily due to\nthe potential of Regions 4478 and 4479.\n"
   }
 }
