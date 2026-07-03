@@ -1,76 +1,76 @@
 {
-  "generated": "2026-07-03T03:51:15Z",
+  "generated": "2026-07-03T09:28:12Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-03T03:51:15.531826+00:00",
-    "currentHourUTC": 3,
+    "fetched": "2026-07-03T09:28:12.027484+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 203,
-      "ssn": 101,
+      "ssn": 108,
       "kp": 1,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C2.3",
+      "xray": "C3.3",
       "aIndex": "4",
-      "aurora": "1",
-      "solarWind": "397.1",
-      "magneticField": "3.2",
-      "geomag": "INACTIVE",
+      "aurora": "2",
+      "solarWind": "393.7",
+      "magneticField": "0.7",
+      "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "03 Jul 2026 0253 GMT"
+      "updated": "03 Jul 2026 0854 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 15.8,
-        "luf": 1.2
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 16.7,
+        "muf": 9.9,
         "luf": 1.4
+      },
+      {
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 10.3,
+        "luf": 1.6
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 16,
-        "luf": 1.3
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 18,
-        "luf": 1.6
+        "muf": 10,
+        "luf": 1.5
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 17.2,
-        "luf": 1.7
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 20.8,
-        "luf": 2
+        "muf": 9,
+        "luf": 1.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 19.5,
-        "luf": 2
+        "muf": 9.5,
+        "luf": 1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 10,
+        "luf": 1
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 9.8,
+        "luf": 1.2
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 60,
-      "17m": 40,
-      "15m": 16,
-      "12m": 3,
+      "30m": 46,
+      "20m": 7,
+      "17m": 1,
+      "15m": 1,
+      "12m": 1,
       "10m": 1
     },
     "avgGrid": {
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-03T06:00:00",
-        "value": 4.67
-      },
-      {
-        "time": "2026-07-03T09:00:00",
-        "value": 5.67
-      },
-      {
         "time": "2026-07-03T12:00:00",
         "value": 5.67
       },
@@ -352,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 6,
+      "40m": 1,
       "30m": 0,
-      "20m": 8,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -362,10 +354,10 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 3,
-        "FT8": 0,
-        "FT4": 1,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 1,
+        "FT4": 0,
         "Other": 0
       },
       "30m": {
@@ -376,10 +368,10 @@
         "Other": 0
       },
       "20m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 5,
-        "FT4": 1,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
+        "FT4": 0,
         "Other": 0
       },
       "17m": {
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-07-03",
-        "TimeStamp": "03:49:00",
+        "TimeStamp": "09:27:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-03",
-        "TimeStamp": "03:49:00",
+        "TimeStamp": "09:27:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-02",
-        "TimeStamp": "03:49:00",
+        "TimeStamp": "09:27:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
