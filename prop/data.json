@@ -1,75 +1,75 @@
 {
-  "generated": "2026-07-05T04:02:34Z",
+  "generated": "2026-07-05T09:14:45Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-05T04:02:34.534578+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-07-05T09:14:45.207400+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 161,
-      "ssn": 97,
-      "kp": 3.33,
+      "ssn": 79,
+      "kp": 2.67,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C2.7",
+      "xray": "C4.0",
       "aIndex": "74",
-      "aurora": "1",
-      "solarWind": "570.8",
-      "magneticField": "-0.3",
+      "aurora": "3",
+      "solarWind": "512.8",
+      "magneticField": "-3.3",
       "geomag": "UNSETTLD",
       "signalNoise": "S2-S3",
-      "updated": "05 Jul 2026 0355 GMT"
+      "updated": "05 Jul 2026 0857 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 12,
-        "luf": 1.1
+        "muf": 9.3,
+        "luf": 1.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 12.7,
-        "luf": 1.2
+        "muf": 8.9,
+        "luf": 1.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 12.2,
-        "luf": 1.1
+        "muf": 9,
+        "luf": 1.6
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13.2,
-        "luf": 1.4
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 16,
-        "luf": 1.7
+        "muf": 8.1,
+        "luf": 1.2
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 13.8,
+        "muf": 8.8,
         "luf": 1.3
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 9,
+        "luf": 1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 15,
-        "luf": 1.7
+        "muf": 8.5,
+        "luf": 1.1
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 36,
-      "17m": 8,
-      "15m": 2,
+      "30m": 21,
+      "20m": 4,
+      "17m": 1,
+      "15m": 1,
       "12m": 1,
       "10m": 1
     },
@@ -259,16 +259,8 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-05T06:00:00",
-        "value": 3.67
-      },
-      {
-        "time": "2026-07-05T09:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-07-05T12:00:00",
-        "value": 2.67
+        "value": 3.67
       },
       {
         "time": "2026-07-05T15:00:00",
@@ -280,7 +272,7 @@
       },
       {
         "time": "2026-07-05T21:00:00",
-        "value": 2.67
+        "value": 4.67
       },
       {
         "time": "2026-07-06T00:00:00",
@@ -352,9 +344,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
-      "30m": 1,
-      "20m": 1,
+      "40m": 1,
+      "30m": 0,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -363,20 +355,20 @@
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 3,
-        "FT8": 2,
+        "SSB": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-07-05",
-        "TimeStamp": "04:01:00",
+        "TimeStamp": "09:13:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-05",
-        "TimeStamp": "04:01:00",
+        "TimeStamp": "09:13:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-04",
-        "TimeStamp": "04:01:00",
+        "TimeStamp": "09:13:00",
         "R": {
           "Scale": "3",
           "Text": "strong",
@@ -485,8 +477,8 @@
           "Prob": null
         },
         "G": {
-          "Scale": "3",
-          "Text": "strong"
+          "Scale": "2",
+          "Text": "moderate"
         }
       }
     },
