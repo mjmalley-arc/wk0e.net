@@ -1,74 +1,74 @@
 {
-  "generated": "2026-07-07T03:59:24Z",
+  "generated": "2026-07-07T09:52:40Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-07T03:59:24.246254+00:00",
-    "currentHourUTC": 3,
+    "fetched": "2026-07-07T09:52:39.735816+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 125,
-      "ssn": 85,
+      "ssn": 50,
       "kp": 0.67,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C1.5",
+      "xray": "C1.6",
       "aIndex": "7",
       "aurora": "1",
-      "solarWind": "408.4",
-      "magneticField": "2.5",
-      "geomag": "INACTIVE",
+      "solarWind": "421.5",
+      "magneticField": "3.5",
+      "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "07 Jul 2026 0358 GMT"
+      "updated": "07 Jul 2026 0857 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 12,
-        "luf": 0.9
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 13.6,
-        "luf": 1.1
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 12.7,
-        "luf": 0.9
+        "muf": 7.9,
+        "luf": 1
       },
       {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 15.6,
-        "luf": 1.4
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 8.2,
+        "luf": 1.1
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 12.2,
-        "luf": 0.9
+        "muf": 8,
+        "luf": 1
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 7.8,
+        "luf": 0.8
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13,
-        "luf": 1.2
+        "muf": 7.2,
+        "luf": 0.8
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 8,
+        "luf": 0.7
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 14.6,
-        "luf": 1.4
+        "muf": 7.6,
+        "luf": 0.7
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 34,
-      "17m": 6,
+      "30m": 14,
+      "20m": 2,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-07T06:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-07-07T09:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-07-07T12:00:00",
         "value": 1.67
       },
@@ -353,8 +345,8 @@
     ],
     "potaCounts": {
       "40m": 3,
-      "30m": 2,
-      "20m": 6,
+      "30m": 0,
+      "20m": 0,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -363,24 +355,24 @@
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 3,
+        "SSB": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 4,
-        "FT4": 1,
-        "Other": 1
+        "FT8": 0,
+        "FT4": 0,
+        "Other": 0
       },
       "17m": {
         "CW": 0,
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-07-07",
-        "TimeStamp": "03:58:00",
+        "TimeStamp": "09:50:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-07",
-        "TimeStamp": "03:58:00",
+        "TimeStamp": "09:50:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-06",
-        "TimeStamp": "03:58:00",
+        "TimeStamp": "09:50:00",
         "R": {
           "Scale": "0",
           "Text": "none",
