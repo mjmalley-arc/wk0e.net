@@ -1,75 +1,75 @@
 {
-  "generated": "2026-07-08T14:28:45Z",
+  "generated": "2026-07-08T16:43:47Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-08T14:28:44.841059+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-07-08T16:43:47.255360+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 110,
       "ssn": 80,
-      "kp": 3,
+      "kp": 0.67,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B9.1",
+      "xray": "B8.2",
       "aIndex": "4",
-      "aurora": "3",
-      "solarWind": "401.4",
-      "magneticField": "-3.8",
-      "geomag": "UNSETTLD",
-      "signalNoise": "S2-S3",
-      "updated": "08 Jul 2026 1358 GMT"
+      "aurora": "4",
+      "solarWind": "397.2",
+      "magneticField": "-5.2",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "08 Jul 2026 1553 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 14.6,
-        "luf": 3.7
+        "muf": 17.8,
+        "luf": 4
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 13.9,
-        "luf": 3.4
+        "muf": 17.1,
+        "luf": 3.8
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 14.2,
-        "luf": 3.6
+        "muf": 17.3,
+        "luf": 3.9
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 13.2,
-        "luf": 3.2
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 11.8,
-        "luf": 3.2
+        "muf": 16.6,
+        "luf": 3.7
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 11.7,
-        "luf": 3
+        "muf": 15,
+        "luf": 3.6
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 14.9,
+        "luf": 3.7
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 12.2,
-        "luf": 2.9
+        "muf": 15.7,
+        "luf": 3.5
       }
     ],
     "currentByBand": {
-      "40m": 41,
-      "30m": 50,
-      "20m": 32,
-      "17m": 6,
-      "15m": 1,
+      "40m": 35,
+      "30m": 47,
+      "20m": 53,
+      "17m": 25,
+      "15m": 6,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-08T15:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-07-08T18:00:00",
         "value": 1.67
       },
@@ -340,38 +336,38 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
-      "30m": 0,
-      "20m": 47,
-      "17m": 0,
-      "15m": 3,
+      "40m": 1,
+      "30m": 1,
+      "20m": 65,
+      "17m": 2,
+      "15m": 1,
       "12m": 0,
-      "10m": 0
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
+        "CW": 0,
         "SSB": 1,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 13,
-        "SSB": 22,
-        "FT8": 11,
-        "FT4": 0,
-        "Other": 1
+        "CW": 19,
+        "SSB": 20,
+        "FT8": 20,
+        "FT4": 4,
+        "Other": 2
       },
       "17m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -379,8 +375,8 @@
       },
       "15m": {
         "CW": 1,
-        "SSB": 1,
-        "FT8": 1,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -393,38 +389,17 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "KJ7SAY",
-        "frequency": "14075",
-        "mode": "FT8",
-        "ref": "US-2614",
-        "name": "Eugene T. Mahoney State Park",
-        "comments": "",
-        "spotTime": "2026-07-08T14:26:59",
-        "grid": "EN11ua"
-      },
-      {
-        "activator": "KS3Y",
-        "frequency": "14218",
-        "mode": "SSB",
-        "ref": "US-5676",
-        "name": "Two Rivers State Recreation Area",
-        "comments": "",
-        "spotTime": "2026-07-08T14:01:31",
-        "grid": "EN11tf"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-07-08",
-        "TimeStamp": "14:27:00",
+        "TimeStamp": "16:42:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -443,7 +418,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-08",
-        "TimeStamp": "14:27:00",
+        "TimeStamp": "16:42:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -481,7 +456,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-07",
-        "TimeStamp": "14:27:00",
+        "TimeStamp": "16:42:00",
         "R": {
           "Scale": "0",
           "Text": "none",
