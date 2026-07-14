@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-14T13:58:32Z",
+  "generated": "2026-07-14T16:19:37Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-14T13:58:32.042970+00:00",
-    "currentHourUTC": 13,
+    "fetched": "2026-07-14T16:19:36.986620+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 103,
       "ssn": 34,
@@ -11,65 +11,65 @@
       "bz": null
     },
     "n0nbh": {
-      "xray": "B4.4",
+      "xray": "B4.6",
       "aIndex": "9",
       "aurora": "1",
-      "solarWind": "377.9",
-      "magneticField": "4.8",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "14 Jul 2026 1259 GMT"
+      "solarWind": "383.9",
+      "magneticField": "8.9",
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "14 Jul 2026 1559 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 12.3,
-        "luf": 2.7
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 11.9,
-        "luf": 2.6
+        "muf": 16.7,
+        "luf": 3.3
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.6,
-        "luf": 2.5
+        "muf": 16.1,
+        "luf": 3.2
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 9.8,
-        "luf": 2.2
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 16.3,
+        "luf": 3.2
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 11,
-        "luf": 2.3
+        "muf": 15.6,
+        "luf": 3.1
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 10.1,
-        "luf": 2
+        "muf": 14.8,
+        "luf": 2.9
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 14.1,
+        "luf": 3.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 9.7,
-        "luf": 2.1
+        "muf": 14.1,
+        "luf": 3
       }
     ],
     "currentByBand": {
-      "40m": 48,
+      "40m": 37,
       "30m": 49,
-      "20m": 11,
-      "17m": 1,
-      "15m": 1,
+      "20m": 54,
+      "17m": 16,
+      "15m": 4,
       "12m": 1,
       "10m": 1
     },
@@ -259,16 +259,12 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-14T15:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-07-14T18:00:00",
-        "value": 2.33
+        "value": 3
       },
       {
         "time": "2026-07-14T21:00:00",
-        "value": 2.67
+        "value": 3.67
       },
       {
         "time": "2026-07-15T00:00:00",
@@ -340,40 +336,40 @@
       }
     ],
     "potaCounts": {
-      "40m": 8,
-      "30m": 2,
-      "20m": 37,
-      "17m": 2,
+      "40m": 6,
+      "30m": 0,
+      "20m": 47,
+      "17m": 4,
       "15m": 2,
       "12m": 0,
-      "10m": 0
+      "10m": 2
     },
     "potaModes": {
       "40m": {
         "CW": 3,
-        "SSB": 4,
-        "FT8": 1,
+        "SSB": 2,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 17,
-        "SSB": 12,
-        "FT8": 6,
-        "FT4": 0,
+        "CW": 11,
+        "SSB": 20,
+        "FT8": 13,
+        "FT4": 1,
         "Other": 2
       },
       "17m": {
         "CW": 1,
-        "SSB": 1,
-        "FT8": 0,
+        "SSB": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -394,16 +390,27 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "AE0YM",
+        "frequency": "14066.5",
+        "mode": "CW",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "",
+        "spotTime": "2026-07-14T16:18:55",
+        "grid": "EN11wh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-07-14",
-        "TimeStamp": "13:57:00",
+        "TimeStamp": "16:18:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-14",
-        "TimeStamp": "13:57:00",
+        "TimeStamp": "16:18:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -460,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-13",
-        "TimeStamp": "13:57:00",
+        "TimeStamp": "16:18:00",
         "R": {
           "Scale": "0",
           "Text": "none",
