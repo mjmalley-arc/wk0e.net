@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-19T13:37:21Z",
+  "generated": "2026-07-19T16:01:11Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-19T13:37:21.174706+00:00",
-    "currentHourUTC": 13,
+    "fetched": "2026-07-19T16:01:11.019066+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 110,
       "ssn": 44,
@@ -11,65 +11,65 @@
       "bz": null
     },
     "n0nbh": {
-      "xray": "B8.3",
+      "xray": "B7.6",
       "aIndex": "4",
-      "aurora": "1",
-      "solarWind": "296.5",
-      "magneticField": "0.3",
+      "aurora": "2",
+      "solarWind": "297.2",
+      "magneticField": "-0.7",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "19 Jul 2026 1302 GMT"
+      "updated": "19 Jul 2026 1502 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 12.8,
-        "luf": 2.5
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 12.4,
-        "luf": 2.4
+        "muf": 17.5,
+        "luf": 3.3
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 12.1,
-        "luf": 2.3
+        "muf": 16.9,
+        "luf": 3.2
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 10.2,
-        "luf": 2.1
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 10.5,
-        "luf": 1.9
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 17.1,
+        "luf": 3.3
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 11.5,
-        "luf": 2.1
+        "muf": 16.3,
+        "luf": 3.1
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 14.7,
+        "luf": 3.1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 15.5,
+        "luf": 2.9
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 10.1,
-        "luf": 1.9
+        "muf": 14.8,
+        "luf": 3
       }
     ],
     "currentByBand": {
-      "40m": 46,
-      "30m": 53,
-      "20m": 14,
-      "17m": 2,
-      "15m": 1,
+      "40m": 35,
+      "30m": 48,
+      "20m": 54,
+      "17m": 23,
+      "15m": 5,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-19T15:00:00",
-        "value": 0.67
-      },
-      {
         "time": "2026-07-19T18:00:00",
         "value": 1.67
       },
@@ -340,81 +336,70 @@
       }
     ],
     "potaCounts": {
-      "40m": 33,
-      "30m": 3,
-      "20m": 51,
-      "17m": 2,
-      "15m": 0,
-      "12m": 0,
-      "10m": 1
+      "40m": 10,
+      "30m": 0,
+      "20m": 95,
+      "17m": 5,
+      "15m": 8,
+      "12m": 1,
+      "10m": 13
     },
     "potaModes": {
       "40m": {
-        "CW": 11,
-        "SSB": 16,
-        "FT8": 5,
+        "CW": 3,
+        "SSB": 7,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "30m": {
-        "CW": 2,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 11,
-        "SSB": 28,
-        "FT8": 5,
-        "FT4": 3,
+        "CW": 21,
+        "SSB": 43,
+        "FT8": 18,
+        "FT4": 9,
         "Other": 4
       },
       "17m": {
-        "CW": 2,
-        "SSB": 0,
+        "CW": 1,
+        "SSB": 3,
         "FT8": 0,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "15m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 2,
+        "SSB": 4,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "10m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 11,
         "FT8": 1,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       }
     },
-    "en11Spots": [
-      {
-        "activator": "N0MTT",
-        "frequency": "14045.9",
-        "mode": "CW",
-        "ref": "US-3491",
-        "name": "Lake Wanahoo State Recreation Area",
-        "comments": "QRT thanks everyone! Off to the next park hunt me there!",
-        "spotTime": "2026-07-19T13:29:09",
-        "grid": "EN11qf"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-07-19",
-        "TimeStamp": "13:34:00",
+        "TimeStamp": "15:58:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -433,7 +418,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-19",
-        "TimeStamp": "13:34:00",
+        "TimeStamp": "15:58:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -471,7 +456,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-18",
-        "TimeStamp": "13:34:00",
+        "TimeStamp": "15:58:00",
         "R": {
           "Scale": "0",
           "Text": "none",
