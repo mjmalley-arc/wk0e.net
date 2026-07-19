@@ -1,74 +1,74 @@
 {
-  "generated": "2026-07-19T10:38:25Z",
+  "generated": "2026-07-19T13:37:21Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-19T10:38:25.110582+00:00",
-    "currentHourUTC": 10,
+    "fetched": "2026-07-19T13:37:21.174706+00:00",
+    "currentHourUTC": 13,
     "current": {
       "sfi": 110,
       "ssn": 44,
-      "kp": 0.33,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B7.9",
+      "xray": "B8.3",
       "aIndex": "4",
       "aurora": "1",
-      "solarWind": "325.5",
-      "magneticField": "-0.0",
+      "solarWind": "296.5",
+      "magneticField": "0.3",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "19 Jul 2026 1002 GMT"
+      "updated": "19 Jul 2026 1302 GMT"
     },
     "paths": [
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 8.2,
-        "luf": 1.3
-      },
-      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.7,
-        "luf": 1.5
+        "muf": 12.8,
+        "luf": 2.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 8.4,
-        "luf": 1.4
+        "muf": 12.4,
+        "luf": 2.4
       },
       {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 8,
-        "luf": 1.1
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 12.1,
+        "luf": 2.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 7.2,
-        "luf": 1.1
+        "muf": 10.2,
+        "luf": 2.1
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 7.8,
-        "luf": 0.9
+        "muf": 10.5,
+        "luf": 1.9
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 11.5,
+        "luf": 2.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.4,
-        "luf": 0.9
+        "muf": 10.1,
+        "luf": 1.9
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 14,
-      "20m": 2,
-      "17m": 1,
+      "40m": 46,
+      "30m": 53,
+      "20m": 14,
+      "17m": 2,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-19T12:00:00",
-        "value": 0.67
-      },
-      {
         "time": "2026-07-19T15:00:00",
         "value": 0.67
       },
@@ -344,38 +340,38 @@
       }
     ],
     "potaCounts": {
-      "40m": 6,
-      "30m": 0,
-      "20m": 4,
-      "17m": 0,
+      "40m": 33,
+      "30m": 3,
+      "20m": 51,
+      "17m": 2,
       "15m": 0,
       "12m": 0,
-      "10m": 0
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 1,
+        "CW": 11,
+        "SSB": 16,
         "FT8": 5,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
-      },
-      "20m": {
-        "CW": 0,
-        "SSB": 3,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
+      "20m": {
+        "CW": 11,
+        "SSB": 28,
+        "FT8": 5,
+        "FT4": 3,
+        "Other": 4
+      },
       "17m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -398,16 +394,27 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "N0MTT",
+        "frequency": "14045.9",
+        "mode": "CW",
+        "ref": "US-3491",
+        "name": "Lake Wanahoo State Recreation Area",
+        "comments": "QRT thanks everyone! Off to the next park hunt me there!",
+        "spotTime": "2026-07-19T13:29:09",
+        "grid": "EN11qf"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-07-19",
-        "TimeStamp": "10:36:00",
+        "TimeStamp": "13:34:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +433,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-19",
-        "TimeStamp": "10:36:00",
+        "TimeStamp": "13:34:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +471,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-18",
-        "TimeStamp": "10:36:00",
+        "TimeStamp": "13:34:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +502,6 @@
       "astronomical_twilight_begin": "2026-07-19T09:09:00+00:00",
       "astronomical_twilight_end": "2026-07-20T03:52:03+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jul 19 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jul 19-Jul 21 2026 is 2.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Jul 19-Jul 21 2026\n\n             Jul 19       Jul 20       Jul 21\n00-03UT       1.67         1.33         1.33     \n03-06UT       2.00         2.00         2.00     \n06-09UT       1.67         2.00         2.00     \n09-12UT       1.33         1.33         1.33     \n12-15UT       0.67         1.67         1.33     \n15-18UT       0.67         0.67         0.67     \n18-21UT       1.67         0.67         0.67     \n21-00UT       1.67         1.33         1.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jul 19-Jul 21 2026\n\n              Jul 19  Jul 20  Jul 21\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jul 19-Jul 21 2026\n\n              Jul 19        Jul 20        Jul 21\nR1-R2           15%           15%           15%\nR3 or greater    1%            1%            1%\n\nRationale: There remains a slight chance for R1-R2 (Minor-Moderate)\nradio blackouts over 19-21 Jul.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Jul 19 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 1 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Jul 19-Jul 21 2026 is 2.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Jul 19-Jul 21 2026\n\n             Jul 19       Jul 20       Jul 21\n00-03UT       0.67         1.33         1.33     \n03-06UT       0.67         2.00         2.00     \n06-09UT       1.67         2.00         2.00     \n09-12UT       1.33         1.33         1.33     \n12-15UT       0.67         1.67         1.33     \n15-18UT       0.67         0.67         0.67     \n18-21UT       1.67         0.67         0.67     \n21-00UT       1.67         1.33         1.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected\nthrough 21 Jul.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Jul 19-Jul 21 2026\n\n              Jul 19  Jul 20  Jul 21\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected\nthrough 21 Jul.  No significant active region activity favorable for\nradiation storm production is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Jul 19-Jul 21 2026\n\n              Jul 19        Jul 20        Jul 21\nR1-R2           15%           15%           15%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts through 21 Jul.\n"
   }
 }
