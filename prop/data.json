@@ -1,75 +1,75 @@
 {
-  "generated": "2026-07-20T14:20:50Z",
+  "generated": "2026-07-20T16:36:04Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-20T14:20:50.500669+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-07-20T16:36:04.349616+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 119,
       "ssn": 88,
-      "kp": 0.33,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C2.1",
+      "xray": "C1.3",
       "aIndex": "4",
       "aurora": "2",
-      "solarWind": "269.4",
-      "magneticField": "-1.8",
-      "geomag": "INACTIVE",
+      "solarWind": "274.0",
+      "magneticField": "-2.0",
+      "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "20 Jul 2026 1402 GMT"
+      "updated": "20 Jul 2026 1602 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 15.1,
-        "luf": 2.9
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 14.3,
-        "luf": 2.7
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 12.2,
-        "luf": 2.5
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 14.6,
-        "luf": 2.8
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 12,
-        "luf": 2.3
+        "muf": 18.3,
+        "luf": 3.5
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 13.6,
-        "luf": 2.5
+        "muf": 17.1,
+        "luf": 3.3
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 17.9,
+        "luf": 3.5
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 17.6,
+        "luf": 3.4
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 15.4,
+        "luf": 3.2
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 12.6,
-        "luf": 2.3
+        "muf": 16.2,
+        "luf": 3.1
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 15.4,
+        "luf": 3.2
       }
     ],
     "currentByBand": {
-      "40m": 40,
-      "30m": 50,
-      "20m": 36,
-      "17m": 7,
-      "15m": 1,
+      "40m": 33,
+      "30m": 46,
+      "20m": 53,
+      "17m": 31,
+      "15m": 8,
       "12m": 1,
       "10m": 1
     },
@@ -259,16 +259,12 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-20T15:00:00",
-        "value": 0.67
-      },
-      {
         "time": "2026-07-20T18:00:00",
-        "value": 0.67
+        "value": 1.33
       },
       {
         "time": "2026-07-20T21:00:00",
-        "value": 1.33
+        "value": 2
       },
       {
         "time": "2026-07-21T00:00:00",
@@ -340,24 +336,24 @@
       }
     ],
     "potaCounts": {
-      "40m": 8,
-      "30m": 0,
-      "20m": 28,
+      "40m": 0,
+      "30m": 1,
+      "20m": 37,
       "17m": 3,
-      "15m": 3,
+      "15m": 2,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 3,
-        "SSB": 5,
+        "CW": 0,
+        "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -365,20 +361,20 @@
       },
       "20m": {
         "CW": 8,
-        "SSB": 13,
+        "SSB": 23,
         "FT8": 5,
         "FT4": 0,
-        "Other": 2
+        "Other": 1
       },
       "17m": {
         "CW": 1,
-        "SSB": 2,
-        "FT8": 0,
+        "SSB": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 1,
         "FT8": 1,
         "FT4": 0,
@@ -404,17 +400,17 @@
         "activator": "AE0YM",
         "frequency": "14066.5",
         "mode": "CW",
-        "ref": "US-4010",
-        "name": "Heron Haven State Park",
-        "comments": "55N TX TU",
-        "spotTime": "2026-07-20T14:17:53",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "RBN 9 dB 18 WPM via K7CO-#",
+        "spotTime": "2026-07-20T16:35:20",
         "grid": "EN11wh"
       }
     ],
     "scales": {
       "today": {
         "DateStamp": "2026-07-20",
-        "TimeStamp": "14:19:00",
+        "TimeStamp": "16:33:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -433,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-20",
-        "TimeStamp": "14:19:00",
+        "TimeStamp": "16:33:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -471,10 +467,10 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-19",
-        "TimeStamp": "14:19:00",
+        "TimeStamp": "16:33:00",
         "R": {
-          "Scale": "0",
-          "Text": "none",
+          "Scale": "1",
+          "Text": "minor",
           "MinorProb": null,
           "MajorProb": null
         },
