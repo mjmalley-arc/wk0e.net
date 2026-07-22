@@ -1,13 +1,13 @@
 {
-  "generated": "2026-07-22T14:09:44Z",
+  "generated": "2026-07-22T16:23:50Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-22T14:09:44.421744+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-07-22T16:23:49.731478+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 137,
       "ssn": 100,
-      "kp": 2.67,
+      "kp": 1.67,
       "bz": null
     },
     "n0nbh": {
@@ -18,59 +18,59 @@
       "magneticField": "9.1",
       "geomag": "UNSETTLD",
       "signalNoise": "S2-S3",
-      "updated": "22 Jul 2026 1403 GMT"
+      "updated": "22 Jul 2026 1603 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 16.9,
-        "luf": 4.5
+        "muf": 20.7,
+        "luf": 5.1
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 16,
-        "luf": 4.2
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 15.2,
-        "luf": 3.9
+        "muf": 19.9,
+        "luf": 4.9
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 16.4,
-        "luf": 4.4
+        "muf": 20.2,
+        "luf": 5
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 19.2,
+        "luf": 4.7
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13.6,
-        "luf": 3.9
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13.4,
-        "luf": 3.6
+        "muf": 17.3,
+        "luf": 4.7
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14,
-        "luf": 3.5
+        "muf": 18.2,
+        "luf": 4.4
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 17.3,
+        "luf": 4.6
       }
     ],
     "currentByBand": {
-      "40m": 35,
-      "30m": 48,
-      "20m": 49,
-      "17m": 16,
-      "15m": 4,
-      "12m": 1,
+      "40m": 27,
+      "30m": 43,
+      "20m": 51,
+      "17m": 50,
+      "15m": 24,
+      "12m": 5,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-22T15:00:00",
-        "value": 2.67
-      },
-      {
         "time": "2026-07-22T18:00:00",
         "value": 4
       },
@@ -340,53 +336,53 @@
       }
     ],
     "potaCounts": {
-      "40m": 6,
-      "30m": 0,
-      "20m": 33,
-      "17m": 3,
+      "40m": 5,
+      "30m": 1,
+      "20m": 42,
+      "17m": 4,
       "15m": 2,
-      "12m": 0,
-      "10m": 0
+      "12m": 1,
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
-        "SSB": 4,
-        "FT8": 1,
+        "CW": 2,
+        "SSB": 1,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 9,
-        "SSB": 13,
-        "FT8": 9,
-        "FT4": 0,
-        "Other": 2
+        "CW": 13,
+        "SSB": 17,
+        "FT8": 10,
+        "FT4": 1,
+        "Other": 1
       },
       "17m": {
         "CW": 0,
-        "SSB": 2,
+        "SSB": 3,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 1,
+        "SSB": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -394,27 +390,27 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       }
     },
     "en11Spots": [
       {
-        "activator": "KI5OOS",
-        "frequency": "14074",
+        "activator": "W1TF",
+        "frequency": "28074.0",
         "mode": "FT8",
-        "ref": "US-4036",
-        "name": "Walnut Creek State Recreation Area",
-        "comments": "FT8  Sent: -25  Rcvd: -03",
-        "spotTime": "2026-07-22T13:51:10",
-        "grid": "EN11xd"
+        "ref": "US-2614",
+        "name": "Eugene T. Mahoney State Park",
+        "comments": "RBN -9 dB via WA7LNW-#",
+        "spotTime": "2026-07-22T16:21:02",
+        "grid": "EN11ua"
       }
     ],
     "scales": {
       "today": {
         "DateStamp": "2026-07-22",
-        "TimeStamp": "14:07:00",
+        "TimeStamp": "16:21:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -433,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-22",
-        "TimeStamp": "14:07:00",
+        "TimeStamp": "16:21:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -471,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-21",
-        "TimeStamp": "14:07:00",
+        "TimeStamp": "16:21:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
