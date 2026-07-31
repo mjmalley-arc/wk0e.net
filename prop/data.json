@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-31T14:22:41Z",
+  "generated": "2026-07-31T16:48:11Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-07-31T14:22:41.034439+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-07-31T16:48:11.033031+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 152,
       "ssn": 123,
@@ -11,66 +11,66 @@
       "bz": null
     },
     "n0nbh": {
-      "xray": "C1.6",
+      "xray": "B9.9",
       "aIndex": "5",
       "aurora": "2",
-      "solarWind": "321.5",
-      "magneticField": "-1.9",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "31 Jul 2026 1411 GMT"
+      "solarWind": "301.3",
+      "magneticField": "0.4",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "31 Jul 2026 1611 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 16.9,
-        "luf": 3.7
+        "muf": 20.6,
+        "luf": 4.5
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 16,
-        "luf": 3.5
+        "muf": 19.8,
+        "luf": 4.4
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 16.4,
-        "luf": 3.6
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13.3,
-        "luf": 3
+        "muf": 20.1,
+        "luf": 4.5
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 15.2,
-        "luf": 3.3
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 14,
-        "luf": 2.9
+        "muf": 19.2,
+        "luf": 4.2
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13.6,
-        "luf": 3.2
+        "muf": 17.3,
+        "luf": 4.2
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 18.1,
+        "luf": 4
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 17.3,
+        "luf": 4.1
       }
     ],
     "currentByBand": {
-      "40m": 35,
-      "30m": 48,
-      "20m": 47,
-      "17m": 15,
-      "15m": 4,
-      "12m": 1,
+      "40m": 27,
+      "30m": 43,
+      "20m": 51,
+      "17m": 49,
+      "15m": 23,
+      "12m": 5,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-07-31T15:00:00",
-        "value": 2.33
-      },
-      {
         "time": "2026-07-31T18:00:00",
         "value": 2.67
       },
@@ -340,47 +336,47 @@
       }
     ],
     "potaCounts": {
-      "40m": 9,
+      "40m": 13,
       "30m": 2,
-      "20m": 59,
-      "17m": 3,
-      "15m": 0,
+      "20m": 67,
+      "17m": 5,
+      "15m": 3,
       "12m": 0,
-      "10m": 2
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
-        "SSB": 6,
-        "FT8": 2,
+        "CW": 2,
+        "SSB": 11,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 16,
-        "SSB": 32,
-        "FT8": 9,
-        "FT4": 1,
-        "Other": 1
+        "CW": 13,
+        "SSB": 39,
+        "FT8": 11,
+        "FT4": 2,
+        "Other": 2
       },
       "17m": {
-        "CW": 2,
-        "SSB": 0,
-        "FT8": 1,
+        "CW": 0,
+        "SSB": 1,
+        "FT8": 4,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
@@ -394,16 +390,27 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "AE0YM",
+        "frequency": "14066.5",
+        "mode": "CW",
+        "ref": "US-4010",
+        "name": "Heron Haven State Park",
+        "comments": "Qrt",
+        "spotTime": "2026-07-31T16:38:31",
+        "grid": "EN11wh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-07-31",
-        "TimeStamp": "14:20:00",
+        "TimeStamp": "16:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -411,8 +418,8 @@
           "MajorProb": null
         },
         "S": {
-          "Scale": "1",
-          "Text": "minor",
+          "Scale": "0",
+          "Text": "none",
           "Prob": null
         },
         "G": {
@@ -422,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-07-31",
-        "TimeStamp": "14:20:00",
+        "TimeStamp": "16:46:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -460,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-07-30",
-        "TimeStamp": "14:20:00",
+        "TimeStamp": "16:46:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
