@@ -1,76 +1,76 @@
 {
-  "generated": "2026-08-03T14:53:09Z",
+  "generated": "2026-08-03T17:12:40Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-03T14:53:09.133469+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-08-03T17:12:39.804317+00:00",
+    "currentHourUTC": 17,
     "current": {
       "sfi": 127,
       "ssn": 100,
-      "kp": 3.67,
+      "kp": 1,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B7.8",
+      "xray": "B6.1",
       "aIndex": "17",
-      "aurora": "2",
-      "solarWind": "398.9",
-      "magneticField": "7.4",
+      "aurora": "1",
+      "solarWind": "384.0",
+      "magneticField": "5.8",
       "geomag": "UNSETTLD",
       "signalNoise": "S2-S3",
-      "updated": "03 Aug 2026 1413 GMT"
+      "updated": "03 Aug 2026 1623 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 15.5,
-        "luf": 4.1
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 15.1,
-        "luf": 4
+        "muf": 20.2,
+        "luf": 4.9
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 14.7,
-        "luf": 3.8
+        "muf": 19.6,
+        "luf": 4.8
       },
       {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 14,
-        "luf": 3.6
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 19.8,
+        "luf": 4.8
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 12.9,
-        "luf": 3.2
+        "muf": 18.4,
+        "luf": 4.5
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 19.2,
+        "luf": 4.6
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 12.5,
-        "luf": 3.5
+        "muf": 17.4,
+        "luf": 4.7
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 12.3,
-        "luf": 3.3
+        "muf": 17.6,
+        "luf": 4.6
       }
     ],
     "currentByBand": {
-      "40m": 40,
-      "30m": 50,
-      "20m": 40,
-      "17m": 8,
-      "15m": 2,
-      "12m": 1,
+      "40m": 30,
+      "30m": 45,
+      "20m": 52,
+      "17m": 50,
+      "15m": 23,
+      "12m": 5,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-03T15:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-08-03T18:00:00",
         "value": 3.67
       },
@@ -340,11 +336,11 @@
       }
     ],
     "potaCounts": {
-      "40m": 5,
-      "30m": 1,
-      "20m": 33,
-      "17m": 1,
-      "15m": 2,
+      "40m": 4,
+      "30m": 0,
+      "20m": 49,
+      "17m": 3,
+      "15m": 4,
       "12m": 0,
       "10m": 0
     },
@@ -352,33 +348,33 @@
       "40m": {
         "CW": 2,
         "SSB": 2,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 7,
-        "SSB": 19,
-        "FT8": 6,
+        "CW": 12,
+        "SSB": 23,
+        "FT8": 12,
         "FT4": 1,
-        "Other": 0
+        "Other": 1
       },
       "17m": {
         "CW": 1,
-        "SSB": 0,
-        "FT8": 0,
+        "SSB": 1,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
+        "CW": 3,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
@@ -401,30 +397,20 @@
     },
     "en11Spots": [
       {
-        "activator": "KS3Y",
-        "frequency": "14264",
-        "mode": "SSB",
-        "ref": "US-5676",
-        "name": "Two Rivers State Recreation Area",
-        "comments": "",
-        "spotTime": "2026-08-03T14:48:03",
-        "grid": "EN11tf"
-      },
-      {
         "activator": "AE0YM",
         "frequency": "14066.5",
         "mode": "CW",
-        "ref": "US-4010",
-        "name": "Heron Haven State Park",
-        "comments": "Thanks from NC!",
-        "spotTime": "2026-08-03T14:53:00",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "RBN 22 dB 18 WPM via VE6WZ-#",
+        "spotTime": "2026-08-03T17:12:40",
         "grid": "EN11wh"
       }
     ],
     "scales": {
       "today": {
         "DateStamp": "2026-08-03",
-        "TimeStamp": "14:51:00",
+        "TimeStamp": "17:11:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -443,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-03",
-        "TimeStamp": "14:51:00",
+        "TimeStamp": "17:11:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -456,8 +442,8 @@
           "Prob": "1"
         },
         "G": {
-          "Scale": "1",
-          "Text": "minor"
+          "Scale": "0",
+          "Text": "none"
         }
       },
       "dayAfter": {
@@ -481,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-02",
-        "TimeStamp": "14:51:00",
+        "TimeStamp": "17:11:00",
         "R": {
           "Scale": "0",
           "Text": "none",
