@@ -1,76 +1,76 @@
 {
-  "generated": "2026-08-04T14:29:21Z",
+  "generated": "2026-08-04T16:56:39Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-04T14:29:21.262838+00:00",
-    "currentHourUTC": 14,
+    "fetched": "2026-08-04T16:56:38.897602+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 126,
       "ssn": 83,
-      "kp": 0.67,
+      "kp": 0.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B6.5",
+      "xray": "B6.8",
       "aIndex": "19",
       "aurora": "1",
-      "solarWind": "427.3",
-      "magneticField": "2.7",
+      "solarWind": "457.4",
+      "magneticField": "0.5",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "04 Aug 2026 1406 GMT"
+      "updated": "04 Aug 2026 1606 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 15.4,
-        "luf": 3.6
+        "muf": 18.7,
+        "luf": 3.8
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 14.6,
-        "luf": 3.4
+        "muf": 18,
+        "luf": 3.6
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 13.9,
-        "luf": 3.2
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 12.4,
-        "luf": 3.1
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 12.3,
-        "luf": 2.9
+        "muf": 17.5,
+        "luf": 3.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 14.9,
+        "muf": 18.3,
+        "luf": 3.7
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 15.7,
         "luf": 3.5
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 12.8,
-        "luf": 2.8
+        "muf": 16.5,
+        "luf": 3.3
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 15.7,
+        "luf": 3.4
       }
     ],
     "currentByBand": {
-      "40m": 40,
-      "30m": 50,
-      "20m": 38,
-      "17m": 7,
-      "15m": 1,
-      "12m": 1,
+      "40m": 32,
+      "30m": 46,
+      "20m": 53,
+      "17m": 37,
+      "15m": 10,
+      "12m": 2,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-04T15:00:00",
-        "value": 2.33
-      },
-      {
         "time": "2026-08-04T18:00:00",
         "value": 2.67
       },
@@ -340,40 +336,40 @@
       }
     ],
     "potaCounts": {
-      "40m": 12,
+      "40m": 4,
       "30m": 1,
-      "20m": 48,
-      "17m": 2,
+      "20m": 59,
+      "17m": 3,
       "15m": 1,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 4,
-        "SSB": 6,
+        "CW": 2,
+        "SSB": 1,
         "FT8": 1,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 16,
-        "SSB": 20,
-        "FT8": 8,
-        "FT4": 2,
+        "CW": 19,
+        "SSB": 24,
+        "FT8": 13,
+        "FT4": 1,
         "Other": 2
       },
       "17m": {
-        "CW": 0,
-        "SSB": 2,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 1,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -399,11 +395,22 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "AE0YM",
+        "frequency": "14066.5",
+        "mode": "CW",
+        "ref": "US-5656",
+        "name": "Flanagan Lake State Recreation Area",
+        "comments": "Qrt.  Too much qrn and qrm",
+        "spotTime": "2026-08-04T16:50:33",
+        "grid": "EN11vh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-08-04",
-        "TimeStamp": "14:27:00",
+        "TimeStamp": "16:55:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-04",
-        "TimeStamp": "14:27:00",
+        "TimeStamp": "16:55:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -460,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-03",
-        "TimeStamp": "14:27:00",
+        "TimeStamp": "16:55:00",
         "R": {
           "Scale": "0",
           "Text": "none",
