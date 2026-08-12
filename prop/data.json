@@ -1,73 +1,73 @@
 {
-  "generated": "2026-08-12T10:12:42Z",
+  "generated": "2026-08-12T13:22:01Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-12T10:12:41.745488+00:00",
-    "currentHourUTC": 10,
+    "fetched": "2026-08-12T13:22:00.726400+00:00",
+    "currentHourUTC": 13,
     "current": {
       "sfi": 96,
       "ssn": 57,
-      "kp": 1.33,
+      "kp": 0.67,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B3.2",
+      "xray": "B3.0",
       "aIndex": "7",
-      "aurora": "1",
-      "solarWind": "444.2",
-      "magneticField": "-1.0",
+      "aurora": "4",
+      "solarWind": "441.9",
+      "magneticField": "-1.6",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "12 Aug 2026 1011 GMT"
+      "updated": "12 Aug 2026 1312 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.2,
-        "luf": 1.5
+        "muf": 12.1,
+        "luf": 2.8
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 7.9,
-        "luf": 1.3
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 8,
-        "luf": 1.4
+        "muf": 11.4,
+        "luf": 2.5
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 7.6,
-        "luf": 1.1
+        "muf": 10.9,
+        "luf": 2.3
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 11.7,
+        "luf": 2.7
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 7.5,
-        "luf": 0.9
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 6.9,
-        "luf": 1.1
+        "muf": 10,
+        "luf": 2
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.1,
-        "luf": 0.9
+        "muf": 9.6,
+        "luf": 2.1
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 9.7,
+        "luf": 2.3
       }
     ],
     "currentByBand": {
-      "40m": 58,
-      "30m": 13,
-      "20m": 2,
+      "40m": 49,
+      "30m": 49,
+      "20m": 10,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-12T12:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-08-12T15:00:00",
         "value": 1.33
       },
@@ -344,47 +340,47 @@
       }
     ],
     "potaCounts": {
-      "40m": 2,
-      "30m": 0,
-      "20m": 0,
-      "17m": 0,
-      "15m": 0,
+      "40m": 13,
+      "30m": 5,
+      "20m": 26,
+      "17m": 1,
+      "15m": 1,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 1,
-        "FT8": 1,
+        "CW": 8,
+        "SSB": 3,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 4,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
+        "CW": 4,
+        "SSB": 15,
+        "FT8": 3,
+        "FT4": 2,
+        "Other": 2
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -407,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-12",
-        "TimeStamp": "10:11:00",
+        "TimeStamp": "13:20:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-12",
-        "TimeStamp": "10:11:00",
+        "TimeStamp": "13:20:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-11",
-        "TimeStamp": "10:11:00",
+        "TimeStamp": "13:20:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +491,6 @@
       "astronomical_twilight_begin": "2026-08-12T09:45:16+00:00",
       "astronomical_twilight_end": "2026-08-13T03:13:04+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Aug 12 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Aug 12-Aug 14 2026 is 3.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Aug 12-Aug 14 2026\n\n             Aug 12       Aug 13       Aug 14\n00-03UT       3.33         1.67         2.00     \n03-06UT       3.00         2.00         1.67     \n06-09UT       2.33         1.67         1.33     \n09-12UT       2.33         2.00         2.33     \n12-15UT       2.00         1.67         3.00     \n15-18UT       1.33         1.67         2.67     \n18-21UT       1.33         2.00         3.33     \n21-00UT       2.00         1.67         3.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Aug 12-Aug 14 2026\n\n              Aug 12  Aug 13  Aug 14\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Aug 12-Aug 14 2026\n\n              Aug 12        Aug 13        Aug 14\nR1-R2            5%            5%            5%\nR3 or greater    1%            1%            1%\n\nRationale: No R1 (Minor) or greater radio blackouts are expected.  No\nsignificant active region flare activity is forecast.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Aug 12 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Aug 12-Aug 14 2026 is 3.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Aug 12-Aug 14 2026\n\n             Aug 12       Aug 13       Aug 14\n00-03UT       1.67         1.67         2.00     \n03-06UT       2.67         2.00         1.67     \n06-09UT       2.00         1.67         1.33     \n09-12UT       2.33         2.00         2.33     \n12-15UT       2.00         1.67         3.00     \n15-18UT       1.33         1.67         2.67     \n18-21UT       2.00         2.00         3.33     \n21-00UT       2.00         1.67         3.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Aug 12-Aug 14 2026\n\n              Aug 12  Aug 13  Aug 14\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Aug 12-Aug 14 2026\n\n              Aug 12        Aug 13        Aug 14\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: A slight chance for R1-R2 (Minor-Moderate) radio blackouts\ndue to isolated M-class flare activity will persist through 14 Aug given\nthe current rate of development of Regions 4503, 4506 and 4506.\n"
   }
 }
