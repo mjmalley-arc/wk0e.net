@@ -1,75 +1,75 @@
 {
-  "generated": "2026-08-12T13:22:01Z",
+  "generated": "2026-08-12T16:02:20Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-12T13:22:00.726400+00:00",
-    "currentHourUTC": 13,
+    "fetched": "2026-08-12T16:02:20.528186+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 96,
       "ssn": 57,
-      "kp": 0.67,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
       "xray": "B3.0",
       "aIndex": "7",
       "aurora": "4",
-      "solarWind": "441.9",
-      "magneticField": "-1.6",
+      "solarWind": "442.5",
+      "magneticField": "-1.0",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "12 Aug 2026 1312 GMT"
+      "updated": "12 Aug 2026 1512 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 12.1,
-        "luf": 2.8
+        "muf": 16.5,
+        "luf": 3.5
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.4,
-        "luf": 2.5
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 10.9,
-        "luf": 2.3
+        "muf": 15.8,
+        "luf": 3.4
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 11.7,
-        "luf": 2.7
+        "muf": 16.1,
+        "luf": 3.5
       },
       {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 10,
-        "luf": 2
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 9.6,
-        "luf": 2.1
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 15.4,
+        "luf": 3.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 9.7,
-        "luf": 2.3
+        "muf": 13.9,
+        "luf": 3.3
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 13.9,
+        "luf": 3.2
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 14.6,
+        "luf": 3.1
       }
     ],
     "currentByBand": {
-      "40m": 49,
+      "40m": 39,
       "30m": 49,
-      "20m": 10,
-      "17m": 1,
-      "15m": 1,
+      "20m": 51,
+      "17m": 15,
+      "15m": 3,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-12T15:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-08-12T18:00:00",
         "value": 2
       },
@@ -272,23 +268,23 @@
       },
       {
         "time": "2026-08-13T00:00:00",
-        "value": 1.67
+        "value": 2
       },
       {
         "time": "2026-08-13T03:00:00",
-        "value": 2
+        "value": 1.67
       },
       {
         "time": "2026-08-13T06:00:00",
-        "value": 1.67
+        "value": 1.33
       },
       {
         "time": "2026-08-13T09:00:00",
-        "value": 2
+        "value": 1
       },
       {
         "time": "2026-08-13T12:00:00",
-        "value": 1.67
+        "value": 1.33
       },
       {
         "time": "2026-08-13T15:00:00",
@@ -296,27 +292,27 @@
       },
       {
         "time": "2026-08-13T18:00:00",
-        "value": 2
+        "value": 1.67
       },
       {
         "time": "2026-08-13T21:00:00",
-        "value": 1.67
+        "value": 3
       },
       {
         "time": "2026-08-14T00:00:00",
-        "value": 2
+        "value": 3.67
       },
       {
         "time": "2026-08-14T03:00:00",
-        "value": 1.67
+        "value": 3.33
       },
       {
         "time": "2026-08-14T06:00:00",
-        "value": 1.33
+        "value": 3
       },
       {
         "time": "2026-08-14T09:00:00",
-        "value": 2.33
+        "value": 2.67
       },
       {
         "time": "2026-08-14T12:00:00",
@@ -324,7 +320,7 @@
       },
       {
         "time": "2026-08-14T15:00:00",
-        "value": 2.67
+        "value": 3.33
       },
       {
         "time": "2026-08-14T18:00:00",
@@ -332,55 +328,55 @@
       },
       {
         "time": "2026-08-14T21:00:00",
-        "value": 3.67
+        "value": 4
       },
       {
         "time": "2026-08-15T00:00:00",
-        "value": 4
+        "value": 3.67
       }
     ],
     "potaCounts": {
-      "40m": 13,
-      "30m": 5,
-      "20m": 26,
-      "17m": 1,
+      "40m": 5,
+      "30m": 4,
+      "20m": 57,
+      "17m": 6,
       "15m": 1,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 8,
-        "SSB": 3,
+        "CW": 1,
+        "SSB": 2,
         "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 4,
+        "CW": 3,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 4,
-        "SSB": 15,
-        "FT8": 3,
-        "FT4": 2,
-        "Other": 2
+        "CW": 14,
+        "SSB": 19,
+        "FT8": 16,
+        "FT4": 4,
+        "Other": 4
       },
       "17m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "SSB": 4,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "SSB": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -399,11 +395,42 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WT8J",
+        "frequency": "14080",
+        "mode": "FT4",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "FT-450AT_Hamstick",
+        "spotTime": "2026-08-12T16:00:40",
+        "grid": "EN11wh"
+      },
+      {
+        "activator": "AE0YM",
+        "frequency": "14063.5",
+        "mode": "CW",
+        "ref": "US-4010",
+        "name": "Heron Haven State Park",
+        "comments": "",
+        "spotTime": "2026-08-12T16:00:04",
+        "grid": "EN11wh"
+      },
+      {
+        "activator": "W8TAM",
+        "frequency": "14080.0",
+        "mode": "FT4",
+        "ref": "US-4010",
+        "name": "Heron Haven State Park",
+        "comments": "Qrt",
+        "spotTime": "2026-08-12T15:55:01",
+        "grid": "EN11wh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-08-12",
-        "TimeStamp": "13:20:00",
+        "TimeStamp": "16:01:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,7 +449,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-12",
-        "TimeStamp": "13:20:00",
+        "TimeStamp": "16:01:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -460,7 +487,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-11",
-        "TimeStamp": "13:20:00",
+        "TimeStamp": "16:01:00",
         "R": {
           "Scale": "0",
           "Text": "none",
