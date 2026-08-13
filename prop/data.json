@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-13T13:23:59Z",
+  "generated": "2026-08-13T16:02:02Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-13T13:23:58.638785+00:00",
-    "currentHourUTC": 13,
+    "fetched": "2026-08-13T16:02:02.656698+00:00",
+    "currentHourUTC": 16,
     "current": {
       "sfi": 100,
       "ssn": 90,
@@ -11,65 +11,65 @@
       "bz": null
     },
     "n0nbh": {
-      "xray": "B3.9",
+      "xray": "B3.5",
       "aIndex": "8",
       "aurora": "2",
-      "solarWind": "387.9",
-      "magneticField": "-0.8",
+      "solarWind": "383.3",
+      "magneticField": "-0.1",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "13 Aug 2026 1313 GMT"
+      "updated": "13 Aug 2026 1513 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 12.3,
-        "luf": 2.5
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.6,
-        "luf": 2.3
+        "muf": 16.2,
+        "luf": 3.2
+      },
+      {
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 16.8,
+        "luf": 3.3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 11.9,
-        "luf": 2.4
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 11,
-        "luf": 2.1
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 10.2,
-        "luf": 1.8
+        "muf": 16.4,
+        "luf": 3.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 9.9,
-        "luf": 2.1
+        "muf": 14.1,
+        "luf": 3.1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 14.9,
+        "luf": 2.9
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 15.7,
+        "luf": 3.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 9.7,
-        "luf": 1.9
+        "muf": 14.2,
+        "luf": 3
       }
     ],
     "currentByBand": {
-      "40m": 49,
-      "30m": 50,
-      "20m": 11,
-      "17m": 1,
-      "15m": 1,
+      "40m": 38,
+      "30m": 49,
+      "20m": 54,
+      "17m": 17,
+      "15m": 4,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-13T15:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-08-13T18:00:00",
         "value": 3
       },
@@ -340,35 +336,35 @@
       }
     ],
     "potaCounts": {
-      "40m": 14,
+      "40m": 3,
       "30m": 1,
-      "20m": 16,
+      "20m": 66,
       "17m": 1,
-      "15m": 1,
+      "15m": 2,
       "12m": 0,
-      "10m": 0
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 7,
-        "SSB": 5,
+        "CW": 1,
+        "SSB": 0,
         "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 3,
-        "SSB": 8,
-        "FT8": 4,
-        "FT4": 1,
-        "Other": 0
+        "CW": 21,
+        "SSB": 29,
+        "FT8": 10,
+        "FT4": 3,
+        "Other": 3
       },
       "17m": {
         "CW": 0,
@@ -378,9 +374,9 @@
         "Other": 0
       },
       "15m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "CW": 1,
+        "SSB": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -393,17 +389,28 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WT8J",
+        "frequency": "14080.0",
+        "mode": "FT4",
+        "ref": "US-4021",
+        "name": "Red Cedar Wildlife Management Area",
+        "comments": "RBN via WZ7I-#",
+        "spotTime": "2026-08-13T16:01:53",
+        "grid": "EN11nd"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-08-13",
-        "TimeStamp": "13:21:00",
+        "TimeStamp": "15:59:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-13",
-        "TimeStamp": "13:21:00",
+        "TimeStamp": "15:59:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -445,7 +452,7 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "15",
+          "MinorProb": "10",
           "MajorProb": "1"
         },
         "S": {
@@ -460,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-12",
-        "TimeStamp": "13:21:00",
+        "TimeStamp": "15:59:00",
         "R": {
           "Scale": "0",
           "Text": "none",
