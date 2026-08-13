@@ -1,76 +1,76 @@
 {
-  "generated": "2026-08-13T16:02:02Z",
+  "generated": "2026-08-13T19:09:40Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-13T16:02:02.656698+00:00",
-    "currentHourUTC": 16,
+    "fetched": "2026-08-13T19:09:39.672930+00:00",
+    "currentHourUTC": 19,
     "current": {
       "sfi": 100,
       "ssn": 90,
-      "kp": 0,
+      "kp": 0.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B3.5",
+      "xray": "B4.2",
       "aIndex": "8",
-      "aurora": "2",
-      "solarWind": "383.3",
-      "magneticField": "-0.1",
+      "aurora": "1",
+      "solarWind": "364.9",
+      "magneticField": "2.0",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "13 Aug 2026 1513 GMT"
+      "updated": "13 Aug 2026 1813 GMT"
     },
     "paths": [
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 16.2,
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 19.2,
         "luf": 3.2
       },
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 16.8,
-        "luf": 3.3
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 18.9,
+        "luf": 3.2
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 16.4,
-        "luf": 3.3
+        "muf": 18.9,
+        "luf": 3.2
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 14.1,
-        "luf": 3.1
+        "muf": 17.3,
+        "luf": 3.3
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14.9,
-        "luf": 2.9
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 15.7,
-        "luf": 3.1
+        "muf": 18.9,
+        "luf": 3.3
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 14.2,
-        "luf": 3
+        "muf": 17.9,
+        "luf": 3.3
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 18.9,
+        "luf": 3.2
       }
     ],
     "currentByBand": {
-      "40m": 38,
-      "30m": 49,
+      "40m": 35,
+      "30m": 48,
       "20m": 54,
-      "17m": 17,
-      "15m": 4,
-      "12m": 1,
+      "17m": 51,
+      "15m": 20,
+      "12m": 4,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-13T18:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-08-13T21:00:00",
         "value": 3
       },
@@ -336,46 +332,46 @@
       }
     ],
     "potaCounts": {
-      "40m": 3,
-      "30m": 1,
-      "20m": 66,
-      "17m": 1,
-      "15m": 2,
+      "40m": 7,
+      "30m": 2,
+      "20m": 64,
+      "17m": 3,
+      "15m": 0,
       "12m": 0,
-      "10m": 1
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
-        "SSB": 0,
-        "FT8": 2,
+        "CW": 3,
+        "SSB": 4,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
         "CW": 1,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 21,
-        "SSB": 29,
+        "CW": 17,
+        "SSB": 28,
         "FT8": 10,
-        "FT4": 3,
-        "Other": 3
+        "FT4": 8,
+        "Other": 1
       },
       "17m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 2,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
-        "SSB": 1,
+        "CW": 0,
+        "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -389,7 +385,7 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 1,
+        "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -397,20 +393,30 @@
     },
     "en11Spots": [
       {
-        "activator": "WT8J",
-        "frequency": "14080.0",
-        "mode": "FT4",
-        "ref": "US-4021",
-        "name": "Red Cedar Wildlife Management Area",
-        "comments": "RBN via WZ7I-#",
-        "spotTime": "2026-08-13T16:01:53",
-        "grid": "EN11nd"
+        "activator": "W2UWK",
+        "frequency": "14074.0",
+        "mode": "FT8",
+        "ref": "US-5663",
+        "name": "Dead Timber State Recreation Area",
+        "comments": "RBN -3 dB via KM3T-3-#",
+        "spotTime": "2026-08-13T19:06:56",
+        "grid": "EN11pr"
+      },
+      {
+        "activator": "AE0YM",
+        "frequency": "14063.5",
+        "mode": "CW",
+        "ref": "US-4010",
+        "name": "Heron Haven State Park",
+        "comments": "RBN 14 dB 18 WPM via K1RA-4-#",
+        "spotTime": "2026-08-13T19:09:37",
+        "grid": "EN11wh"
       }
     ],
     "scales": {
       "today": {
         "DateStamp": "2026-08-13",
-        "TimeStamp": "15:59:00",
+        "TimeStamp": "19:08:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -429,7 +435,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-13",
-        "TimeStamp": "15:59:00",
+        "TimeStamp": "19:08:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -467,7 +473,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-12",
-        "TimeStamp": "15:59:00",
+        "TimeStamp": "19:08:00",
         "R": {
           "Scale": "0",
           "Text": "none",
