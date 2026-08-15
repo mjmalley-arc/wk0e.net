@@ -1,76 +1,76 @@
 {
-  "generated": "2026-08-15T15:26:29Z",
+  "generated": "2026-08-15T18:36:53Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-15T15:26:28.698498+00:00",
-    "currentHourUTC": 15,
+    "fetched": "2026-08-15T18:36:52.867122+00:00",
+    "currentHourUTC": 18,
     "current": {
       "sfi": 114,
       "ssn": 100,
-      "kp": 0.33,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C2.2",
+      "xray": "B5.7",
       "aIndex": "9",
-      "aurora": "3",
-      "solarWind": "361.6",
-      "magneticField": "-2.1",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "15 Aug 2026 1514 GMT"
+      "aurora": "2",
+      "solarWind": "351.8",
+      "magneticField": "1.4",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "15 Aug 2026 1815 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 16.1,
-        "luf": 3.6
+        "muf": 19.6,
+        "luf": 3.8
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 15.3,
-        "luf": 3.4
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 14.7,
-        "luf": 3.2
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 13.8,
-        "luf": 2.9
+        "muf": 19.2,
+        "luf": 3.7
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 15.6,
-        "luf": 3.5
+        "muf": 19.2,
+        "luf": 3.7
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 18.9,
+        "luf": 3.7
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13.2,
-        "luf": 3.2
+        "muf": 17.3,
+        "luf": 3.7
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 18.5,
+        "luf": 3.6
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 13.1,
-        "luf": 3
+        "muf": 17.6,
+        "luf": 3.7
       }
     ],
     "currentByBand": {
-      "40m": 39,
-      "30m": 49,
-      "20m": 46,
-      "17m": 11,
-      "15m": 2,
-      "12m": 1,
+      "40m": 33,
+      "30m": 46,
+      "20m": 53,
+      "17m": 51,
+      "15m": 20,
+      "12m": 4,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-15T18:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-08-15T21:00:00",
         "value": 3
       },
@@ -336,47 +332,47 @@
       }
     ],
     "potaCounts": {
-      "40m": 17,
-      "30m": 3,
-      "20m": 74,
-      "17m": 10,
-      "15m": 2,
+      "40m": 12,
+      "30m": 0,
+      "20m": 75,
+      "17m": 9,
+      "15m": 5,
       "12m": 0,
-      "10m": 0
+      "10m": 2
     },
     "potaModes": {
       "40m": {
-        "CW": 4,
-        "SSB": 7,
-        "FT8": 3,
+        "CW": 1,
+        "SSB": 9,
+        "FT8": 1,
         "FT4": 0,
-        "Other": 3
+        "Other": 1
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 18,
-        "SSB": 33,
-        "FT8": 15,
-        "FT4": 7,
-        "Other": 1
+        "CW": 17,
+        "SSB": 26,
+        "FT8": 25,
+        "FT4": 5,
+        "Other": 2
       },
       "17m": {
         "CW": 1,
-        "SSB": 3,
-        "FT8": 6,
+        "SSB": 2,
+        "FT8": 5,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "15m": {
-        "CW": 1,
-        "SSB": 0,
-        "FT8": 1,
+        "CW": 0,
+        "SSB": 3,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
@@ -390,16 +386,16 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       }
     },
     "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-08-15",
-        "TimeStamp": "15:25:00",
+        "TimeStamp": "18:35:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -418,7 +414,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-15",
-        "TimeStamp": "15:25:00",
+        "TimeStamp": "18:35:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -456,7 +452,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-14",
-        "TimeStamp": "15:25:00",
+        "TimeStamp": "18:35:00",
         "R": {
           "Scale": "0",
           "Text": "none",
