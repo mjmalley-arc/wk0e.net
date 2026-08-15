@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-15T03:44:26Z",
+  "generated": "2026-08-15T06:48:09Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-15T03:44:22.628987+00:00",
-    "currentHourUTC": 3,
+    "fetched": "2026-08-15T06:48:09.506966+00:00",
+    "currentHourUTC": 6,
     "current": {
       "sfi": 114,
       "ssn": 106,
@@ -11,64 +11,64 @@
       "bz": null
     },
     "n0nbh": {
-      "xray": "B4.6",
+      "xray": "B4.1",
       "aIndex": "9",
-      "aurora": "2",
-      "solarWind": "372.3",
-      "magneticField": "-0.7",
+      "aurora": "1",
+      "solarWind": "369.2",
+      "magneticField": "3.4",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "15 Aug 2026 0315 GMT"
+      "updated": "15 Aug 2026 0614 GMT"
     },
     "paths": [
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 12,
-        "luf": 1
-      },
-      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 11.5,
-        "luf": 0.9
+        "muf": 8,
+        "luf": 0.6
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 8.2,
+        "luf": 0.6
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 11.6,
-        "luf": 0.9
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 12.3,
-        "luf": 1.2
+        "muf": 8,
+        "luf": 0.6
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 13,
-        "luf": 1.1
+        "muf": 8.7,
+        "luf": 0.6
       },
       {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13.9,
-        "luf": 1.4
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 8.3,
+        "luf": 0.6
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14.8,
-        "luf": 1.4
+        "muf": 10,
+        "luf": 0.7
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 9.4,
+        "luf": 0.7
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 27,
-      "17m": 4,
+      "30m": 24,
+      "20m": 4,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-15T06:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-08-15T09:00:00",
         "value": 3
       },
@@ -352,17 +348,17 @@
       }
     ],
     "potaCounts": {
-      "40m": 2,
-      "30m": 2,
-      "20m": 7,
+      "40m": 1,
+      "30m": 0,
+      "20m": 1,
       "17m": 0,
-      "15m": 1,
+      "15m": 0,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
@@ -371,16 +367,16 @@
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
-        "FT4": 1,
+        "FT8": 0,
+        "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 0,
-        "SSB": 2,
-        "FT8": 4,
+        "SSB": 0,
+        "FT8": 1,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "17m": {
         "CW": 0,
@@ -390,7 +386,7 @@
         "Other": 0
       },
       "15m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -415,7 +411,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-15",
-        "TimeStamp": "03:40:00",
+        "TimeStamp": "06:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +430,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-15",
-        "TimeStamp": "03:40:00",
+        "TimeStamp": "06:46:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +468,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-14",
-        "TimeStamp": "03:40:00",
+        "TimeStamp": "06:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
