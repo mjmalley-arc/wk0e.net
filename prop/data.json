@@ -1,75 +1,75 @@
 {
-  "generated": "2026-08-15T01:36:50Z",
+  "generated": "2026-08-15T03:44:26Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-15T01:36:50.502266+00:00",
-    "currentHourUTC": 1,
+    "fetched": "2026-08-15T03:44:22.628987+00:00",
+    "currentHourUTC": 3,
     "current": {
       "sfi": 114,
       "ssn": 106,
-      "kp": 0.67,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B4.9",
+      "xray": "B4.6",
       "aIndex": "9",
       "aurora": "2",
-      "solarWind": "392.7",
-      "magneticField": "0.1",
+      "solarWind": "372.3",
+      "magneticField": "-0.7",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "15 Aug 2026 0115 GMT"
+      "updated": "15 Aug 2026 0315 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 14.7,
-        "luf": 1.5
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 15.3,
-        "luf": 1.6
+        "muf": 12,
+        "luf": 1
+      },
+      {
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 11.5,
+        "luf": 0.9
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 14.9,
-        "luf": 1.6
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 16.2,
-        "luf": 1.8
+        "muf": 11.6,
+        "luf": 0.9
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 15.3,
-        "luf": 1.9
+        "muf": 12.3,
+        "luf": 1.2
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 13,
+        "luf": 1.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 16.9,
-        "luf": 2.2
+        "muf": 13.9,
+        "luf": 1.4
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 18,
-        "luf": 2.2
+        "muf": 14.8,
+        "luf": 1.4
       }
     ],
     "currentByBand": {
-      "40m": 55,
-      "30m": 58,
-      "20m": 59,
-      "17m": 23,
-      "15m": 5,
+      "40m": 60,
+      "30m": 60,
+      "20m": 27,
+      "17m": 4,
+      "15m": 1,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-15T03:00:00",
-        "value": 3.33
-      },
-      {
         "time": "2026-08-15T06:00:00",
         "value": 3
       },
@@ -356,19 +352,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 14,
-      "30m": 1,
-      "20m": 12,
+      "40m": 2,
+      "30m": 2,
+      "20m": 7,
       "17m": 0,
-      "15m": 0,
+      "15m": 1,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 5,
-        "FT8": 7,
+        "CW": 1,
+        "SSB": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -376,15 +372,15 @@
         "CW": 0,
         "SSB": 0,
         "FT8": 1,
-        "FT4": 0,
+        "FT4": 1,
         "Other": 0
       },
       "20m": {
-        "CW": 2,
-        "SSB": 3,
-        "FT8": 5,
-        "FT4": 2,
-        "Other": 0
+        "CW": 0,
+        "SSB": 2,
+        "FT8": 4,
+        "FT4": 0,
+        "Other": 1
       },
       "17m": {
         "CW": 0,
@@ -394,7 +390,7 @@
         "Other": 0
       },
       "15m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -419,7 +415,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-15",
-        "TimeStamp": "01:35:00",
+        "TimeStamp": "03:40:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -438,7 +434,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-15",
-        "TimeStamp": "01:35:00",
+        "TimeStamp": "03:40:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -476,7 +472,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-14",
-        "TimeStamp": "01:35:00",
+        "TimeStamp": "03:40:00",
         "R": {
           "Scale": "0",
           "Text": "none",
