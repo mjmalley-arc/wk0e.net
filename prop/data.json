@@ -1,73 +1,73 @@
 {
-  "generated": "2026-08-18T09:38:39Z",
+  "generated": "2026-08-18T12:56:14Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-18T09:38:39.160142+00:00",
-    "currentHourUTC": 9,
+    "fetched": "2026-08-18T12:56:14.471229+00:00",
+    "currentHourUTC": 12,
     "current": {
       "sfi": 124,
       "ssn": 83,
-      "kp": 0.67,
+      "kp": 0.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B8.9",
+      "xray": "C1.0",
       "aIndex": "11",
       "aurora": "1",
-      "solarWind": "406.3",
-      "magneticField": "9.0",
-      "geomag": "MIN STRM",
-      "signalNoise": "S4-S6",
-      "updated": "18 Aug 2026 0916 GMT"
+      "solarWind": "400.3",
+      "magneticField": "7.1",
+      "geomag": "UNSETTLD",
+      "signalNoise": "S2-S3",
+      "updated": "18 Aug 2026 1216 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.2,
-        "luf": 1.5
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 8.1,
-        "luf": 1.4
+        "muf": 11.9,
+        "luf": 2.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 8,
-        "luf": 1.3
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 7.2,
-        "luf": 1.1
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 7.9,
-        "luf": 1.1
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 8.1,
-        "luf": 0.9
+        "muf": 11.2,
+        "luf": 2.5
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.6,
-        "luf": 1
+        "muf": 9.3,
+        "luf": 2
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 10.6,
+        "luf": 2.2
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 11.5,
+        "luf": 2.6
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 9.8,
+        "luf": 1.9
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 9.5,
+        "luf": 2.2
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 14,
-      "20m": 2,
+      "40m": 53,
+      "30m": 46,
+      "20m": 10,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-18T12:00:00",
-        "value": 3.67
-      },
-      {
         "time": "2026-08-18T15:00:00",
         "value": 2
       },
@@ -344,9 +340,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 1,
-      "30m": 0,
-      "20m": 0,
+      "40m": 19,
+      "30m": 1,
+      "20m": 6,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -354,23 +350,23 @@
     },
     "potaModes": {
       "40m": {
+        "CW": 8,
+        "SSB": 8,
+        "FT8": 2,
+        "FT4": 0,
+        "Other": 1
+      },
+      "30m": {
         "CW": 0,
         "SSB": 0,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
-      "30m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
-      },
       "20m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "SSB": 3,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
@@ -407,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-18",
-        "TimeStamp": "09:36:00",
+        "TimeStamp": "12:54:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-18",
-        "TimeStamp": "09:36:00",
+        "TimeStamp": "12:54:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -439,8 +435,8 @@
           "Prob": "5"
         },
         "G": {
-          "Scale": "1",
-          "Text": "minor"
+          "Scale": "0",
+          "Text": "none"
         }
       },
       "dayAfter": {
@@ -464,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-17",
-        "TimeStamp": "09:36:00",
+        "TimeStamp": "12:54:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +491,6 @@
       "astronomical_twilight_begin": "2026-08-18T09:54:10+00:00",
       "astronomical_twilight_end": "2026-08-19T03:01:45+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Aug 18 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Aug 18-Aug 20 2026 is 4.67 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Aug 18-Aug 20 2026\n\n             Aug 18       Aug 19       Aug 20\n00-03UT       3.67         3.67         4.00     \n03-06UT       4.00         4.67 (G1)    3.33     \n06-09UT       1.33         4.00         3.33     \n09-12UT       3.00         3.67         3.00     \n12-15UT       3.00         3.00         2.33     \n15-18UT       2.00         2.33         2.00     \n18-21UT       2.33         2.33         2.33     \n21-00UT       2.67         3.00         3.00     \n\nRationale: G1 (Minor) geomagnetic storms are likely on 19 Aug due to CH\nHSS influences.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Aug 18-Aug 20 2026\n\n              Aug 18  Aug 19  Aug 20\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Aug 18-Aug 20 2026\n\n              Aug 18        Aug 19        Aug 20\nR1-R2           35%           35%           35%\nR3 or greater    5%            5%            5%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts\non 18-20 Aug.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Aug 18 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 5 (NOAA Scale\nG1).\nThe greatest expected 3 hr Kp for Aug 18-Aug 20 2026 is 5.00 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Aug 18-Aug 20 2026\n\n             Aug 18       Aug 19       Aug 20\n00-03UT       4.00         3.67         4.00     \n03-06UT       5.00 (G1)    4.67 (G1)    3.33     \n06-09UT       3.33         4.00         3.33     \n09-12UT       2.33         3.67         3.00     \n12-15UT       3.67         3.00         2.33     \n15-18UT       2.00         2.33         2.00     \n18-21UT       2.33         2.33         2.33     \n21-00UT       2.67         3.00         3.00     \n\nRationale: G1 (Minor) geomagnetic storms are likely on 19 Aug due to the\ninfluences of a CME and/or CIR.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Aug 18-Aug 20 2026\n\n              Aug 18  Aug 19  Aug 20\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Aug 18-Aug 20 2026\n\n              Aug 18        Aug 19        Aug 20\nR1-R2           40%           40%           40%\nR3 or greater   10%           10%           10%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) radio blackouts,\nwith a slight chance for R3 (Strong) events through 20 Aug.\n"
   }
 }
