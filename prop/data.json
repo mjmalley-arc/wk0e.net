@@ -1,73 +1,73 @@
 {
-  "generated": "2026-08-20T06:54:55Z",
+  "generated": "2026-08-20T09:39:54Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-20T06:54:55.572717+00:00",
-    "currentHourUTC": 6,
+    "fetched": "2026-08-20T09:39:54.254267+00:00",
+    "currentHourUTC": 9,
     "current": {
       "sfi": 126,
-      "ssn": 78,
-      "kp": 0.33,
+      "ssn": 64,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C1.1",
+      "xray": "C1.6",
       "aIndex": "20",
       "aurora": "5",
-      "solarWind": "583.8",
-      "magneticField": "0.6",
+      "solarWind": "555.4",
+      "magneticField": "3.4",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "20 Aug 2026 0617 GMT"
+      "updated": "20 Aug 2026 0918 GMT"
     },
     "paths": [
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 8.7,
-        "luf": 0.6
-      },
-      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.4,
-        "luf": 0.6
+        "muf": 8.2,
+        "luf": 1.3
       },
       {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 8.4,
-        "luf": 0.6
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 8,
+        "luf": 1.1
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 9.2,
-        "luf": 0.6
+        "muf": 7.9,
+        "luf": 1
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 8.8,
-        "luf": 0.7
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 10.6,
-        "luf": 0.7
+        "muf": 7.2,
+        "luf": 0.9
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 9.9,
-        "luf": 0.7
+        "muf": 7.6,
+        "luf": 0.8
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 8.1,
+        "luf": 1.2
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 8.1,
+        "luf": 0.8
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 28,
-      "20m": 5,
+      "30m": 14,
+      "20m": 2,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-20T09:00:00",
-        "value": 3
-      },
-      {
         "time": "2026-08-20T12:00:00",
         "value": 2.33
       },
@@ -411,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-20",
-        "TimeStamp": "06:53:00",
+        "TimeStamp": "09:38:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -430,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-20",
-        "TimeStamp": "06:53:00",
+        "TimeStamp": "09:38:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -468,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-19",
-        "TimeStamp": "06:53:00",
+        "TimeStamp": "09:38:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
