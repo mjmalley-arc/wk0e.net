@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-21T15:38:43Z",
+  "generated": "2026-08-21T18:44:27Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-21T15:38:43.084408+00:00",
-    "currentHourUTC": 15,
+    "fetched": "2026-08-21T18:44:27.214989+00:00",
+    "currentHourUTC": 18,
     "current": {
       "sfi": 125,
       "ssn": 59,
@@ -11,66 +11,66 @@
       "bz": null
     },
     "n0nbh": {
-      "xray": "C3.5",
+      "xray": "C3.0",
       "aIndex": "11",
-      "aurora": "2",
-      "solarWind": "487.8",
-      "magneticField": "1.1",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "21 Aug 2026 1518 GMT"
+      "aurora": "1",
+      "solarWind": "481.3",
+      "magneticField": "0.3",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "21 Aug 2026 1818 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 17.1,
-        "luf": 3.8
+        "muf": 20.9,
+        "luf": 3.5
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 16.3,
-        "luf": 3.6
+        "muf": 20.4,
+        "luf": 3.5
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 14,
-        "luf": 3.4
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 14.6,
-        "luf": 3.2
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 16.6,
-        "luf": 3.7
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13.9,
-        "luf": 3.2
+        "muf": 18.4,
+        "luf": 3.5
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 15.7,
+        "muf": 20.2,
+        "luf": 3.5
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 20.5,
+        "luf": 3.5
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 19.8,
         "luf": 3.4
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 18.8,
+        "luf": 3.5
       }
     ],
     "currentByBand": {
-      "40m": 36,
-      "30m": 48,
+      "40m": 30,
+      "30m": 45,
       "20m": 52,
-      "17m": 18,
-      "15m": 4,
-      "12m": 1,
+      "17m": 55,
+      "15m": 33,
+      "12m": 8,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-21T18:00:00",
-        "value": 2.33
-      },
-      {
         "time": "2026-08-21T21:00:00",
         "value": 3.67
       },
@@ -336,21 +332,21 @@
       }
     ],
     "potaCounts": {
-      "40m": 7,
+      "40m": 3,
       "30m": 0,
-      "20m": 67,
-      "17m": 3,
-      "15m": 0,
+      "20m": 68,
+      "17m": 0,
+      "15m": 1,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 6,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 1,
+        "FT8": 1,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "30m": {
         "CW": 0,
@@ -360,23 +356,23 @@
         "Other": 0
       },
       "20m": {
-        "CW": 24,
-        "SSB": 23,
-        "FT8": 11,
+        "CW": 18,
+        "SSB": 31,
+        "FT8": 12,
         "FT4": 5,
-        "Other": 4
+        "Other": 2
       },
       "17m": {
         "CW": 0,
-        "SSB": 1,
-        "FT8": 2,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -395,32 +391,11 @@
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "AEOYM",
-        "frequency": "14066.5",
-        "mode": "CW",
-        "ref": "US-4010",
-        "name": "Heron Haven State Park",
-        "comments": "",
-        "spotTime": "2026-08-21T15:31:13",
-        "grid": "EN11wh"
-      },
-      {
-        "activator": "AE0YM",
-        "frequency": "14066.5",
-        "mode": "",
-        "ref": "US-4010",
-        "name": "Heron Haven State Park",
-        "comments": "17 wpm",
-        "spotTime": "2026-08-21T15:32:17",
-        "grid": "EN11wh"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-08-21",
-        "TimeStamp": "15:37:00",
+        "TimeStamp": "18:42:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -439,7 +414,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-21",
-        "TimeStamp": "15:37:00",
+        "TimeStamp": "18:42:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -477,7 +452,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-20",
-        "TimeStamp": "15:37:00",
+        "TimeStamp": "18:42:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
