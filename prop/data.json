@@ -1,76 +1,76 @@
 {
-  "generated": "2026-08-21T01:42:20Z",
+  "generated": "2026-08-21T03:54:07Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-21T01:42:20.343172+00:00",
-    "currentHourUTC": 1,
+    "fetched": "2026-08-21T03:54:06.877136+00:00",
+    "currentHourUTC": 3,
     "current": {
       "sfi": 125,
       "ssn": 72,
-      "kp": 2.33,
+      "kp": 1,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C1.6",
+      "xray": "C2.3",
       "aIndex": "11",
-      "aurora": "3",
-      "solarWind": "533.1",
-      "magneticField": "-4.1",
+      "aurora": "4",
+      "solarWind": "506.7",
+      "magneticField": "0.9",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "21 Aug 2026 0118 GMT"
+      "updated": "21 Aug 2026 0317 GMT"
     },
     "paths": [
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 15.6,
-        "luf": 1.9
-      },
-      {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 16.3,
-        "luf": 2.1
+        "muf": 12.8,
+        "luf": 1.3
       },
       {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 17.3,
-        "luf": 2.3
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 12.1,
+        "luf": 1.2
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 15.8,
-        "luf": 2
+        "muf": 12.3,
+        "luf": 1.2
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 13.7,
+        "luf": 1.5
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 16.3,
-        "luf": 2.4
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 19.2,
-        "luf": 2.7
+        "muf": 13.1,
+        "luf": 1.6
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 18,
-        "luf": 2.7
+        "muf": 14.7,
+        "luf": 1.9
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 15.7,
+        "luf": 1.9
       }
     ],
     "currentByBand": {
-      "40m": 54,
-      "30m": 57,
-      "20m": 58,
-      "17m": 33,
-      "15m": 9,
-      "12m": 2,
+      "40m": 60,
+      "30m": 60,
+      "20m": 36,
+      "17m": 7,
+      "15m": 1,
+      "12m": 1,
       "10m": 1
     },
     "avgGrid": {
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-21T03:00:00",
-        "value": 3.67
-      },
-      {
         "time": "2026-08-21T06:00:00",
         "value": 2.67
       },
@@ -356,9 +352,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 12,
-      "30m": 1,
-      "20m": 12,
+      "40m": 3,
+      "30m": 0,
+      "20m": 3,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -366,8 +362,8 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
-        "SSB": 8,
+        "CW": 0,
+        "SSB": 0,
         "FT8": 3,
         "FT4": 0,
         "Other": 0
@@ -375,16 +371,16 @@
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
         "CW": 1,
-        "SSB": 3,
-        "FT8": 6,
+        "SSB": 1,
+        "FT8": 0,
         "FT4": 1,
-        "Other": 1
+        "Other": 0
       },
       "17m": {
         "CW": 0,
@@ -419,7 +415,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-21",
-        "TimeStamp": "01:41:00",
+        "TimeStamp": "03:53:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -438,7 +434,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-21",
-        "TimeStamp": "01:41:00",
+        "TimeStamp": "03:53:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -476,7 +472,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-20",
-        "TimeStamp": "01:41:00",
+        "TimeStamp": "03:53:00",
         "R": {
           "Scale": "2",
           "Text": "moderate",
