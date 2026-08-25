@@ -1,75 +1,75 @@
 {
-  "generated": "2026-08-25T12:57:08Z",
+  "generated": "2026-08-25T15:49:09Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-25T12:57:07.814481+00:00",
-    "currentHourUTC": 12,
+    "fetched": "2026-08-25T15:49:09.391289+00:00",
+    "currentHourUTC": 15,
     "current": {
       "sfi": 143,
       "ssn": 83,
-      "kp": 0,
+      "kp": 0.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C2.6",
+      "xray": "C1.2",
       "aIndex": "6",
       "aurora": "2",
-      "solarWind": "347.8",
-      "magneticField": "0.9",
+      "solarWind": "360.9",
+      "magneticField": "-0.3",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "25 Aug 2026 1219 GMT"
+      "updated": "25 Aug 2026 1520 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 12.5,
-        "luf": 2.5
+        "muf": 18.1,
+        "luf": 3.6
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.7,
-        "luf": 2.2
+        "muf": 17.3,
+        "luf": 3.4
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 11.1,
-        "luf": 2
+        "muf": 16.6,
+        "luf": 3.2
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 9.9,
-        "luf": 2
+        "muf": 14.9,
+        "luf": 3.2
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 9.8,
-        "luf": 1.8
+        "muf": 14.7,
+        "luf": 3.1
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 10.2,
-        "luf": 1.7
+        "muf": 15.4,
+        "luf": 3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 12,
-        "luf": 2.4
+        "muf": 17.6,
+        "luf": 3.5
       }
     ],
     "currentByBand": {
-      "40m": 53,
-      "30m": 51,
-      "20m": 12,
-      "17m": 1,
-      "15m": 1,
+      "40m": 33,
+      "30m": 46,
+      "20m": 53,
+      "17m": 27,
+      "15m": 6,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-25T15:00:00",
-        "value": 0.67
-      },
-      {
         "time": "2026-08-25T18:00:00",
         "value": 0.67
       },
@@ -340,46 +336,46 @@
       }
     ],
     "potaCounts": {
-      "40m": 23,
-      "30m": 2,
-      "20m": 8,
-      "17m": 0,
-      "15m": 0,
+      "40m": 3,
+      "30m": 1,
+      "20m": 72,
+      "17m": 4,
+      "15m": 2,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 12,
-        "SSB": 6,
-        "FT8": 4,
+        "CW": 1,
+        "SSB": 2,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "30m": {
-        "CW": 2,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 2,
-        "SSB": 5,
+        "CW": 23,
+        "SSB": 34,
+        "FT8": 12,
+        "FT4": 2,
+        "Other": 1
+      },
+      "17m": {
+        "CW": 0,
+        "SSB": 3,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
-      "17m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
-      },
       "15m": {
-        "CW": 0,
-        "SSB": 0,
+        "CW": 1,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -399,11 +395,42 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WK0E",
+        "frequency": "14061.4",
+        "mode": "CW",
+        "ref": "US-4014",
+        "name": "Prairie Queen State Recreation Area",
+        "comments": "qrt",
+        "spotTime": "2026-08-25T15:47:42",
+        "grid": "EN11wd"
+      },
+      {
+        "activator": "AEOYM",
+        "frequency": "14068.5",
+        "mode": "CW",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "",
+        "spotTime": "2026-08-25T15:29:46",
+        "grid": "EN11wh"
+      },
+      {
+        "activator": "AE0YM",
+        "frequency": "14068.5",
+        "mode": "CW",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "RBN 15 dB 18 WPM via N7VVX-#",
+        "spotTime": "2026-08-25T15:46:32",
+        "grid": "EN11wh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-08-25",
-        "TimeStamp": "12:56:00",
+        "TimeStamp": "15:48:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -422,12 +449,12 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-25",
-        "TimeStamp": "12:56:00",
+        "TimeStamp": "15:48:00",
         "R": {
           "Scale": null,
           "Text": null,
           "MinorProb": "55",
-          "MajorProb": "10"
+          "MajorProb": "15"
         },
         "S": {
           "Scale": null,
@@ -446,7 +473,7 @@
           "Scale": null,
           "Text": null,
           "MinorProb": "55",
-          "MajorProb": "10"
+          "MajorProb": "15"
         },
         "S": {
           "Scale": null,
@@ -460,7 +487,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-24",
-        "TimeStamp": "12:56:00",
+        "TimeStamp": "15:48:00",
         "R": {
           "Scale": "2",
           "Text": "moderate",
