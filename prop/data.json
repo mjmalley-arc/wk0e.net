@@ -1,75 +1,75 @@
 {
-  "generated": "2026-08-25T03:52:30Z",
+  "generated": "2026-08-25T06:57:09Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-25T03:52:30.016434+00:00",
-    "currentHourUTC": 3,
+    "fetched": "2026-08-25T06:57:08.636415+00:00",
+    "currentHourUTC": 6,
     "current": {
       "sfi": 143,
       "ssn": 84,
-      "kp": 1.33,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "C2.1",
+      "xray": "C1.5",
       "aIndex": "6",
       "aurora": "1",
       "solarWind": "357.2",
       "magneticField": "2.1",
-      "geomag": "UNSETTLD",
-      "signalNoise": "S2-S3",
-      "updated": "25 Aug 2026 0319 GMT"
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "25 Aug 2026 0619 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 12.8,
-        "luf": 1
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 13,
-        "luf": 1.1
+        "muf": 8.7,
+        "luf": 0.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 13.5,
-        "luf": 1.1
+        "muf": 9,
+        "luf": 0.6
       },
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 13.8,
-        "luf": 1.4
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 8.8,
+        "luf": 0.6
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 14.5,
-        "luf": 1.3
+        "muf": 9.6,
+        "luf": 0.6
       },
       {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 16.6,
-        "luf": 1.6
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 9.2,
+        "luf": 0.7
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 15.6,
-        "luf": 1.6
+        "muf": 10.4,
+        "luf": 0.7
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 11.1,
+        "luf": 0.7
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 45,
-      "17m": 10,
-      "15m": 2,
+      "30m": 34,
+      "20m": 6,
+      "17m": 1,
+      "15m": 1,
       "12m": 1,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-25T06:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-08-25T09:00:00",
         "value": 1.67
       },
@@ -352,19 +348,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 4,
+      "40m": 0,
       "30m": 0,
-      "20m": 2,
-      "17m": 1,
+      "20m": 0,
+      "17m": 0,
       "15m": 0,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 2,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -376,16 +372,16 @@
         "Other": 0
       },
       "20m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -415,10 +411,10 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-25",
-        "TimeStamp": "03:51:00",
+        "TimeStamp": "06:55:00",
         "R": {
-          "Scale": "0",
-          "Text": "none",
+          "Scale": "1",
+          "Text": "minor",
           "MinorProb": null,
           "MajorProb": null
         },
@@ -434,7 +430,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-25",
-        "TimeStamp": "03:51:00",
+        "TimeStamp": "06:55:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +468,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-24",
-        "TimeStamp": "03:51:00",
+        "TimeStamp": "06:55:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
