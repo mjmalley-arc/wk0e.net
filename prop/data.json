@@ -1,72 +1,72 @@
 {
-  "generated": "2026-08-31T04:57:57Z",
+  "generated": "2026-08-31T13:18:08Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-08-31T04:57:56.832192+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-08-31T13:18:08.423060+00:00",
+    "currentHourUTC": 13,
     "current": {
       "sfi": 107,
-      "ssn": 74,
-      "kp": 3,
+      "ssn": 59,
+      "kp": 1,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B5.9",
+      "xray": "B5.2",
       "aIndex": "15",
-      "aurora": "3",
-      "solarWind": "472.8",
-      "magneticField": "-2.9",
+      "aurora": "2",
+      "solarWind": "428.2",
+      "magneticField": "-0.1",
       "geomag": "UNSETTLD",
       "signalNoise": "S2-S3",
-      "updated": "31 Aug 2026 0359 GMT"
+      "updated": "31 Aug 2026 1300 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 9.9,
-        "luf": 0.8
+        "muf": 12.7,
+        "luf": 3.3
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 10.4,
-        "luf": 0.9
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 12.2,
-        "luf": 1.3
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 10.7,
-        "luf": 1.1
+        "muf": 12,
+        "luf": 3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 10.1,
-        "luf": 0.8
+        "muf": 12.3,
+        "luf": 3.2
       },
       {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 13,
-        "luf": 1.3
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 10.2,
+        "luf": 2.7
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 11.3,
-        "luf": 1
+        "muf": 11.4,
+        "luf": 2.8
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 10,
+        "luf": 2.5
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 10.5,
+        "luf": 2.4
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 58,
+      "40m": 48,
+      "30m": 52,
       "20m": 13,
       "17m": 2,
       "15m": 1,
@@ -259,28 +259,16 @@
     },
     "kpForecast": [
       {
-        "time": "2026-08-31T06:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-08-31T09:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-08-31T12:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-08-31T15:00:00",
-        "value": 1
+        "value": 1.67
       },
       {
         "time": "2026-08-31T18:00:00",
-        "value": 2
+        "value": 0.67
       },
       {
         "time": "2026-08-31T21:00:00",
-        "value": 2
+        "value": 1.67
       },
       {
         "time": "2026-09-01T00:00:00",
@@ -288,7 +276,7 @@
       },
       {
         "time": "2026-09-01T03:00:00",
-        "value": 1.33
+        "value": 1.67
       },
       {
         "time": "2026-09-01T06:00:00",
@@ -304,7 +292,7 @@
       },
       {
         "time": "2026-09-01T15:00:00",
-        "value": 1.33
+        "value": 0.67
       },
       {
         "time": "2026-09-01T18:00:00",
@@ -324,7 +312,7 @@
       },
       {
         "time": "2026-09-02T06:00:00",
-        "value": 1.33
+        "value": 1.67
       },
       {
         "time": "2026-09-02T09:00:00",
@@ -336,7 +324,7 @@
       },
       {
         "time": "2026-09-02T15:00:00",
-        "value": 1.33
+        "value": 0.67
       },
       {
         "time": "2026-09-02T18:00:00",
@@ -348,13 +336,13 @@
       },
       {
         "time": "2026-09-03T00:00:00",
-        "value": 1.33
+        "value": 1.67
       }
     ],
     "potaCounts": {
-      "40m": 2,
-      "30m": 0,
-      "20m": 0,
+      "40m": 12,
+      "30m": 1,
+      "20m": 13,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -362,23 +350,23 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 2,
+        "CW": 5,
+        "SSB": 3,
+        "FT8": 3,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 3,
+        "SSB": 9,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-08-31",
-        "TimeStamp": "04:56:00",
+        "TimeStamp": "13:16:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,11 +422,11 @@
       },
       "tomorrow": {
         "DateStamp": "2026-08-31",
-        "TimeStamp": "04:56:00",
+        "TimeStamp": "13:16:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "15",
+          "MinorProb": "10",
           "MajorProb": "1"
         },
         "S": {
@@ -472,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-30",
-        "TimeStamp": "04:56:00",
+        "TimeStamp": "13:16:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -503,6 +491,6 @@
       "astronomical_twilight_begin": "2026-08-31T10:12:21+00:00",
       "astronomical_twilight_end": "2026-09-01T02:36:26+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Aug 31 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Aug 31-Sep 02 2026 is 4.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Aug 31-Sep 02 2026\n\n             Aug 31       Sep 01       Sep 02\n00-03UT       4.00         1.67         1.67     \n03-06UT       3.33         1.33         1.67     \n06-09UT       3.00         1.67         1.33     \n09-12UT       2.00         1.33         1.33     \n12-15UT       2.00         1.33         1.33     \n15-18UT       1.00         1.33         1.33     \n18-21UT       2.00         1.33         1.33     \n21-00UT       2.00         1.67         1.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Aug 31-Sep 02 2026\n\n              Aug 31  Sep 01  Sep 02\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Aug 31-Sep 02 2026\n\n              Aug 31        Sep 01        Sep 02\nR1-R2           15%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts over 31 Aug - 02 Sep.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Aug 31 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Aug 31-Sep 02 2026 is 3.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Aug 31-Sep 02 2026\n\n             Aug 31       Sep 01       Sep 02\n00-03UT       3.00         1.67         1.67     \n03-06UT       3.33         1.67         1.67     \n06-09UT       3.33         1.67         1.67     \n09-12UT       3.33         1.33         1.33     \n12-15UT       3.67         1.33         1.33     \n15-18UT       1.67         0.67         0.67     \n18-21UT       0.67         1.33         1.33     \n21-00UT       1.67         1.67         1.67     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Aug 31-Sep 02 2026\n\n              Aug 31  Sep 01  Sep 02\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Aug 31-Sep 02 2026\n\n              Aug 31        Sep 01        Sep 02\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts on 31 Aug - 02 Sep.\n"
   }
 }
