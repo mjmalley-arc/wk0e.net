@@ -1,74 +1,74 @@
 {
-  "generated": "2026-09-01T08:29:57Z",
+  "generated": "2026-09-01T14:03:40Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-09-01T08:29:56.831706+00:00",
-    "currentHourUTC": 8,
+    "fetched": "2026-09-01T14:03:36.858095+00:00",
+    "currentHourUTC": 14,
     "current": {
       "sfi": 107,
-      "ssn": 81,
-      "kp": 1.33,
+      "ssn": 61,
+      "kp": 0.67,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B6.2",
+      "xray": "B8.2",
       "aIndex": "12",
-      "aurora": "2",
-      "solarWind": "427.2",
-      "magneticField": "-5.2",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "01 Sep 2026 0756 GMT"
+      "aurora": "3",
+      "solarWind": "420.6",
+      "magneticField": "-2.4",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "01 Sep 2026 1356 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 7.4,
-        "luf": 0.8
+        "muf": 14.2,
+        "luf": 3.4
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 7.3,
-        "luf": 0.7
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 7.4,
-        "luf": 0.6
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 6.9,
-        "luf": 0.6
+        "muf": 13.5,
+        "luf": 3.2
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 7.3,
-        "luf": 0.8
+        "muf": 13.8,
+        "luf": 3.3
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 12.8,
+        "luf": 3
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 11.5,
+        "luf": 2.9
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 8,
-        "luf": 0.6
+        "muf": 11.9,
+        "luf": 2.7
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.5,
-        "luf": 0.6
+        "muf": 11.3,
+        "luf": 2.8
       }
     ],
     "currentByBand": {
-      "40m": 57,
-      "30m": 12,
-      "20m": 1,
-      "17m": 1,
+      "40m": 46,
+      "30m": 53,
+      "20m": 28,
+      "17m": 4,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-09-01T09:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-09-01T12:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-09-01T15:00:00",
         "value": 1.67
       },
@@ -348,19 +340,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
+      "40m": 12,
       "30m": 0,
-      "20m": 0,
-      "17m": 0,
+      "20m": 37,
+      "17m": 1,
       "15m": 0,
       "12m": 0,
-      "10m": 0
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 3,
+        "SSB": 6,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
@@ -372,16 +364,16 @@
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
+        "CW": 10,
+        "SSB": 19,
+        "FT8": 5,
+        "FT4": 1,
+        "Other": 2
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -401,7 +393,7 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -411,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-09-01",
-        "TimeStamp": "08:27:00",
+        "TimeStamp": "14:01:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -430,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-09-01",
-        "TimeStamp": "08:27:00",
+        "TimeStamp": "14:01:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -468,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-31",
-        "TimeStamp": "08:27:00",
+        "TimeStamp": "14:01:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -499,6 +491,6 @@
       "astronomical_twilight_begin": "2026-09-01T10:13:41+00:00",
       "astronomical_twilight_end": "2026-09-02T02:34:28+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Sep 01 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Sep 01-Sep 03 2026 is 3.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Sep 01-Sep 03 2026\n\n             Sep 01       Sep 02       Sep 03\n00-03UT       3.00         2.00         1.67     \n03-06UT       3.00         1.67         1.67     \n06-09UT       2.00         1.67         1.33     \n09-12UT       1.33         1.33         0.67     \n12-15UT       1.33         0.67         0.67     \n15-18UT       1.67         1.33         1.33     \n18-21UT       2.00         1.33         1.33     \n21-00UT       2.00         1.67         1.33     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Sep 01-Sep 03 2026\n\n              Sep 01  Sep 02  Sep 03\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Sep 01-Sep 03 2026\n\n              Sep 01        Sep 02        Sep 03\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts on 01-03 Sep.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Sep 01 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Sep 01-Sep 03 2026 is 2.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Sep 01-Sep 03 2026\n\n             Sep 01       Sep 02       Sep 03\n00-03UT       1.00         2.00         1.67     \n03-06UT       1.33         1.67         1.67     \n06-09UT       2.00         1.67         1.33     \n09-12UT       1.33         1.33         0.67     \n12-15UT       1.33         0.67         0.67     \n15-18UT       1.67         1.33         1.33     \n18-21UT       2.00         1.33         1.33     \n21-00UT       2.00         1.67         1.33     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Sep 01-Sep 03 2026\n\n              Sep 01  Sep 02  Sep 03\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Sep 01-Sep 03 2026\n\n              Sep 01        Sep 02        Sep 03\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts on 01-03 Sep.\n"
   }
 }
