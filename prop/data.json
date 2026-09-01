@@ -1,75 +1,75 @@
 {
-  "generated": "2026-09-01T18:17:26Z",
+  "generated": "2026-09-01T23:12:05Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-09-01T18:17:25.963763+00:00",
-    "currentHourUTC": 18,
+    "fetched": "2026-09-01T23:12:04.862789+00:00",
+    "currentHourUTC": 23,
     "current": {
-      "sfi": 107,
-      "ssn": 61,
-      "kp": 0,
+      "sfi": 101,
+      "ssn": 55,
+      "kp": 0.67,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B4.3",
-      "aIndex": "12",
+      "xray": "B5.8",
+      "aIndex": "7",
       "aurora": "2",
-      "solarWind": "400.1",
-      "magneticField": "0.5",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "01 Sep 2026 1756 GMT"
+      "solarWind": "413.3",
+      "magneticField": "4.0",
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "01 Sep 2026 2256 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 18.7,
-        "luf": 3.6
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 18.4,
-        "luf": 3.6
+        "muf": 17,
+        "luf": 2.3
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 18.3,
-        "luf": 3.5
+        "muf": 17.4,
+        "luf": 2.4
       },
       {
         "name": "South-Central",
         "distance": 1224,
         "muf": 18.1,
-        "luf": 3.5
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 16.5,
-        "luf": 3.5
+        "luf": 2.6
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 17.8,
-        "luf": 3.5
+        "muf": 19.4,
+        "luf": 2.9
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 17,
+        "luf": 2.3
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 16.9,
+        "luf": 2.7
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 16.9,
-        "luf": 3.5
+        "muf": 18.3,
+        "luf": 2.9
       }
     ],
     "currentByBand": {
-      "40m": 37,
-      "30m": 48,
-      "20m": 54,
-      "17m": 46,
-      "15m": 13,
+      "40m": 47,
+      "30m": 54,
+      "20m": 56,
+      "17m": 44,
+      "15m": 12,
       "12m": 2,
       "10m": 1
     },
@@ -259,10 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-09-01T21:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-09-02T00:00:00",
         "value": 2
       },
@@ -332,34 +328,34 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
-      "30m": 1,
-      "20m": 41,
+      "40m": 7,
+      "30m": 4,
+      "20m": 35,
       "17m": 0,
       "15m": 0,
-      "12m": 1,
+      "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 2,
+        "SSB": 4,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 1,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 2,
+        "SSB": 1,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 8,
-        "SSB": 19,
-        "FT8": 11,
-        "FT4": 2,
+        "CW": 13,
+        "SSB": 13,
+        "FT8": 5,
+        "FT4": 3,
         "Other": 1
       },
       "17m": {
@@ -379,7 +375,7 @@
       "12m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -391,11 +387,22 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "14032.5",
+        "mode": "CW",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "559 Central CA",
+        "spotTime": "2026-09-01T23:11:26",
+        "grid": "EN11we"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-09-01",
-        "TimeStamp": "18:14:00",
+        "TimeStamp": "23:10:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -414,7 +421,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-09-01",
-        "TimeStamp": "18:14:00",
+        "TimeStamp": "23:10:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -452,7 +459,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-08-31",
-        "TimeStamp": "18:14:00",
+        "TimeStamp": "23:10:00",
         "R": {
           "Scale": "0",
           "Text": "none",
