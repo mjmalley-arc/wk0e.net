@@ -1,73 +1,73 @@
 {
-  "generated": "2026-09-18T04:12:10Z",
+  "generated": "2026-09-18T10:57:43Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-09-18T04:12:10.184221+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-09-18T10:57:42.829800+00:00",
+    "currentHourUTC": 10,
     "current": {
       "sfi": 97,
-      "ssn": 11,
-      "kp": 0.67,
+      "ssn": 0,
+      "kp": 1.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B2.7",
+      "xray": "B2.5",
       "aIndex": "9",
-      "aurora": "3",
-      "solarWind": "440.8",
-      "magneticField": "0.3",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "18 Sep 2026 0349 GMT"
+      "aurora": "1",
+      "solarWind": "441.2",
+      "magneticField": "0.9",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "18 Sep 2026 1049 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 9.5,
-        "luf": 0.6
+        "muf": 8.2,
+        "luf": 1.5
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 9.9,
-        "luf": 0.7
+        "muf": 7.8,
+        "luf": 1.3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 9.6,
-        "luf": 0.7
+        "muf": 8,
+        "luf": 1.4
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 10.7,
-        "luf": 0.8
+        "muf": 7.6,
+        "luf": 1.1
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 10.2,
+        "muf": 6.9,
+        "luf": 1.1
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 7.1,
         "luf": 0.9
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 12.3,
-        "luf": 1
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 11.5,
-        "luf": 1
+        "muf": 7.5,
+        "luf": 0.9
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 51,
-      "20m": 10,
+      "40m": 57,
+      "30m": 13,
+      "20m": 1,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,20 +259,12 @@
     },
     "kpForecast": [
       {
-        "time": "2026-09-18T06:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-09-18T09:00:00",
-        "value": 2.67
-      },
-      {
         "time": "2026-09-18T12:00:00",
-        "value": 2.67
+        "value": 1.67
       },
       {
         "time": "2026-09-18T15:00:00",
-        "value": 2.67
+        "value": 2
       },
       {
         "time": "2026-09-18T18:00:00",
@@ -284,7 +276,7 @@
       },
       {
         "time": "2026-09-19T00:00:00",
-        "value": 2.67
+        "value": 1.67
       },
       {
         "time": "2026-09-19T03:00:00",
@@ -292,59 +284,59 @@
       },
       {
         "time": "2026-09-19T06:00:00",
-        "value": 2.33
+        "value": 1.67
       },
       {
         "time": "2026-09-19T09:00:00",
-        "value": 2.33
+        "value": 2
       },
       {
         "time": "2026-09-19T12:00:00",
-        "value": 2.33
+        "value": 2
       },
       {
         "time": "2026-09-19T15:00:00",
-        "value": 2.33
+        "value": 1.67
       },
       {
         "time": "2026-09-19T18:00:00",
-        "value": 2.33
+        "value": 1.67
       },
       {
         "time": "2026-09-19T21:00:00",
-        "value": 2.67
+        "value": 1.67
       },
       {
         "time": "2026-09-20T00:00:00",
-        "value": 2.33
+        "value": 1.67
       },
       {
         "time": "2026-09-20T03:00:00",
-        "value": 2
+        "value": 1.33
       },
       {
         "time": "2026-09-20T06:00:00",
-        "value": 2
+        "value": 1.33
       },
       {
         "time": "2026-09-20T09:00:00",
-        "value": 2
+        "value": 1.33
       },
       {
         "time": "2026-09-20T12:00:00",
-        "value": 2
+        "value": 1.33
       },
       {
         "time": "2026-09-20T15:00:00",
-        "value": 2
+        "value": 1.33
       },
       {
         "time": "2026-09-20T18:00:00",
-        "value": 2
+        "value": 1.67
       },
       {
         "time": "2026-09-20T21:00:00",
-        "value": 2.33
+        "value": 1.67
       },
       {
         "time": "2026-09-21T00:00:00",
@@ -352,7 +344,7 @@
       }
     ],
     "potaCounts": {
-      "40m": 2,
+      "40m": 3,
       "30m": 0,
       "20m": 0,
       "17m": 0,
@@ -363,8 +355,8 @@
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 2,
+        "SSB": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-09-18",
-        "TimeStamp": "04:08:00",
+        "TimeStamp": "10:55:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,11 +426,11 @@
       },
       "tomorrow": {
         "DateStamp": "2026-09-18",
-        "TimeStamp": "04:08:00",
+        "TimeStamp": "10:55:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "5",
+          "MinorProb": "1",
           "MajorProb": "1"
         },
         "S": {
@@ -457,7 +449,7 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "5",
+          "MinorProb": "1",
           "MajorProb": "1"
         },
         "S": {
@@ -472,7 +464,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-09-17",
-        "TimeStamp": "04:08:00",
+        "TimeStamp": "10:55:00",
         "R": {
           "Scale": "0",
           "Text": "none",
