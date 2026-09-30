@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-30T09:30:51Z",
+  "generated": "2026-09-30T17:52:48Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-09-30T09:30:51.446462+00:00",
-    "currentHourUTC": 9,
+    "fetched": "2026-09-30T17:52:48.600103+00:00",
+    "currentHourUTC": 17,
     "current": {
       "sfi": 92,
       "ssn": 29,
@@ -11,65 +11,65 @@
       "bz": null
     },
     "n0nbh": {
-      "xray": "A0.0",
+      "xray": "B3.1",
       "aIndex": "4",
       "aurora": "1",
-      "solarWind": "291.6",
-      "magneticField": "1.6",
+      "solarWind": "309.3",
+      "magneticField": "0.7",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "30 Sep 2026 0922 GMT"
+      "updated": "30 Sep 2026 1722 GMT"
     },
     "paths": [
       {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 7.2,
-        "luf": 0.8
+        "name": "Northeast",
+        "distance": 2068,
+        "muf": 17.1,
+        "luf": 3.1
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 7.1,
-        "luf": 0.8
+        "muf": 16.6,
+        "luf": 3
       },
       {
-        "name": "Northeast",
-        "distance": 2068,
-        "muf": 7.4,
-        "luf": 0.9
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 7.1,
-        "luf": 0.7
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 16.8,
+        "luf": 3.1
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 6.5,
-        "luf": 0.6
+        "muf": 14.8,
+        "luf": 3
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 16.3,
+        "luf": 3
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 7.3,
-        "luf": 0.5
+        "muf": 15.7,
+        "luf": 2.9
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 6.9,
-        "luf": 0.6
+        "muf": 15,
+        "luf": 2.9
       }
     ],
     "currentByBand": {
-      "40m": 53,
-      "30m": 11,
-      "20m": 1,
-      "17m": 1,
-      "15m": 1,
+      "40m": 40,
+      "30m": 50,
+      "20m": 55,
+      "17m": 22,
+      "15m": 5,
       "12m": 1,
       "10m": 1
     },
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-09-30T12:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-09-30T15:00:00",
-        "value": 1
-      },
-      {
         "time": "2026-09-30T18:00:00",
         "value": 1
       },
@@ -344,46 +336,46 @@
       }
     ],
     "potaCounts": {
-      "40m": 1,
-      "30m": 0,
-      "20m": 0,
-      "17m": 0,
-      "15m": 0,
+      "40m": 9,
+      "30m": 2,
+      "20m": 50,
+      "17m": 5,
+      "15m": 4,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 8,
         "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 12,
+        "SSB": 26,
+        "FT8": 11,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "17m": {
-        "CW": 0,
-        "SSB": 0,
+        "CW": 3,
+        "SSB": 2,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 0,
-        "SSB": 0,
+        "CW": 1,
+        "SSB": 3,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -403,11 +395,22 @@
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "AE0YM",
+        "frequency": "14058.5",
+        "mode": "CW",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "qrt storm here",
+        "spotTime": "2026-09-30T17:29:20",
+        "grid": "EN11wh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-09-30",
-        "TimeStamp": "09:29:00",
+        "TimeStamp": "17:50:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +429,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-09-30",
-        "TimeStamp": "09:29:00",
+        "TimeStamp": "17:50:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +467,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-09-29",
-        "TimeStamp": "09:29:00",
+        "TimeStamp": "17:50:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +498,6 @@
       "astronomical_twilight_begin": "2026-09-30T10:48:25+00:00",
       "astronomical_twilight_end": "2026-10-01T01:39:41+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Sep 30 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Sep 30-Oct 02 2026 is 4.67 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Sep 30-Oct 02 2026\n\n             Sep 30       Oct 01       Oct 02\n00-03UT       1.67         1.67         2.33     \n03-06UT       1.67         1.33         2.67     \n06-09UT       1.67         1.33         2.67     \n09-12UT       1.33         1.33         3.33     \n12-15UT       1.33         1.33         3.67     \n15-18UT       1.00         1.33         4.67 (G1)\n18-21UT       1.00         1.67         4.00     \n21-00UT       1.67         1.67         3.33     \n\nRationale: G1 (Minor) geomagnetic storming is likely on 02 Oct due to\nglancing effects from a CME that left the Sun on 28 Sep.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-19 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Sep 30-Oct 02 2026\n\n              Sep 30  Oct 01  Oct 02\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Sep 30-Oct 02 2026\n\n              Sep 30        Oct 01        Oct 02\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: A slight chance for R1-R2 (Minor-Moderate) radio blackouts\ndue to isolated M-class flare activity will persist through 02 Oct.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Sep 30 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 1 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Sep 30-Oct 02 2026 is 4.67 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Sep 30-Oct 02 2026\n\n             Sep 30       Oct 01       Oct 02\n00-03UT       1.00         1.67         2.33     \n03-06UT       1.00         1.33         2.67     \n06-09UT       0.33         1.33         2.67     \n09-12UT       1.33         1.33         3.33     \n12-15UT       1.33         1.33         3.67     \n15-18UT       1.00         1.33         4.67 (G1)\n18-21UT       1.00         1.67         4.00     \n21-00UT       1.67         1.67         3.33     \n\nRationale: G1 (Minor) geomagnetic storms are likely on 02 Oct due to\nanticipated glancing influences from the 28 Sep CME near Earth.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Sep 30-Oct 02 2026\n\n              Sep 30  Oct 01  Oct 02\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Sep 30-Oct 02 2026\n\n              Sep 30        Oct 01        Oct 02\nR1-R2           15%           15%           10%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts through 02 Oct.\n"
   }
 }
