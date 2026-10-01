@@ -1,73 +1,73 @@
 {
-  "generated": "2026-10-01T05:19:26Z",
+  "generated": "2026-10-01T12:52:43Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-01T05:19:26.285487+00:00",
-    "currentHourUTC": 5,
+    "fetched": "2026-10-01T12:52:43.104131+00:00",
+    "currentHourUTC": 12,
     "current": {
       "sfi": 93,
-      "ssn": 29,
-      "kp": 0.67,
+      "ssn": 27,
+      "kp": 0.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B3.1",
+      "xray": "B3.2",
       "aIndex": "3",
-      "aurora": "1",
-      "solarWind": "295.6",
-      "magneticField": "3.8",
+      "aurora": "2",
+      "solarWind": "306.2",
+      "magneticField": "-0.2",
       "geomag": "INACTIVE",
       "signalNoise": "S0-S1",
-      "updated": "01 Oct 2026 0422 GMT"
+      "updated": "01 Oct 2026 1222 GMT"
     },
     "paths": [
       {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 8.6,
-        "luf": 0.5
-      },
-      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.3,
-        "luf": 0.4
+        "muf": 10.4,
+        "luf": 2
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 9.8,
+        "luf": 1.8
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 8.4,
-        "luf": 0.5
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 8.8,
-        "luf": 0.5
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 10,
-        "luf": 0.6
+        "muf": 10.1,
+        "luf": 1.9
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 9.3,
-        "luf": 0.5
+        "muf": 9.4,
+        "luf": 1.6
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 8.4,
+        "luf": 1.6
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 10.7,
-        "luf": 0.6
+        "muf": 8.7,
+        "luf": 1.4
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 8.3,
+        "luf": 1.4
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 28,
-      "20m": 5,
+      "40m": 59,
+      "30m": 34,
+      "20m": 6,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,18 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-10-01T06:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-10-01T09:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-10-01T12:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-10-01T15:00:00",
         "value": 1.33
       },
@@ -352,9 +340,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 0,
-      "30m": 0,
-      "20m": 0,
+      "40m": 29,
+      "30m": 2,
+      "20m": 8,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -362,14 +350,14 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 13,
+        "SSB": 13,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 2,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -377,8 +365,8 @@
       },
       "20m": {
         "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "SSB": 5,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-10-01",
-        "TimeStamp": "05:17:00",
+        "TimeStamp": "12:48:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-10-01",
-        "TimeStamp": "05:17:00",
+        "TimeStamp": "12:48:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-09-30",
-        "TimeStamp": "05:17:00",
+        "TimeStamp": "12:48:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -503,6 +491,6 @@
       "astronomical_twilight_begin": "2026-10-01T10:49:31+00:00",
       "astronomical_twilight_end": "2026-10-02T01:37:56+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 01 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 1 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 01-Oct 03 2026 is 4.67 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Oct 01-Oct 03 2026\n\n             Oct 01       Oct 02       Oct 03\n00-03UT       1.67         2.33         3.67     \n03-06UT       1.33         2.67         2.00     \n06-09UT       1.33         2.67         2.00     \n09-12UT       1.33         3.33         3.00     \n12-15UT       1.33         3.67         3.00     \n15-18UT       1.33         4.67 (G1)    3.33     \n18-21UT       1.67         4.00         3.33     \n21-00UT       1.67         3.33         3.33     \n\nRationale: G1 (Minor) geomagnetic storming is likely on 02 Oct due to\nglancing CME influences from a filament eruption that left the Sun on 28\nSep.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 01-Oct 03 2026\n\n              Oct 01  Oct 02  Oct 03\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 01-Oct 03 2026\n\n              Oct 01        Oct 02        Oct 03\nR1-R2           15%           15%           15%\nR3 or greater    1%            1%            1%\n\nRationale: A slight chance for isolated occurrence of R1-R2\n(Minor-Moderate) radio blackouts due to M-class flare activity will\npersist through 03 Oct.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 01 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 1 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 01-Oct 03 2026 is 4.67 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Oct 01-Oct 03 2026\n\n             Oct 01       Oct 02       Oct 03\n00-03UT       0.33         2.33         3.67     \n03-06UT       0.33         2.67         2.00     \n06-09UT       0.67         2.67         2.00     \n09-12UT       1.00         3.33         3.00     \n12-15UT       1.33         3.67         3.00     \n15-18UT       1.33         4.67 (G1)    3.33     \n18-21UT       1.67         4.00         3.33     \n21-00UT       1.67         3.33         3.33     \n\nRationale: G1 (Minor) geomagnetic storms are likely on 02 Oct due to the\nanticipated arrival of 28 Sep CME.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 01-Oct 03 2026\n\n              Oct 01  Oct 02  Oct 03\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 01-Oct 03 2026\n\n              Oct 01        Oct 02        Oct 03\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts on 01-03 Oct.\n"
   }
 }
