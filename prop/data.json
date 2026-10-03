@@ -1,76 +1,76 @@
 {
-  "generated": "2026-10-03T16:02:45Z",
+  "generated": "2026-10-03T20:53:00Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-03T16:02:44.743433+00:00",
-    "currentHourUTC": 16,
+    "fetched": "2026-10-03T20:53:00.494930+00:00",
+    "currentHourUTC": 20,
     "current": {
       "sfi": 92,
-      "ssn": 26,
+      "ssn": 53,
       "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B2.1",
+      "xray": "B2.5",
       "aIndex": "3",
-      "aurora": "2",
-      "solarWind": "290.9",
-      "magneticField": "3.1",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "03 Oct 2026 1523 GMT"
+      "aurora": "1",
+      "solarWind": "281.7",
+      "magneticField": "1.1",
+      "geomag": "INACTIVE",
+      "signalNoise": "S0-S1",
+      "updated": "03 Oct 2026 2023 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 16.1,
-        "luf": 3.3
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 15.7,
-        "luf": 3.2
+        "muf": 18.4,
+        "luf": 2.8
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 15.5,
-        "luf": 3.2
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 15,
-        "luf": 3
+        "muf": 18.4,
+        "luf": 2.8
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 13.5,
+        "muf": 17.1,
+        "luf": 2.9
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 18.5,
+        "luf": 2.8
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 18.3,
+        "luf": 2.8
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 17.8,
         "luf": 3
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14.2,
-        "luf": 2.9
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 13.6,
+        "muf": 18.8,
         "luf": 3
       }
     ],
     "currentByBand": {
-      "40m": 44,
-      "30m": 52,
-      "20m": 51,
-      "17m": 12,
-      "15m": 2,
-      "12m": 1,
+      "40m": 42,
+      "30m": 51,
+      "20m": 55,
+      "17m": 52,
+      "15m": 15,
+      "12m": 3,
       "10m": 1
     },
     "avgGrid": {
@@ -83,7 +83,7 @@
         "5": 60,
         "6": 60,
         "7": 60,
-        "8": 51,
+        "8": 52,
         "9": 53,
         "10": 55,
         "11": 60,
@@ -113,7 +113,7 @@
         "9": 11,
         "10": 12,
         "11": 16,
-        "12": 33,
+        "12": 34,
         "13": 48,
         "14": 55,
         "15": 53,
@@ -140,23 +140,23 @@
         "10": 1,
         "11": 3,
         "12": 6,
-        "13": 9,
+        "13": 10,
         "14": 19,
-        "15": 37,
+        "15": 38,
         "16": 51,
         "17": 55,
         "18": 55,
         "19": 55,
         "20": 55,
         "21": 56,
-        "22": 57,
+        "22": 56,
         "23": 57
       },
       "17m": {
         "0": 20,
         "1": 12,
         "2": 6,
-        "3": 2,
+        "3": 3,
         "4": 1,
         "5": 1,
         "6": 1,
@@ -170,13 +170,13 @@
         "14": 3,
         "15": 6,
         "16": 12,
-        "17": 22,
-        "18": 33,
-        "19": 49,
-        "20": 51,
-        "21": 50,
-        "22": 43,
-        "23": 33
+        "17": 23,
+        "18": 34,
+        "19": 50,
+        "20": 52,
+        "21": 52,
+        "22": 46,
+        "23": 34
       },
       "15m": {
         "0": 5,
@@ -195,12 +195,12 @@
         "13": 1,
         "14": 1,
         "15": 1,
-        "16": 2,
+        "16": 3,
         "17": 5,
         "18": 8,
         "19": 11,
-        "20": 14,
-        "21": 13,
+        "20": 15,
+        "21": 14,
         "22": 12,
         "23": 9
       },
@@ -226,7 +226,7 @@
         "18": 1,
         "19": 2,
         "20": 3,
-        "21": 2,
+        "21": 3,
         "22": 2,
         "23": 1
       },
@@ -258,10 +258,6 @@
       }
     },
     "kpForecast": [
-      {
-        "time": "2026-10-03T18:00:00",
-        "value": 2.67
-      },
       {
         "time": "2026-10-03T21:00:00",
         "value": 4
@@ -337,17 +333,17 @@
     ],
     "potaCounts": {
       "40m": 20,
-      "30m": 0,
-      "20m": 75,
-      "17m": 3,
-      "15m": 6,
+      "30m": 2,
+      "20m": 81,
+      "17m": 10,
+      "15m": 12,
       "12m": 0,
-      "10m": 1
+      "10m": 3
     },
     "potaModes": {
       "40m": {
-        "CW": 4,
-        "SSB": 13,
+        "CW": 3,
+        "SSB": 14,
         "FT8": 3,
         "FT4": 0,
         "Other": 0
@@ -355,27 +351,27 @@
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 23,
-        "SSB": 36,
-        "FT8": 12,
-        "FT4": 1,
-        "Other": 3
+        "CW": 19,
+        "SSB": 37,
+        "FT8": 18,
+        "FT4": 5,
+        "Other": 2
       },
       "17m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 1,
+        "CW": 3,
+        "SSB": 5,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 2,
-        "SSB": 1,
+        "SSB": 7,
         "FT8": 3,
         "FT4": 0,
         "Other": 0
@@ -390,16 +386,27 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "WB0RLJ",
+        "frequency": "14052.5",
+        "mode": "CW",
+        "ref": "US-4011",
+        "name": "Chalco Hills State Recreation Area",
+        "comments": "RBN 37 dB 21 WPM via K3FEF-#",
+        "spotTime": "2026-10-03T20:51:26",
+        "grid": "EN11we"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-10-03",
-        "TimeStamp": "15:59:00",
+        "TimeStamp": "20:50:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -418,11 +425,11 @@
       },
       "tomorrow": {
         "DateStamp": "2026-10-03",
-        "TimeStamp": "15:59:00",
+        "TimeStamp": "20:50:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "1",
+          "MinorProb": "5",
           "MajorProb": "1"
         },
         "S": {
@@ -441,7 +448,7 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "1",
+          "MinorProb": "5",
           "MajorProb": "1"
         },
         "S": {
@@ -456,7 +463,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-10-02",
-        "TimeStamp": "15:59:00",
+        "TimeStamp": "20:50:00",
         "R": {
           "Scale": "0",
           "Text": "none",
