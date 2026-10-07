@@ -1,76 +1,76 @@
 {
-  "generated": "2026-10-07T00:31:01Z",
+  "generated": "2026-10-07T10:03:49Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-07T00:31:01.198877+00:00",
-    "currentHourUTC": 0,
+    "fetched": "2026-10-07T10:03:48.655005+00:00",
+    "currentHourUTC": 10,
     "current": {
       "sfi": 113,
-      "ssn": 77,
+      "ssn": 75,
       "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B9.7",
+      "xray": "A0.0",
       "aIndex": "11",
-      "aurora": "3",
-      "solarWind": "430.2",
-      "magneticField": "-1.8",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "07 Oct 2026 0024 GMT"
+      "aurora": "2",
+      "solarWind": "373.2",
+      "magneticField": "-2.4",
+      "geomag": "VR QUIET",
+      "signalNoise": "S0-S1",
+      "updated": "07 Oct 2026 0923 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 16.5,
-        "luf": 2.2
+        "muf": 8.7,
+        "luf": 1.4
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 17.1,
-        "luf": 2.3
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 17.9,
-        "luf": 2.5
+        "muf": 8.3,
+        "luf": 1.3
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 16.6,
-        "luf": 2.2
+        "muf": 8.5,
+        "luf": 1.3
       },
       {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 19.6,
-        "luf": 2.9
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 8.1,
+        "luf": 1.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 18.4,
-        "luf": 3
+        "muf": 7.5,
+        "luf": 0.9
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 7.9,
+        "luf": 0.9
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 16.8,
-        "luf": 2.7
+        "muf": 7.3,
+        "luf": 1
       }
     ],
     "currentByBand": {
-      "40m": 56,
-      "30m": 58,
-      "20m": 59,
-      "17m": 40,
-      "15m": 13,
-      "12m": 2,
+      "40m": 60,
+      "30m": 14,
+      "20m": 2,
+      "17m": 1,
+      "15m": 1,
+      "12m": 1,
       "10m": 1
     },
     "avgGrid": {
@@ -259,18 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-10-07T03:00:00",
-        "value": 2.33
-      },
-      {
-        "time": "2026-10-07T06:00:00",
-        "value": 2.33
-      },
-      {
-        "time": "2026-10-07T09:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-10-07T12:00:00",
         "value": 2
       },
@@ -356,33 +344,33 @@
       }
     ],
     "potaCounts": {
-      "40m": 15,
-      "30m": 1,
-      "20m": 18,
+      "40m": 3,
+      "30m": 0,
+      "20m": 0,
       "17m": 0,
-      "15m": 1,
+      "15m": 0,
       "12m": 0,
       "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 4,
-        "SSB": 10,
-        "FT8": 1,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 4,
-        "SSB": 9,
-        "FT8": 5,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -396,7 +384,7 @@
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -419,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-10-07",
-        "TimeStamp": "00:29:00",
+        "TimeStamp": "10:01:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -438,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-10-07",
-        "TimeStamp": "00:29:00",
+        "TimeStamp": "10:01:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -476,10 +464,10 @@
       },
       "yesterday": {
         "DateStamp": "2026-10-06",
-        "TimeStamp": "00:29:00",
+        "TimeStamp": "10:01:00",
         "R": {
-          "Scale": "1",
-          "Text": "minor",
+          "Scale": "0",
+          "Text": "none",
           "MinorProb": null,
           "MajorProb": null
         },
@@ -507,6 +495,6 @@
       "astronomical_twilight_begin": "2026-10-07T10:56:01+00:00",
       "astronomical_twilight_end": "2026-10-08T01:27:47+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 06 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 4 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 06-Oct 08 2026 is 3.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Oct 06-Oct 08 2026\n\n             Oct 06       Oct 07       Oct 08\n00-03UT       3.00         2.67         2.67     \n03-06UT       3.00         2.67         2.33     \n06-09UT       2.33         2.33         2.00     \n09-12UT       2.67         2.00         1.00     \n12-15UT       2.67         1.67         1.33     \n15-18UT       2.00         1.67         2.00     \n18-21UT       2.00         2.00         2.33     \n21-00UT       2.67         2.00         2.00     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 06-Oct 08 2026\n\n              Oct 06  Oct 07  Oct 08\nS1 or greater   10%     10%     10%\n\nRationale: There is a slight chance (10%) for a greater than 10 MeV\nproton event exceeding the 10 pfu (S1-Minor) threshold through 08 Oct.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nRadio blackouts reaching the R1 levels were observed over the past 24\nhours. The largest was at Oct 06 2026 0805 UTC.\n\nRadio Blackout Forecast for Oct 06-Oct 08 2026\n\n              Oct 06        Oct 07        Oct 08\nR1-R2           40%           40%           40%\nR3 or greater    5%            5%            5%\n\nRationale: Solar activity is expected to be at low levels with an\nincreased chance (40%) for further M-class flares (R1-R2,\nMinor-Moderate) through 08 Oct, particularly from Region 4549.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 07 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 07-Oct 09 2026 is 5.67 (NOAA Scale\nG2).\n\nNOAA Kp index breakdown Oct 07-Oct 09 2026\n\n             Oct 07       Oct 08       Oct 09\n00-03UT       3.00         1.33         1.67     \n03-06UT       2.33         1.67         5.00 (G1)\n06-09UT       2.33         1.33         4.33     \n09-12UT       2.00         1.67         5.67 (G2)\n12-15UT       2.00         1.67         4.00     \n15-18UT       2.67         1.33         3.00     \n18-21UT       2.67         1.33         3.00     \n21-00UT       3.00         1.33         4.00     \n\nRationale: G1-G2 (Minor-Moderate) geomagnetic storms are likely on 09\nOct due to the anticipated arrival of a CME from 07 Oct.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 07-Oct 09 2026\n\n              Oct 07  Oct 08  Oct 09\nS1 or greater   10%     10%     10%\n\nRationale: There is a slight chance for S1 (Minor) or greater solar\nradiation storms all three days.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nRadio blackouts reaching the R1 levels were observed over the past 24\nhours. The largest was at Oct 06 2026 0805 UTC.\n\nRadio Blackout Forecast for Oct 07-Oct 09 2026\n\n              Oct 07        Oct 08        Oct 09\nR1-R2           45%           45%           45%\nR3 or greater    5%            5%            5%\n\nRationale: There is a chance for R1 (Minor) or greater radio blackouts\nall three days mainly due to the flare potential of Region 4549.\n"
   }
 }
