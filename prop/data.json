@@ -1,81 +1,81 @@
 {
-  "generated": "2026-10-08T10:17:32Z",
+  "generated": "2026-10-08T18:42:50Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-08T10:17:31.818158+00:00",
-    "currentHourUTC": 10,
+    "fetched": "2026-10-08T18:42:50.400817+00:00",
+    "currentHourUTC": 18,
     "current": {
       "sfi": 114,
       "ssn": 92,
-      "kp": 1.67,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "A0.0",
+      "xray": "C1.8",
       "aIndex": "6",
-      "aurora": "1",
-      "solarWind": "376.9",
-      "magneticField": "1.8",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "08 Oct 2026 0924 GMT"
+      "aurora": "2",
+      "solarWind": "371.9",
+      "magneticField": "3.5",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "08 Oct 2026 1812 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.7,
-        "luf": 1.4
+        "muf": 20.9,
+        "luf": 3.9
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 8.3,
-        "luf": 1.2
+        "muf": 20.4,
+        "luf": 3.8
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 8.5,
-        "luf": 1.3
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 7.9,
-        "luf": 0.9
+        "muf": 20.5,
+        "luf": 3.8
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 8,
-        "luf": 1.1
+        "muf": 20.2,
+        "luf": 3.8
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 19.8,
+        "luf": 3.8
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 7.3,
-        "luf": 1
+        "muf": 18.4,
+        "luf": 3.8
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.5,
-        "luf": 0.9
+        "muf": 18.8,
+        "luf": 3.8
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 14,
-      "20m": 2,
-      "17m": 1,
-      "15m": 1,
-      "12m": 1,
+      "40m": 34,
+      "30m": 47,
+      "20m": 53,
+      "17m": 56,
+      "15m": 33,
+      "12m": 8,
       "10m": 1
     },
     "avgGrid": {
       "40m": {
-        "0": 56,
+        "0": 55,
         "1": 59,
         "2": 60,
         "3": 60,
@@ -84,21 +84,21 @@
         "6": 60,
         "7": 60,
         "8": 60,
-        "9": 58,
+        "9": 60,
         "10": 60,
         "11": 60,
         "12": 59,
         "13": 55,
-        "14": 49,
-        "15": 44,
-        "16": 41,
-        "17": 38,
-        "18": 37,
-        "19": 37,
-        "20": 38,
-        "21": 41,
-        "22": 45,
-        "23": 50
+        "14": 48,
+        "15": 42,
+        "16": 38,
+        "17": 36,
+        "18": 34,
+        "19": 34,
+        "20": 36,
+        "21": 39,
+        "22": 43,
+        "23": 48
       },
       "30m": {
         "0": 58,
@@ -106,58 +106,58 @@
         "2": 60,
         "3": 60,
         "4": 60,
-        "5": 39,
-        "6": 24,
-        "7": 15,
+        "5": 46,
+        "6": 27,
+        "7": 16,
         "8": 13,
-        "9": 13,
-        "10": 14,
-        "11": 24,
-        "12": 45,
+        "9": 14,
+        "10": 16,
+        "11": 31,
+        "12": 49,
         "13": 57,
-        "14": 55,
-        "15": 52,
-        "16": 50,
-        "17": 49,
-        "18": 49,
-        "19": 49,
-        "20": 49,
-        "21": 50,
-        "22": 52,
-        "23": 55
+        "14": 54,
+        "15": 51,
+        "16": 49,
+        "17": 48,
+        "18": 47,
+        "19": 47,
+        "20": 48,
+        "21": 49,
+        "22": 51,
+        "23": 54
       },
       "20m": {
         "0": 59,
         "1": 60,
-        "2": 48,
-        "3": 30,
-        "4": 15,
-        "5": 8,
-        "6": 4,
-        "7": 2,
-        "8": 1,
-        "9": 1,
-        "10": 2,
-        "11": 5,
-        "12": 8,
-        "13": 15,
-        "14": 32,
-        "15": 47,
-        "16": 55,
+        "2": 58,
+        "3": 36,
+        "4": 18,
+        "5": 9,
+        "6": 5,
+        "7": 3,
+        "8": 2,
+        "9": 2,
+        "10": 3,
+        "11": 6,
+        "12": 9,
+        "13": 20,
+        "14": 39,
+        "15": 54,
+        "16": 54,
         "17": 54,
-        "18": 54,
-        "19": 54,
+        "18": 53,
+        "19": 53,
         "20": 54,
-        "21": 55,
-        "22": 56,
+        "21": 54,
+        "22": 55,
         "23": 57
       },
       "17m": {
-        "0": 39,
-        "1": 24,
-        "2": 11,
-        "3": 4,
-        "4": 2,
+        "0": 48,
+        "1": 33,
+        "2": 16,
+        "3": 7,
+        "4": 3,
         "5": 1,
         "6": 1,
         "7": 1,
@@ -166,22 +166,22 @@
         "10": 1,
         "11": 1,
         "12": 1,
-        "13": 2,
-        "14": 5,
-        "15": 12,
-        "16": 24,
-        "17": 42,
-        "18": 51,
+        "13": 3,
+        "14": 7,
+        "15": 18,
+        "16": 36,
+        "17": 50,
+        "18": 56,
         "19": 56,
-        "20": 57,
+        "20": 56,
         "21": 57,
         "22": 57,
-        "23": 52
+        "23": 58
       },
       "15m": {
-        "0": 12,
-        "1": 5,
-        "2": 2,
+        "0": 19,
+        "1": 9,
+        "2": 3,
         "3": 1,
         "4": 1,
         "5": 1,
@@ -194,19 +194,19 @@
         "12": 1,
         "13": 1,
         "14": 1,
-        "15": 3,
-        "16": 6,
-        "17": 13,
-        "18": 22,
-        "19": 30,
-        "20": 35,
-        "21": 36,
-        "22": 29,
-        "23": 20
+        "15": 4,
+        "16": 9,
+        "17": 21,
+        "18": 33,
+        "19": 48,
+        "20": 51,
+        "21": 50,
+        "22": 43,
+        "23": 32
       },
       "12m": {
-        "0": 2,
-        "1": 1,
+        "0": 4,
+        "1": 2,
         "2": 1,
         "3": 1,
         "4": 1,
@@ -221,14 +221,14 @@
         "13": 1,
         "14": 1,
         "15": 1,
-        "16": 1,
-        "17": 2,
-        "18": 4,
-        "19": 7,
-        "20": 8,
-        "21": 9,
-        "22": 7,
-        "23": 4
+        "16": 2,
+        "17": 4,
+        "18": 8,
+        "19": 14,
+        "20": 18,
+        "21": 18,
+        "22": 13,
+        "23": 8
       },
       "10m": {
         "0": 1,
@@ -259,18 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-10-08T12:00:00",
-        "value": 1
-      },
-      {
-        "time": "2026-10-08T15:00:00",
-        "value": 1.67
-      },
-      {
-        "time": "2026-10-08T18:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-10-08T21:00:00",
         "value": 1.67
       },
@@ -284,27 +272,27 @@
       },
       {
         "time": "2026-10-09T06:00:00",
-        "value": 4.33
-      },
-      {
-        "time": "2026-10-09T09:00:00",
         "value": 5.67
       },
       {
+        "time": "2026-10-09T09:00:00",
+        "value": 5
+      },
+      {
         "time": "2026-10-09T12:00:00",
-        "value": 4
+        "value": 4.67
       },
       {
         "time": "2026-10-09T15:00:00",
-        "value": 3
+        "value": 4
       },
       {
         "time": "2026-10-09T18:00:00",
-        "value": 3
+        "value": 4
       },
       {
         "time": "2026-10-09T21:00:00",
-        "value": 4
+        "value": 3.33
       },
       {
         "time": "2026-10-10T00:00:00",
@@ -344,47 +332,47 @@
       }
     ],
     "potaCounts": {
-      "40m": 2,
-      "30m": 0,
-      "20m": 0,
-      "17m": 0,
-      "15m": 0,
+      "40m": 6,
+      "30m": 1,
+      "20m": 55,
+      "17m": 6,
+      "15m": 1,
       "12m": 0,
-      "10m": 0
+      "10m": 1
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 1,
-        "FT8": 1,
+        "CW": 1,
+        "SSB": 3,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "30m": {
-        "CW": 0,
+        "CW": 1,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
+        "CW": 14,
+        "SSB": 26,
+        "FT8": 10,
+        "FT4": 4,
+        "Other": 1
       },
       "17m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 2,
+        "SSB": 1,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
@@ -398,7 +386,7 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       }
@@ -407,7 +395,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-10-08",
-        "TimeStamp": "10:15:00",
+        "TimeStamp": "18:40:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,12 +414,12 @@
       },
       "tomorrow": {
         "DateStamp": "2026-10-08",
-        "TimeStamp": "10:15:00",
+        "TimeStamp": "18:40:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "40",
-          "MajorProb": "5"
+          "MinorProb": "55",
+          "MajorProb": "10"
         },
         "S": {
           "Scale": null,
@@ -449,8 +437,8 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "40",
-          "MajorProb": "5"
+          "MinorProb": "55",
+          "MajorProb": "10"
         },
         "S": {
           "Scale": null,
@@ -464,10 +452,10 @@
       },
       "yesterday": {
         "DateStamp": "2026-10-07",
-        "TimeStamp": "10:15:00",
+        "TimeStamp": "18:40:00",
         "R": {
-          "Scale": "0",
-          "Text": "none",
+          "Scale": "2",
+          "Text": "moderate",
           "MinorProb": null,
           "MajorProb": null
         },
@@ -495,6 +483,6 @@
       "astronomical_twilight_begin": "2026-10-08T10:57:06+00:00",
       "astronomical_twilight_end": "2026-10-09T01:26:09+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 08 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 08-Oct 10 2026 is 5.67 (NOAA Scale\nG2).\n\nNOAA Kp index breakdown Oct 08-Oct 10 2026\n\n             Oct 08       Oct 09       Oct 10\n00-03UT       2.00         1.67         4.00     \n03-06UT       1.67         5.00 (G1)    3.67     \n06-09UT       1.33         4.33         3.00     \n09-12UT       1.00         5.67 (G2)    3.00     \n12-15UT       1.00         4.00         2.67     \n15-18UT       1.67         3.00         2.33     \n18-21UT       1.67         3.00         2.33     \n21-00UT       1.67         4.00         2.67     \n\nRationale: G1-G2 (Minor-Moderate) geomagnetic storms are likely on 09\nOct due to the anticipated arrival of a CME from 06 Oct.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 08-Oct 10 2026\n\n              Oct 08  Oct 09  Oct 10\nS1 or greater   10%     10%     10%\n\nRationale: There is a slight chance (10%) for a greater than 10 MeV\nproton event exceeding the 10 pfu (S1-Minor) threshold through 10 Oct.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 08-Oct 10 2026\n\n              Oct 08        Oct 09        Oct 10\nR1-R2           40%           40%           40%\nR3 or greater    5%            5%            5%\n\nRationale: Solar activity is expected to be at low levels with a strong\nchance (40%) for further M-class flares (R1-R2, Minor-Moderate) through\n10 Oct, particularly from Region 4549 and possibly Region 4545.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 08 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 08-Oct 10 2026 is 5.67 (NOAA Scale\nG2).\n\nNOAA Kp index breakdown Oct 08-Oct 10 2026\n\n             Oct 08       Oct 09       Oct 10\n00-03UT       1.00         1.67         4.00     \n03-06UT       1.67         5.00 (G1)    3.67     \n06-09UT       1.00         4.33         3.00     \n09-12UT       2.00         5.67 (G2)    3.00     \n12-15UT       1.00         4.00         2.67     \n15-18UT       1.67         3.00         2.33     \n18-21UT       1.67         3.00         2.33     \n21-00UT       1.67         4.00         2.67     \n\nRationale: G1-G2 (Minor-Moderate) geomagnetic storms are likely on 09\nOct due to the anticipated arrival of a CME from 06 Oct.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 08-Oct 10 2026\n\n              Oct 08  Oct 09  Oct 10\nS1 or greater   10%     10%     10%\n\nRationale: There is a slight chance (10%) for a greater than 10 MeV\nproton event exceeding the 10 pfu (S1-Minor) threshold through 10 Oct.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 08-Oct 10 2026\n\n              Oct 08        Oct 09        Oct 10\nR1-R2           40%           40%           40%\nR3 or greater    5%            5%            5%\n\nRationale: Solar activity is expected to be at low levels with a strong\nchance(40%) for further M-class flares (R1-R2, Minor-Moderate) through\n10 Oct, particularly from Region 4549.\n"
   }
 }
