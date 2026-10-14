@@ -1,81 +1,81 @@
 {
-  "generated": "2026-10-13T22:30:24Z",
+  "generated": "2026-10-14T04:26:00Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-13T22:30:24.170308+00:00",
-    "currentHourUTC": 22,
+    "fetched": "2026-10-14T04:26:00.384223+00:00",
+    "currentHourUTC": 4,
     "current": {
       "sfi": 136,
       "ssn": 102,
-      "kp": 0.67,
+      "kp": 2.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B7.1",
-      "aIndex": "17",
-      "aurora": "1",
-      "solarWind": "644.7",
-      "magneticField": "4.6",
-      "geomag": "UNSETTLD",
-      "signalNoise": "S2-S3",
-      "updated": "13 Oct 2026 2219 GMT"
+      "xray": "C1.1",
+      "aIndex": "13",
+      "aurora": "2",
+      "solarWind": "636.8",
+      "magneticField": "2.0",
+      "geomag": "QUIET",
+      "signalNoise": "S1-S2",
+      "updated": "14 Oct 2026 0419 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 21.2,
-        "luf": 3.7
+        "muf": 13.7,
+        "luf": 1.1
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 21.5,
-        "luf": 3.8
+        "muf": 14.6,
+        "luf": 1.2
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 22.1,
-        "luf": 4
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 20.6,
-        "luf": 4.2
+        "muf": 15.8,
+        "luf": 1.4
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 21.2,
-        "luf": 3.8
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 23.3,
-        "luf": 4.4
+        "muf": 14,
+        "luf": 1.2
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 22,
-        "luf": 4.5
+        "muf": 17.3,
+        "luf": 1.8
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 18.5,
+        "luf": 1.8
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 15.1,
+        "luf": 1.5
       }
     ],
     "currentByBand": {
-      "40m": 41,
-      "30m": 51,
+      "40m": 60,
+      "30m": 60,
       "20m": 55,
-      "17m": 57,
-      "15m": 55,
-      "12m": 23,
-      "10m": 2
+      "17m": 21,
+      "15m": 5,
+      "12m": 1,
+      "10m": 1
     },
     "avgGrid": {
       "40m": {
-        "0": 55,
+        "0": 52,
         "1": 59,
         "2": 60,
         "3": 60,
@@ -88,76 +88,102 @@
         "10": 60,
         "11": 60,
         "12": 59,
-        "13": 54,
-        "14": 47,
-        "15": 41,
-        "16": 36,
-        "17": 33,
-        "18": 32,
-        "19": 32,
-        "20": 34,
-        "21": 37,
-        "22": 41,
-        "23": 48
+        "13": 51,
+        "14": 39,
+        "15": 30,
+        "16": 24,
+        "17": 20,
+        "18": 18,
+        "19": 19,
+        "20": 21,
+        "21": 25,
+        "22": 31,
+        "23": 41
       },
       "30m": {
-        "0": 57,
-        "1": 60,
+        "0": 56,
+        "1": 59,
         "2": 60,
         "3": 60,
         "4": 60,
-        "5": 54,
-        "6": 33,
-        "7": 19,
-        "8": 14,
-        "9": 14,
-        "10": 20,
-        "11": 39,
-        "12": 54,
-        "13": 57,
-        "14": 53,
-        "15": 50,
-        "16": 48,
-        "17": 46,
-        "18": 46,
-        "19": 46,
-        "20": 47,
-        "21": 48,
-        "22": 51,
-        "23": 54
+        "5": 60,
+        "6": 60,
+        "7": 53,
+        "8": 44,
+        "9": 49,
+        "10": 54,
+        "11": 60,
+        "12": 59,
+        "13": 55,
+        "14": 50,
+        "15": 45,
+        "16": 41,
+        "17": 39,
+        "18": 38,
+        "19": 38,
+        "20": 40,
+        "21": 42,
+        "22": 45,
+        "23": 50
       },
       "20m": {
         "0": 58,
         "1": 60,
         "2": 60,
-        "3": 44,
-        "4": 24,
-        "5": 11,
-        "6": 6,
-        "7": 4,
-        "8": 2,
-        "9": 3,
-        "10": 4,
-        "11": 7,
-        "12": 11,
-        "13": 27,
-        "14": 45,
+        "3": 60,
+        "4": 55,
+        "5": 34,
+        "6": 18,
+        "7": 9,
+        "8": 8,
+        "9": 8,
+        "10": 10,
+        "11": 19,
+        "12": 39,
+        "13": 55,
+        "14": 55,
+        "15": 52,
+        "16": 51,
+        "17": 49,
+        "18": 49,
+        "19": 49,
+        "20": 49,
+        "21": 51,
+        "22": 52,
+        "23": 55
+      },
+      "17m": {
+        "0": 59,
+        "1": 60,
+        "2": 60,
+        "3": 42,
+        "4": 21,
+        "5": 7,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 3,
+        "12": 7,
+        "13": 25,
+        "14": 44,
         "15": 55,
         "16": 54,
         "17": 53,
         "18": 53,
         "19": 53,
-        "20": 53,
+        "20": 54,
         "21": 54,
         "22": 55,
-        "23": 56
+        "23": 57
       },
-      "17m": {
+      "15m": {
         "0": 59,
-        "1": 43,
-        "2": 24,
-        "3": 10,
-        "4": 4,
+        "1": 60,
+        "2": 38,
+        "3": 20,
+        "4": 5,
         "5": 2,
         "6": 1,
         "7": 1,
@@ -165,75 +191,49 @@
         "9": 1,
         "10": 1,
         "11": 1,
-        "12": 1,
-        "13": 4,
-        "14": 10,
-        "15": 25,
-        "16": 44,
-        "17": 56,
+        "12": 2,
+        "13": 5,
+        "14": 20,
+        "15": 42,
+        "16": 56,
+        "17": 55,
         "18": 55,
+        "19": 55,
+        "20": 55,
+        "21": 56,
+        "22": 56,
+        "23": 57
+      },
+      "12m": {
+        "0": 54,
+        "1": 36,
+        "2": 15,
+        "3": 5,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 4,
+        "15": 18,
+        "16": 39,
+        "17": 51,
+        "18": 56,
         "19": 56,
         "20": 56,
-        "21": 56,
+        "21": 57,
         "22": 57,
         "23": 58
       },
-      "15m": {
-        "0": 28,
-        "1": 14,
-        "2": 6,
-        "3": 2,
-        "4": 1,
-        "5": 1,
-        "6": 1,
-        "7": 1,
-        "8": 1,
-        "9": 1,
-        "10": 1,
-        "11": 1,
-        "12": 1,
-        "13": 1,
-        "14": 2,
-        "15": 6,
-        "16": 16,
-        "17": 29,
-        "18": 47,
-        "19": 52,
-        "20": 55,
-        "21": 55,
-        "22": 55,
-        "23": 45
-      },
-      "12m": {
-        "0": 8,
-        "1": 3,
-        "2": 1,
-        "3": 1,
-        "4": 1,
-        "5": 1,
-        "6": 1,
-        "7": 1,
-        "8": 1,
-        "9": 1,
-        "10": 1,
-        "11": 1,
-        "12": 1,
-        "13": 1,
-        "14": 1,
-        "15": 1,
-        "16": 3,
-        "17": 8,
-        "18": 16,
-        "19": 25,
-        "20": 28,
-        "21": 29,
-        "22": 23,
-        "23": 15
-      },
       "10m": {
-        "0": 1,
-        "1": 1,
-        "2": 1,
+        "0": 21,
+        "1": 8,
+        "2": 2,
         "3": 1,
         "4": 1,
         "5": 1,
@@ -246,26 +246,18 @@
         "12": 1,
         "13": 1,
         "14": 1,
-        "15": 1,
-        "16": 1,
-        "17": 1,
-        "18": 1,
-        "19": 2,
-        "20": 3,
-        "21": 3,
-        "22": 2,
-        "23": 1
+        "15": 2,
+        "16": 10,
+        "17": 24,
+        "18": 41,
+        "19": 51,
+        "20": 54,
+        "21": 55,
+        "22": 48,
+        "23": 37
       }
     },
     "kpForecast": [
-      {
-        "time": "2026-10-14T00:00:00",
-        "value": 3.67
-      },
-      {
-        "time": "2026-10-14T03:00:00",
-        "value": 3.33
-      },
       {
         "time": "2026-10-14T06:00:00",
         "value": 3.67
@@ -325,55 +317,87 @@
       {
         "time": "2026-10-16T00:00:00",
         "value": 1.67
+      },
+      {
+        "time": "2026-10-16T03:00:00",
+        "value": 1.67
+      },
+      {
+        "time": "2026-10-16T06:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-10-16T09:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-10-16T12:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-10-16T15:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-10-16T18:00:00",
+        "value": 1.67
+      },
+      {
+        "time": "2026-10-16T21:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-10-17T00:00:00",
+        "value": 1.67
       }
     ],
     "potaCounts": {
-      "40m": 6,
-      "30m": 1,
-      "20m": 54,
-      "17m": 1,
-      "15m": 3,
-      "12m": 1,
-      "10m": 3
+      "40m": 0,
+      "30m": 0,
+      "20m": 0,
+      "17m": 0,
+      "15m": 0,
+      "12m": 0,
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 2,
+        "CW": 0,
+        "SSB": 0,
         "FT8": 0,
         "FT4": 0,
-        "Other": 2
+        "Other": 0
       },
       "30m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 14,
-        "SSB": 24,
-        "FT8": 12,
-        "FT4": 4,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
+        "FT4": 0,
         "Other": 0
       },
       "17m": {
         "CW": 0,
         "SSB": 0,
         "FT8": 0,
-        "FT4": 1,
+        "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
@@ -382,27 +406,16 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 3,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "WB0RLJ",
-        "frequency": "24904.5",
-        "mode": "CW",
-        "ref": "US-4011",
-        "name": "Chalco Hills State Recreation Area",
-        "comments": "RBN 6 dB 26 WPM via PT2FHC-#",
-        "spotTime": "2026-10-13T22:29:39",
-        "grid": "EN11we"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
-        "DateStamp": "2026-10-13",
-        "TimeStamp": "22:29:00",
+        "DateStamp": "2026-10-14",
+        "TimeStamp": "04:23:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -420,8 +433,8 @@
         }
       },
       "tomorrow": {
-        "DateStamp": "2026-10-13",
-        "TimeStamp": "22:29:00",
+        "DateStamp": "2026-10-14",
+        "TimeStamp": "04:23:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -434,12 +447,12 @@
           "Prob": "5"
         },
         "G": {
-          "Scale": "1",
-          "Text": "minor"
+          "Scale": "0",
+          "Text": "none"
         }
       },
       "dayAfter": {
-        "DateStamp": "2026-10-14",
+        "DateStamp": "2026-10-15",
         "TimeStamp": "00:00:00",
         "R": {
           "Scale": null,
@@ -458,8 +471,8 @@
         }
       },
       "yesterday": {
-        "DateStamp": "2026-10-12",
-        "TimeStamp": "22:29:00",
+        "DateStamp": "2026-10-13",
+        "TimeStamp": "04:23:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -479,17 +492,17 @@
     },
     "flareAlert": null,
     "sun": {
-      "sunrise": "2026-10-13T12:32:35+00:00",
-      "sunset": "2026-10-13T23:48:05+00:00",
-      "solar_noon": "2026-10-13T18:10:20+00:00",
-      "day_length": 40530,
-      "civil_twilight_begin": "2026-10-13T12:06:18+00:00",
-      "civil_twilight_end": "2026-10-14T00:14:21+00:00",
-      "nautical_twilight_begin": "2026-10-13T11:34:22+00:00",
-      "nautical_twilight_end": "2026-10-14T00:46:17+00:00",
-      "astronomical_twilight_begin": "2026-10-13T11:02:26+00:00",
-      "astronomical_twilight_end": "2026-10-14T01:18:13+00:00"
+      "sunrise": "2026-10-14T12:33:40+00:00",
+      "sunset": "2026-10-14T23:46:31+00:00",
+      "solar_noon": "2026-10-14T18:10:06+00:00",
+      "day_length": 40371,
+      "civil_twilight_begin": "2026-10-14T12:07:22+00:00",
+      "civil_twilight_end": "2026-10-15T00:12:49+00:00",
+      "nautical_twilight_begin": "2026-10-14T11:35:25+00:00",
+      "nautical_twilight_end": "2026-10-15T00:44:46+00:00",
+      "astronomical_twilight_begin": "2026-10-14T11:03:30+00:00",
+      "astronomical_twilight_end": "2026-10-15T01:16:42+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 13 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 13-Oct 15 2026 is 4.67 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Oct 13-Oct 15 2026\n\n             Oct 13       Oct 14       Oct 15\n00-03UT       3.33         3.67         2.67     \n03-06UT       3.33         4.00         3.33     \n06-09UT       2.00         2.67         3.00     \n09-12UT       3.00         3.67         2.33     \n12-15UT       3.33         3.67         1.67     \n15-18UT       3.67         3.67         1.00     \n18-21UT       4.00         3.33         1.33     \n21-00UT       4.67 (G1)    2.67         2.33     \n\nRationale: G1 (Minor) geomagnetic storming is likely on 13 Oct due to\nnegative polarity CH HSS influences combined with possible flanking CME\ninfluences.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 13-Oct 15 2026\n\n              Oct 13  Oct 14  Oct 15\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 13-Oct 15 2026\n\n              Oct 13        Oct 14        Oct 15\nR1-R2           35%           35%           35%\nR3 or greater    5%            5%            5%\n\nRationale: A chance for R1-R2 (Minor-Moderate) radio blackouts due to\nisolated M-class flare activity will persist through 15 Oct.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 14 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 14-Oct 16 2026 is 3.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Oct 14-Oct 16 2026\n\n             Oct 14       Oct 15       Oct 16\n00-03UT       3.67         2.67         1.67     \n03-06UT       3.33         3.33         1.67     \n06-09UT       3.67         3.00         1.33     \n09-12UT       2.67         2.33         1.33     \n12-15UT       2.67         1.67         1.33     \n15-18UT       3.33         1.00         1.33     \n18-21UT       3.33         1.33         1.67     \n21-00UT       3.33         2.33         1.33     \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected.  No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 14-Oct 16 2026\n\n              Oct 14  Oct 15  Oct 16\nS1 or greater    5%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 14-Oct 16 2026\n\n              Oct 14        Oct 15        Oct 16\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: No R1 (Minor) or greater radio blackouts are expected.  No\nsignificant active region flare activity is forecast.\n"
   }
 }
