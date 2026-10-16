@@ -1,76 +1,76 @@
 {
-  "generated": "2026-10-16T16:25:41Z",
+  "generated": "2026-10-16T20:48:42Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-16T16:25:41.331784+00:00",
-    "currentHourUTC": 16,
+    "fetched": "2026-10-16T20:48:42.017594+00:00",
+    "currentHourUTC": 20,
     "current": {
       "sfi": 126,
       "ssn": 81,
-      "kp": 2.67,
+      "kp": 3,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B8.7",
+      "xray": "B9.7",
       "aIndex": "9",
-      "aurora": "3",
-      "solarWind": "469.6",
-      "magneticField": "-3.1",
-      "geomag": "VR QUIET",
-      "signalNoise": "S0-S1",
-      "updated": "16 Oct 2026 1616 GMT"
+      "aurora": "4",
+      "solarWind": "447.4",
+      "magneticField": "3.8",
+      "geomag": "UNSETTLD",
+      "signalNoise": "S2-S3",
+      "updated": "16 Oct 2026 2037 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 18.9,
-        "luf": 4
-      },
-      {
-        "name": "Southeast",
-        "distance": 1318,
-        "muf": 18.2,
-        "luf": 3.8
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 15.9,
-        "luf": 3.7
+        "muf": 21.7,
+        "luf": 4.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 18.4,
-        "luf": 3.9
+        "muf": 21.5,
+        "luf": 4.5
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 16.6,
-        "luf": 3.5
+        "muf": 22.1,
+        "luf": 4.8
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 17.6,
-        "luf": 3.7
+        "muf": 21.8,
+        "luf": 4.6
+      },
+      {
+        "name": "Southeast",
+        "distance": 1318,
+        "muf": 21.6,
+        "luf": 4.6
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 20.1,
+        "luf": 4.8
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 15.9,
-        "luf": 3.6
+        "muf": 21,
+        "luf": 4.9
       }
     ],
     "currentByBand": {
-      "40m": 38,
-      "30m": 49,
+      "40m": 35,
+      "30m": 48,
       "20m": 54,
-      "17m": 39,
-      "15m": 11,
-      "12m": 2,
+      "17m": 56,
+      "15m": 52,
+      "12m": 21,
       "10m": 1
     },
     "avgGrid": {
@@ -259,24 +259,20 @@
     },
     "kpForecast": [
       {
-        "time": "2026-10-16T18:00:00",
-        "value": 2
-      },
-      {
         "time": "2026-10-16T21:00:00",
         "value": 2.67
       },
       {
         "time": "2026-10-17T00:00:00",
-        "value": 1.67
+        "value": 4
       },
       {
         "time": "2026-10-17T03:00:00",
-        "value": 1.67
+        "value": 3.33
       },
       {
         "time": "2026-10-17T06:00:00",
-        "value": 1.33
+        "value": 2
       },
       {
         "time": "2026-10-17T09:00:00",
@@ -292,7 +288,7 @@
       },
       {
         "time": "2026-10-17T18:00:00",
-        "value": 1.33
+        "value": 2
       },
       {
         "time": "2026-10-17T21:00:00",
@@ -336,45 +332,45 @@
       }
     ],
     "potaCounts": {
-      "40m": 4,
-      "30m": 1,
-      "20m": 50,
-      "17m": 2,
-      "15m": 7,
+      "40m": 6,
+      "30m": 2,
+      "20m": 63,
+      "17m": 4,
+      "15m": 6,
       "12m": 0,
-      "10m": 3
+      "10m": 5
     },
     "potaModes": {
       "40m": {
         "CW": 2,
-        "SSB": 1,
-        "FT8": 1,
+        "SSB": 3,
+        "FT8": 0,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 0,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 13,
-        "SSB": 18,
-        "FT8": 12,
-        "FT4": 4,
-        "Other": 3
+        "CW": 16,
+        "SSB": 32,
+        "FT8": 8,
+        "FT4": 6,
+        "Other": 1
       },
       "17m": {
-        "CW": 1,
-        "SSB": 1,
-        "FT8": 0,
+        "CW": 0,
+        "SSB": 2,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 2,
+        "CW": 1,
         "SSB": 2,
         "FT8": 3,
         "FT4": 0,
@@ -389,28 +385,17 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 1,
+        "SSB": 3,
         "FT8": 2,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "AE0YM",
-        "frequency": "14061.5",
-        "mode": "CW",
-        "ref": "US-5657",
-        "name": "Standing Bear Lake State Recreation Area",
-        "comments": "TU my friend",
-        "spotTime": "2026-10-16T16:23:37",
-        "grid": "EN11wh"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-10-16",
-        "TimeStamp": "16:24:00",
+        "TimeStamp": "20:46:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -423,23 +408,23 @@
           "Prob": null
         },
         "G": {
-          "Scale": "0",
-          "Text": "none"
+          "Scale": null,
+          "Text": null
         }
       },
       "tomorrow": {
         "DateStamp": "2026-10-16",
-        "TimeStamp": "16:24:00",
+        "TimeStamp": "20:46:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "25",
-          "MajorProb": "10"
+          "MinorProb": "20",
+          "MajorProb": "5"
         },
         "S": {
           "Scale": null,
           "Text": null,
-          "Prob": "10"
+          "Prob": "5"
         },
         "G": {
           "Scale": "0",
@@ -452,13 +437,13 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "25",
-          "MajorProb": "10"
+          "MinorProb": "20",
+          "MajorProb": "5"
         },
         "S": {
           "Scale": null,
           "Text": null,
-          "Prob": "10"
+          "Prob": "5"
         },
         "G": {
           "Scale": "0",
@@ -467,7 +452,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-10-15",
-        "TimeStamp": "16:24:00",
+        "TimeStamp": "20:46:00",
         "R": {
           "Scale": "1",
           "Text": "minor",
