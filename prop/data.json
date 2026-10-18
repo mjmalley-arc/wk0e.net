@@ -1,74 +1,74 @@
 {
-  "generated": "2026-10-18T04:01:20Z",
+  "generated": "2026-10-18T10:45:23Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-18T04:01:20.221609+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-10-18T10:45:23.348452+00:00",
+    "currentHourUTC": 10,
     "current": {
       "sfi": 132,
       "ssn": 87,
-      "kp": 0.33,
+      "kp": 1,
       "bz": null
     },
     "n0nbh": {
       "xray": "B6.2",
       "aIndex": "6",
-      "aurora": "2",
-      "solarWind": "531.5",
-      "magneticField": "1.5",
+      "aurora": "1",
+      "solarWind": "480.0",
+      "magneticField": "1.8",
       "geomag": "QUIET",
       "signalNoise": "S1-S2",
-      "updated": "18 Oct 2026 0337 GMT"
+      "updated": "18 Oct 2026 1038 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 10.7,
-        "luf": 0.8
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 11.7,
-        "luf": 1.1
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 12.2,
-        "luf": 1
+        "muf": 9.2,
+        "luf": 1.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 11.3,
-        "luf": 0.9
+        "muf": 8.8,
+        "luf": 1.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 10.9,
-        "luf": 0.8
+        "muf": 9,
+        "luf": 1.7
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 8.5,
+        "luf": 1.3
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 7.7,
+        "luf": 1.3
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 14.1,
-        "luf": 1.3
+        "muf": 8.3,
+        "luf": 1.1
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 13.2,
-        "luf": 1.3
+        "muf": 7.9,
+        "luf": 1.1
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 22,
-      "17m": 3,
+      "30m": 18,
+      "20m": 3,
+      "17m": 1,
       "15m": 1,
       "12m": 1,
       "10m": 1
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-10-18T06:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-10-18T09:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-10-18T12:00:00",
         "value": 1.33
       },
@@ -284,75 +276,75 @@
       },
       {
         "time": "2026-10-19T00:00:00",
-        "value": 1.67
+        "value": 4.67
       },
       {
         "time": "2026-10-19T03:00:00",
-        "value": 2
+        "value": 4.67
       },
       {
         "time": "2026-10-19T06:00:00",
-        "value": 1
-      },
-      {
-        "time": "2026-10-19T09:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-10-19T12:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-10-19T15:00:00",
-        "value": 3.33
-      },
-      {
-        "time": "2026-10-19T18:00:00",
-        "value": 4
-      },
-      {
-        "time": "2026-10-19T21:00:00",
-        "value": 4
-      },
-      {
-        "time": "2026-10-20T00:00:00",
-        "value": 4
-      },
-      {
-        "time": "2026-10-20T03:00:00",
-        "value": 5
-      },
-      {
-        "time": "2026-10-20T06:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-10-20T09:00:00",
-        "value": 4.33
-      },
-      {
-        "time": "2026-10-20T12:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-10-20T15:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-10-20T18:00:00",
         "value": 3.67
       },
       {
-        "time": "2026-10-20T21:00:00",
+        "time": "2026-10-19T09:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-10-19T12:00:00",
+        "value": 2.33
+      },
+      {
+        "time": "2026-10-19T15:00:00",
         "value": 2.67
       },
       {
-        "time": "2026-10-21T00:00:00",
+        "time": "2026-10-19T18:00:00",
+        "value": 3
+      },
+      {
+        "time": "2026-10-19T21:00:00",
+        "value": 3.67
+      },
+      {
+        "time": "2026-10-20T00:00:00",
         "value": 3.33
+      },
+      {
+        "time": "2026-10-20T03:00:00",
+        "value": 3.67
+      },
+      {
+        "time": "2026-10-20T06:00:00",
+        "value": 3.33
+      },
+      {
+        "time": "2026-10-20T09:00:00",
+        "value": 2.33
+      },
+      {
+        "time": "2026-10-20T12:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-10-20T15:00:00",
+        "value": 2.33
+      },
+      {
+        "time": "2026-10-20T18:00:00",
+        "value": 3.33
+      },
+      {
+        "time": "2026-10-20T21:00:00",
+        "value": 3.33
+      },
+      {
+        "time": "2026-10-21T00:00:00",
+        "value": 2.67
       }
     ],
     "potaCounts": {
-      "40m": 8,
+      "40m": 2,
       "30m": 0,
       "20m": 0,
       "17m": 0,
@@ -362,9 +354,9 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 7,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       },
@@ -415,7 +407,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-10-18",
-        "TimeStamp": "03:58:00",
+        "TimeStamp": "10:43:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +426,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-10-18",
-        "TimeStamp": "03:59:00",
+        "TimeStamp": "10:43:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -466,13 +458,13 @@
           "Prob": "5"
         },
         "G": {
-          "Scale": "0",
-          "Text": "none"
+          "Scale": "1",
+          "Text": "minor"
         }
       },
       "yesterday": {
         "DateStamp": "2026-10-17",
-        "TimeStamp": "03:59:00",
+        "TimeStamp": "10:43:00",
         "R": {
           "Scale": "0",
           "Text": "none",
