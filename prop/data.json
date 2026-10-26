@@ -1,73 +1,73 @@
 {
-  "generated": "2026-10-26T04:14:42Z",
+  "generated": "2026-10-26T12:39:00Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-10-26T04:14:41.713663+00:00",
-    "currentHourUTC": 4,
+    "fetched": "2026-10-26T12:39:00.219131+00:00",
+    "currentHourUTC": 12,
     "current": {
       "sfi": 89,
-      "ssn": 22,
-      "kp": 0.33,
+      "ssn": 25,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B3.0",
+      "xray": "B3.7",
       "aIndex": "5",
-      "aurora": "1",
-      "solarWind": "357.3",
-      "magneticField": "-0.2",
+      "aurora": "3",
+      "solarWind": "348.9",
+      "magneticField": "-3.7",
       "geomag": "VR QUIET",
       "signalNoise": "S0-S1",
-      "updated": "26 Oct 2026 0316 GMT"
+      "updated": "26 Oct 2026 1215 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 9.2,
-        "luf": 0.5
+        "muf": 10.3,
+        "luf": 2.2
       },
       {
-        "name": "Mountain",
-        "distance": 774,
+        "name": "Mid-Atlantic",
+        "distance": 1634,
         "muf": 9.9,
-        "luf": 0.7
+        "luf": 2.1
       },
       {
         "name": "Southeast",
         "distance": 1318,
         "muf": 9.7,
-        "luf": 0.6
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 9.3,
-        "luf": 0.5
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 11.9,
-        "luf": 0.8
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 11.2,
-        "luf": 0.8
+        "luf": 2
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 10.4,
-        "luf": 0.6
+        "muf": 9.2,
+        "luf": 1.8
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 8.6,
+        "luf": 1.5
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 8.2,
+        "luf": 1.7
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 8.2,
+        "luf": 1.5
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 46,
-      "20m": 9,
+      "40m": 59,
+      "30m": 30,
+      "20m": 6,
       "17m": 1,
       "15m": 1,
       "12m": 1,
@@ -259,18 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-10-26T06:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-10-26T09:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-10-26T12:00:00",
-        "value": 1.33
-      },
-      {
         "time": "2026-10-26T15:00:00",
         "value": 1.33
       },
@@ -352,9 +340,9 @@
       }
     ],
     "potaCounts": {
-      "40m": 1,
+      "40m": 9,
       "30m": 0,
-      "20m": 1,
+      "20m": 4,
       "17m": 0,
       "15m": 0,
       "12m": 0,
@@ -362,9 +350,9 @@
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "CW": 4,
+        "SSB": 2,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
@@ -376,11 +364,11 @@
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
+        "CW": 1,
+        "SSB": 1,
         "FT8": 1,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "17m": {
         "CW": 0,
@@ -415,7 +403,7 @@
     "scales": {
       "today": {
         "DateStamp": "2026-10-26",
-        "TimeStamp": "04:13:00",
+        "TimeStamp": "12:37:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -434,7 +422,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-10-26",
-        "TimeStamp": "04:13:00",
+        "TimeStamp": "12:37:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -472,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-10-25",
-        "TimeStamp": "04:13:00",
+        "TimeStamp": "12:37:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -503,6 +491,6 @@
       "astronomical_twilight_begin": "2026-10-26T11:16:09+00:00",
       "astronomical_twilight_end": "2026-10-27T01:00:02+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 26 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 26-Oct 28 2026 is 3.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Oct 26-Oct 28 2026\n\n             Oct 26       Oct 27       Oct 28\n00-03UT       1.67         1.67         1.33         \n03-06UT       1.33         1.33         1.33         \n06-09UT       1.33         1.33         1.67         \n09-12UT       1.33         1.33         1.33         \n12-15UT       1.33         1.33         1.33         \n15-18UT       1.33         1.33         1.33         \n18-21UT       1.67         1.67         1.67         \n21-00UT       1.67         1.67         1.67         \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 26-Oct 28 2026\n\n              Oct 26  Oct 27  Oct 28\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 26-Oct 28 2026\n\n              Oct 26        Oct 27        Oct 28\nR1-R2           10%            1%            1%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for an isolated R1-R2\n(Minor-Moderate) radio blackout on 26 Oct. No R1 (Minor) or greater\nradio blackouts are expected on 27-28 Oct.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Oct 26 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Oct 26-Oct 28 2026 is 2.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Oct 26-Oct 28 2026\n\n             Oct 26       Oct 27       Oct 28\n00-03UT       0.33         1.67         1.33         \n03-06UT       1.00         1.33         1.33         \n06-09UT       1.00         1.33         1.67         \n09-12UT       2.00         1.33         1.33         \n12-15UT       1.33         1.33         1.33         \n15-18UT       1.33         1.33         1.33         \n18-21UT       1.67         1.67         1.67         \n21-00UT       1.67         1.67         1.67         \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Oct 26-Oct 28 2026\n\n              Oct 26  Oct 27  Oct 28\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Oct 26-Oct 28 2026\n\n              Oct 26        Oct 27        Oct 28\nR1-R2           15%           10%            5%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts on 26-27 Oct.\n"
   }
 }
