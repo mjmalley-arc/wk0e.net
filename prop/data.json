@@ -1,76 +1,76 @@
 {
-  "generated": "2026-11-01T19:27:02Z",
+  "generated": "2026-11-02T00:28:01Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-11-01T19:27:01.985660+00:00",
-    "currentHourUTC": 19,
+    "fetched": "2026-11-02T00:28:01.437125+00:00",
+    "currentHourUTC": 0,
     "current": {
-      "sfi": 92,
-      "ssn": 31,
-      "kp": 2,
+      "sfi": 95,
+      "ssn": 30,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B3.0",
-      "aIndex": "24",
-      "aurora": "3",
-      "solarWind": "478.1",
-      "magneticField": "-0.1",
-      "geomag": "QUIET",
-      "signalNoise": "S1-S2",
-      "updated": "01 Nov 2026 1922 GMT"
+      "xray": "B2.5",
+      "aIndex": "23",
+      "aurora": "2",
+      "solarWind": "467.2",
+      "magneticField": "2.4",
+      "geomag": "UNSETTLD",
+      "signalNoise": "S2-S3",
+      "updated": "02 Nov 2026 0022 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 18.5,
-        "luf": 3.6
+        "muf": 15.1,
+        "luf": 1.9
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 18.3,
-        "luf": 3.6
+        "muf": 15.6,
+        "luf": 2
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 18.3,
-        "luf": 3.6
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 18.3,
-        "luf": 3.6
-      },
-      {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 16.7,
-        "luf": 3.7
+        "muf": 16.4,
+        "luf": 2.2
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 18.2,
-        "luf": 3.7
+        "muf": 17.8,
+        "luf": 2.6
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 17.3,
-        "luf": 3.8
+        "muf": 16.8,
+        "luf": 2.6
+      },
+      {
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 15.4,
+        "luf": 2.3
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 15.2,
+        "luf": 2
       }
     ],
     "currentByBand": {
-      "40m": 44,
-      "30m": 52,
-      "20m": 56,
-      "17m": 50,
-      "15m": 13,
-      "12m": 3,
+      "40m": 59,
+      "30m": 59,
+      "20m": 60,
+      "17m": 21,
+      "15m": 5,
+      "12m": 1,
       "10m": 1
     },
     "avgGrid": {
@@ -259,14 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-11-01T21:00:00",
-        "value": 4.67
-      },
-      {
-        "time": "2026-11-02T00:00:00",
-        "value": 2.67
-      },
-      {
         "time": "2026-11-02T03:00:00",
         "value": 3
       },
@@ -329,21 +321,53 @@
       {
         "time": "2026-11-04T00:00:00",
         "value": 1.67
+      },
+      {
+        "time": "2026-11-04T03:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-11-04T06:00:00",
+        "value": 1.67
+      },
+      {
+        "time": "2026-11-04T09:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-11-04T12:00:00",
+        "value": 1.33
+      },
+      {
+        "time": "2026-11-04T15:00:00",
+        "value": 0.67
+      },
+      {
+        "time": "2026-11-04T18:00:00",
+        "value": 0.67
+      },
+      {
+        "time": "2026-11-04T21:00:00",
+        "value": 1.67
+      },
+      {
+        "time": "2026-11-05T00:00:00",
+        "value": 3
       }
     ],
     "potaCounts": {
-      "40m": 15,
-      "30m": 3,
-      "20m": 62,
-      "17m": 4,
-      "15m": 8,
+      "40m": 11,
+      "30m": 2,
+      "20m": 20,
+      "17m": 0,
+      "15m": 0,
       "12m": 0,
-      "10m": 2
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 11,
+        "CW": 3,
+        "SSB": 6,
         "FT8": 1,
         "FT4": 0,
         "Other": 1
@@ -351,28 +375,28 @@
       "30m": {
         "CW": 1,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "20m": {
-        "CW": 20,
-        "SSB": 28,
-        "FT8": 9,
-        "FT4": 3,
-        "Other": 2
+        "CW": 4,
+        "SSB": 7,
+        "FT8": 4,
+        "FT4": 2,
+        "Other": 3
       },
       "17m": {
-        "CW": 2,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 2,
-        "SSB": 3,
-        "FT8": 3,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -386,7 +410,7 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
@@ -394,8 +418,8 @@
     "en11Spots": [],
     "scales": {
       "today": {
-        "DateStamp": "2026-11-01",
-        "TimeStamp": "19:25:00",
+        "DateStamp": "2026-11-02",
+        "TimeStamp": "00:26:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -413,8 +437,8 @@
         }
       },
       "tomorrow": {
-        "DateStamp": "2026-11-01",
-        "TimeStamp": "19:25:00",
+        "DateStamp": "2026-11-02",
+        "TimeStamp": "00:26:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -427,12 +451,12 @@
           "Prob": "1"
         },
         "G": {
-          "Scale": "1",
-          "Text": "minor"
+          "Scale": "0",
+          "Text": "none"
         }
       },
       "dayAfter": {
-        "DateStamp": "2026-11-02",
+        "DateStamp": "2026-11-03",
         "TimeStamp": "00:00:00",
         "R": {
           "Scale": null,
@@ -451,8 +475,8 @@
         }
       },
       "yesterday": {
-        "DateStamp": "2026-10-31",
-        "TimeStamp": "19:25:00",
+        "DateStamp": "2026-11-01",
+        "TimeStamp": "00:26:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -465,23 +489,23 @@
           "Prob": null
         },
         "G": {
-          "Scale": "2",
-          "Text": "moderate"
+          "Scale": "1",
+          "Text": "minor"
         }
       }
     },
     "flareAlert": null,
     "sun": {
-      "sunrise": "2026-11-01T12:55:40+00:00",
-      "sunset": "2026-11-01T23:19:48+00:00",
-      "solar_noon": "2026-11-01T18:07:44+00:00",
-      "day_length": 37448,
-      "civil_twilight_begin": "2026-11-01T12:27:07+00:00",
-      "civil_twilight_end": "2026-11-01T23:48:21+00:00",
-      "nautical_twilight_begin": "2026-11-01T11:54:33+00:00",
-      "nautical_twilight_end": "2026-11-02T00:20:55+00:00",
-      "astronomical_twilight_begin": "2026-11-01T11:22:27+00:00",
-      "astronomical_twilight_end": "2026-11-02T00:53:01+00:00"
+      "sunrise": "2026-11-02T12:56:51+00:00",
+      "sunset": "2026-11-02T23:18:35+00:00",
+      "solar_noon": "2026-11-02T18:07:43+00:00",
+      "day_length": 37304,
+      "civil_twilight_begin": "2026-11-02T12:28:15+00:00",
+      "civil_twilight_end": "2026-11-02T23:47:11+00:00",
+      "nautical_twilight_begin": "2026-11-02T11:55:38+00:00",
+      "nautical_twilight_end": "2026-11-03T00:19:48+00:00",
+      "astronomical_twilight_begin": "2026-11-02T11:23:30+00:00",
+      "astronomical_twilight_end": "2026-11-03T00:51:56+00:00"
     },
     "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Nov 01 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 6 (NOAA Scale\nG2).\nThe greatest expected 3 hr Kp for Nov 01-Nov 03 2026 is 4.67 (NOAA Scale\nG1).\n\nNOAA Kp index breakdown Nov 01-Nov 03 2026\n\n             Nov 01       Nov 02       Nov 03\n00-03UT       4.67 (G1)    2.67         1.67         \n03-06UT       4.33         3.00         2.00         \n06-09UT       3.33         3.00         1.67         \n09-12UT       3.33         2.67         1.33         \n12-15UT       3.67         2.00         0.67         \n15-18UT       2.67         2.00         0.67         \n18-21UT       2.67         1.67         1.67         \n21-00UT       2.67         2.00         1.33         \n\nRationale: Periods of G1 (Minor) geomagnetic storming are likely on 01\nNov due to positive polarity CH HSS influences.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Nov 01-Nov 03 2026\n\n              Nov 01  Nov 02  Nov 03\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Nov 01-Nov 03 2026\n\n              Nov 01        Nov 02        Nov 03\nR1-R2            1%            1%            1%\nR3 or greater    1%            1%            1%\n\nRationale: No R1 (Minor) or greater radio blackouts are expected. No\nsignificant active region flare activity is forecast.\n"
   }
