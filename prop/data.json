@@ -1,76 +1,76 @@
 {
-  "generated": "2026-11-13T10:45:25Z",
+  "generated": "2026-11-13T19:27:08Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-11-13T10:45:25.085620+00:00",
-    "currentHourUTC": 10,
+    "fetched": "2026-11-13T19:27:07.965451+00:00",
+    "currentHourUTC": 19,
     "current": {
       "sfi": 116,
-      "ssn": 99,
-      "kp": 0.33,
+      "ssn": 120,
+      "kp": 0,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B6.3",
+      "xray": "B8.4",
       "aIndex": "4",
-      "aurora": "1",
-      "solarWind": "389.9",
-      "magneticField": "2.2",
-      "geomag": "VR QUIET",
+      "aurora": "2",
+      "solarWind": "387.9",
+      "magneticField": "0.6",
+      "geomag": "INACTIVE",
       "signalNoise": "S0-S1",
-      "updated": "13 Nov 2026 1035 GMT"
+      "updated": "13 Nov 2026 1835 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 8.8,
-        "luf": 1.5
+        "muf": 20.5,
+        "luf": 3.3
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 8.4,
-        "luf": 1.3
-      },
-      {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 8.5,
-        "luf": 1.4
+        "muf": 20.3,
+        "luf": 3.3
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 8.1,
-        "luf": 1.2
+        "muf": 20.2,
+        "luf": 3.3
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 20.2,
+        "luf": 3.3
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 7.3,
-        "luf": 1.1
+        "muf": 18.5,
+        "luf": 3.4
       },
       {
         "name": "West Coast",
         "distance": 2287,
-        "muf": 7.9,
-        "luf": 0.9
+        "muf": 20.2,
+        "luf": 3.4
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 7.5,
-        "luf": 1
+        "muf": 19.1,
+        "luf": 3.4
       }
     ],
     "currentByBand": {
-      "40m": 60,
-      "30m": 15,
-      "20m": 2,
-      "17m": 1,
-      "15m": 1,
-      "12m": 1,
+      "40m": 40,
+      "30m": 50,
+      "20m": 55,
+      "17m": 57,
+      "15m": 33,
+      "12m": 8,
       "10m": 1
     },
     "avgGrid": {
@@ -259,18 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-11-13T12:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-11-13T15:00:00",
-        "value": 1.33
-      },
-      {
-        "time": "2026-11-13T18:00:00",
-        "value": 1.67
-      },
-      {
         "time": "2026-11-13T21:00:00",
         "value": 1.67
       },
@@ -344,21 +332,21 @@
       }
     ],
     "potaCounts": {
-      "40m": 1,
+      "40m": 12,
       "30m": 0,
-      "20m": 0,
-      "17m": 0,
-      "15m": 0,
-      "12m": 0,
-      "10m": 0
+      "20m": 61,
+      "17m": 4,
+      "15m": 7,
+      "12m": 1,
+      "10m": 6
     },
     "potaModes": {
       "40m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 1,
+        "CW": 2,
+        "SSB": 7,
+        "FT8": 2,
         "FT4": 0,
-        "Other": 0
+        "Other": 1
       },
       "30m": {
         "CW": 0,
@@ -368,46 +356,57 @@
         "Other": 0
       },
       "20m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
-        "FT4": 0,
-        "Other": 0
+        "CW": 17,
+        "SSB": 31,
+        "FT8": 7,
+        "FT4": 5,
+        "Other": 1
       },
       "17m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 2,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "15m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 5,
+        "FT8": 1,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
         "CW": 0,
-        "SSB": 0,
+        "SSB": 1,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "10m": {
-        "CW": 0,
-        "SSB": 0,
-        "FT8": 0,
+        "CW": 1,
+        "SSB": 3,
+        "FT8": 2,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [],
+    "en11Spots": [
+      {
+        "activator": "AE0YM",
+        "frequency": "14061.5",
+        "mode": "CW",
+        "ref": "US-5657",
+        "name": "Standing Bear Lake State Recreation Area",
+        "comments": "Qrt tu all",
+        "spotTime": "2026-11-13T19:00:32",
+        "grid": "EN11wh"
+      }
+    ],
     "scales": {
       "today": {
         "DateStamp": "2026-11-13",
-        "TimeStamp": "10:44:00",
+        "TimeStamp": "19:24:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -426,7 +425,7 @@
       },
       "tomorrow": {
         "DateStamp": "2026-11-13",
-        "TimeStamp": "10:44:00",
+        "TimeStamp": "19:24:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -464,7 +463,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-11-12",
-        "TimeStamp": "10:44:00",
+        "TimeStamp": "19:24:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -495,6 +494,6 @@
       "astronomical_twilight_begin": "2026-11-13T11:34:55+00:00",
       "astronomical_twilight_end": "2026-11-14T00:42:02+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Nov 13 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Nov 13-Nov 15 2026 is 1.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Nov 13-Nov 15 2026\n\n             Nov 13       Nov 14       Nov 15\n00-03UT       1.67         1.67         1.67         \n03-06UT       1.33         1.67         1.33         \n06-09UT       1.33         1.33         1.33         \n09-12UT       1.33         1.33         1.33         \n12-15UT       1.33         1.33         1.33         \n15-18UT       1.67         1.33         1.33         \n18-21UT       1.67         1.67         1.67         \n21-00UT       1.33         1.33         1.67         \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Nov 13-Nov 15 2026\n\n              Nov 13  Nov 14  Nov 15\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Nov 13-Nov 15 2026\n\n              Nov 13        Nov 14        Nov 15\nR1-R2           35%           35%           35%\nR3 or greater    5%            5%            5%\n\nRationale: A slight chance for isolated R1-R2 (Minor-Moderate) radio\nblackouts will persist through 15 Nov as Region 4566 exits the western\nlimb of the solar disk.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Nov 13 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Nov 13-Nov 15 2026 is 1.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Nov 13-Nov 15 2026\n\n             Nov 13       Nov 14       Nov 15\n00-03UT       1.33         1.67         1.67         \n03-06UT       0.33         1.67         1.33         \n06-09UT       1.33         1.33         1.33         \n09-12UT       1.67         1.33         1.33         \n12-15UT       1.33         1.33         1.33         \n15-18UT       1.33         1.33         1.33         \n18-21UT       1.67         1.67         1.67         \n21-00UT       1.67         1.33         1.67         \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Nov 13-Nov 15 2026\n\n              Nov 13  Nov 14  Nov 15\nS1 or greater    5%      5%      5%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Nov 13-Nov 15 2026\n\n              Nov 13        Nov 14        Nov 15\nR1-R2           35%           35%           35%\nR3 or greater    5%            5%            5%\n\nRationale: There is a chance for R1-R2 (Minor-Moderate) or greater radio\nblackouts all three days. .\n"
   }
 }
