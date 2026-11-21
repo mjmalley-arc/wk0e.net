@@ -1,76 +1,76 @@
 {
-  "generated": "2026-11-20T19:52:05Z",
+  "generated": "2026-11-21T02:02:52Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-11-20T19:52:04.029602+00:00",
-    "currentHourUTC": 19,
+    "fetched": "2026-11-21T02:02:52.236990+00:00",
+    "currentHourUTC": 2,
     "current": {
-      "sfi": 107,
+      "sfi": 103,
       "ssn": 62,
-      "kp": 1.67,
+      "kp": 3.33,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B3.5",
-      "aIndex": "14",
-      "aurora": "3",
-      "solarWind": "370.3",
-      "magneticField": "-0.1",
+      "xray": "B3.1",
+      "aIndex": "4",
+      "aurora": "1",
+      "solarWind": "356.2",
+      "magneticField": "-1.1",
       "geomag": "INACTIVE",
       "signalNoise": "S0-S1",
-      "updated": "20 Nov 2026 1938 GMT"
+      "updated": "21 Nov 2026 0138 GMT"
     },
     "paths": [
       {
-        "name": "Mountain",
-        "distance": 774,
-        "muf": 18.2,
-        "luf": 3.2
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 19.8,
-        "luf": 3.1
-      },
-      {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 20.1,
-        "luf": 3.1
+        "muf": 12.6,
+        "luf": 1
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 19.9,
-        "luf": 3.1
+        "muf": 13.2,
+        "luf": 1.1
       },
       {
-        "name": "Mid-Atlantic",
-        "distance": 1634,
-        "muf": 19.9,
-        "luf": 3.1
-      },
-      {
-        "name": "Pacific NW",
-        "distance": 2195,
-        "muf": 18.8,
-        "luf": 3.2
+        "name": "Mountain",
+        "distance": 774,
+        "muf": 13.4,
+        "luf": 1.4
       },
       {
         "name": "South-Central",
         "distance": 1224,
-        "muf": 19.9,
-        "luf": 3.1
+        "muf": 14.1,
+        "luf": 1.3
+      },
+      {
+        "name": "Mid-Atlantic",
+        "distance": 1634,
+        "muf": 12.8,
+        "luf": 1.1
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 15.9,
+        "luf": 1.6
+      },
+      {
+        "name": "Pacific NW",
+        "distance": 2195,
+        "muf": 14.9,
+        "luf": 1.6
       }
     ],
     "currentByBand": {
-      "40m": 41,
-      "30m": 50,
-      "20m": 55,
-      "17m": 57,
-      "15m": 29,
-      "12m": 7,
+      "40m": 60,
+      "30m": 60,
+      "20m": 43,
+      "17m": 8,
+      "15m": 2,
+      "12m": 1,
       "10m": 1
     },
     "avgGrid": {
@@ -83,80 +83,80 @@
         "5": 60,
         "6": 60,
         "7": 60,
-        "8": 60,
-        "9": 58,
+        "8": 57,
+        "9": 57,
         "10": 60,
         "11": 60,
         "12": 60,
         "13": 58,
         "14": 54,
-        "15": 48,
-        "16": 44,
-        "17": 42,
-        "18": 41,
-        "19": 41,
-        "20": 42,
-        "21": 45,
-        "22": 49,
-        "23": 54
+        "15": 49,
+        "16": 46,
+        "17": 44,
+        "18": 42,
+        "19": 42,
+        "20": 44,
+        "21": 46,
+        "22": 50,
+        "23": 55
       },
       "30m": {
         "0": 59,
         "1": 60,
         "2": 60,
         "3": 60,
-        "4": 60,
-        "5": 38,
-        "6": 24,
-        "7": 14,
+        "4": 54,
+        "5": 34,
+        "6": 19,
+        "7": 13,
         "8": 12,
-        "9": 13,
-        "10": 14,
-        "11": 24,
-        "12": 45,
-        "13": 59,
+        "9": 12,
+        "10": 13,
+        "11": 20,
+        "12": 39,
+        "13": 54,
         "14": 57,
         "15": 54,
-        "16": 52,
-        "17": 51,
-        "18": 50,
-        "19": 50,
-        "20": 51,
-        "21": 52,
-        "22": 54,
+        "16": 53,
+        "17": 52,
+        "18": 51,
+        "19": 51,
+        "20": 52,
+        "21": 53,
+        "22": 55,
         "23": 57
       },
       "20m": {
         "0": 60,
         "1": 60,
-        "2": 47,
-        "3": 27,
-        "4": 14,
-        "5": 7,
-        "6": 4,
+        "2": 43,
+        "3": 24,
+        "4": 12,
+        "5": 6,
+        "6": 3,
         "7": 2,
         "8": 1,
         "9": 1,
         "10": 2,
-        "11": 5,
-        "12": 8,
-        "13": 14,
-        "14": 32,
-        "15": 48,
+        "11": 4,
+        "12": 7,
+        "13": 12,
+        "14": 25,
+        "15": 44,
         "16": 56,
         "17": 55,
         "18": 55,
         "19": 55,
-        "20": 55,
+        "20": 56,
         "21": 56,
         "22": 57,
         "23": 58
       },
       "17m": {
-        "0": 39,
-        "1": 23,
-        "2": 11,
-        "3": 4,
+        "0": 30,
+        "1": 16,
+        "2": 8,
+        "3": 3,
         "4": 2,
         "5": 1,
         "6": 1,
@@ -166,21 +166,21 @@
         "10": 1,
         "11": 1,
         "12": 1,
-        "13": 2,
-        "14": 5,
-        "15": 11,
-        "16": 24,
-        "17": 42,
-        "18": 52,
-        "19": 57,
-        "20": 57,
-        "21": 57,
-        "22": 58,
-        "23": 52
+        "13": 1,
+        "14": 4,
+        "15": 8,
+        "16": 18,
+        "17": 32,
+        "18": 47,
+        "19": 53,
+        "20": 55,
+        "21": 56,
+        "22": 56,
+        "23": 45
       },
       "15m": {
-        "0": 11,
-        "1": 5,
+        "0": 8,
+        "1": 3,
         "2": 2,
         "3": 1,
         "4": 1,
@@ -194,18 +194,18 @@
         "12": 1,
         "13": 1,
         "14": 1,
-        "15": 2,
-        "16": 6,
-        "17": 12,
-        "18": 21,
-        "19": 29,
-        "20": 34,
-        "21": 33,
-        "22": 28,
-        "23": 19
+        "15": 1,
+        "16": 4,
+        "17": 7,
+        "18": 14,
+        "19": 20,
+        "20": 24,
+        "21": 24,
+        "22": 18,
+        "23": 13
       },
       "12m": {
-        "0": 2,
+        "0": 1,
         "1": 1,
         "2": 1,
         "3": 1,
@@ -222,13 +222,13 @@
         "14": 1,
         "15": 1,
         "16": 1,
-        "17": 2,
-        "18": 4,
-        "19": 7,
-        "20": 8,
-        "21": 8,
-        "22": 6,
-        "23": 4
+        "17": 1,
+        "18": 3,
+        "19": 4,
+        "20": 5,
+        "21": 5,
+        "22": 4,
+        "23": 2
       },
       "10m": {
         "0": 1,
@@ -258,14 +258,6 @@
       }
     },
     "kpForecast": [
-      {
-        "time": "2026-11-20T21:00:00",
-        "value": 3
-      },
-      {
-        "time": "2026-11-21T00:00:00",
-        "value": 2.33
-      },
       {
         "time": "2026-11-21T03:00:00",
         "value": 2.67
@@ -329,56 +321,88 @@
       {
         "time": "2026-11-23T00:00:00",
         "value": 2
+      },
+      {
+        "time": "2026-11-23T03:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-11-23T06:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-11-23T09:00:00",
+        "value": 2.33
+      },
+      {
+        "time": "2026-11-23T12:00:00",
+        "value": 4
+      },
+      {
+        "time": "2026-11-23T15:00:00",
+        "value": 3.67
+      },
+      {
+        "time": "2026-11-23T18:00:00",
+        "value": 2.67
+      },
+      {
+        "time": "2026-11-23T21:00:00",
+        "value": 2
+      },
+      {
+        "time": "2026-11-24T00:00:00",
+        "value": 1.67
       }
     ],
     "potaCounts": {
-      "40m": 16,
+      "40m": 9,
       "30m": 1,
-      "20m": 75,
-      "17m": 7,
-      "15m": 9,
-      "12m": 1,
-      "10m": 4
+      "20m": 1,
+      "17m": 0,
+      "15m": 0,
+      "12m": 0,
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 7,
-        "SSB": 8,
-        "FT8": 0,
+        "CW": 2,
+        "SSB": 6,
+        "FT8": 1,
         "FT4": 0,
-        "Other": 1
+        "Other": 0
       },
       "30m": {
-        "CW": 1,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 1,
+        "FT4": 0,
+        "Other": 0
+      },
+      "20m": {
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 1,
+        "FT4": 0,
+        "Other": 0
+      },
+      "17m": {
+        "CW": 0,
         "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
-      "20m": {
-        "CW": 25,
-        "SSB": 33,
-        "FT8": 12,
-        "FT4": 3,
-        "Other": 2
-      },
-      "17m": {
-        "CW": 3,
-        "SSB": 3,
-        "FT8": 1,
-        "FT4": 0,
-        "Other": 0
-      },
       "15m": {
-        "CW": 1,
-        "SSB": 4,
-        "FT8": 4,
+        "CW": 0,
+        "SSB": 0,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
       "12m": {
         "CW": 0,
-        "SSB": 1,
+        "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
@@ -386,27 +410,16 @@
       "10m": {
         "CW": 0,
         "SSB": 0,
-        "FT8": 4,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "K0FTZ",
-        "frequency": "14302",
-        "mode": "SSB",
-        "ref": "US-5676",
-        "name": "Two Rivers State Recreation Area",
-        "comments": "",
-        "spotTime": "2026-11-20T19:32:53",
-        "grid": "EN11tf"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
-        "DateStamp": "2026-11-20",
-        "TimeStamp": "19:51:00",
+        "DateStamp": "2026-11-21",
+        "TimeStamp": "02:01:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -424,8 +437,8 @@
         }
       },
       "tomorrow": {
-        "DateStamp": "2026-11-20",
-        "TimeStamp": "19:51:00",
+        "DateStamp": "2026-11-21",
+        "TimeStamp": "02:01:00",
         "R": {
           "Scale": null,
           "Text": null,
@@ -443,7 +456,7 @@
         }
       },
       "dayAfter": {
-        "DateStamp": "2026-11-21",
+        "DateStamp": "2026-11-22",
         "TimeStamp": "00:00:00",
         "R": {
           "Scale": null,
@@ -462,8 +475,8 @@
         }
       },
       "yesterday": {
-        "DateStamp": "2026-11-19",
-        "TimeStamp": "19:51:00",
+        "DateStamp": "2026-11-20",
+        "TimeStamp": "02:01:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -483,17 +496,17 @@
     },
     "flareAlert": null,
     "sun": {
-      "sunrise": "2026-11-20T13:18:16+00:00",
-      "sunset": "2026-11-20T23:01:24+00:00",
-      "solar_noon": "2026-11-20T18:09:50+00:00",
-      "day_length": 34988,
-      "civil_twilight_begin": "2026-11-20T12:48:26+00:00",
-      "civil_twilight_end": "2026-11-20T23:31:15+00:00",
-      "nautical_twilight_begin": "2026-11-20T12:14:47+00:00",
-      "nautical_twilight_end": "2026-11-21T00:04:53+00:00",
-      "astronomical_twilight_begin": "2026-11-20T11:41:59+00:00",
-      "astronomical_twilight_end": "2026-11-21T00:37:41+00:00"
+      "sunrise": "2026-11-21T13:19:26+00:00",
+      "sunset": "2026-11-21T23:00:45+00:00",
+      "solar_noon": "2026-11-21T18:10:05+00:00",
+      "day_length": 34879,
+      "civil_twilight_begin": "2026-11-21T12:49:31+00:00",
+      "civil_twilight_end": "2026-11-21T23:30:39+00:00",
+      "nautical_twilight_begin": "2026-11-21T12:15:48+00:00",
+      "nautical_twilight_end": "2026-11-22T00:04:22+00:00",
+      "astronomical_twilight_begin": "2026-11-21T11:42:58+00:00",
+      "astronomical_twilight_end": "2026-11-22T00:37:12+00:00"
     },
-    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Nov 20 1230 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 3 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Nov 20-Nov 22 2026 is 3.67 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Nov 20-Nov 22 2026\n\n             Nov 20       Nov 21       Nov 22\n00-03UT       0.67         2.33         2.33         \n03-06UT       2.00         2.67         2.00         \n06-09UT       1.33         2.00         2.00         \n09-12UT       0.67         2.00         2.67         \n12-15UT       1.67         1.33         3.67         \n15-18UT       2.67         2.00         2.67         \n18-21UT       2.67         2.00         2.67         \n21-00UT       3.00         2.33         3.00         \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Nov 20-Nov 22 2026\n\n              Nov 20  Nov 21  Nov 22\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nRadio blackouts reaching the R1 levels were observed over the past 24\nhours. The largest was at 19/1324Z UTC.\n\nRadio Blackout Forecast for Nov 20-Nov 22 2026\n\n              Nov 20        Nov 21        Nov 22\nR1-R2           10%           10%           10%\nR3 or greater    1%            1%            1%\n\nRationale: There is a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts on 20-22 Nov.\n"
+    "forecast3day": ":Product: 3-Day Forecast\n:Issued: 2026 Nov 21 0030 UTC\n# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center\n#\nA. NOAA Geomagnetic Activity Observation and Forecast\n\nThe greatest observed 3 hr Kp over the past 24 hours was 2 (below NOAA\nScale levels).\nThe greatest expected 3 hr Kp for Nov 21-Nov 23 2026 is 4.00 (below NOAA\nScale levels).\n\nNOAA Kp index breakdown Nov 21-Nov 23 2026\n\n             Nov 21       Nov 22       Nov 23\n00-03UT       2.33         2.33         2.00         \n03-06UT       2.67         2.00         2.00         \n06-09UT       2.00         2.00         2.00         \n09-12UT       2.00         2.00         2.33         \n12-15UT       1.33         2.00         4.00         \n15-18UT       2.00         2.00         3.67         \n18-21UT       2.00         2.00         2.67         \n21-00UT       2.33         2.33         2.00         \n\nRationale: No G1 (Minor) or greater geomagnetic storms are expected. No\nsignificant transient or recurrent solar wind features are forecast.\n\nB. NOAA Solar Radiation Activity Observation and Forecast\n\nSolar radiation, as observed by NOAA GOES-18 over the past 24 hours, was\nbelow S-scale storm level thresholds.\n\nSolar Radiation Storm Forecast for Nov 21-Nov 23 2026\n\n              Nov 21  Nov 22  Nov 23\nS1 or greater    1%      1%      1%\n\nRationale: No S1 (Minor) or greater solar radiation storms are expected.\nNo significant active region activity favorable for radiation storm\nproduction is forecast.\n\nC. NOAA Radio Blackout Activity and Forecast\n\nNo radio blackouts were observed over the past 24 hours.\n\nRadio Blackout Forecast for Nov 21-Nov 23 2026\n\n              Nov 21        Nov 22        Nov 23\nR1-R2           10%           10%           10%\nR3 or greater    5%            5%            5%\n\nRationale: There exists a slight chance for R1-R2 (Minor-Moderate) radio\nblackouts over 21-23 Nov.\n"
   }
 }
