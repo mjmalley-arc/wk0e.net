@@ -1,75 +1,75 @@
 {
-  "generated": "2026-11-23T01:28:56Z",
+  "generated": "2026-11-23T12:04:59Z",
   "grid": "EN11xe",
   "payload": {
-    "fetched": "2026-11-23T01:28:56.134663+00:00",
-    "currentHourUTC": 1,
+    "fetched": "2026-11-23T12:04:59.467510+00:00",
+    "currentHourUTC": 12,
     "current": {
       "sfi": 94,
-      "ssn": 23,
-      "kp": 0,
+      "ssn": 25,
+      "kp": 0.67,
       "bz": null
     },
     "n0nbh": {
-      "xray": "B1.9",
+      "xray": "B2.0",
       "aIndex": "4",
-      "aurora": "1",
-      "solarWind": "333.5",
-      "magneticField": "-1.4",
-      "geomag": "VR QUIET",
+      "aurora": "2",
+      "solarWind": "338.9",
+      "magneticField": "-1.8",
+      "geomag": "INACTIVE",
       "signalNoise": "S0-S1",
-      "updated": "23 Nov 2026 0124 GMT"
+      "updated": "23 Nov 2026 1125 GMT"
     },
     "paths": [
       {
         "name": "Northeast",
         "distance": 2068,
-        "muf": 13.6,
-        "luf": 1.4
+        "muf": 10.4,
+        "luf": 1.7
       },
       {
         "name": "Southeast",
         "distance": 1318,
-        "muf": 14.1,
-        "luf": 1.6
+        "muf": 9.8,
+        "luf": 1.5
       },
       {
         "name": "Mid-Atlantic",
         "distance": 1634,
-        "muf": 13.7,
-        "luf": 1.5
-      },
-      {
-        "name": "South-Central",
-        "distance": 1224,
-        "muf": 15,
-        "luf": 1.7
-      },
-      {
-        "name": "West Coast",
-        "distance": 2287,
-        "muf": 16.6,
-        "luf": 2.1
+        "muf": 10.1,
+        "luf": 1.6
       },
       {
         "name": "Mountain",
         "distance": 774,
-        "muf": 14.1,
-        "luf": 1.8
+        "muf": 8.4,
+        "luf": 1.4
+      },
+      {
+        "name": "West Coast",
+        "distance": 2287,
+        "muf": 8.7,
+        "luf": 1.2
+      },
+      {
+        "name": "South-Central",
+        "distance": 1224,
+        "muf": 9.4,
+        "luf": 1.4
       },
       {
         "name": "Pacific NW",
         "distance": 2195,
-        "muf": 15.6,
-        "luf": 2.1
+        "muf": 8.3,
+        "luf": 1.2
       }
     ],
     "currentByBand": {
       "40m": 60,
-      "30m": 60,
-      "20m": 54,
-      "17m": 12,
-      "15m": 2,
+      "30m": 34,
+      "20m": 6,
+      "17m": 1,
+      "15m": 1,
       "12m": 1,
       "10m": 1
     },
@@ -259,22 +259,6 @@
     },
     "kpForecast": [
       {
-        "time": "2026-11-23T03:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-11-23T06:00:00",
-        "value": 2
-      },
-      {
-        "time": "2026-11-23T09:00:00",
-        "value": 2.33
-      },
-      {
-        "time": "2026-11-23T12:00:00",
-        "value": 4
-      },
-      {
         "time": "2026-11-23T15:00:00",
         "value": 3.67
       },
@@ -356,19 +340,19 @@
       }
     ],
     "potaCounts": {
-      "40m": 7,
+      "40m": 8,
       "30m": 0,
-      "20m": 4,
+      "20m": 2,
       "17m": 0,
-      "15m": 2,
+      "15m": 0,
       "12m": 0,
-      "10m": 1
+      "10m": 0
     },
     "potaModes": {
       "40m": {
-        "CW": 2,
-        "SSB": 0,
-        "FT8": 5,
+        "CW": 0,
+        "SSB": 5,
+        "FT8": 3,
         "FT4": 0,
         "Other": 0
       },
@@ -382,7 +366,7 @@
       "20m": {
         "CW": 0,
         "SSB": 2,
-        "FT8": 2,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -394,9 +378,9 @@
         "Other": 0
       },
       "15m": {
-        "CW": 1,
+        "CW": 0,
         "SSB": 0,
-        "FT8": 1,
+        "FT8": 0,
         "FT4": 0,
         "Other": 0
       },
@@ -409,28 +393,17 @@
       },
       "10m": {
         "CW": 0,
-        "SSB": 1,
+        "SSB": 0,
         "FT8": 0,
         "FT4": 0,
         "Other": 0
       }
     },
-    "en11Spots": [
-      {
-        "activator": "KF0ZGK",
-        "frequency": "28420",
-        "mode": "SSB",
-        "ref": "US-2614",
-        "name": "Eugene T. Mahoney State Park",
-        "comments": "",
-        "spotTime": "2026-11-23T01:09:50",
-        "grid": "EN11ua"
-      }
-    ],
+    "en11Spots": [],
     "scales": {
       "today": {
         "DateStamp": "2026-11-23",
-        "TimeStamp": "01:27:00",
+        "TimeStamp": "12:03:00",
         "R": {
           "Scale": "0",
           "Text": "none",
@@ -449,11 +422,11 @@
       },
       "tomorrow": {
         "DateStamp": "2026-11-23",
-        "TimeStamp": "01:27:00",
+        "TimeStamp": "12:03:00",
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "10",
+          "MinorProb": "5",
           "MajorProb": "1"
         },
         "S": {
@@ -472,7 +445,7 @@
         "R": {
           "Scale": null,
           "Text": null,
-          "MinorProb": "10",
+          "MinorProb": "5",
           "MajorProb": "1"
         },
         "S": {
@@ -487,7 +460,7 @@
       },
       "yesterday": {
         "DateStamp": "2026-11-22",
-        "TimeStamp": "01:27:00",
+        "TimeStamp": "12:03:00",
         "R": {
           "Scale": "0",
           "Text": "none",
